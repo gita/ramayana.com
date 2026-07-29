@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Ramayana.com</title>
+    <meta
+      name="description"
+      content="Ramayana.com is becoming the digital home of the Ramayana. The full text, translations, stories, characters, and places. A project by Ved Vyas Foundation."
+    />
+    <link rel="canonical" href="https://ramayana.com/" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#faf8f3" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ramayana" />
+    <meta property="og:url" content="https://ramayana.com/" />
+    <meta property="og:title" content="Ramayana.com" />
+    <meta
+      property="og:description"
+      content="The full text, translations, stories, characters, and places. Coming soon."
+    />
+    <meta property="og:image" content="https://ramayana.com/assets/og.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Shri Ram and Mata Sita enthroned at Ayodhya, with Lakshman, Bharat and Shatrughna standing behind and Hanumanji kneeling before them." />
+    <meta property="og:locale" content="en_IN" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png" />
+    <link rel="icon" href="/assets/icon-512.png" sizes="512x512" type="image/png" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+
+    <link rel="preload" as="image" href="/assets/hero-1536.webp" type="image/webp" fetchpriority="high" />
+    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/crimson-pro-latin.woff2" crossorigin />
+    <link rel="stylesheet" href="/assets/fonts/fonts.css" />
+
+    <style>
+      /*
+       * Tokens are the Prakash (light) set from radhakrishna.com, so this page
+       * reads as a sibling of the rest of the network from the first commit.
+       * Light only, on purpose: the family does not auto-switch on OS preference.
+       */
+      :root {
+        --background: hsl(48 33.33% 97.06%);
+        --foreground: hsl(48 19.61% 20%);
+        --muted-foreground: hsl(50 6% 30%);
+        --primary: hsl(15.11 55.56% 44%);
+        /*
+         * The network's gold is 42% lightness, which lands at 2.82:1 on this
+         * cream ground and fails AA as body text. Same hue, taken deeper to
+         * 31% for 4.81:1.
+         */
+        --gold: hsl(46 68% 31%);
+        --border: hsl(50 7.5% 84.31%);
+        --font-serif: "Crimson Pro", Georgia, serif;
+        --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+        color-scheme: light;
+      }
+
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+
+      html {
+        -webkit-text-size-adjust: 100%;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100svh;
+        display: grid;
+        align-content: center;
+        /*
+         * An explicit track, not `auto`. With an auto track the `100%` inside
+         * the figure's min() has no definite width to resolve against, so the
+         * pixel branch wins and the column blows out past a phone viewport.
+         */
+        grid-template-columns: minmax(0, 1fr);
+        padding: clamp(1.25rem, 3.5vw, 2.5rem) clamp(1.25rem, 5vw, 3rem);
+        background: var(--background);
+        color: var(--foreground);
+        font-family: var(--font-sans);
+        -webkit-font-smoothing: antialiased;
+        text-rendering: optimizeLegibility;
+      }
+
+      /* A warm bloom behind the painting so it sits in light rather than on a flat card. */
+      body::before {
+        content: "";
+        position: fixed;
+        inset: 0;
+        pointer-events: none;
+        background: radial-gradient(
+          62% 48% at 50% 34%,
+          hsl(43 78% 88% / 0.75),
+          transparent 70%
+        );
+      }
+
+      main {
+        position: relative;
+        width: 100%;
+        max-width: 62rem;
+        margin-inline: auto;
+        text-align: center;
+      }
+
+      figure {
+        margin: 0 auto clamp(1.75rem, 4vw, 2.75rem);
+        /*
+         * The painting is a fixed 3:2, so a width-only cap pushes the wordmark
+         * below the fold on a short viewport. Derive the width from the height
+         * left over once the type and the page padding have taken their share,
+         * which measures at just under 25rem. The 16rem floor matters: on a
+         * phone in landscape the subtraction goes negative and the painting
+         * collapses to nothing. A cap, not a lock, so scaled-up text scrolls
+         * rather than clipping anything.
+         */
+        width: min(100%, max(16rem, (100svh - 25rem) * 1.5));
+      }
+
+      img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: clamp(0.75rem, 1.6vw, 1.25rem);
+        /* Two shadows: a tight contact edge, then a wide warm ambient one. */
+        box-shadow:
+          0 1px 2px hsl(40 30% 30% / 0.16),
+          0 24px 60px -20px hsl(35 45% 28% / 0.32);
+      }
+
+      h1 {
+        margin: 0;
+        font-family: var(--font-serif);
+        font-weight: 600;
+        font-size: clamp(2.5rem, 8vw, 3.875rem);
+        line-height: 1.02;
+        letter-spacing: -0.018em;
+        color: var(--foreground);
+      }
+
+      .lede {
+        margin: clamp(0.875rem, 2vw, 1.125rem) auto 0;
+        max-width: 34ch;
+        font-size: clamp(1.0625rem, 1.1rem + 0.4vw, 1.25rem);
+        line-height: 1.55;
+        color: var(--muted-foreground);
+        text-wrap: balance;
+      }
+
+      .status {
+        margin: 0.35em 0 0;
+        font-size: clamp(1.0625rem, 1.1rem + 0.4vw, 1.25rem);
+        line-height: 1.55;
+        font-weight: 500;
+        color: var(--gold);
+      }
+
+      footer {
+        position: relative;
+        margin-top: clamp(1.5rem, 3.5vw, 2.25rem);
+        font-size: 0.9375rem;
+        color: var(--muted-foreground);
+      }
+
+      footer a {
+        position: relative;
+        color: var(--primary);
+        font-weight: 500;
+        text-decoration-color: hsl(15 56% 44% / 0.32);
+        text-underline-offset: 0.22em;
+        transition: text-decoration-color 160ms ease;
+      }
+
+      /*
+       * Grows the only interactive element on the page to a 48px target without
+       * padding the box, which would stretch the underline past the words.
+       */
+      footer a::after {
+        content: "";
+        position: absolute;
+        inset: -15px -10px;
+      }
+
+      footer a:hover,
+      footer a:focus-visible {
+        text-decoration-color: currentColor;
+      }
+
+      :focus-visible {
+        outline: 2px solid var(--primary);
+        outline-offset: 3px;
+        border-radius: 4px;
+      }
+
+      /* Settle in rather than pop: art first, then the words under it. */
+      @media (prefers-reduced-motion: no-preference) {
+        figure,
+        h1,
+        .lede,
+        .status,
+        footer {
+          animation: rise 0.7s cubic-bezier(0.16, 1, 0.3, 1) both;
+        }
+        h1 {
+          animation-delay: 0.08s;
+        }
+        .lede {
+          animation-delay: 0.16s;
+        }
+        .status {
+          animation-delay: 0.22s;
+        }
+        footer {
+          animation-delay: 0.3s;
+        }
+      }
+
+      @keyframes rise {
+        from {
+          opacity: 0;
+          transform: translateY(0.75rem);
+        }
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <figure>
+        <picture>
+          <source
+            type="image/webp"
+            srcset="/assets/hero-768.webp 768w, /assets/hero-1024.webp 1024w, /assets/hero-1536.webp 1536w"
+            sizes="(max-width: 63rem) 100vw, 62rem"
+          />
+          <img
+            src="/assets/hero-1536.jpg"
+            srcset="/assets/hero-768.jpg 768w, /assets/hero-1024.jpg 1024w, /assets/hero-1536.jpg 1536w"
+            sizes="(max-width: 63rem) 100vw, 62rem"
+            width="1536"
+            height="1024"
+            fetchpriority="high"
+            decoding="async"
+            alt="Shri Ram and Mata Sita enthroned at Ayodhya beneath a jewelled parasol, with Lakshman, Bharat and Shatrughna standing behind them and Hanumanji kneeling at the foot of the throne."
+          />
+        </picture>
+      </figure>
+
+      <h1>Ramayana</h1>
+      <p class="lede">The full text, translations, stories, characters, and places.</p>
+      <p class="status">Coming soon.</p>
+
+      <footer>
+        A project by <a href="https://vedvyas.com">Ved Vyas Foundation</a>
+      </footer>
+    </main>
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "WebSite",
+            "@id": "https://ramayana.com/#website",
+            "url": "https://ramayana.com/",
+            "name": "Ramayana",
+            "inLanguage": "en",
+            "publisher": { "@id": "https://vedvyas.com/#organization" }
+          },
+          {
+            "@type": ["Organization", "NGO"],
+            "@id": "https://vedvyas.com/#organization",
+            "name": "Ved Vyas Foundation",
+            "url": "https://vedvyas.com",
+            "sameAs": [
+              "https://bhagavadgita.com",
+              "https://radhakrishna.com",
+              "https://hanumanchalisa.net",
+              "https://github.com/gita"
+            ]
+          }
+        ]
+      }
+    </script>
+  </body>
+</html>
