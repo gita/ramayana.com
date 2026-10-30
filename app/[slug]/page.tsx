@@ -99,7 +99,7 @@ export default async function Page({
               src={def.image}
               alt={def.imageAlt}
               fill
-              priority
+              preload fetchPriority="high"
               sizes="100vw"
               className="object-cover object-[50%_25%]"
             />
@@ -126,7 +126,7 @@ export default async function Page({
                 alt={def.imageAlt}
                 width={704}
                 height={880}
-                priority
+                preload fetchPriority="high"
                 sizes="22rem"
                 className="aspect-[4/5] w-full object-cover"
               />

@@ -28,7 +28,7 @@ export async function FeelingPage({ lang, id }: { lang: Lang; id: string }) {
     <article lang={lang} className="mx-auto max-w-3xl px-4 pb-16 pt-8 sm:px-6">
       <JsonLd data={{ "@context": "https://schema.org", "@graph": [breadcrumb(crumbs), { "@type": "ItemList", name: f[lang], itemListElement: items.map((x, i) => ({ "@type": "ListItem", position: i + 1, url: `${site.url}${unitPath(lang, x.kand.slug, x.unit.slug)}#${x.verse.id}` })) }] }} />
       <div className="flex items-center gap-5">
-        <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-3xl"><Image src={`/images/deity/${f.art}.webp`} alt="" fill priority sizes="6rem" className="object-cover object-top" /></div>
+        <div className="relative h-24 w-24 shrink-0 overflow-hidden rounded-3xl"><Image src={`/images/deity/${f.art}.webp`} alt="" fill preload fetchPriority="high" sizes="6rem" className="object-cover object-top" /></div>
         <h1 className="font-serif text-[2.5rem] font-semibold leading-[1.05] tracking-tight sm:text-[3.25rem]">{f[lang]}</h1>
       </div>
       {intro && <div className="prose-ram mt-8" dangerouslySetInnerHTML={{ __html: intro }} />}

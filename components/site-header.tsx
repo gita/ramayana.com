@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { nav, site } from "@/lib/site";
+import { nav } from "@/lib/site";
 import { MobileMenu } from "@/components/mobile-menu";
 import { LanguageSwitch } from "@/components/language-switch";
 
@@ -20,7 +20,7 @@ export function SiteHeader() {
   return (
     <header className="sticky top-0 z-40 border-b border-border/70 bg-background/80 backdrop-blur-md supports-[backdrop-filter]:bg-background/70">
       <div className="wrap flex h-14 items-center justify-between gap-4">
-        <Link href={hi ? "/hi" : "/"} className="press flex h-12 items-center gap-1.5 font-serif text-[1.25rem] font-semibold tracking-tight text-foreground" aria-label={`${site.name} home`}>
+        <Link href={hi ? "/hi" : "/"} className="press flex h-12 items-center gap-1.5 font-serif text-[1.25rem] font-semibold tracking-tight text-foreground">
           <span className="text-gold" aria-hidden>ॐ</span>
           <span>Ramayana<span className="text-muted font-normal">.com</span></span>
         </Link>

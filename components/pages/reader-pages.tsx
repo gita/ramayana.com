@@ -265,7 +265,7 @@ export async function KandPage({ lang, slug }: { lang: Lang; slug: string }) {
             src={`/images/kand/${slug}.webp`}
             alt=""
             fill
-            priority
+            preload fetchPriority="high"
             sizes="100vw"
             className="object-cover object-[50%_30%]"
           />

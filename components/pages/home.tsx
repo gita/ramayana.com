@@ -31,7 +31,7 @@ const pre = (l: Lang) => (l === "hi" ? "/hi" : "");
 function Book({ art, title, by, intro, href, items }: { art: string; title: string; by: string; intro: string; href: string; items: { href: string; name: string; line: string }[] }) {
   return (
     <article className="flex min-w-0 flex-col overflow-hidden rounded-3xl bg-surface ring-1 ring-border/70">
-      <Link href={href} className="relative block aspect-[3/2]"><Image src={art} alt="" fill sizes="(min-width: 768px) 560px, 100vw" className="object-cover" /></Link>
+      <Link href={href} aria-label={title} className="relative block aspect-[3/2]"><Image src={art} alt="" fill sizes="(min-width: 768px) 560px, 100vw" className="object-cover" /></Link>
       <div className="flex flex-1 flex-col p-6 sm:p-8">
         <h3 className="t-sub"><Link href={href}>{title}</Link></h3>
         <p className="mt-0.5 text-[1rem] text-muted">{by}</p>
@@ -72,7 +72,7 @@ export function HomePage({ lang }: { lang: Lang }) {
         </div>
         <div className="mx-auto max-w-md text-left"><ContinueReading lang={lang} /></div>
         <figure className="relative mt-12 aspect-[3/2] overflow-hidden rounded-3xl sm:mt-16 sm:aspect-[16/8]">
-          <Image src="/images/hero/ram-darbar.webp" alt="Shri Ram and Mata Sita enthroned at Ayodhya, with Lakshman, Bharat and Shatrughna standing behind and Hanumanji kneeling before them." fill priority sizes="(min-width: 1168px) 1120px, 100vw" className="object-cover object-[50%_40%]" />
+          <Image src="/images/hero/ram-darbar.webp" alt="Shri Ram and Mata Sita enthroned at Ayodhya, with Lakshman, Bharat and Shatrughna standing behind and Hanumanji kneeling before them." fill preload fetchPriority="high" sizes="(min-width: 1168px) 1120px, 100vw" className="object-cover object-[50%_40%]" />
         </figure>
       </section>
 

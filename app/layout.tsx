@@ -16,6 +16,7 @@ import { AppNudge } from "@/components/app-nudge";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
+  preload: false,
   display: "swap",
 });
 const literata = Literata({
@@ -28,12 +29,14 @@ const tiro = Tiro_Devanagari_Hindi({
   subsets: ["devanagari", "latin"],
   weight: "400",
   variable: "--font-tiro",
+  preload: false,
   display: "swap",
 });
 const notoDev = Noto_Sans_Devanagari({
   subsets: ["devanagari", "latin"],
   weight: ["400", "500", "600"],
   variable: "--font-noto-dev",
+  preload: false,
   display: "swap",
 });
 

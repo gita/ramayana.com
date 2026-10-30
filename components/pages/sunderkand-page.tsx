@@ -113,7 +113,7 @@ export async function SunderkandPage({ lang }: { lang: Lang }) {
             src="/images/kand/sunderkand.webp"
             alt=""
             fill
-            priority
+            preload fetchPriority="high"
             sizes="100vw"
             className="object-cover object-[50%_35%]"
           />
