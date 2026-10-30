@@ -1,6 +1,6 @@
 # How the text on Ramayana.com was checked
 
-Ramayana.com checked its Ramcharitmanas transcription against printed Gita Press editions through two independent AI readings of every page, comparison with the page images, and checks of verse counters and totals. The work includes human review of flagged pages and spot checks. This page explains the editions used, the checks performed, and the limits of that verification.
+Ramayana.com checked its Ramcharitmanas transcription against printed Gita Press editions through two independent AI readings of every page, comparison with the page images, and checks of verse counters and totals. The work includes. This page explains the editions used, the checks performed, and the limits of that verification.
 
 ## The editions we use
 
