@@ -1,0 +1,110 @@
+{
+ "en": {
+  "rcm_intro": "Goswami Tulsidas tells the story of Shri Ram in the Ramcharitmanas, an Awadhi scripture that teaches devotion through His deeds. Every verse here comes with its meaning, so we can read with understanding.",
+  "val_intro": "Maharshi Valmiki tells the story of Shri Ram in the Valmiki Ramayana, the Sanskrit epic honoured as the first poem. Every verse here comes with its meaning, opening the scripture to careful reading.",
+  "rcm_kands": {
+   "bal-kand": "Shri Ram is born and weds Mata Sita.",
+   "ayodhya-kand": "Shri Ram enters exile, Bharat refuses the throne.",
+   "aranya-kand": "Ravan abducts Mata Sita during the forest exile.",
+   "kishkindha-kand": "Shri Ram meets Hanumanji, the search parties depart.",
+   "sunderkand": "Hanumanji finds Mata Sita and brings her message.",
+   "lanka-kand": "Shri Ram defeats Ravan and returns to Ayodhya.",
+   "uttar-kand": "Shri Ram reigns, Kakbhushundi teaches Garuda about devotion."
+  },
+  "val_kands": {
+   "bala-kanda": "Shri Ram breaks Shiva's bow and marries Mata Sita.",
+   "ayodhya-kanda": "Shri Ram leaves Ayodhya for fourteen years of exile.",
+   "aranya-kanda": "Ravan abducts Mata Sita, Jatayu fights to protect her.",
+   "kishkindha-kanda": "Shri Ram meets Sugriv, the search for Sita begins.",
+   "sundara-kanda": "Hanumanji crosses the sea and finds Mata Sita.",
+   "yuddha-kanda": "Shri Ram defeats Ravan, then returns to Ayodhya.",
+   "uttara-kanda": "Shri Ram's story continues after His return to Ayodhya."
+  },
+  "faq": [
+   {
+    "q": "What is the Ramayana?",
+    "a": "The Ramayana tells the story of Shri Ram, Mata Sita and the practice of dharma through their lives. Maharshi Valmiki's Sanskrit epic is the earliest telling. Goswami Tulsidas retells the story in the Awadhi Ramcharitmanas, the scripture most Hindi-speaking families read and recite. Both invite us to learn through the deeds of Shri Ram.",
+    "href": "/ramayana-vs-ramcharitmanas",
+    "link": "Understand the two texts"
+   },
+   {
+    "q": "Who wrote the Ramayana?",
+    "a": "Maharshi Valmiki composed the Valmiki Ramayana in Sanskrit and is honoured as the Adi Kavi, the first poet. Goswami Tulsidas composed the Ramcharitmanas in Awadhi in the sixteenth century. In everyday speech across north India, the name Ramayan often refers to the Ramcharitmanas. Knowing the author helps us recognise which scripture we are reading.",
+    "href": "/who-wrote-the-ramayana",
+    "link": "Meet the authors"
+   },
+   {
+    "q": "What is the difference between the Ramayana and the Ramcharitmanas?",
+    "a": "The Valmiki Ramayana is Maharshi Valmiki's Sanskrit epic, while the Ramcharitmanas is Goswami Tulsidas's Awadhi retelling of Shri Ram's story. Both have seven divisions, but their verse forms and presentation differ. The Valmiki Ramayana is composed in shlokas. The Ramcharitmanas uses mainly chaupais and dohas, making its teachings familiar through household reading and recitation.",
+    "href": "/ramayana-vs-ramcharitmanas",
+    "link": "Compare the scriptures"
+   },
+   {
+    "q": "What are the seven kands of the Ramayana?",
+    "a": "The Ramcharitmanas by Goswami Tulsidas has seven kands: Bal, Ayodhya, Aranya, Kishkindha, Sunder, Lanka and Uttar. They carry Shri Ram's story from His birth through exile, the search for Mata Sita, the war and His reign. Maharshi Valmiki's Sanskrit Ramayana follows the same seven-part order, with its sixth division called Yuddha Kanda, also known as Lanka Kanda.",
+    "href": "/ramcharitmanas",
+    "link": "Read the seven kands"
+   },
+   {
+    "q": "Where should I start reading the Ramayana?",
+    "a": "Begin with Sunderkand in Goswami Tulsidas's Ramcharitmanas if you want a manageable first reading. Its sixty dohas follow Hanumanji as he crosses the sea, finds Mata Sita and returns with her message to Shri Ram. Read each verse with its meaning. For the complete story in order, begin with Bal Kand and continue through the seven kands.",
+    "href": "/sunderkand",
+    "link": "Begin with Sunderkand"
+   }
+  ]
+ },
+ "hi": {
+  "rcm_intro": "श्रीरामचरितमानस में गोस्वामी तुलसीदास श्री राम की कथा अवधी में कहते हैं। उनके चरित्र से भक्ति और धर्म की शिक्षा मिलती है। यहाँ प्रत्येक पद का अर्थ साथ दिया गया है, जिससे हम समझकर पढ़ सकें।",
+  "val_intro": "महर्षि वाल्मीकि की वाल्मीकि रामायण संस्कृत में श्री राम की कथा कहती है। इसे आदिकाव्य कहा जाता है। यहाँ प्रत्येक श्लोक के साथ उसका अर्थ दिया गया है, जिससे कथा और उसकी शिक्षा समझ में आए।",
+  "rcm_kands": {
+   "bal-kand": "श्री राम का जन्म और माता सीता से विवाह।",
+   "ayodhya-kand": "श्री राम का वनवास, भरत का सिंहासन त्याग।",
+   "aranya-kand": "रावण का सीताहरण, जटायु का संघर्ष, शबरी का आतिथ्य।",
+   "kishkindha-kand": "हनुमानजी से मिलन, सुग्रीव से मैत्री, खोज का आरम्भ।",
+   "sunderkand": "हनुमानजी माता सीता को खोजकर उनका सन्देश लाते हैं।",
+   "lanka-kand": "श्री राम की विजय और अयोध्या में राज्याभिषेक।",
+   "uttar-kand": "रामराज्य की स्थापना, काकभुशुण्डि और गरुड़ का भक्तिविषयक संवाद।"
+  },
+  "val_kands": {
+   "bala-kanda": "श्री राम का धनुषभंग और माता सीता से विवाह।",
+   "ayodhya-kanda": "श्री राम चौदह वर्ष के वनवास पर जाते हैं।",
+   "aranya-kanda": "रावण माता सीता को हरता है, जटायु प्रतिरोध करते हैं।",
+   "kishkindha-kanda": "सुग्रीव से मैत्री, माता सीता की खोज का आरम्भ।",
+   "sundara-kanda": "हनुमानजी समुद्र पार करके माता सीता को खोजते हैं।",
+   "yuddha-kanda": "रावण का वध और श्री राम का अयोध्या आगमन।",
+   "uttara-kanda": "अयोध्या लौटने के बाद श्री राम की आगे की कथा।"
+  },
+  "faq": [
+   {
+    "q": "रामायण क्या है?",
+    "a": "रामायण श्री राम और माता सीता की कथा है, जिसमें उनके आचरण से धर्म की शिक्षा मिलती है। महर्षि वाल्मीकि ने यह कथा संस्कृत में कही। गोस्वामी तुलसीदास ने श्रीरामचरितमानस में इसे अवधी में सुनाया। हिन्दीभाषी परिवारों में प्रायः श्रीरामचरितमानस का ही पाठ होता है और उसे रामायण कहा जाता है।",
+    "href": "/ramayana-vs-ramcharitmanas",
+    "link": "दोनों ग्रन्थों को जानें"
+   },
+   {
+    "q": "रामायण किसने लिखी?",
+    "a": "संस्कृत की वाल्मीकि रामायण के रचयिता महर्षि वाल्मीकि हैं। उन्हें आदिकवि और उनकी रामायण को आदिकाव्य कहा जाता है। गोस्वामी तुलसीदास ने सोलहवीं शताब्दी में अवधी में श्रीरामचरितमानस की रचना की। उत्तर भारत में बोलचाल का रामायण नाम प्रायः श्रीरामचरितमानस के लिए आता है। इसलिए ग्रन्थ के नाम के साथ उसके रचयिता को जानना उपयोगी है।",
+    "href": "/who-wrote-the-ramayana",
+    "link": "रचयिताओं का परिचय"
+   },
+   {
+    "q": "रामायण और रामचरितमानस में क्या अन्तर है?",
+    "a": "वाल्मीकि रामायण महर्षि वाल्मीकि की संस्कृत रचना है। श्रीरामचरितमानस में गोस्वामी तुलसीदास श्री राम की कथा अवधी में कहते हैं। दोनों ग्रन्थों में सात काण्ड हैं, पर उनकी भाषा, छन्द और कथा कहने की रीति अलग है। वाल्मीकि रामायण में श्लोक हैं। श्रीरामचरितमानस मुख्यतः चौपाइयों और दोहों में है, जिनका घरों में पाठ होता है।",
+    "href": "/ramayana-vs-ramcharitmanas",
+    "link": "दोनों ग्रन्थों का अन्तर"
+   },
+   {
+    "q": "रामायण के सात काण्ड कौन से हैं?",
+    "a": "गोस्वामी तुलसीदास के श्रीरामचरितमानस में सात काण्ड हैं: बालकाण्ड, अयोध्याकाण्ड, अरण्यकाण्ड, किष्किन्धाकाण्ड, सुन्दरकाण्ड, लंकाकाण्ड और उत्तरकाण्ड। इनमें श्री राम के जन्म से वनवास, माता सीता की खोज, युद्ध और रामराज्य तक की कथा आती है। महर्षि वाल्मीकि की रामायण में भी यही सात भाग हैं। उसके छठे भाग को युद्धकाण्ड अथवा लंकाकाण्ड कहते हैं।",
+    "href": "/hi/ramcharitmanas",
+    "link": "सातों काण्ड पढ़ें"
+   },
+   {
+    "q": "रामायण पढ़ना कहाँ से शुरू करें?",
+    "a": "पहली बार पढ़ रहे हों तो गोस्वामी तुलसीदास के श्रीरामचरितमानस का सुन्दरकाण्ड आरम्भ के लिए उपयुक्त है। इसके साठ दोहों में हनुमानजी का समुद्र पार करना, माता सीता को खोजना और श्री राम के पास सन्देश लाना आता है। प्रत्येक पद अर्थ सहित पढ़ें। पूरी कथा क्रम से पढ़ने के लिए बालकाण्ड से आरम्भ करें।",
+    "href": "/hi/sunderkand",
+    "link": "सुन्दरकाण्ड से आरम्भ करें"
+   }
+  ]
+ }
+}

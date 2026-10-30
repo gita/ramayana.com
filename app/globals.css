@@ -245,11 +245,6 @@ body {
 
 .is-read { background: var(--accent-soft); color: var(--accent-ink); border-color: transparent; }
 
-/* Home: two books, one control. Both panels stay in the HTML for crawlers. */
-.book-panel { display: none; }
-#book-rcm:checked ~ .book-panels .p-rcm, #book-val:checked ~ .book-panels .p-val { display: block; }
-#book-rcm:checked ~ .book-seg label[for="book-rcm"], #book-val:checked ~ .book-seg label[for="book-val"] { background: var(--surface); color: var(--foreground); box-shadow: 0 1px 3px rgba(0,0,0,.12); }
-#book-rcm:focus-visible ~ .book-seg label[for="book-rcm"], #book-val:focus-visible ~ .book-seg label[for="book-val"] { outline: 2px solid var(--accent); }
 
 /* Tailwind resets buttons to the default cursor. Everything pressable should say so. */
 button, summary, label[for], [role="button"] { cursor: pointer; }
