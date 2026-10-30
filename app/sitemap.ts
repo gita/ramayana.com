@@ -4,6 +4,8 @@ import { index, kand, kandPath, unitPath } from "@/lib/content";
 import { chaupais, chaupaiPath } from "@/lib/chaupai";
 import { articles } from "@/lib/articles";
 import { isReleased } from "@/lib/release";
+import { entities } from "@/lib/entities";
+import { news } from "@/lib/news";
 import { vIndex, vHub, vKandPath, vSargaPath } from "@/lib/valmiki";
 import { feelings, feelingPath } from "@/lib/feelings";
 
@@ -36,5 +38,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     out.push(...pair(vKandPath("en", k.slug), vKandPath("hi", k.slug), 0.8, "weekly"));
     for (const [i, g] of k.sargas.en.entries()) if (isReleased("val", k.slug, i + 1)) out.push(...pair(vSargaPath("en", k.slug, g.n), vSargaPath("hi", k.slug, g.n), 0.6));
   }
+  for (const k of ["characters", "places"] as const) {
+    out.push({ url: url(`/${k}`), lastModified: now, changeFrequency: "monthly", priority: 0.8 });
+    for (const e of entities(k)) out.push({ url: url(`/${k}/${e.slug}`), lastModified: now, changeFrequency: "monthly", priority: 0.7 });
+  }
+  const stories = news();
+  if (stories.length) out.push({ url: url("/news"), lastModified: new Date(stories[0].date), changeFrequency: "hourly", priority: 0.7 });
+  for (const n of stories) out.push({ url: url(`/news/${n.slug}`), lastModified: new Date(n.date), changeFrequency: "weekly", priority: 0.6 });
   return out;
 }

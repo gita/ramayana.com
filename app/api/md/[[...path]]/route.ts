@@ -12,6 +12,8 @@ import {
 import { chaupai, chaupaiPath, englishForVerseSafe } from "@/lib/chaupai";
 import { Article } from "@/components/article";
 import { articleBySlug } from "@/lib/articles";
+import { entities, entity, type Kind } from "@/lib/entities";
+import { news, newsItem } from "@/lib/news";
 import { site } from "@/lib/site";
 import { vHub, vIndex, vKand, vKandPath, vSarga, vSargaPath, vTitle } from "@/lib/valmiki";
 import { feelings, feelingVerses } from "@/lib/feelings";
@@ -124,6 +126,19 @@ async function render(path: string): Promise<string | null> {
         .join("\n") +
       source(lang)
     );
+  }
+  if ((m = /^\/(characters|places)(?:\/([a-z-]+))?$/.exec(p))) {
+    const k = m[1] as Kind;
+    if (!m[2]) return fm({ title: k, canonical: `${site.url}${path}`, lang: "en" }) + `# ${k}\n\n` + entities(k).map((e) => `- [${e.name}](${site.url}/${k}/${e.slug})`).join("\n") + "\n";
+    const e = entity(k, m[2]);
+    if (!e) return null;
+    return fm({ title: e.title, canonical: `${site.url}${path}`, lang: "en" }) + `# ${e.title}\n\n${e.answer}\n\n` + e.sections.map((s) => `## ${s.h2}\n\n${s.md}`).join("\n\n") + "\n\n## Questions\n\n" + e.faq.map((f) => `### ${f.q}\n\n${f.a}`).join("\n\n") + "\n";
+  }
+  if (p === "/news") return fm({ title: "Ramayana film news", canonical: `${site.url}/news`, lang: "en" }) + "# Ramayana film news\n\n" + news().map((n) => `- ${n.date.slice(0, 10)} [${n.title}](${site.url}/news/${n.slug})`).join("\n") + "\n";
+  if ((m = /^\/news\/([a-z0-9-]+)$/.exec(p))) {
+    const n = newsItem(m[1]);
+    if (!n) return null;
+    return fm({ title: n.title, canonical: `${site.url}${path}`, lang: "en" }) + `# ${n.title}\n\n${n.date.slice(0, 10)}\n\n${n.body}\n`;
   }
   if (p === "/" || p === "/index") {
     return fm({ title: site.name, canonical: site.url, lang }) + `# ${site.name}\n\n${site.description}\n\n- [Ramcharitmanas](${site.url}/ramcharitmanas)\n- [Valmiki Ramayana](${site.url}/valmiki-ramayana)\n- [Sunderkand](${site.url}/sunderkand)\n- [The app](${site.url}/app)\n`;

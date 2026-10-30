@@ -16,7 +16,7 @@ The poem follows the life of Shri Ram through seven kandas, or major divisions: 
 
 Each kanda is divided into *sargas*, or chapters. This gives the reader a practical way to approach a scripture of roughly 24,000 shlokas. We can read one sarga, attend to its events and meaning, and then continue.
 
-Chapter totals differ across editions. The commonly printed text is often described as having around 500 sargas. The complete reader on Ramayana.com contains 648 sargas across all seven kandas, using the Gita Press editions.
+Chapter totals differ across editions. Tradition speaks of about 500 sargas, and the Gita Press edition on this site has 648. The complete reader on Ramayana.com contains 648 sargas across all seven kandas, using the Gita Press editions.
 
 The distinction matters when comparing books or looking for a passage. A difference in chapter totals need not mean that a reader has missed an entire part of the story.
 
@@ -58,4 +58,4 @@ Yes. In the traditional account, Maharshi Valmiki's ashram gives Mata Sita refug
 
 ### How many chapters are in the Valmiki Ramayana?
 
-The number depends on the edition. The Valmiki Ramayana has seven kandas and traditionally about 24,000 shlokas, with around 500 sargas in the commonly printed text. Ramayana.com's complete reader contains 648 sargas across all seven kandas, following the Gita Press editions available on the site.
+The number depends on the edition. The Valmiki Ramayana has seven kandas and traditionally about 24,000 shlokas, with about 500 sargas by tradition. Ramayana.com's complete reader contains 648 sargas across all seven kandas, following the Gita Press editions available on the site.

@@ -15,14 +15,14 @@ const t = {
     rcm: "Ramcharitmanas", val: "Valmiki Ramayana", read: "Read the Ramayana online", rcmH: "Ramcharitmanas", rcmBy: "Goswami Tulsidas", valH: "Valmiki Ramayana", valBy: "Maharshi Valmiki",
     popular: "Popular", today: "Today's Ramayan verse", feel: "Ramayan verses about", about: "About the Ramayana",
     app: "The free Ramayan app", appSub: "The whole book on your phone. No ads. Works offline.",
-    pop: [["Sunderkand", "/sunderkand"], ["Famous chaupais", "/chaupai"], ["Goswami Tulsidas", "/tulsidas"], ["Maharshi Valmiki", "/valmiki"], ["The 2026 film", "/ramayana-movie"]],
+    pop: [["Sunderkand", "/sunderkand"], ["Famous chaupais", "/chaupai"], ["Goswami Tulsidas", "/tulsidas"], ["Maharshi Valmiki", "/valmiki"], ["Characters", "/characters"], ["Holy places", "/places"], ["The 2026 film", "/ramayana-movie"], ["Film news", "/news"]],
   },
   hi: {
     h1: "रामायण का आधिकारिक घर", sub: "श्रीरामचरितमानस और वाल्मीकि रामायण, हर श्लोक हिंदी अर्थ सहित। निःशुल्क।",
     rcm: "रामचरितमानस", val: "वाल्मीकि रामायण", read: "रामायण ऑनलाइन पढ़ें", rcmH: "रामचरितमानस", rcmBy: "गोस्वामी तुलसीदास", valH: "वाल्मीकि रामायण", valBy: "महर्षि वाल्मीकि",
     popular: "लोकप्रिय", today: "आज का रामायण पद", feel: "इन भावों की चौपाइयाँ", about: "रामायण के बारे में",
     app: "निःशुल्क रामायण ऐप", appSub: "पूरा ग्रंथ आपके फ़ोन में। विज्ञापन नहीं। बिना इंटरनेट।",
-    pop: [["सुन्दरकाण्ड", "/hi/sunderkand"], ["प्रसिद्ध चौपाइयाँ", "/hi/chaupai"], ["गोस्वामी तुलसीदास", "/tulsidas"], ["महर्षि वाल्मीकि", "/valmiki"], ["2026 की फ़िल्म", "/ramayana-movie"]],
+    pop: [["सुन्दरकाण्ड", "/hi/sunderkand"], ["प्रसिद्ध चौपाइयाँ", "/hi/chaupai"], ["गोस्वामी तुलसीदास", "/tulsidas"], ["महर्षि वाल्मीकि", "/valmiki"], ["पात्र", "/characters"], ["स्थान", "/places"], ["2026 की फ़िल्म", "/ramayana-movie"]],
   },
 };
 const pre = (l: Lang) => (l === "hi" ? "/hi" : "");
@@ -72,7 +72,7 @@ export function HomePage({ lang }: { lang: Lang }) {
         </div>
         <div className="mx-auto max-w-md text-left"><ContinueReading lang={lang} /></div>
         <figure className="relative mt-12 aspect-[3/2] overflow-hidden rounded-3xl sm:mt-16 sm:aspect-[16/8]">
-          <Image src="/images/hero/ram-darbar.webp" alt="Shri Ram and Mata Sita enthroned at Ayodhya, with Lakshman, Bharat and Shatrughna standing behind and Hanumanji kneeling before them." fill preload fetchPriority="high" sizes="(min-width: 1168px) 1120px, 100vw" className="object-cover object-[50%_40%]" />
+          <Image src="/images/hero/ram-darbar.webp" alt="Shri Ram and Mata Sita enthroned at Ayodhya, with Lakshman, Bharat and Shatrughna standing behind and Hanumanji kneeling before them." fill preload fetchPriority="high" quality={60} sizes="(min-width: 1168px) 1120px, 100vw" className="object-cover object-[50%_40%]" />
         </figure>
       </section>
 

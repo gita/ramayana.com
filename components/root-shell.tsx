@@ -6,7 +6,7 @@ import {
   Noto_Sans_Devanagari,
   Tiro_Devanagari_Hindi,
 } from "next/font/google";
-import "./globals.css";
+import "@/app/globals.css";
 import { site } from "@/lib/site";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
@@ -23,6 +23,7 @@ const inter = Inter({
 const literata = Literata({
   subsets: ["latin"],
   variable: "--font-literata",
+  preload: false,
   display: "swap",
   axes: ["opsz"],
 });
@@ -99,15 +100,17 @@ export const viewport: Viewport = {
   colorScheme: "light",
 };
 
-export default function RootLayout({
+export function RootShell({
+  lang,
   children,
 }: {
+  lang: "en" | "hi";
   children: React.ReactNode;
 }) {
   return (
     <html
-      lang="en"
-      className={`${inter.variable} ${literata.variable} ${tiro.variable} ${notoDev.variable}`}
+      lang={lang}
+            className={`${inter.variable} ${literata.variable} ${tiro.variable} ${notoDev.variable}`}
     >
       <body className="min-h-dvh flex flex-col">
         <OrgJsonLd />

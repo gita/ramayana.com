@@ -1,0 +1,42 @@
+{
+ "title": "Janakpur: Mata Sita, King Janak and Shri Ram",
+ "description": "Read about Janakpur, King Janak's capital of Mithila, and its place in Mata Sita and Shri Ram's wedding in the Ramcharitmanas.",
+ "answer": "Janakpur, in Nepal's Terai, is traditionally held to be the capital of King Janak's Mithila. In the Ramcharitmanas of Goswami Tulsidas, it is the city where Shri Ram and Mata Sita are married. The Bal Kand presents its royal splendour, joyful wedding preparations and sorrow at the time of parting.",
+ "sections": [
+  {
+   "h2": "Shri Ram arrives in King Janak's city",
+   "md": "In Bal Kand, doha 214, Goswami Tulsidas describes a city with splendid palace entrances, spacious stables and the mansions of King Janak's ministers and commanders. Princes have made their camps beside lakes and rivers on its outskirts. Amid this royal abundance, sage Vishwamitra chooses a pleasant mango grove as the place to stay. Shri Ram readily accepts his choice and rests there with the hermits. The passage places the Lord's obedience to His teacher beside the splendour of Janakpur. The city has much to offer, yet Shri Ram follows the sage's wish."
+  },
+  {
+   "h2": "Janakpur prepares for the wedding",
+   "md": "Janakpur is the setting of Mata Sita's swayamvar, Shri Ram's breaking of Shiva's bow and their wedding in the Bal Kand. In Bal Kand, doha 287, King Janak sends messengers to invite King Dashrath from Ayodhya. He then calls the leading citizens and directs them to decorate the bazaars, streets, houses, temples and the whole city. His servants summon skilled artisans to build the wedding pavilions. The preparations show how a royal wedding becomes the shared work of the city. Citizens return home joyfully to carry out their part, while the artisans begin their work by invoking Brahma."
+  },
+  {
+   "h2": "The sorrow of parting and the bond with Ayodhya",
+   "md": "In Bal Kand, doha 337, Janakpur is filled with the sorrow of parting. Men and women, the princesses' companions and the women of the royal household are overcome with emotion. The city that prepares so gladly for the wedding now feels the pain of separation. Its bond with Ayodhya continues through grief as well as celebration. In Ayodhya Kand, doha 270, King Dashrath's death is described as leaving both Mithila and Ayodhya without their protector. In Ayodhya Kand, doha 274, Shri Ram and the whole assembly rise promptly to receive King Janak when he arrives at Chitrakoot."
+  }
+ ],
+ "verses": [
+  "rcm-1.287.c1",
+  "rcm-1.337",
+  "rcm-1.214.c1",
+  "rcm-2.274"
+ ],
+ "faq": [
+  {
+   "q": "Where is Janakpur?",
+   "a": "Janakpur is in Nepal's Terai and is traditionally held to be the capital of King Janak's Mithila. In the Ramcharitmanas, it is the city of Shri Ram and Mata Sita's wedding. Bal Kand, doha 287, describes King Janak inviting King Dashrath from Ayodhya and asking the citizens to decorate the city."
+  },
+  {
+   "q": "Did Shri Ram and Mata Sita get married in Janakpur?",
+   "a": "Yes. The Bal Kand of the Ramcharitmanas places Shri Ram and Mata Sita's wedding in Janakpur, following the swayamvar and the breaking of Shiva's bow. In Bal Kand, doha 287, King Janak sends the invitation to King Dashrath and arranges for the city's decoration and the building of wedding pavilions."
+  },
+  {
+   "q": "What is the connection between Janakpur and Ayodhya?",
+   "a": "Janakpur is King Janak's city in Mithila, while Ayodhya is King Dashrath's city. Shri Ram and Mata Sita's marriage joins the two royal families. Their shared sorrow appears in Ayodhya Kand, doha 270, after King Dashrath's death. In Ayodhya Kand, doha 274, Shri Ram and the assembly rise to welcome King Janak at Chitrakoot."
+  }
+ ],
+ "slug": "janakpur",
+ "name": "Janakpur",
+ "art": "kand:bal-kand"
+}

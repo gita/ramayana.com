@@ -6,7 +6,7 @@ Every Hindi and English meaning on Ramayana.com comes from Gita Press editions, 
 
 Gita Press, Gorakhpur, was founded in 1923 by Jaya Dayal Goyandka. It prints scriptures at near cost and does not advertise. Its publishing arm is Gobind Bhavan Karyalaya, Kolkata. Gita Press received the Gandhi Peace Prize for 2021.
 
-Hanuman Prasad Poddar, affectionately known as Bhaiji, edited its magazine *Kalyan* from 1926. He also wrote the Hindi *tika*, or commentary and meaning, of the Ramcharitmanas used on Ramayana.com. A commentary helps us attend to what the verse teaches. We read the original words, then turn to their meaning so that recitation is accompanied by understanding.
+Hanuman Prasad Poddar, affectionately known as Bhaiji, was the founding editor of its magazine *Kalyan*. He also wrote the Hindi *tika*, or commentary and meaning, of the Ramcharitmanas used on Ramayana.com. A commentary helps us attend to what the verse teaches. We read the original words, then turn to their meaning so that recitation is accompanied by understanding.
 
 ## The editions we use
 

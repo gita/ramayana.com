@@ -63,7 +63,7 @@ export async function VKandPage({ lang, slug }: { lang: Lang; slug: string }) {
   return (
     <div lang={lang}>
       <JsonLd data={{ "@context": "https://schema.org", "@graph": [breadcrumb(crumbs), { "@type": "Chapter", name: t, position: k.number, isPartOf: book(lang), isAccessibleForFree: true, url: `${site.url}${vKandPath(lang, slug)}` }] }} />
-      <div className="art-fade relative aspect-[16/9] max-h-[52vh] w-full overflow-hidden sm:aspect-[21/9]"><Image src={`/images/kand/${vArt[slug]}.webp`} alt="" fill preload fetchPriority="high" sizes="100vw" className="object-cover object-[50%_30%]" /></div>
+      <div className="art-fade relative aspect-[16/9] max-h-[52vh] w-full overflow-hidden sm:aspect-[21/9]"><Image src={`/images/kand/${vArt[slug]}.webp`} alt="" fill preload fetchPriority="high" quality={60} sizes="100vw" className="object-cover object-[50%_30%]" /></div>
       <div className="relative mx-auto -mt-4 max-w-3xl px-4 sm:-mt-10 sm:px-6">
         <h1 className="font-serif text-[2.5rem] font-semibold leading-[1.05] tracking-tight sm:text-[3.25rem]">{t}</h1>
         <p className="mt-2 text-[1.0625rem] text-muted">{name(lang)} · {list.length} {lang === "hi" ? "सर्ग" : "sargas"}</p>

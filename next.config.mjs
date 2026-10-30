@@ -18,8 +18,9 @@ const kandaImage = { bala: "bal-kand", ayodhya: "ayodhya-kand", aranya: "aranya-
 
 const nextConfig = {
   reactStrictMode: true,
+  experimental: { globalNotFound: true },
   turbopack: { root: import.meta.dirname },
-  images: { formats: ["image/avif", "image/webp"], minimumCacheTTL: 31536000, deviceSizes: [360, 414, 640, 768, 1024, 1280, 1536, 1920] },
+  images: { qualities: [60, 75], formats: ["image/avif", "image/webp"], minimumCacheTTL: 31536000, deviceSizes: [360, 414, 640, 768, 1024, 1280, 1536, 1920] },
   async headers() {
     return [
       { source: "/images/:path*", headers: immutable },
@@ -37,15 +38,14 @@ const nextConfig = {
     };
   },
   async redirects() {
-    // Pending pages (/places, /characters) resolve to the nearest live page until they exist.
-    const interim = { "/places": "/ramayana-movie", "/characters/hanuman": "/sunderkand", "/characters/ram": "/ramcharitmanas" };
+    const interim = {};
     const map = legacy.map(([source, destination]) => [source, interim[destination] ?? destination]);
     // One URL per intent. Other spellings land on it.
     const aliases = [["/ramayan", "/"], ["/ramayana", "/"], ["/tulsi-ramayan", "/ramcharitmanas"], ["/ram-charit-manas", "/ramcharitmanas"], ["/valmiki-ramayan", "/valmiki-ramayana"], ["/sundarkand", "/sunderkand"], ["/sundar-kand", "/sunderkand"], ["/ramayan-movie", "/ramayana-movie"]];
     return [
       ...aliases.map(([source, destination]) => ({ source, destination, statusCode: 301 })),
       ...map.map(([source, destination]) => ({ source, destination, statusCode: 301 })),
-      { source: "/holy_places.htm", has: [{ type: "query", key: "lang" }], destination: interim["/places"], statusCode: 301 },
+      { source: "/holy_places.htm", has: [{ type: "query", key: "lang" }], destination: "/places", statusCode: 301 },
       { source: "/k/:kanda(bala|ayodhya|aranya|kishkindha|sundara|yuddha|uttara)-kanda", destination: "/valmiki-ramayana", statusCode: 301 },
       { source: "/k/:kanda(bala|ayodhya|aranya|kishkindha|sundara|yuddha|uttara)-kanda/:n", destination: "/valmiki-ramayana", statusCode: 301 },
       ...Object.entries(kandaImage).flatMap(([k, slug]) => ["jpg", "gif"].map((ext) => ({ source: `/images/ramayana-${k}-kanda-1.${ext}`, destination: `/images/kand/${slug}.webp`, statusCode: 301 }))),
