@@ -61,7 +61,7 @@ export function AppNudge() {
     <button
       onClick={dismiss}
       aria-label="Dismiss"
-      className="press flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-muted"
+      className="press flex h-11 w-11 shrink-0 items-center justify-center rounded-full text-foreground transition-colors hover:bg-black/5"
     >
       <svg
         width="16"
@@ -79,27 +79,16 @@ export function AppNudge() {
   );
   if (mode === "desktop") {
     return (
-      <aside
-        aria-label="Get the Ramayan app"
-        className={`fixed bottom-6 right-6 z-40 w-64 rounded-3xl border border-white/50 bg-white/80 p-4 shadow-2xl shadow-black/15 backdrop-blur-xl ${moved} ${motion}`}
-      >
-        <div className="flex items-start justify-between">
-          <p className="pt-2 pl-1 font-serif text-[1.125rem] font-semibold leading-tight">
-            Read on your phone
-          </p>
-          {close}
-        </div>
-        <Image
-          src="/images/app/install-qr.svg"
-          alt="QR code to install the Ramayan app from Google Play"
-          width={200}
-          height={200}
-          unoptimized
-          className="mx-auto mt-1 rounded-xl"
-        />
-        <p className="mt-2 text-center text-[0.875rem] text-muted">
-          Scan to install. Free, no ads.
-        </p>
+      <aside aria-label="Get the Ramayan app" className={`fixed bottom-6 right-6 z-40 w-72 ${moved} ${motion}`}>
+        <a href={playUrl("floating-card")} target="_blank" rel="noopener" className="press group block rounded-3xl border border-white/50 bg-white/90 p-5 shadow-2xl shadow-black/15 backdrop-blur-xl transition-shadow hover:shadow-black/25">
+          <p className="pr-10 font-serif text-[1.25rem] font-semibold leading-tight">Get the Ramayan app</p>
+          <Image src="/images/app/install-qr.svg" alt="QR code to install the Ramayan app from Google Play" width={168} height={168} unoptimized className="mx-auto mt-3 rounded-xl" />
+          <p className="mt-2 text-center text-[0.875rem] text-muted">Scan with your phone. Free, no ads.</p>
+          <span className="mt-3 flex h-11 items-center justify-center rounded-full bg-accent font-medium text-white transition-colors group-hover:bg-accent-ink">Open in Google Play</span>
+        </a>
+        <button onClick={dismiss} aria-label="Dismiss" className="press absolute right-3 top-3 flex h-10 w-10 items-center justify-center rounded-full bg-black/5 text-foreground transition-colors hover:bg-black/10">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.25" strokeLinecap="round" aria-hidden><path d="M6 6l12 12M18 6L6 18" /></svg>
+        </button>
       </aside>
     );
   }
