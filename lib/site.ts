@@ -28,13 +28,15 @@ export const site = {
   contact: "contact@bhagavadgita.io",
 } as const;
 
+/** Play Store link tagged with where the tap came from, so installs can be measured per placement. */
+export const playUrl = (place: string) => `${site.app.android}&referrer=${encodeURIComponent(`utm_source=ramayana.com&utm_medium=web&utm_content=${place}`)}`;
+
 export const nav = [
   { label: "Ramcharitmanas", href: "/ramcharitmanas" },
-  { label: "Sunderkand", href: "/sunderkand" },
-  { label: "Chaupai", href: "/chaupai" },
   { label: "Valmiki Ramayana", href: "/valmiki-ramayana" },
+  { label: "Sunderkand", href: "/sunderkand" },
   { label: "The 2026 film", href: "/ramayana-movie" },
-  { label: "About", href: "/about" },
+  { label: "App", href: "/app" },
 ] as const;
 
 export const network = [

@@ -11,6 +11,7 @@ import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { OrgJsonLd } from "@/components/json-ld";
 import { Pwa } from "@/components/pwa";
+import { AppNudge } from "@/components/app-nudge";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -111,6 +112,7 @@ export default function RootLayout({
           {children}
         </main>
         <SiteFooter />
+        <AppNudge />
       </body>
     </html>
   );

@@ -1,69 +1,57 @@
 # Who wrote the Ramayana?
 
-Maharshi Valmiki composed the Sanskrit Ramayana. Goswami Tulsidas composed the Ramcharitmanas, the Ramayana familiar to many homes in the Hindi-speaking region. Many poets wrote Ramayanas in their own languages. Names you may also encounter include Kamban's Tamil Ramavataram, Krittibas's Bengali Ramayana and the Adhyatma Ramayana. When you ask who wrote the Ramayana, the answer begins with which text you mean.
+Maharshi Valmiki composed the Sanskrit Ramayana. Goswami Tulsidas composed the Ramcharitmanas, the Ramayana read and recited in most Hindi-speaking homes. Many poets have told Shri Ram's story in their own languages. Other names readers encounter include Kamban's Tamil Ramavataram, Krittibas's Bengali Ramayana and the Adhyatma Ramayana. Thus, the answer depends on which text we mean.
 
 ## Maharshi Valmiki and the first shloka
 
-How does a poem begin? Sometimes a sorrow touches the heart so deeply that ordinary speech cannot hold it.
+The story of Maharshi Valmiki's first shloka begins with grief. On the bank of the Tamasa river, a hunter kills one of a pair of krauncha birds. Seeing the suffering caused by this act, Maharshi Valmiki utters words that take the form of a verse.
 
-Maharshi Valmiki is said to have witnessed a hunter kill one of a pair of krauncha birds on the bank of the Tamasa river. From his grief came the first shloka [verse]. The poet's heart responded to another creature's suffering.
+Tradition remembers this as the first *shloka*, a metrical verse. Maharshi Valmiki is therefore called the Adi Kavi, the first poet, and his Ramayana the Adi Kavya, the first poem. The account directs our attention to compassion. The poet sees another creature's suffering, and that suffering finds expression in poetry.
 
-Let that sink in.
+The Sanskrit Ramayana traditionally contains about 24,000 shlokas in seven kandas. It tells of Shri Ram, Mata Sita, exile, separation, the search for Mata Sita, the war in Lanka and the return to Ayodhya.
 
-We often hurry past pain because there is work to finish. This account asks us to pause. Another being's sorrow deserves our attention.
+Devotees place the events in the Treta Yuga. Scholars generally place the core composition in the first millennium BCE, most often between the seventh and fourth centuries BCE. These dates concern the composition of the text. They answer a different question from when devotees understand the events to have occurred.
 
-Maharshi Valmiki is called the Adi Kavi [first poet], and his Sanskrit Ramayana the Adi Kavya [first poem]. Tradition counts about 24,000 shlokas across seven kandas [books]. Devotees place the events it recounts in the Treta Yuga.
+## How Lava and Kusha carried the poem forward
 
-## Lava and Kusha carried the poem into the world
+A poem must be heard if its teaching is to reach others. Lava and Kusha, the sons of Shri Ram and Mata Sita, learn the Ramayana from Maharshi Valmiki and sing it. The poet teaches, and his students carry the account into the world through their voices.
 
-A mother may know a song by heart, yet it becomes her child's own only through listening and singing. A written page, too, comes alive through a voice.
-
-Lava and Kusha, the sons of Shri Ram and Mata Sita, learned the poem from Maharshi Valmiki and sang it. The account gives us a tender picture of how the Ramayana reached its listeners. The poet taught, the children learned, and the words were sung.
-
-There is guidance here for our homes. Read a little aloud. Give a child time to listen. We need not wait until we can explain every passage before sharing a verse with love.
+This is how tradition describes the poem's transmission. Before us stands a teacher with two young singers. Their learning becomes something they can share. Similarly, when we read the Ramayana aloud at home, our reading gives others an opportunity to listen.
 
 ## Goswami Tulsidas in Ayodhya in 1574
 
-Goswami Tulsidas records in Bal Kand that he began the Ramcharitmanas in Ayodhya on Ram Navami, a Tuesday, in Vikram Samvat 1631, or 1574 CE.
+Goswami Tulsidas brings Shri Ram's story into Awadhi, a language of the people of the Ram Janmabhoomi region. In the Bal Kand, he records that he begins the Ramcharitmanas in Ayodhya on Ram Navami, a Tuesday, in Vikram Samvat 1631, corresponding to 1574 CE.
 
-He composed it in Awadhi, a language of the people of the Ram Janmabhoomi region. Its name means “the Manas lake of Shri Ram's deeds”. Think of a lake where people come to draw water. Each brings a vessel according to their need. We, too, can approach this scripture with the questions our lives have given us.
+The title *Ramcharitmanas* means “the Manas lake of Shri Ram's deeds”. Its seven kands carry the story from the invocations and birth of Shri Ram through His coronation and the teachings on devotion in Uttar Kand.
 
-Goswami Tulsidas offers this image for daily practice:
+Goswami Tulsidas writes mainly in chaupais and dohas, alongside sorathas and chhands. These forms give the account a rhythm suited to reading and recitation. The teaching can be heard, remembered and returned to.
 
-> राम नाम मनिदीप धरु जीह देहरीं द्वार। तुलसी भीतर बाहेरहुँ जौं चाहसि उजिआर॥
->
-> (Bal Kand, doha 21)
+## Why many families call the Ramcharitmanas “Ramayan”
 
-Place the jewel-lamp of Shri Ram's Name upon the threshold of the tongue, he teaches, if you seek light within and without. The instruction is close at hand. Before speaking in anger, remember Shri Ram. Let remembrance shape the words that follow.
+In a north Indian home, “Ramayan” usually means the Ramcharitmanas. It is the text most Hindi-speaking families read and recite. Hence, someone who says that Goswami Tulsidas wrote the Ramayan may be referring quite precisely to the book used in that home.
 
-## Why a north Indian home calls it Ramayan
+For example, a child hears the family preparing to read the Ramayan and brings the familiar volume from the shelf. Years later, the child encounters the Sanskrit Ramayana and sees Maharshi Valmiki named as its author. Both names belong, but to different works. Similarly, we understand the authorship clearly when we identify the text being discussed.
 
-When someone in a north Indian home says, “Let us read the Ramayan,” they usually mean the Ramcharitmanas. It is the Ramayana most Hindi-speaking families read and recite.
+## The Hanuman Chalisa, another gift of Goswami Tulsidas
 
-Its verses are written mainly in chaupai [four quarter-lines] and doha [couplets]. Many readers also encounter it through Sunderkand, its fifth book, which is often recited on its own.
+Goswami Tulsidas also composed the Hanuman Chalisa, forty verses in praise of Hanumanji and the most recited Hindi prayer. Many people know this prayer before they begin reading the Ramcharitmanas. The author is the same, while each work offers its own form of devotional reading.
 
-This everyday use of “Ramayan” explains much of the confusion about authorship. Maharshi Valmiki composed the Sanskrit epic. Goswami Tulsidas retold the story in Awadhi. We can read them together with reverence, keeping each author's name clear.
-
-## The Hanuman Chalisa is another gift of Goswami Tulsidas
-
-The Hanuman Chalisa is also a work of Goswami Tulsidas. A reader who knows it already has a connection with the poet of the Ramcharitmanas.
-
-He is regarded as a devotee to whom Hanumanji granted darshan [the blessed sight] of Shri Ram. His writing invites us towards bhakti [loving devotion]. Begin with a passage you can attend to. Read slowly enough for its meaning to enter your conduct.
+Begin with a few verses and give them attention. To keep reading on the phone, the free [Ramayan app](/app) includes both the Ramcharitmanas and the Valmiki Ramayana, with offline reading and bookmarks.
 
 ## Questions people ask
 
-### Was the Ramayana written by Valmiki or Tulsidas?
+### Did Valmiki or Tulsidas write the Ramayana?
 
-Maharshi Valmiki composed the Sanskrit Ramayana. Goswami Tulsidas composed the Ramcharitmanas in Awadhi in the sixteenth century. Both tell the story of Shri Ram. The name “Ramayan” often refers to the Ramcharitmanas in north Indian conversation, which is why you may hear either author named.
+Maharshi Valmiki composed the Sanskrit Ramayana. Goswami Tulsidas composed the Ramcharitmanas in Awadhi in the sixteenth century. Both tell Shri Ram's story. In everyday north Indian speech, the Ramcharitmanas is often called the Ramayan, which is why readers encounter both authors' names.
 
-### Did Tulsidas write the Ramayana in Hindi?
+### Who wrote the Ramayana first?
 
-Goswami Tulsidas wrote the Ramcharitmanas in Awadhi, a language of the people of the Ram Janmabhoomi region. It is the Ramayana most Hindi-speaking families read and recite. Calling it the Hindi-region Ramayana helps identify its place in family reading, while Awadhi names its original language precisely.
+Maharshi Valmiki is traditionally regarded as the first poet, the Adi Kavi, and his Sanskrit Ramayana as the Adi Kavya. His work precedes Goswami Tulsidas's Ramcharitmanas. Scholars place the Sanskrit epic's core composition in the first millennium BCE, while Goswami Tulsidas began his work in 1574 CE.
 
-### When did Tulsidas begin the Ramcharitmanas?
+### Was the Ramayana originally written in Hindi?
 
-Goswami Tulsidas records that he began the Ramcharitmanas in Ayodhya on Ram Navami, Tuesday, in Vikram Samvat 1631, corresponding to 1574 CE. This information appears in Bal Kand. It identifies the beginning of the work, rather than giving a date for its completion.
+Maharshi Valmiki's Ramayana is in Sanskrit. The Ramcharitmanas, familiar in most Hindi-speaking homes, is in Awadhi. Goswami Tulsidas composed it in a language of the people of the Ram Janmabhoomi region. Calling it the Hindi-region Ramayana helps distinguish its place in family reading from the Sanskrit epic.
 
-### Who first sang Valmiki's Ramayana?
+### Did Tulsidas also write the Hanuman Chalisa?
 
-Lava and Kusha, the sons of Shri Ram and Mata Sita, learned the poem from Maharshi Valmiki and sang it. Their story reminds us that scripture can be received through attentive listening. Today, give someone at home that opportunity. Read a short passage aloud with care.
+Yes. Goswami Tulsidas composed both the Ramcharitmanas and the Hanuman Chalisa. The Hanuman Chalisa contains forty verses in praise of Hanumanji. His other works include Vinay Patrika, a collection of devotional hymns to Shri Ram, and Gitavali, which tells Shri Ram's story through songs.

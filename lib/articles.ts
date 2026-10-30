@@ -112,7 +112,6 @@ export const articles: ArticleDef[] = [
     eyebrow: "The editions",
     type: "Article",
     related: [
-      { label: "How we verify the text", href: "/how-we-verify" },
       { label: "Acknowledgements", href: "/acknowledgements" },
     ],
   },
@@ -124,23 +123,11 @@ export const articles: ArticleDef[] = [
     eyebrow: "Ramayana.com",
     type: "AboutPage",
     related: [
-      { label: "How we verify the text", href: "/how-we-verify" },
       { label: "The Gita Press editions", href: "/gita-press" },
       { label: "The Android app", href: "/app" },
     ],
   },
-  {
-    slug: "how-we-verify",
-    image: "/images/share/sunrise-sarayu.webp",
-    imageAlt: "Sunrise on the Sarayu.",
-    eyebrow: "Method",
-    type: "Article",
-    related: [
-      { label: "The Gita Press editions", href: "/gita-press" },
-      { label: "Acknowledgements", href: "/acknowledgements" },
-    ],
-  },
-  {
+    {
     slug: "privacy",
     image: "/images/share/flower-mandala.webp",
     imageAlt: "A flower mandala.",

@@ -63,12 +63,7 @@ function Meaning({
   return (
     <div className="mt-4 rounded-2xl bg-surface px-5 py-4 ring-1 ring-border/70">
       {heading && (
-        <p
-          className="mb-1.5 text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-gold"
-          lang={lang}
-        >
-          {t[lang].meaning}
-        </p>
+        <p className="mb-1 text-[0.9375rem] font-semibold text-gold" lang={lang}>{t[lang].meaning}</p>
       )}
       <div lang={lang} className={lang === "hi" ? "meaning-hi" : "meaning-en"}>
         {children}
@@ -158,22 +153,13 @@ export function UnitBody({
 }
 
 export function SourceLine({ lang }: { lang: Lang }) {
-  const s = t[lang];
   return (
-    <aside className="mt-10 rounded-2xl border border-border bg-surface-2/60 px-5 py-4 text-[0.875rem] leading-relaxed text-muted">
-      <p>
-        {s.original}. {lang === "hi" ? s.source_hi : s.source_en}.
-      </p>
-      <p className="mt-1">
-        <a
-          href={site.gitaPress.product}
-          className="tap font-medium text-accent hover:text-accent-ink"
-          rel="noopener"
-        >
-          {s.buy} →
-        </a>
-      </p>
-    </aside>
+    <p className="mt-10 text-[0.9375rem] text-muted">
+      {lang === "hi" ? "गीताप्रेस, गोरखपुर का संस्करण। " : "From the Gita Press, Gorakhpur edition. "}
+      <a href={site.gitaPress.product} target="_blank" rel="noopener" className="tap text-accent hover:text-accent-ink">
+        {lang === "hi" ? "पुस्तक खरीदें" : "Buy the book"}
+      </a>
+    </p>
   );
 }
 
@@ -227,7 +213,7 @@ function NavCell({
       href={item.href}
       className={`press flex flex-col rounded-2xl border border-border bg-surface px-4 py-3 hover:border-accent/40 ${align === "right" ? "items-end text-right" : ""}`}
     >
-      <span className="text-[0.75rem] uppercase tracking-[0.06em] text-faint">
+      <span className="text-[0.75rem] text-faint">
         {align === "left" ? "← " : ""}
         {hint}
         {align === "right" ? " →" : ""}

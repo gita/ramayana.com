@@ -1,79 +1,61 @@
 # Maharshi Valmiki: the first poet and the first Ramayana
 
-Who first gave us the story of Shri Ram and Mata Sita in poetry? Maharshi Valmiki composed the Valmiki Ramayana, the Sanskrit epic honoured as the Adi Kavya [the first poem]. He is called the Adi Kavi [the first poet]. Tradition remembers the birth of his poetry in a moment of grief, when another creature's suffering moved his heart to speak.
+Maharshi Valmiki is revered as the Adi Kavi, the first poet, and his Sanskrit Ramayana is called the Adi Kavya, the first poem. He tells the story of Shri Ram in roughly 24,000 shlokas across seven kandas. Tradition also places him within that story, giving Mata Sita refuge and teaching her sons, Lava and Kusha, to sing the poem.
 
-## The krauncha birds and the birth of the shloka
+## The krauncha birds and the first shloka
 
-A mother may hear children calling all afternoon without leaving her work. Let one cry out in pain, and she comes running. Suffering changes how we listen.
+Compassion stands at the beginning of Maharshi Valmiki's poetry. Tradition tells that, on the bank of the Tamasa river, he sees a hunter kill one of a pair of krauncha birds. The suffering before him moves him to utter the first shloka.
 
-Tradition tells us that Maharshi Valmiki saw a hunter kill one of a pair of krauncha birds on the bank of the Tamasa river. In grief, he uttered the first shloka [metrical verse]. This is how the first poet is remembered, with a heart pierced by the suffering before him.
+The word *shloka* means a verse. Here, grief takes the form of poetry. The account teaches us something about the poet before we begin reading his work: he responds to another being's pain.
 
-There is something to practise here. We often want beautiful words before we have learnt to listen. Maharshi Valmiki's story asks us to let another's pain matter. Compassion comes first. Let the words follow.
+We may understand this through an ordinary experience. A person can pass the same tree each morning without paying attention to it. One day, a fallen nest makes that person stop and look closely. Compassion changes what the eyes notice. Similarly, the account of the krauncha birds asks us to approach the Ramayana with an attentive heart.
 
-## The shape of the Valmiki Ramayana
+## How the Valmiki Ramayana is arranged
 
-Tradition counts about 24,000 shlokas in the Valmiki Ramayana. They are arranged in seven kandas [major divisions]:
+The poem follows the life of Shri Ram through seven kandas, or major divisions: Bala, Ayodhya, Aranya, Kishkindha, Sundara, Yuddha and Uttara. Yuddha Kanda is also called Lanka Kanda.
 
-- Bala
-- Ayodhya
-- Aranya
-- Kishkindha
-- Sundara
-- Yuddha, also called Lanka
-- Uttara
+Each kanda is divided into *sargas*, or chapters. This gives the reader a practical way to approach a scripture of roughly 24,000 shlokas. We can read one sarga, attend to its events and meaning, and then continue.
 
-Within these are sargas [chapters], around 500 in the commonly printed text.
+Chapter totals differ across editions. The commonly printed text is often described as having around 500 sargas. The complete reader on Ramayana.com contains 648 sargas across all seven kandas, using the Gita Press editions.
 
-These divisions give the reader places to pause. You need not approach about 24,000 verses as though they were tomorrow's examination syllabus. Begin with a manageable portion. Read attentively.
-
-The number tells us the poem's scale. Our attention determines what we receive from it. Before reading another passage, sit for a moment with the one already read. What did you notice about Shri Ram? What did someone's words or conduct reveal about your own?
+The distinction matters when comparing books or looking for a passage. A difference in chapter totals need not mean that a reader has missed an entire part of the story.
 
 ## Maharshi Valmiki within his own poem
 
-Tradition also places Maharshi Valmiki within the story he tells. His ashram [hermitage] becomes Mata Sita's refuge. Lava and Kusha, the sons of Shri Ram and Mata Sita, learn the poem from him and sing it.
+Tradition remembers Maharshi Valmiki as both the poet who tells the story and a sage who takes part in it. His ashram becomes Mata Sita's refuge. There, the account of Shri Ram's family meets the life of the sage who preserves it.
 
-Pause over that image. The poet teaches the story to the children whose parents stand at its heart. Through their voices, the poem is heard.
+Lava and Kusha, the sons of Shri Ram and Mata Sita, learn the poem from Maharshi Valmiki and sing it. Thus, the Ramayana presents its own telling as something received from a teacher and carried forward through recitation.
 
-A teacher knows that a lesson has taken root when a child can carry it beyond the classroom. In this traditional account, Maharshi Valmiki's poetry passes from his teaching into living voices.
+This invites a particular kind of attention from us. A scripture can be read quickly for its events, yet its teaching requires us to pause. As we follow what happens, we should also consider the choices made and the duties those choices reveal.
 
-We too can read with that care. Before passing a teaching to someone else, give it room within yourself.
+## How the Ramcharitmanas honours him
 
-## How the Ramcharitmanas honours Maharshi Valmiki
+Maharshi Valmiki's Sanskrit poem and Goswami Tulsidas's Awadhi Ramcharitmanas belong to the shared telling of Shri Ram's story. The Ramcharitmanas carries that story into the language of the people of the Ram Janmabhoomi region.
 
-Goswami Tulsidas retells the story of Shri Ram in Awadhi, a language of the people of the Ram Janmabhoomi region. The Valmiki Ramayana is the Sanskrit epic. The Ramcharitmanas brings the story into the language most Hindi-speaking families read and recite.
+Its seven kands follow the same names as Maharshi Valmiki's seven divisions, except that the sixth is called Lanka Kand. Goswami Tulsidas gives the telling his own poetic forms, chiefly chaupais and dohas.
 
-We can honour Maharshi Valmiki while receiving Goswami Tulsidas's teaching with gratitude. Read them alongside one another, with reverence for the story each gives us.
-
-Goswami Tulsidas offers this image for our daily practice:
-
-> राम नाम मनिदीप धरु जीह देहरीं द्वार। तुलसी भीतर बाहेरहुँ जौं चाहसि उजिआर॥
->
-> (Bal Kand, doha 21)
-
-Place the jewel-lamp of Shri Ram's Name upon the threshold of the tongue, he teaches, if you desire light within and without.
-
-A lamp is useful when lit. Let reading become remembrance, and let remembrance guide the next words you speak.
+We honour Maharshi Valmiki's place by recognising each work clearly. The Valmiki Ramayana is the Sanskrit epic of the Adi Kavi. The Ramcharitmanas is Goswami Tulsidas's devotional retelling in Awadhi. Reading both allows us to attend to each poet's telling with respect.
 
 ## Where to read the Valmiki Ramayana
 
-Ramayana.com's [Valmiki Ramayana reader](/valmiki-ramayana) is in preparation. The page [Read the Valmiki Ramayana online](/read-valmiki-ramayana-online) is another place to begin.
+Begin with the [complete Valmiki Ramayana](/valmiki-ramayana), available in Sanskrit with Hindi meaning or English meaning. For guidance before opening the text, see [Read the Valmiki Ramayana online](/read-valmiki-ramayana-online).
 
-The complete Ramcharitmanas is already available on Ramayana.com, with the original Awadhi text, Hindi commentary and English translation, verse by verse. You can begin reading the story of Shri Ram there today.
+To keep reading on your phone, the free [Ramayan app](/app) includes both the Valmiki Ramayana and the Ramcharitmanas, with offline reading and bookmarks. Choose a language you understand, begin with Bala Kanda, and give the first sarga your attention.
 
 ## Questions people ask
 
 ### Who wrote the first Ramayana?
 
-Maharshi Valmiki composed the Sanskrit Valmiki Ramayana, honoured as the Adi Kavya [the first poem]. He is therefore called the Adi Kavi [the first poet]. Tradition also remembers him teaching the poem to Lava and Kusha, the sons of Shri Ram and Mata Sita, who sang it.
+Maharshi Valmiki composed the Sanskrit Valmiki Ramayana and is revered as the Adi Kavi, the first poet. His work is called the Adi Kavya, the first poem. Goswami Tulsidas later retold Shri Ram's story in Awadhi as the Ramcharitmanas, which many Hindi-speaking families read and recite.
 
-### How many verses are in the Valmiki Ramayana?
+### Why is Valmiki called the first poet?
 
-Tradition counts about 24,000 shlokas in seven kandas. These are divided into sargas, around 500 in the commonly printed text. For a new reader, the divisions offer natural pauses. Choose a portion you can read with attention, and allow yourself time to reflect before continuing.
+Tradition connects this title with his response to a hunter killing one of two krauncha birds beside the Tamasa river. Moved by grief, Maharshi Valmiki utters the first shloka. He is therefore revered as the Adi Kavi, and his Ramayana as the Adi Kavya.
 
-### Did Mata Sita stay with Maharshi Valmiki?
+### Did Mata Sita stay in Valmiki's ashram?
 
-Yes. In the traditional account, Maharshi Valmiki's ashram becomes Mata Sita's refuge. Her sons, Lava and Kusha, learn the poem from him and sing it. This places the poet within the story itself, as a presence of shelter and a teacher who helps its words reach others.
+Yes. In the traditional account, Maharshi Valmiki's ashram gives Mata Sita refuge. Her sons, Lava and Kusha, learn the Ramayana from the sage and sing it. This places Maharshi Valmiki within the story he tells, as a teacher connected with Shri Ram's family.
 
-### Are the Valmiki Ramayana and Ramcharitmanas the same book?
+### How many chapters are in the Valmiki Ramayana?
 
-They are distinct works telling the story of Shri Ram. Maharshi Valmiki composed the Sanskrit epic. Goswami Tulsidas composed the Ramcharitmanas in Awadhi in the sixteenth century. You can read both with devotion, giving each text your attention and carrying one teaching into your conduct today.
+The number depends on the edition. The Valmiki Ramayana has seven kandas and traditionally about 24,000 shlokas, with around 500 sargas in the commonly printed text. Ramayana.com's complete reader contains 648 sargas across all seven kandas, following the Gita Press editions available on the site.

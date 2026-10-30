@@ -6,6 +6,7 @@ import { articleBySlug, articles } from "@/lib/articles";
 import { Article } from "@/components/article";
 import { JsonLd, breadcrumb } from "@/components/json-ld";
 import { site } from "@/lib/site";
+import { AppCard } from "@/components/app-card";
 
 export const dynamicParams = false;
 export function generateStaticParams() {
@@ -26,7 +27,7 @@ export async function generateMetadata({
     description: meta.description,
     alternates: { canonical: `/${slug}`, types: { "text/markdown": `/${slug}.md` } },
     robots: def.noindex ? { index: false } : undefined,
-    openGraph: {
+    openGraph: { siteName: "Ramayana.com", 
       type: "article",
       title: meta.title,
       description: meta.description,
@@ -90,9 +91,6 @@ export default async function Page({
       <JsonLd data={{ "@context": "https://schema.org", "@graph": graph }} />
       <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-14">
         <div className="min-w-0">
-          <p className="text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-gold">
-            {def.eyebrow}
-          </p>
           <h1 className="mt-2 max-w-[22ch] font-serif text-[2.25rem] font-semibold leading-[1.08] tracking-tight sm:text-[3rem]">
             {meta.title}
           </h1>
@@ -106,16 +104,20 @@ export default async function Page({
               className="object-cover object-[50%_25%]"
             />
           </div>
-          <div
-            className="prose-ram mt-8"
-            dangerouslySetInnerHTML={{ __html: html }}
-          />
-          <p className="mt-12 border-t border-border pt-5 text-[0.875rem] leading-relaxed text-muted">
-            Written by the Ramayana.com editorial team of Ved Vyas Foundation
-            from the sources named on this site, drafted with AI assistance. Found
-            an error? Write to {site.contact}.
-          </p>
-        </div>
+          {(() => {
+            const cut = html.indexOf("<h2", html.indexOf("<h2") + 1);
+            const showApp = !["privacy", "support"].includes(slug);
+            if (!showApp || cut < 0) return <div className="prose-ram mt-8" dangerouslySetInnerHTML={{ __html: html }} />;
+            return (
+              <>
+                <div className="prose-ram mt-8" dangerouslySetInnerHTML={{ __html: html.slice(0, cut) }} />
+                <AppCard place={slug} className="my-10 max-w-[68ch]" headline={slug === "ramayana-movie" ? "Watched the film? Read the original." : undefined} />
+                <div className="prose-ram" dangerouslySetInnerHTML={{ __html: html.slice(cut) }} />
+                <AppCard place={`${slug}-end`} compact className="mt-10 max-w-[68ch]" />
+              </>
+            );
+          })()}
+          </div>
         <aside className="hidden lg:block">
           <div className="sticky top-20 space-y-6">
             <figure className="overflow-hidden rounded-3xl ring-1 ring-border">
@@ -134,7 +136,7 @@ export default async function Page({
                 aria-label="Related"
                 className="rounded-3xl border border-border bg-surface p-5"
               >
-                <h2 className="text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-muted">
+                <h2 className="text-[0.75rem] font-semibold text-muted">
                   Continue
                 </h2>
                 <ul className="mt-3 space-y-2.5">
@@ -142,7 +144,7 @@ export default async function Page({
                     <li key={r.href}>
                       {r.href.startsWith("http") ? (
                         <a
-                          href={r.href}
+                          href={r.href} target="_blank" rel="noopener"
                           className="text-[0.9375rem] text-accent hover:text-accent-ink"
                         >
                           {r.label} ↗
@@ -165,7 +167,7 @@ export default async function Page({
       </div>
       {def.related && (
         <nav aria-label="Related" className="mt-12 lg:hidden">
-          <h2 className="text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-muted">
+          <h2 className="text-[0.75rem] font-semibold text-muted">
             Continue
           </h2>
           <ul className="mt-3 grid gap-2 sm:grid-cols-2">
@@ -173,7 +175,7 @@ export default async function Page({
               <li key={r.href}>
                 {r.href.startsWith("http") ? (
                   <a
-                    href={r.href}
+                    href={r.href} target="_blank" rel="noopener"
                     className="block rounded-2xl border border-border bg-surface px-4 py-3 text-accent"
                   >
                     {r.label} ↗

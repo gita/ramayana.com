@@ -9,7 +9,7 @@ const security = [
 ];
 // The 2001 to 2015 site. These URLs still carry links (Wikipedia among them), so they live on.
 const legacy = [
-  ["/holy_places.htm", "/places"], ["/hanuman.htm", "/characters/hanuman"], ["/who_is_rama.htm", "/characters/ram"],
+  ["/how-we-verify", "/about"], ["/holy_places.htm", "/places"], ["/hanuman.htm", "/characters/hanuman"], ["/who_is_rama.htm", "/characters/ram"],
   ["/books_excerpts.htm", "/valmiki-ramayana"], ["/books_excerpts_pro.htm", "/valmiki-ramayana"], ["/books&comics.htm", "/gita-press"],
   ["/s/1/index", "/valmiki-ramayana"], ["/gallery.htm", "/"], ["/about_us.htm", "/about"], ["/index.html", "/"], ["/comingsoon.htm", "/"],
   ["/dates&festivals.htm", "/"], ["/crossword.htm", "/"], ["/coloring.htm", "/"], ["/contests&games.htm", "/"], ["/privacy.htm", "/privacy"],
@@ -40,7 +40,10 @@ const nextConfig = {
     // Pending pages (/places, /characters) resolve to the nearest live page until they exist.
     const interim = { "/places": "/ramayana-movie", "/characters/hanuman": "/sunderkand", "/characters/ram": "/ramcharitmanas" };
     const map = legacy.map(([source, destination]) => [source, interim[destination] ?? destination]);
+    // One URL per intent. Other spellings land on it.
+    const aliases = [["/ramayan", "/"], ["/ramayana", "/"], ["/tulsi-ramayan", "/ramcharitmanas"], ["/ram-charit-manas", "/ramcharitmanas"], ["/valmiki-ramayan", "/valmiki-ramayana"], ["/sundarkand", "/sunderkand"], ["/sundar-kand", "/sunderkand"], ["/ramayan-movie", "/ramayana-movie"]];
     return [
+      ...aliases.map(([source, destination]) => ({ source, destination, statusCode: 301 })),
       ...map.map(([source, destination]) => ({ source, destination, statusCode: 301 })),
       { source: "/holy_places.htm", has: [{ type: "query", key: "lang" }], destination: interim["/places"], statusCode: 301 },
       { source: "/k/:kanda(bala|ayodhya|aranya|kishkindha|sundara|yuddha|uttara)-kanda", destination: "/valmiki-ramayana", statusCode: 301 },

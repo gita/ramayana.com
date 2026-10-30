@@ -9,4 +9,5 @@
 export const released = {
   kands: ["sunderkand", "bal-kand", "ayodhya-kand", "aranya-kand", "kishkindha-kand", "lanka-kand", "uttar-kand"],
   units: ["sunderkand"],
+  valmiki: ["sundara-kanda"],
 };

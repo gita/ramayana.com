@@ -1,57 +1,49 @@
 # Where to read the Ramcharitmanas online, free, with meaning
 
-The complete Shri Ramcharitmanas by Goswami Tulsidas is available on Ramayana.com at [/ramcharitmanas](/ramcharitmanas). Read all seven kands [major divisions], every chaupai [verse of four quarter-lines] and doha [couplet], with the Gita Press Hindi tika [commentary and meaning] and English translation. The reader is free, without advertising, and available in English and Hindi, with the original Awadhi text.
+The complete Ramcharitmanas by Goswami Tulsidas is available at [Ramayana.com/ramcharitmanas](/ramcharitmanas). Read all seven kands, every chaupai and doha, with the Gita Press Hindi tika and English translation. The reader is free and without advertising, with English and Hindi interfaces. Begin with the original Awadhi text, then read the meaning to understand what each passage teaches.
 
-## Find your place in the text
+## How the reader is organised
 
-A mother teaching a child to read does not hurry through the whole book. She stays with a line until its meaning becomes clear. We can approach the Ramcharitmanas with that same patience.
+The story unfolds through seven kands: Bal, Ayodhya, Aranya, Kishkindha, Sunder, Lanka and Uttar. Within each kand, the dohas provide reference points for reading. The reader also organises the text into 218 topics, helping us approach a particular episode or teaching within the larger story.
 
-> राम नाम मनिदीप धरु जीह देहरीं द्वार। तुलसी भीतर बाहेरहुँ जौं चाहसि उजिआर॥
->
-> Bal Kand, doha 21
+These divisions serve different purposes. A kand lets us follow a sustained part of Shri Ram's story. A doha reference helps us return to a passage. A topic gives us a place to begin when we wish to read about a particular event.
 
-Goswami Tulsidas asks us to place the jewel-lamp of Shri Ram's Name upon the threshold of the tongue, seeking light within and without. Reading gives us words to carry into speech and conduct. Let one line stay.
+The original text and its meaning deserve attention together. Goswami Tulsidas writes in Awadhi. The Hindi tika by Hanuman Prasad Poddar explains the text in Hindi, while the English translation makes its meaning accessible to readers who prefer English. Read a short passage carefully before moving ahead.
 
-The reader follows the seven kands in order: Bal, Ayodhya, Aranya, Kishkindha, Sunderkand, Lanka and Uttar. Within them, the printed doha numbering helps you locate a passage. The edition's 218 topics give further divisions for reading. Across the complete text are 1,074 dohas and 6,157 verse units.
+## Choose a reading plan
 
-Read the original, then its meaning. Before moving on, consider what the passage asks of you today.
+The Gita Press edition gives two traditional plans for reading the complete Ramcharitmanas. The *navah parayan* divides the recitation across nine days, with prescribed rest points. The *maas parayan* extends it across thirty days. Choose a plan that allows steady attention to the words and their meaning.
 
-## Choose a reading plan you can honour
+Sunderkand can also be read on its own. This fifth kand follows Hanumanji across the sea to Lanka, where he finds Mata Sita and gives her Shri Ram's ring. It continues through his return, Vibhishan's surrender and Shri Ram's request to the ocean. It is customarily recited on Tuesdays and Saturdays, and in times of difficulty.
 
-The Gita Press edition provides the navah parayan [nine-day recitation] with its rest points, and the maas parayan [thirty-day recitation]. Follow the chosen plan's divisions when undertaking either recitation.
+A reading plan gives regularity to our effort. If time is limited, begin with a manageable passage and give it your full attention.
 
-You can also read Sunderkand alone. This fifth kand contains 60 dohas and 343 verse units. It follows Hanumanji across the sea, to Mata Sita in the Ashok Vatika, and back with her message, before continuing to Vibhishan's surrender and Shri Ram's appeal to the ocean.
+## Keep a printed book at home
 
-Sunderkand is customarily recited on Tuesdays and Saturdays, and in times of difficulty. For everyday reading, choose an amount you can attend to with care. Give the meaning time.
+An online reader makes the scripture readily available. A printed book gives it a settled place in our daily life. We can set aside the phone, sit with the text and return to the same pages for reading and recitation.
 
-## Keep a printed book beside you
+Ramayana.com uses Gita Press editions. You can buy the [Shri Ramcharitmanas special edition from Gita Press](https://gitapress.org/product/sri-ramcharitmanas-special-edition), or browse the [Ramcharitmanas editions at Gita Press Bookshop](https://gitapressbookshop.in/?route=product/category&language=en-gb&path=83). Choose an edition whose script and language you can read comfortably.
 
-A printed Ramcharitmanas gives your reading a place in the home. It is also ready when you want to put the phone aside or read without an internet connection.
+## Read on your phone, including offline
 
-Ramayana.com uses Gita Press publication code 790 for Hanuman Prasad Poddar's Hindi commentary, and code 1318 for the Romanised text with English translation. The latter is a revised edition prepared by J.P. Agarwal.
+To keep reading on your phone, use the free Android [Ramayan app](/app), “Ramayan: Ramcharitmanas Hindi”. It works offline, has no ads, and includes reading plans, bookmarks and a daily verse. Both the Ramcharitmanas and the Valmiki Ramayana are included. An iOS version is to follow.
 
-You can buy through the [Gita Press Ramcharitmanas product page](https://gitapress.org/product/sri-ramcharitmanas-special-edition) or browse the [Ramcharitmanas book category](https://gitapressbookshop.in/?route=product/category&language=en-gb&path=83). Gita Press prints scriptures at near cost. Ramayana.com takes no payments or donations on the site.
-
-## Read on your phone
-
-Open [/ramcharitmanas](/ramcharitmanas) on your phone and choose the English or Hindi interface. Keep the original verse and its meaning together in your reading.
-
-Ved Vyas Foundation also publishes the free Android app, **Ramayan: Ramcharitmanas Hindi**. An iOS version is to follow. For offline reading, the printed book offers a dependable place to continue.
+Begin with a passage you can read attentively today. Read its meaning, then consider how its teaching applies to your conduct.
 
 ## Questions people ask
 
 ### Can I read the whole Ramcharitmanas here for free?
 
-Yes. Ramayana.com publishes the complete Ramcharitmanas, with all seven kands, the original Awadhi verses, Hindi commentary and English translation. Reading is free and there is no advertising. The site takes no payments or donations, so you can give your attention to the text.
+Yes. Ramayana.com provides the complete Ramcharitmanas, including all seven kands, with the original Awadhi text, Hindi tika and English translation. Reading is free and there is no advertising. The site takes no payments or donations. You can begin at the [Ramcharitmanas reader](/ramcharitmanas).
 
-### Whose Hindi meaning and English translation will I be reading?
+### Is the meaning in Hindi or English?
 
-The Hindi commentary is by Hanuman Prasad Poddar, from Gita Press publication code 790. The English comes from Gita Press publication code 1318, whose revised edition was prepared by J.P. Agarwal. That English edition names no single translator. Both accompany the original Awadhi text.
+Both are available. The Hindi tika is by Hanuman Prasad Poddar of Gita Press. The English translation comes from the Gita Press Romanised edition. The original Awadhi text accompanies the meaning, and the site offers English and Hindi interfaces. Choose the language in which you can give the teaching your closest attention.
 
-### Can I begin with Sunderkand?
+### Do I have to finish it in nine days?
 
-Yes. Sunderkand is the kand most often recited on its own, customarily on Tuesdays and Saturdays and during difficulty. You can begin there and read the meaning alongside the verses. As you read Hanumanji's service to Shri Ram and Mata Sita, choose one act of service for today.
+No. The nine-day navah parayan is one traditional reading plan. Gita Press also gives a thirty-day maas parayan. You may read smaller portions at a pace you can sustain, or read Sunderkand on its own. Let the plan support regular reading and attention to the meaning.
 
-### How much should I read each day?
+### Can I read without an internet connection?
 
-For a structured recitation, follow the Gita Press nine-day or thirty-day plan and its divisions. For daily study, choose a passage you can read with attention to its meaning. Begin with what you can sustain. Close today's reading by carrying one teaching into your next conversation.
+Yes. Offline reading is available through the free Android application linked above. It includes both the Ramcharitmanas and the Valmiki Ramayana, along with bookmarks and reading plans. This allows you to keep reading on your phone when an internet connection is unavailable. An iOS version is to follow.

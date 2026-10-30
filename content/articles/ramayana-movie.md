@@ -1,79 +1,74 @@
 # Ramayana (2026 film): the original story behind it
 
-The makers of *Ramayana: Rise of a Legend* have not said, in any statement verified here, which text the screenplay follows. The story comes to us in Maharshi Valmiki's Sanskrit Ramayana, retold by Goswami Tulsidas in the Awadhi Ramcharitmanas and shared across regional Ramayanas and screen adaptations. You can begin reading that story here, with its verses and meanings beside you.
+We have not seen the makers of *Ramayana: Rise of a Legend* name a single text as the source of their screenplay. The story of Shri Ram is told in the Valmiki Ramayana by Maharshi Valmiki, retold in the Ramcharitmanas by Goswami Tulsidas, and shared through many regional Ramayanas. Every screen adaptation draws upon this shared story.
 
-## The film at a glance
+For those who come from the trailer or the cinema, the scripture is the next place to turn. It gives us time to dwell on Shri Ram's conduct, Mata Sita's devotion, Bharat's refusal of power and Hanumanji's service. We begin by following what happens. As we read, we also learn how to live.
 
-*Ramayana: Rise of a Legend* is Part 1 of a two-part film directed by Nitesh Tiwari and produced by Namit Malhotra of Prime Focus Studios with Yash's Monster Mind Creations.
+## About the film
 
-| Actor | Role |
-|---|---|
-| Ranbir Kapoor | Shri Ram |
-| Sai Pallavi | Mata Sita |
-| Yash | Ravan |
-| Sunny Deol | Hanumanji |
-| Ravie Dubey | Lakshman |
+- **Title and parts:** *Ramayana: Rise of a Legend* is Part 1 of a two-part film.
+- **Director:** Nitesh Tiwari.
+- **Producers:** Namit Malhotra of Prime Focus Studios, with Yash's Monster Mind Creations.
+- **Cast:** Ranbir Kapoor as Shri Ram, Sai Pallavi as Mata Sita, Yash as Ravan, Sunny Deol as Hanumanji and Ravie Dubey as Lakshman.
+- **Release:** Worldwide on 6 November 2026 and in India on 8 November 2026, Diwali, in IMAX.
+- **Part 2:** Announced for Diwali 2027.
 
-The film releases worldwide on **6 November 2026** and in India on **8 November 2026**, Diwali, in IMAX. Part 2 has been announced for Diwali 2027.
-
-Many readers grew up with Ramanand Sagar's *Ramayan* television serial of 1987 or the animated *Ramayana: The Legend of Prince Rama* of 1992. A new screen telling can bring us back to the scripture with fresh attention.
+Many readers know the story through Ramanand Sagar's *Ramayan* television serial of 1987 or the animated *Ramayana: The Legend of Prince Rama* of 1992, the screen Ramayanas they grew up with.
 
 Ramayana.com is independent of the film and is not affiliated with its makers.
 
 ## The story the film is telling
 
-The seven kands [books] below follow the Ramcharitmanas. They offer the story's full sweep, rather than a claim about where either film begins or ends. Read Goswami Tulsidas alongside Maharshi Valmiki, as you might listen to two beloved teachers whose words draw your attention towards Shri Ram.
+The full story unfolds across seven kands. The account below follows the Ramcharitmanas. These are the divisions of the scripture, rather than a confirmed account of how the filmmakers divide their two parts.
 
-**Bal Kand.** Before we reach Ayodhya, Goswami Tulsidas opens with invocations and the conversations through which the story is told, including Shiva and Sati. Shri Ram and his brothers are born to King Dashrath. The sage Vishwamitra enters their lives, and the telling moves through Ahilya's story to Mata Sita's swayamvar [ceremony for choosing a husband]. Shri Ram breaks Shiva's bow, and the wedding takes place at Janakpur.
+**Bal Kand** opens with invocations and the conversations through which the story is told. Goswami Tulsidas recounts Shiva and Sati before turning to Ayodhya, where Shri Ram and His brothers are born to King Dashrath. Shri Ram accompanies the sage Vishwamitra, and the story moves through Ahilya's episode to Mata Sita's swayamvar. He breaks Shiva's bow, and the wedding takes place at Janakpur.
 
-**Ayodhya Kand.** King Dashrath prepares to crown Shri Ram, but Kaikeyi's two boons, sought at Manthara's prompting, turn the preparations towards separation. Shri Ram leaves for fourteen years with Mata Sita and Lakshman. Kevat ferries them across the Ganga. After Dashrath's death, Bharat refuses the throne and seeks Shri Ram at Chitrakoot. The paduka [sandals] become the centre of his service.
+**Ayodhya Kand** brings a sudden change to the preparations for Shri Ram's coronation. Prompted by Manthara, Kaikeyi asks Dashrath to fulfil two boons, sending Shri Ram into exile for fourteen years. Mata Sita and Lakshman accompany Him, and Kevat ferries them across the Ganga. Dashrath dies. Bharat refuses the throne and meets Shri Ram at Chitrakoot, accepting His paduka as the authority under which he serves.
 
-**Aranya Kand.** Forest life at Panchavati gives way to the encounter with Shurpanakha and the appearance of the golden deer. Ravan abducts Mata Sita. Jatayu fights for her and dies. Within this book of separation, Shabari's hospitality gives us another scene to sit with, the welcome offered to Shri Ram by a waiting devotee.
+**Aranya Kand** follows their forest life at Panchavati. Shurpanakha's arrival and the appearance of the golden deer lead towards Ravan's abduction of Mata Sita. Jatayu fights to protect her and gives his life. Amid the sorrow of separation, Shabari's hospitality brings devotion into view through a simple act of welcome. The forest holds both suffering and opportunities to serve the Lord.
 
-**Kishkindha Kand.** Shri Ram meets Hanumanji and Sugriv. After Bali's death, the monsoon passes at Kishkindha, and search parties go out to find Mata Sita. The search brings Hanumanji to a moment many of us recognise in our own small lives. Jamvant reminds him of his strength when a difficult task stands before him.
+**Kishkindha Kand** brings Shri Ram into the company of Hanumanji and Sugriv. Shri Ram kills Bali, and the narrative pauses through the monsoon at Kishkindha before the search parties set out for Mata Sita. When the search demands strength that Hanumanji has yet to use, Jamvant reminds him of his power. This prepares the way for the leap across the sea.
 
-**Sunderkand.** Hanumanji leaps across the sea to Lanka, meets Vibhishan, and finds Mata Sita in the Ashok Vatika. He gives her Shri Ram's ring and returns with her message after the burning of Lanka. The book then brings Vibhishan to Shri Ram in surrender, while Shri Ram asks the ocean for a way across.
+**Sunderkand** follows Hanumanji into Lanka, where he meets Vibhishan and finds Mata Sita in the Ashok Vatika. He gives her Shri Ram's ring, bringing assurance in her distress. After burning Lanka, he returns with her message. Vibhishan then surrenders to Shri Ram, and Shri Ram asks the ocean for a way across. Courage and devotion take the form of service throughout this kand.
 
-**Lanka Kand.** The bridge carries the story across the sea into war. Kumbhkaran and Meghnad enter the conflict, Lakshman is wounded, and the Sanjivani is brought. Ravan dies and Vibhishan is crowned. Goswami Tulsidas tells Mata Sita's fire ordeal as the return of the real Sita kept with Agni. The Pushpak carries them to Ayodhya for Shri Ram's coronation.
+**Lanka Kand** carries the story across the bridge and into war. Kumbhkaran and Meghnad enter the conflict, Lakshman is wounded, and Hanumanji brings the Sanjivani. Ravan falls, and Vibhishan is crowned. In Goswami Tulsidas's telling, the fire ordeal restores the real Mata Sita, who has been kept with Agni. Shri Ram returns to Ayodhya with her by the Pushpak, and His coronation follows.
 
-**Uttar Kand.** The telling opens into Ram Rajya [Shri Ram's rule] and the conversations of Kakbhushundi and Garuda. Here we sit with teachings on bhakti [loving devotion] and the praise of the Name as the remedy for Kali Yuga [the age of spiritual difficulty]. The reader's attention turns towards how to live with what has been heard.
+**Uttar Kand** turns from the coronation to Ram Rajya and the teaching of devotion. Through the conversations of Kakbhushundi and Garuda, the reader considers the meaning of the story already heard. The praise of bhakti and the Name gives this final kand its direction. Having followed Shri Ram's deeds, we are shown the practice through which remembrance of Him enters daily life.
 
 ## Where to read the original
 
-If you want Maharshi Valmiki's Sanskrit epic, the [Valmiki Ramayana reader](/valmiki-ramayana) is in preparation. Maharshi Valmiki is called the Adi Kavi [first poet], and his Ramayana the Adi Kavya [first poem].
+Begin with the [Ramcharitmanas](/ramcharitmanas) for Goswami Tulsidas's Awadhi text, with Hindi commentary and English translation, verse by verse. This is the Ramayana that most Hindi-speaking families read and recite. In everyday speech in north India, “Ramayan” usually refers to this work.
 
-You can read the complete [Ramcharitmanas](/ramcharitmanas) now, with the original Awadhi, Hindi tika [commentary and meaning], and English translation, verse by verse. This is the Ramayana most Hindi-speaking families read and recite.
+For Maharshi Valmiki's Sanskrit epic, open the [Valmiki Ramayana](/valmiki-ramayana), available with Hindi or English meaning across all seven kandas. To read Hanumanji's service in Lanka as a complete, shorter passage, turn to [Sunderkand](/sunderkand).
 
-For a shorter beginning, open [Sunderkand](/sunderkand). Its 60 dohas [couplets] centre on Hanumanji's service and Mata Sita's message.
+Both works are free to read here, without advertising.
 
 ## After the film, start here
 
-A mother helping a child read does not ask for the whole book before supper. She sits beside the child for one page. We can begin with that same patience.
+For Hindi readers, Sunderkand offers a welcoming first reading. Its sixty dohas hold Hanumanji's leap, his meeting with Mata Sita and his return to Shri Ram. Read a little, attend to the meaning, and continue from there.
 
-For Hindi readers, Sunderkand is a gentle first choice. For English readers, begin with Bal Kand in the Ramcharitmanas reader and let the translation accompany each verse.
+For English readers, begin with Bal Kand in the Ramcharitmanas reader. Starting at the beginning lets the invocations and frame stories prepare us for Shri Ram's birth and the events that follow.
 
-Goswami Tulsidas gives us an image to keep close:
-
-> राम नाम मनिदीप धरु जीह देहरीं द्वार। तुलसी भीतर बाहेरहुँ जौं चाहसि उजिआर॥
->
-> Bal Kand, doha 21
-
-Place the jewel-lamp of Shri Ram's Name at the doorway of the tongue, he teaches, if you desire light within and without. The image asks something simple of us. Give the Name a place in your speech today. Read a little, then carry one thought into your next conversation.
+To keep reading on your phone, the free [Ramayan app](/app) includes both scriptures, offline reading, bookmarks and reading plans.
 
 ## Questions people ask
 
-### Which Ramayana is the 2026 film based on?
+### Which Ramayana is the 2026 movie based on?
 
-The makers have not published, in any statement verified here, which text the screenplay follows. Maharshi Valmiki's Ramayana, Goswami Tulsidas's Ramcharitmanas and regional Ramayanas share the story of Shri Ram. That shared inheritance gives us a place to begin reading while leaving the film's precise textual choices for its makers to explain.
+The makers have not named one text as the source of the screenplay. Maharshi Valmiki's Sanskrit Ramayana tells the story, and Goswami Tulsidas retells it in the Awadhi Ramcharitmanas. Many regional Ramayanas also carry it. We should therefore avoid presenting either text as the film's confirmed sole source.
 
-### Are the Valmiki Ramayana and Ramcharitmanas the same book?
+### Is the Ramcharitmanas the same as the Valmiki Ramayana?
 
-They are distinct tellings of Shri Ram's story. Maharshi Valmiki composed the Sanskrit epic. Goswami Tulsidas retold the story in Awadhi in the sixteenth century. Both have seven books. In everyday speech across north India, “Ramayan” usually means the Ramcharitmanas, which is the text many families keep close through reading and recitation.
+They tell the story of Shri Ram, but they are distinct works. The Valmiki Ramayana is Maharshi Valmiki's Sanskrit epic, traditionally called the Adi Kavya, the first poem. The Ramcharitmanas is Goswami Tulsidas's sixteenth-century retelling in Awadhi. Both have seven main divisions, with differences in their telling and emphasis.
 
-### Does Part 1 cover all seven kands?
+### Where can I read the Ramayana in English?
 
-The supplied film information identifies it as Part 1 of a two-part production, with Part 2 announced for Diwali 2027. It does not establish the exact division of the story between the films. The seven-kand account above helps you find your bearings in the scripture without assigning particular episodes to either part.
+You can read the [Ramcharitmanas with English translation](/ramcharitmanas) alongside its original Awadhi text. You can also read the [Valmiki Ramayana with English meaning](/valmiki-ramayana) alongside the Sanskrit. Both are available in full on Ramayana.com. Choose one and begin with its opening kand, allowing time to understand each passage.
 
-### Can I read the Ramayana here for free?
+### Should I read Sunderkand first?
 
-Yes. Ramayana.com offers the complete Ramcharitmanas free, with no advertising, payments or donations on the site. Read the Awadhi verses with Hindi commentary or English translation. When you wish to keep a printed copy, the site encourages buying books from Gita Press and other publishers. For today, open one passage and give it your attention.
+Sunderkand is a suitable beginning, especially for Hindi readers familiar with its recitation. It is the fifth kand of the Ramcharitmanas and is often read on its own. It follows Hanumanji's service to Shri Ram and Mata Sita. After reading it, return to Bal Kand to follow the whole story.
+
+### When does the Ramayana movie release?
+
+Part 1, titled *Ramayana: Rise of a Legend*, releases worldwide on 6 November 2026 and in India on 8 November 2026, Diwali, in IMAX. Nitesh Tiwari directs the film. The story is planned across two parts, with Part 2 announced for Diwali 2027.

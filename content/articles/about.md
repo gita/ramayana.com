@@ -1,47 +1,37 @@
 # About Ramayana.com
 
-Ramayana.com is the free, ad-free home of the Ramayana online, a project of Ved Vyas Foundation. Here you can read the complete Ramcharitmanas by Goswami Tulsidas, with the Valmiki Ramayana by Maharshi Valmiki in preparation. There are no payments and no advertising. Every meaning is credited to its edition, with a link to [buy the printed book](https://gitapress.org/product/sri-ramcharitmanas-special-edition).
+Ramayana.com is the free, ad-free home of the Ramayana online, a project of Ved Vyas Foundation. Here, we offer the complete Ramcharitmanas by Goswami Tulsidas and the complete Valmiki Ramayana by Maharshi Valmiki. There are no payments and no advertising. Every meaning is credited to its edition, with a link to buy the printed book, so that reading here may lead to a place for scripture in the home.
 
 ## What you will find
 
-A lamp at home gives light to whoever sits beside it. Nobody needs an invitation. We want this home of the Ramayana to offer that same welcome, to the devotee returning to a familiar verse and to the reader opening the scripture for the first time.
+The scripture is at the centre of this site. We publish the complete Ramcharitmanas, verse by verse, with the original Awadhi text, Hindi commentary and English translation. Readers can use either the Hindi or the English interface.
 
-Goswami Tulsidas gives us the image himself.
+The [Valmiki Ramayana](/valmiki-ramayana) is also available in full, across all seven kandas and 648 sargas, with Sanskrit text and Hindi or English meaning. Both works are presented from Gita Press editions. The Hindi commentary on the Ramcharitmanas is by Hanuman Prasad Poddar. The Hindi translation of the Valmiki Ramayana is by Pandey Ramnarayan Dutt Shastri.
 
-> राम नाम मनिदीप धरु जीह देहरीं द्वार। तुलसी भीतर बाहेरहुँ जौं चाहसि उजिआर॥
->
-> Bal Kand, doha 21
+We name these sources because a meaning should have a clear source. The reader should know whose explanation accompanies the verse and which printed edition to seek.
 
-Place the jewel lamp of Shri Ram's Name upon the tongue, he teaches, if you seek light within and without. Reading can begin there. Take one verse into your day.
-
-The complete Ramcharitmanas is available verse by verse, with the original Awadhi text, Hindi tika [commentary and meaning] by Hanuman Prasad Poddar, and English translation, in Hindi and English interfaces. Both editions are from Gita Press. The English edition names no single translator, and we preserve that distinction in our credit.
-
-The text was transcribed from printed Gita Press pages. Two independent AI readings were compared, disagreements checked against page images, and verse counters and totals reconciled. Verification is AI-assisted, not a human editorial certification. This is AI-assisted verification, not a publisher's editorial certification.
+We also offer ways to begin with [courage](/feelings/courage), [devotion](/feelings/devotion), [dharma](/feelings/dharma), [peace](/feelings/peace), [love](/feelings/love) or [surrender](/feelings/surrender). Begin where the need is felt, then keep reading.
 
 ## What we will never do
 
-We will never place advertisements beside your reading, put the scripture behind a paywall, sell your data, or publish a verse we cannot source.
+We will never place advertisements beside the scripture, put its verses behind a paywall, sell readers' data or publish a verse we cannot source. We take no payments or donations on this site.
 
-The site takes no payments or donations. Our purpose is to help you read the scripture and encourage you to buy printed books from Gita Press and other publishers. A book beside your chair has its own quiet way of reminding you to read.
+Access to the text should remain simple. A person who comes to read about Shri Ram should be able to give attention to the scripture without an advertisement interrupting the page or a payment standing in the way.
 
 ## The foundation and our family of sites
 
-Ramayana.com is a project of [Ved Vyas Foundation](https://vedvyas.com), which also runs [bhagavadgita.com](https://bhagavadgita.com), [radhakrishna.com](https://radhakrishna.com), and [hanumanchalisa.net](https://hanumanchalisa.net).
+Ramayana.com is a project of [Ved Vyas Foundation](https://vedvyas.com), which also runs [BhagavadGita.com](https://bhagavadgita.com), [RadhaKrishna.com](https://radhakrishna.com) and [HanumanChalisa.net](https://hanumanchalisa.net).
 
-The Foundation also publishes the free Android app, Ramayan: Ramcharitmanas Hindi. An iOS version will follow. Visit [the app page](/app) to find it.
+For those who wish to keep reading on the phone, the free [Ramayan app](/app), “Ramayan: Ramcharitmanas Hindi”, is available on Android. It includes both scriptures, works offline and offers reading plans, bookmarks and a daily verse, without ads. An iOS version will follow.
 
-You are welcome here. No prior knowledge is needed to begin reading.
+## A note on the film year
 
-## A welcome in the film year
+The 2026 film *Ramayana: Rise of a Legend* will bring many people to the story of Shri Ram and Mata Sita. We are glad when that interest brings a reader to the text.
 
-The 2026 film, Ramayana: Rise of a Legend, will bring many people to the story of Shri Ram and Mata Sita. We are glad when that interest brings someone to the text.
-
-Ramayana.com is independent of the film and is not affiliated with its makers. If the screen has stirred your curiosity, let it become an occasion to sit with the scripture.
+Ramayana.com is independent of the film and is not affiliated with its makers. Here, readers can turn to the scriptures themselves and give each passage the attention it deserves.
 
 ## How to help
 
-Read a little. Share a verse with someone who may find strength in it. Buy a [printed Ramcharitmanas from Gita Press](https://gitapress.org/product/sri-ramcharitmanas-special-edition), for yourself or for someone you love.
+Read a little regularly. Share a verse with its reference, so that another person can read it in context. Buy a printed book from Gita Press or another publisher. The [Gita Press Ramcharitmanas](https://gitapress.org/product/sri-ramcharitmanas-special-edition) is one place to begin.
 
-If you notice an error, use the report option on that verse. Your careful reading helps us care for the text.
-
-Before you close this page, say Shri Ram's Name once, with attention. Carry that remembrance into your next task.
+If you find an error, report it with the page and verse reference. A clear correction helps the next reader.

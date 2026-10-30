@@ -2,6 +2,8 @@ import { readFile } from "node:fs/promises";
 import { join } from "node:path";
 import { marked } from "marked";
 
+const newTab = (html: string) => html.replace(/<a href="https?:/g, (m) => m.replace("<a ", '<a target="_blank" rel="noopener" '));
+
 const ROOT = join(process.cwd(), "content", "articles");
 
 /** Markdown article drafts (Codex gpt-6.1-sol) rendered to HTML on the server. */

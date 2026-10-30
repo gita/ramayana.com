@@ -16,6 +16,8 @@ import { site } from "@/lib/site";
 import { JsonLd, bookNode, breadcrumb } from "@/components/json-ld";
 import { SourceLine, UnitBody, UnitNav } from "@/components/reader";
 import { Article } from "@/components/article";
+import { AppCard } from "@/components/app-card";
+import { KandProgress, TrackRead } from "@/components/progress";
 
 const t = {
   en: {
@@ -78,7 +80,7 @@ export function unitMetadata(
     title,
     description: desc,
     alternates: { canonical: lang === "hi" ? hi : en, ...alt(en, hi), types: { "text/markdown": `${lang === "hi" ? hi : en}.md` } },
-    openGraph: {
+    openGraph: { siteName: "Ramayana.com", 
       title,
       description: desc,
       images: [
@@ -139,6 +141,7 @@ export function UnitPage({
   return (
     <article className="mx-auto max-w-3xl px-4 sm:px-6 pb-16 pt-6" lang={lang}>
       <JsonLd data={graph} />
+      <TrackRead id={`rcm:${k.slug}:${u.slug}`} href={unitPath(lang, k.slug, u.slug)} label={`${kt}, ${ul}`} />
       <nav aria-label="Breadcrumb" className="text-[0.8125rem] text-muted">
         <ol className="flex flex-wrap items-center gap-1.5">
           {crumbs.slice(0, -1).map((c, i) => (
@@ -152,9 +155,6 @@ export function UnitPage({
         </ol>
       </nav>
       <header className="mt-5">
-        <p className="text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-gold">
-          {kt}
-        </p>
         <h1 className="mt-1 font-serif text-[2rem] sm:text-[2.5rem] font-semibold leading-[1.1] tracking-tight">
           {ul}
         </h1>
@@ -196,7 +196,8 @@ export function UnitPage({
             : null
         }
       />
-      <SourceLine lang={lang} />
+      <AppCard place="reader" compact className="mt-10" />
+<SourceLine lang={lang} />
     </article>
   );
 }
@@ -214,7 +215,7 @@ export function kandMetadata(lang: Lang, slug: string): Metadata {
     title,
     description: desc,
     alternates: { canonical: kandPath(lang, slug), ...alt(kandPath("en", slug), kandPath("hi", slug)), types: { "text/markdown": `${kandPath(lang, slug)}.md` } },
-    openGraph: {
+    openGraph: { siteName: "Ramayana.com", 
       title,
       description: desc,
       images: [
@@ -276,10 +277,6 @@ export async function KandPage({ lang, slug }: { lang: Lang; slug: string }) {
           />
         </div>
         <div className="mx-auto -mt-4 max-w-3xl px-4 sm:px-6 sm:-mt-10 relative">
-          <p className="text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-gold">
-            {s.rcm} ·{" "}
-            {lang === "hi" ? `काण्ड ${k.number}` : `Kand ${k.number} of 7`}
-          </p>
           <h1 className="mt-1 font-serif text-[2.5rem] sm:text-[3.25rem] font-semibold leading-[1.05] tracking-tight">
             {kt}
           </h1>
@@ -345,6 +342,7 @@ export async function KandPage({ lang, slug }: { lang: Lang; slug: string }) {
               <li key={u.slug}>
                 <Link
                   href={unitPath(lang, slug, u.slug)}
+                  data-unit={`rcm:${slug}:${u.slug}`}
                   className="press flex h-11 items-center justify-center rounded-xl border border-border bg-surface text-[0.9375rem] tabular-nums text-foreground hover:border-accent/50 hover:text-accent"
                   title={lang === "hi" ? u.label_hi : u.label_en}
                 >
@@ -395,7 +393,7 @@ export function hubMetadata(lang: Lang): Metadata {
     title,
     description: desc,
     alternates: { canonical: lang === "hi" ? hi : en, ...alt(en, hi), types: { "text/markdown": `${lang === "hi" ? hi : en}.md` } },
-    openGraph: {
+    openGraph: { siteName: "Ramayana.com", 
       title,
       description: desc,
       images: [
@@ -426,18 +424,12 @@ export async function HubPage({ lang }: { lang: Lang }) {
         }}
       />
       <header className="max-w-3xl">
-        <p className="text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-gold">
-          {s.by}
-        </p>
         <h1 className="mt-2 font-serif text-[2.5rem] sm:text-[3.5rem] font-semibold leading-[1.05] tracking-tight">
           {lang === "hi" ? "श्रीरामचरितमानस" : "Shri Ramcharitmanas"}
         </h1>
         <p className="mt-4 font-serif text-[1.1875rem] sm:text-[1.3125rem] leading-relaxed text-muted">
-          {lang === "hi"
-            ? `सातों काण्ड, ${idx.totals.verses.toLocaleString("en-IN")} पद, हर चौपाई और दोहे के नीचे हनुमानप्रसाद पोद्दार की हिंदी टीका। मूल पाठ और टीका गीताप्रेस, गोरखपुर के संस्करणों से।`
-            : `All seven kands, ${idx.totals.verses.toLocaleString("en-IN")} verses, with the Hindi tika of Hanuman Prasad Poddar and the English translation of Gita Press under every chaupai and doha.`}
+          {lang === "hi" ? "सातों काण्ड, हर चौपाई और दोहा अर्थ सहित।" : "All seven kands, every verse with its meaning."}
         </p>
-        <p className="mt-3 text-[0.9375rem] text-muted">{s.free}</p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link
             href={unitPath(lang, "bal-kand", "mangalacharan")}
@@ -479,7 +471,7 @@ export async function HubPage({ lang }: { lang: Lang }) {
                   />
                 </div>
                 <div className="px-5 py-4">
-                  <p className="text-[0.75rem] uppercase tracking-[0.08em] text-faint">
+                  <p className="text-[0.75rem] text-faint">
                     {lang === "hi" ? `काण्ड ${k.number}` : `Kand ${k.number}`}
                   </p>
                   <h3 className="mt-0.5 font-serif text-[1.375rem] font-semibold leading-tight text-foreground">

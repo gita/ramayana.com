@@ -13,6 +13,8 @@ import { chaupai, chaupaiPath, englishForVerseSafe } from "@/lib/chaupai";
 import { Article } from "@/components/article";
 import { articleBySlug } from "@/lib/articles";
 import { site } from "@/lib/site";
+import { vHub, vIndex, vKand, vKandPath, vSarga, vSargaPath, vTitle } from "@/lib/valmiki";
+import { feelings, feelingVerses } from "@/lib/feelings";
 
 /**
  * Markdown twin of a page: the same content as the HTML, without chrome.
@@ -42,8 +44,8 @@ const fm = (o: Record<string, string>) =>
   "\n---\n\n";
 const source = (lang: Lang) =>
   lang === "hi"
-    ? `\n\n---\n\nमूल पाठ: गीताप्रेस कोड १३१८। हिंदी टीका: हनुमानप्रसाद पोद्दार, गीताप्रेस कोड ७९०। पुस्तक खरीदें: ${site.gitaPress.product}\n\nRamayana.com, वेदव्यास फ़ाउंडेशन। निःशुल्क, विज्ञापन रहित।\n`
-    : `\n\n---\n\nOriginal text: Gita Press code 1318. English: Gita Press code 1318, Romanised edition (2019). Hindi tika: Hanuman Prasad Poddar, Gita Press code 790. Buy the book: ${site.gitaPress.product}\n\nRamayana.com, a free, ad-free project of Ved Vyas Foundation.\n`;
+    ? `\n\n---\n\nस्रोत: गीताप्रेस, गोरखपुर। पुस्तक खरीदें: ${site.gitaPress.product}\n\nRamayana.com, वेदव्यास फ़ाउंडेशन। निःशुल्क, विज्ञापन रहित।\n`
+    : `\n\n---\n\nSource: Gita Press, Gorakhpur editions. Buy the book: ${site.gitaPress.product}\n\nRamayana.com, a free, ad-free project of Ved Vyas Foundation.\n`;
 
 async function render(path: string): Promise<string | null> {
   const lang: Lang = path.startsWith("/hi/") || path === "/hi" ? "hi" : "en";
@@ -123,6 +125,28 @@ async function render(path: string): Promise<string | null> {
       source(lang)
     );
   }
+  if (p === "/" || p === "/index") {
+    return fm({ title: site.name, canonical: site.url, lang }) + `# ${site.name}\n\n${site.description}\n\n- [Ramcharitmanas](${site.url}/ramcharitmanas)\n- [Valmiki Ramayana](${site.url}/valmiki-ramayana)\n- [Sunderkand](${site.url}/sunderkand)\n- [The app](${site.url}/app)\n`;
+  }
+  if (p === "/valmiki-ramayana") {
+    return fm({ title: "Valmiki Ramayana", canonical: `${site.url}${path}`, lang }) + `# Valmiki Ramayana\n\n` + vIndex().kands.map((k) => `- [${vTitle(k, lang)}](${site.url}${vKandPath(lang, k.slug)}) · ${k.sargas[lang].length} sargas`).join("\n") + source(lang);
+  }
+  if ((m = /^\/valmiki-ramayana\/([a-z-]+)$/.exec(p))) {
+    const k = vKand(m[1]);
+    if (!k) return null;
+    return fm({ title: vTitle(k, lang), canonical: `${site.url}${path}`, lang }) + `# ${vTitle(k, lang)}\n\n` + k.editions[lang].map((g) => `- [Sarga ${g.n}](${site.url}${vSargaPath(lang, k.slug, g.n)})`).join("\n") + source(lang);
+  }
+  if ((m = /^\/valmiki-ramayana\/([a-z-]+)\/(sarga-\d+)$/.exec(p))) {
+    const r = vSarga(lang, m[1], m[2]);
+    if (!r) return null;
+    const t = `${vTitle(r.kand, lang)}, Sarga ${r.sarga.n}`;
+    return fm({ title: t, canonical: `${site.url}${path}`, lang }) + `# ${t}\n\n` + r.sarga.verses.map((v) => `> ${v.text.replace(/\n/g, "  \n> ")}\n\n${v.m}`).join("\n\n") + `\n\nBook: ${site.url}${vHub(lang)}` + source(lang);
+  }
+  if ((m = /^\/feelings\/([a-z]+)$/.exec(p))) {
+    const f = feelings.find((x) => x.id === m![1]);
+    if (!f) return null;
+    return fm({ title: f[lang], canonical: `${site.url}${path}`, lang }) + `# ${f[lang]}\n\n` + feelingVerses(f.id).map((x) => `> ${x.verse.text.replace(/\n/g, "  \n> ")}\n\n${lang === "hi" ? x.verse.hi : x.english}\n\n${site.url}${unitPath(lang, x.kand.slug, x.unit.slug)}#${x.verse.id}`).join("\n\n") + source(lang);
+  }
   if ((m = /^\/chaupai\/([a-z0-9-]+)$/.exec(p))) {
     const c = chaupai(m[1]);
     if (!c) return null;
@@ -157,7 +181,7 @@ async function render(path: string): Promise<string | null> {
     return (
       fm({ canonical: `${site.url}${path}`, lang: "en" }) +
       raw +
-      "\n\n---\n\nRamayana.com, a free, ad-free project of Ved Vyas Foundation. Written from the sources named on the site, drafted with AI assistance.\n"
+      "\n\n---\n\nRamayana.com, a free, ad-free project of Ved Vyas Foundation.\n"
     );
   }
   return null;

@@ -5,6 +5,7 @@ import { chaupai, chaupaiPath, chaupais } from "@/lib/chaupai";
 import { englishForVerse, kandTitle, unitPath, type Lang } from "@/lib/content";
 import { site } from "@/lib/site";
 import { JsonLd, bookNode, breadcrumb } from "@/components/json-ld";
+import { AppCard } from "@/components/app-card";
 import { SourceLine, VerseBlock } from "@/components/reader";
 
 const t = {
@@ -79,9 +80,6 @@ export function ChaupaiListPage({ lang }: { lang: Lang }) {
         }}
       />
       <header className="max-w-3xl">
-        <p className="text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-gold">
-          {lang === "hi" ? "श्रीरामचरितमानस" : "Shri Ramcharitmanas"}
-        </p>
         <h1 className="mt-2 font-serif text-[2.25rem] sm:text-[3rem] font-semibold leading-[1.08] tracking-tight">
           {lang === "hi"
             ? "प्रसिद्ध चौपाइयाँ और दोहे"
@@ -98,7 +96,7 @@ export function ChaupaiListPage({ lang }: { lang: Lang }) {
               href={chaupaiPath(lang, c.slug)}
               className="press flex h-full flex-col rounded-3xl border border-border bg-surface px-6 py-5 hover:border-accent/40"
             >
-              <span className="text-[0.75rem] uppercase tracking-[0.08em] text-faint">
+              <span className="text-[0.75rem] text-faint">
                 {lang === "hi" ? c.theme_hi : c.theme} ·{" "}
                 {kandTitle(c.kand, lang)}
               </span>
@@ -134,7 +132,7 @@ export function chaupaiMetadata(lang: Lang, slug: string): Metadata {
         hi: chaupaiPath("hi", slug),
         "x-default": chaupaiPath("en", slug),
       }, types: { "text/markdown": `${chaupaiPath(lang, slug)}.md` } },
-    openGraph: {
+    openGraph: { siteName: "Ramayana.com", 
       title,
       description,
       images: [
@@ -203,9 +201,6 @@ export function ChaupaiPage({ lang, slug }: { lang: Lang; slug: string }) {
         </ol>
       </nav>
       <header className="mt-5">
-        <p className="text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-gold">
-          {lang === "hi" ? c.theme_hi : c.theme} · {kt} · {ul}
-        </p>
         <h1 className="mt-1 font-serif text-[2rem] sm:text-[2.5rem] font-semibold leading-[1.1] tracking-tight">
           {name}
         </h1>
@@ -215,7 +210,7 @@ export function ChaupaiPage({ lang, slug }: { lang: Lang; slug: string }) {
       </div>
       <section className="mt-8 rounded-2xl bg-surface px-5 py-4 ring-1 ring-border/70">
         <h2
-          className="mb-1.5 text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-gold"
+          className="mb-1.5 text-[0.75rem] font-semibold text-gold"
           lang="hi"
         >
           {s.meaning_hi}
@@ -227,7 +222,7 @@ export function ChaupaiPage({ lang, slug }: { lang: Lang; slug: string }) {
       {c.en && (
         <section className="mt-4 rounded-2xl bg-surface px-5 py-4 ring-1 ring-border/70">
           <h2
-            className="mb-1.5 text-[0.75rem] font-semibold uppercase tracking-[0.08em] text-gold"
+            className="mb-1.5 text-[0.75rem] font-semibold text-gold"
             lang="en"
           >
             {s.meaning_en}
@@ -261,7 +256,7 @@ export function ChaupaiPage({ lang, slug }: { lang: Lang; slug: string }) {
           href={chaupaiPath(lang, prev.slug)}
           className="press rounded-2xl border border-border bg-surface px-4 py-3 hover:border-accent/40"
         >
-          <span className="block text-[0.75rem] uppercase tracking-[0.06em] text-faint">
+          <span className="block text-[0.75rem] text-faint">
             ← {lang === "hi" ? "पिछली" : "Previous"}
           </span>
           <span className="font-medium">
@@ -272,7 +267,7 @@ export function ChaupaiPage({ lang, slug }: { lang: Lang; slug: string }) {
           href={chaupaiPath(lang, next.slug)}
           className="press rounded-2xl border border-border bg-surface px-4 py-3 text-right hover:border-accent/40"
         >
-          <span className="block text-[0.75rem] uppercase tracking-[0.06em] text-faint">
+          <span className="block text-[0.75rem] text-faint">
             {lang === "hi" ? "अगली" : "Next"} →
           </span>
           <span className="font-medium">
@@ -280,7 +275,8 @@ export function ChaupaiPage({ lang, slug }: { lang: Lang; slug: string }) {
           </span>
         </Link>
       </nav>
-      <SourceLine lang={lang} />
+      <AppCard place="reader" compact className="mt-10" />
+<SourceLine lang={lang} />
     </article>
   );
 }

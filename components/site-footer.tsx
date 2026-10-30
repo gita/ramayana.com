@@ -1,98 +1,56 @@
 import Link from "next/link";
 import { network, site, trust } from "@/lib/site";
+import { PlayButton } from "@/components/app-card";
 
 const read = [
   { label: "Ramcharitmanas", href: "/ramcharitmanas" },
-  { label: "Sunderkand", href: "/sunderkand" },
-  { label: "Famous chaupais", href: "/chaupai" },
   { label: "Valmiki Ramayana", href: "/valmiki-ramayana" },
-  { label: "हिंदी में पढ़ें", href: "/hi/ramcharitmanas" },
-  { label: "The 2026 film", href: "/ramayana-movie" },
+  { label: "Sunderkand", href: "/sunderkand" },
+  { label: "Chaupai", href: "/chaupai" },
+  { label: "हिंदी", href: "/hi/ramcharitmanas" },
 ];
-const about = [
+const more = [
   { label: "About", href: "/about" },
-  { label: "How we verify the text", href: "/how-we-verify" },
-  { label: "Gita Press editions", href: "/gita-press" },
+  { label: "Gita Press", href: "/gita-press" },
   { label: "Acknowledgements", href: "/acknowledgements" },
-  { label: "Android app", href: "/app" },
   { label: "Privacy", href: "/privacy" },
   { label: "Support", href: "/support" },
 ];
 
 export function SiteFooter() {
   return (
-    <footer className="mt-24 border-t border-border bg-surface-2/60">
-      <div className="mx-auto max-w-6xl px-4 sm:px-6 py-12">
-        <p className="font-serif text-[1.0625rem] text-foreground">{trust}</p>
-        <p className="mt-2 max-w-2xl text-[0.9375rem] leading-relaxed text-muted">
-          Every meaning on this site is credited to its printed edition, with a
-          link to buy the book. We publish the scripture so that people read it,
-          and then go on to own it.
+    <footer className="relative mt-24 overflow-hidden bg-[#14213f] text-white">
+      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(70%_90%_at_85%_0%,rgba(214,170,70,0.2),transparent_65%)]" aria-hidden />
+      <div className="relative mx-auto max-w-6xl px-4 pb-24 pt-14 sm:px-6 md:pb-10">
+        <p lang="awa" className="font-verse text-[1.75rem] leading-snug text-[#f0d48f] sm:text-[2.25rem]">मंगल भवन अमंगल हारी</p>
+        <p className="mt-3 text-[1rem] text-white/70">{trust}</p>
+        <div className="mt-6 flex flex-wrap gap-3">
+          <PlayButton place="footer" className="!bg-white !text-[#14213f]" />
+          <a href={site.gitaPress.product} target="_blank" rel="noopener" className="press inline-flex h-12 items-center rounded-full px-6 text-white ring-1 ring-white/30">Buy the book</a>
+        </div>
+        <nav aria-label="Footer" className="mt-12 grid grid-cols-2 gap-x-8 gap-y-8 md:grid-cols-3">
+          <FooterCol items={read} />
+          <FooterCol items={more} />
+          <ul>
+            {network.map((n) => (
+              <li key={n.href}><a href={n.href} target="_blank" rel="noopener" className="text-[0.9375rem] text-white/80 hover:text-white">{n.label}</a></li>
+            ))}
+          </ul>
+        </nav>
+        <p className="mt-10 text-[0.875rem] text-white/60">
+          © {new Date().getFullYear()} <a href={site.foundation.url} target="_blank" rel="noopener" className="hover:text-white">{site.foundation.name}</a>
         </p>
-        <div className="mt-10 grid grid-cols-2 gap-8 sm:grid-cols-4">
-          <FooterCol title="Read" items={read} />
-          <FooterCol title="About" items={about} />
-          <div className="col-span-2">
-            <h2 className="text-xs font-semibold uppercase tracking-[0.08em] text-muted">
-              Ved Vyas Foundation
-            </h2>
-            <ul className="mt-3 space-y-0">
-              {network.map((n) => (
-                <li key={n.href}>
-                  <a
-                    href={n.href}
-                    className="group block py-3 text-[0.9375rem] text-foreground hover:text-accent"
-                  >
-                    {n.label}{" "}
-                    <span className="text-muted group-hover:text-accent/80">
-                      · {n.note}
-                    </span>
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
-        <div className="mt-10 flex flex-col gap-2 border-t border-border pt-6 text-[0.8125rem] text-muted sm:flex-row sm:items-center sm:justify-between">
-          <p>
-            © {new Date().getFullYear()}{" "}
-            <a href={site.foundation.url} className="hover:text-foreground">
-              {site.foundation.name}
-            </a>
-            . The Ramcharitmanas text and meanings follow the Gita Press,
-            Gorakhpur editions named on each page.
-          </p>
-          <p>Ramayana.com is independent of the 2026 film and its makers.</p>
-        </div>
       </div>
     </footer>
   );
 }
 
-function FooterCol({
-  title,
-  items,
-}: {
-  title: string;
-  items: readonly { label: string; href: string }[];
-}) {
+function FooterCol({ items }: { items: readonly { label: string; href: string }[] }) {
   return (
-    <div>
-      <h2 className="text-xs font-semibold uppercase tracking-[0.08em] text-muted">
-        {title}
-      </h2>
-      <ul className="mt-3 space-y-0">
-        {items.map((i) => (
-          <li key={i.href}>
-            <Link
-              href={i.href}
-              className="text-[0.9375rem] text-foreground hover:text-accent"
-            >
-              {i.label}
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </div>
+    <ul>
+      {items.map((i) => (
+        <li key={i.href}><Link href={i.href} className="text-[0.9375rem] text-white/80 hover:text-white">{i.label}</Link></li>
+      ))}
+    </ul>
   );
 }

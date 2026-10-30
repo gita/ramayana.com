@@ -1,0 +1,27 @@
+## Bala Kanda
+
+Shri Ram's story begins with reverence, for the heart must learn to receive what the scripture teaches. The invocations and the accounts of Shiva and Sati prepare us for His birth in Ayodhya. King Dashrath welcomes Shri Ram and His brothers, and the narrative moves from the royal household to the guidance of sage Vishwamitra. Shri Ram's encounter with Ahilya reveals the grace that restores hope. At Mata Sita's swayamvar, He breaks Shiva's bow, and the wedding at Janakpur brings the two together. These events direct our attention to the Lord through the relationships of family, teacher and marriage. As we read, we learn to look beyond the splendour of each occasion and attend to the reverence with which the Lord is received.
+
+## Ayodhya Kanda
+
+The preparations for Shri Ram's coronation give way to a test of duty. Prompted by Manthara, Kaikeyi asks King Dashrath to fulfil her two boons, and Shri Ram accepts fourteen years of exile. Mata Sita and Lakshman accompany Him into the forest. The Kevat ferries them across the Ganga, bringing humble service into a story of royal loss. Dashrath dies, and Bharat refuses the throne that has become available to him. He meets Shri Ram at Chitrakoot, where love must face the demands of a promise already given. Shri Ram's paduka become the centre of Bharat's service. Through these events, we see that devotion requires restraint as well as affection. Each must serve faithfully, even when obedience brings separation from the one held most dear.
+
+## Aranya Kanda
+
+Forest life at Panchavati brings Shri Ram, Mata Sita and Lakshman into circumstances that test discernment and devotion. The encounter with Shurpanakha leads towards the episode of the golden deer, and Ravan abducts Mata Sita. The forest now becomes the setting of separation and the search for her. Jatayu fights Ravan and gives his life in the effort to protect her. His service shows that faithfulness is measured by the willingness to act when duty calls, even against a stronger opponent. Later, Shabari receives Shri Ram with hospitality. Her welcome brings our attention back to the simple acts through which devotion finds expression. Amid danger and grief, the kand teaches us to recognise opportunities for service and to carry out the duty that lies before us.
+
+## Kishkindha Kanda
+
+The search for Mata Sita brings Shri Ram into the company of Hanumanji and Sugriv. Their meeting opens the way for service through friendship and shared purpose. The killing of Bali is followed by the monsoon at Kishkindha, and the search for Mata Sita must then move forward through the efforts of the search parties. The narrative teaches us to attend to what duty requires at each stage, including the patience to wait and the readiness to act. As the search reaches its next great challenge, Jamvant reminds Hanumanji of his strength. This reminder prepares him for the task ahead. We too may need wise counsel to recognise the capacity available for service. The next step is to put that capacity to work for Shri Ram.
+
+## Sundara Kanda
+
+Hanumanji carries his devotion into action as he leaps across the sea to Lanka in search of Mata Sita. He meets Vibhishan and finds her in the Ashok Vatika, where he gives her Shri Ram's ring. In this meeting, service takes the form of bringing reassurance to one enduring separation. Hanumanji burns Lanka and returns with Mata Sita's message, completing the task entrusted to him. The narrative then turns to Vibhishan's surrender to Shri Ram and the preparations for crossing the sea. Shri Ram asks the ocean for a way across. Throughout the kand, devotion directs strength, speech and action towards the Lord's purpose. Hanumanji's example asks us to keep our attention on the work entrusted to us and carry it through with courage and care.
+
+## Yuddha Kanda
+
+The bridge across the sea opens the way to Lanka, where Shri Ram's army faces Ravan's forces. The war unfolds through the battles involving Kumbhkaran and Meghnad, and Lakshman's wound brings the urgent need for the Sanjivani. Service now demands endurance amid danger and distress. With Ravan's death, the narrative turns from battle to the restoration of order, and Vibhishan is crowned. Mata Sita's fire ordeal follows. In Goswami Tulsidas's telling, this marks the return of the real Mata Sita, who has been kept with Agni. Shri Ram, Mata Sita and their companions return to Ayodhya by the Pushpak, and the coronation follows. The movement from conflict to kingship teaches us to consider what victory requires afterwards: the acceptance of responsibility and the faithful exercise of duty.
+
+## Uttara Kanda
+
+Shri Ram's reign brings the narrative into Ram Rajya and the responsibilities of the later years. Our attention turns from the struggle to recover Mata Sita to life under the Lord's rule. Kingship becomes a field of duty, reminding us that the welfare of others requires continuing care. In these later years, Lava and Kusha, the sons of Shri Ram and Mata Sita, learn Maharshi Valmiki's poem from the sage and sing it. The story we read thus becomes a teaching received and carried forward through attentive learning. Their place in the narrative directs us towards our own responsibility as listeners. We must give the scripture time, understand what it teaches and return to it steadily. Begin with careful reading, and allow that understanding to guide daily conduct.

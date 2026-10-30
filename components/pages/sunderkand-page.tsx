@@ -6,6 +6,7 @@ import { site } from "@/lib/site";
 import { JsonLd, bookNode, breadcrumb } from "@/components/json-ld";
 import { SourceLine, UnitBody } from "@/components/reader";
 import { Article } from "@/components/article";
+import { AppCard } from "@/components/app-card";
 
 export function sunderkandMetadata(lang: Lang): Metadata {
   const title =
@@ -25,7 +26,7 @@ export function sunderkandMetadata(lang: Lang): Metadata {
         en: "/sunderkand",
         hi: "/hi/sunderkand",
         "x-default": "/sunderkand" }, types: { "text/markdown": lang === "hi" ? "/hi/sunderkand.md" : "/sunderkand.md" } },
-    openGraph: {
+    openGraph: { siteName: "Ramayana.com", 
       title,
       description: desc,
       images: [
@@ -64,7 +65,7 @@ export async function SunderkandPage({ lang }: { lang: Lang }) {
         },
         {
           q: "Is this the Gita Press Sunderkand?",
-          a: "Yes. The original text follows Gita Press publication code 1318, the Hindi tika is Hanuman Prasad Poddar's from code 790, and the English translation is Gita Press's from code 1318. Both editions are named under the text with a link to buy the printed book.",
+          a: "Yes. The text, the Hindi tika of Hanuman Prasad Poddar and the English translation all come from Gita Press, Gorakhpur editions. The printed book is linked at the end of this page.",
         },
       ];
   return (
@@ -118,23 +119,13 @@ export async function SunderkandPage({ lang }: { lang: Lang }) {
           />
         </div>
         <div className="relative mx-auto -mt-4 max-w-3xl px-4 sm:-mt-10 sm:px-6">
-          <p className="text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-gold">
-            {hi
-              ? "श्रीरामचरितमानस · पञ्चम सोपान"
-              : "Shri Ramcharitmanas · the fifth kand"}
-          </p>
           <h1 className="mt-1 font-serif text-[2.75rem] font-semibold leading-[1.05] tracking-tight sm:text-[3.5rem]">
             {hi ? "सुन्दरकाण्ड" : "Sunderkand"}
           </h1>
           <p className="mt-3 max-w-2xl font-serif text-[1.1875rem] leading-relaxed text-muted">
             {hi
-              ? "सम्पूर्ण पाठ, 60 दोहे और 343 पद, हर पद के नीचे हनुमानप्रसाद पोद्दार की हिंदी टीका। हनुमानजी की लंका-यात्रा से समुद्र-तट पर श्रीराम तक।"
-              : "The complete paath, 60 dohas and 343 verses, each with its meaning. From Hanumanji's leap across the sea to Shri Ram at the shore."}
-          </p>
-          <p className="mt-2 text-[0.9375rem] text-muted">
-            {hi
-              ? "निःशुल्क। विज्ञापन नहीं। गीताप्रेस संस्करण।"
-              : "Free. No ads. Gita Press editions, credited below."}
+              ? "सम्पूर्ण पाठ, अर्थ सहित।"
+              : "The complete paath, with meaning."}
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a
@@ -225,7 +216,8 @@ export async function SunderkandPage({ lang }: { lang: Lang }) {
             </dl>
           </section>
         )}
-        <SourceLine lang={lang} />
+        <AppCard place="reader" compact className="mt-10" />
+<SourceLine lang={lang} />
       </div>
     </div>
   );

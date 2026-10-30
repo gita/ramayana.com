@@ -4,7 +4,7 @@ Write to contact@bhagavadgita.io and a person will reply. For the app, please te
 
 ## Reporting an error in the text
 
-Every verse on Ramayana.com follows a named printed edition. If a word, a meaning or a counter looks wrong, send us the page address and the verse number. We compare it against the printed page and correct it, and the correction flows to the app in its next update. This is the most useful thing a reader can do for us.
+Every verse on Ramayana.com follows a named printed edition. If a word or a meaning looks wrong, send us the page address and the verse number. We compare it against the printed page and correct it, and the correction flows to the app in its next update. This is the most useful thing a reader can do for us.
 
 ## Common questions about the app
 

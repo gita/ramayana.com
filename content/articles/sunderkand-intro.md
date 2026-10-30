@@ -1,37 +1,21 @@
 ## Why Sunderkand is read on its own
 
-Why do so many families recite this one kand [section] of the Ramcharitmanas? Sunderkand gathers Hanumanji's service to Shri Ram and his meeting with Mata Sita into a reading we can return to in times of difficulty. It is the kand most often recited on its own, customarily on Tuesdays and Saturdays, the days associated with Hanumanji.
+So many families recite Sunderkand on its own because this fifth kand of the Ramcharitmanas brings together Hanumanji's service, Mata Sita's steadfastness and Vibhishan's surrender to Shri Ram. Its episodes give us much to contemplate in times of difficulty: how to undertake a hard task, keep the Lord in the heart and place our trust in Him.
 
-When a child faces a difficult task, a mother's words of encouragement can help the child begin. We, too, need encouragement. Goswami Tulsidas gives us these words as Hanumanji enters Lanka:
+Hanumanji leaps across the sea to Lanka, meets Vibhishan and finds Mata Sita in the Ashok Vatika. He gives her Shri Ram's ring. After the burning of Lanka, he returns with her message. The kand then brings us to Vibhishan's surrender and Shri Ram asking the ocean for a way across. Thus, the reading carries us through difficulty towards the next act of service.
 
-> प्रबिसि नगर कीजे सब काजा। हृदयँ राखि कोसलपुर राजा॥
->
-> (Sunderkand, chaupai before doha 5)
+Sunderkand is the kand most often recited separately. Families customarily read it on Tuesdays and Saturdays, the days associated with Hanumanji, and during periods of trouble.
 
-Enter and attend to your work, keeping Shri Ram in your heart. Remembering him belongs within our effort.
-
-Hanumanji crosses the sea, meets Vibhishan, finds Mata Sita in the Ashok Vatika and gives her Shri Ram's ring. The kand includes the burning of Lanka, his return with her message, Vibhishan's surrender to Shri Ram, and Shri Ram asking the ocean for a way across.
-
-Traditional explanations of the name point to the beauty of Hanumanji's deeds, the Sundar peak of the Trikuta mountain where Lanka stood, or Mata Sita's beauty. Each gives us something to contemplate.
-
-Before today's difficult task, pause and keep Shri Ram in your heart.
+The word *sundar* means beautiful. Traditional explanations connect the name with the beauty of Hanumanji's deeds, the Sundar peak of the Trikuta mountain where Lanka stood, or the beauty of Mata Sita. The text itself does not explain the name. As we read, let us attend to the devotion expressed through these deeds.
 
 ## How to do Sunderkand paath at home
 
-You can begin Sunderkand paath [recitation] at home by choosing a clean place and lighting a lamp. Begin with the invocation shlokas [verses], then read Sunderkand in order, without hurrying. This section of Goswami Tulsidas's Ramcharitmanas invites us to attend to Hanumanji's service to Shri Ram and his meeting with Mata Sita. Give the words your attention.
+To do Sunderkand paath at home, choose a clean place, light a lamp and begin with the invocation shlokas. Then read Sunderkand in order, giving attention to the words and their meaning. Keep Shri Ram, Mata Sita and Hanumanji in mind as you read. The purpose is attentive recitation, so allow the reading the time it needs.
 
-Think of a mother listening to her child read. She does not ask the child to race through the page. She wants the child to notice the words. Bring that same patience to your reading.
+**Begin with attention.** Settle into the place you have prepared and read the invocations without rushing. Let this opening help gather the mind before you enter the events of the kand. There is no need to treat the first lines as something to finish before the reading begins.
 
-Goswami Tulsidas offers an image of a lamp:
+**Read steadily, without hurry.** The whole kand takes about two to three hours read aloud at an unhurried pace. Allow pauses where you need them. For example, when reading an important letter from someone dear to us, we pause over a sentence because we wish to understand it. Similarly, give the words of the paath room to hold your attention.
 
-> राम नाम मनिदीप धरु जीह देहरीं द्वार। तुलसी भीतर बाहेरहुँ जौं चाहसि उजिआर॥
->
-> (Bal Kand, doha 21)
+**Divide the reading if needed.** Sunderkand can be split across days. If time is limited, stop at a clear point and continue from there the next day. The [Ramayan app](/app) offers a way to keep reading on the phone and bookmark your place.
 
-Place the jewel lamp of Shri Ram's Name upon the threshold of the tongue, he teaches, if you wish for light within and without. Let this image guide your attention as you read aloud.
-
-The whole kand takes about two to three hours read aloud at an unhurried pace. Allow that time if you can. If your circumstances make one sitting difficult, you can split the reading across days. Keep your place and continue in order when you return.
-
-Do not hurry through the final portion because you are watching the clock. At the completion of the kand, end with the aarti [devotional offering of light].
-
-The point is attention, not speed. When your mind wanders, gently return to the words before you. Read the next line with care.
+End with the aarti when you complete the kand. If the mind wanders during the paath, gently bring it back to the words before you. Give your care to the passage you are reading now.

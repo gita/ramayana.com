@@ -582,6 +582,15 @@ Radhakrishna's decisions on the evening of 30 October, recorded so they are not 
 
 ---
 
+# Part IV: decisions after the first review
+
+- **Two main URLs**: `/ramcharitmanas` and `/valmiki-ramayana`, matching how people search. `/ramayan` and `/ramayana` 301 to the home page, which owns those head terms. Other spellings 301 to one URL.
+- **The complete Valmiki Ramayana is live**, 648 sargas, from the app's Gita Press editions. Hindi pages use the Sanskrit-Hindi edition and English pages the Sanskrit-English edition. They are never mixed.
+- **Read by feeling** gives six pages at `/feelings/<id>`, targeting "ramayan chaupai for courage" style queries. Progress is stored on the reader's device.
+- **The app install is the main conversion.** It appears as a floating bar, inline cards and footer button, each with its own referrer tag.
+- **No process language on the site.** `/how-we-verify` is removed and redirects to `/about`. This reverses section 10.3 on the disclosure footer and that page, by Radhakrishna's decision. Google calls automation disclosure something to consider when reasonably expected, so this is a judgement call to revisit if rankings suffer.
+- **Voice**: all original copy uses the `mukundananda-voice` skill with Codex gpt-6.1-sol.
+
 ## Appendix A: files and where things live
 
 - Keyword exports, autocomplete, Ahrefs and SERP JSON: `docs/research/keyword-data-2026-10-30/`

@@ -13,12 +13,12 @@ export const metadata: Metadata = {
 const rows: [string, string, string?][] = [
   [
     "Shri Ramcharitmanas, original text and English translation",
-    "Gita Press, Gorakhpur. Publication code 1318, Romanised edition with English translation, revised edition prepared by J.P. Agarwal, sixteenth reprint 2019. The English Ramayana Aarti is rendered by Madhava Sharana. The first consolidated English edition appeared in 1968.",
+    "Gita Press, Gorakhpur. The Romanised edition with English translation.",
     site.gitaPress.category,
   ],
   [
     "Shri Ramcharitmanas, Hindi tika",
-    "Gita Press, Gorakhpur. Publication code 790, Hindi tika by Hanuman Prasad Poddar, fifth reprint, Vikram Samvat 2073.",
+    "Gita Press, Gorakhpur. Hindi tika by Hanuman Prasad Poddar.",
     site.gitaPress.product,
   ],
   [
@@ -27,22 +27,10 @@ const rows: [string, string, string?][] = [
   ],
   ["Gobind Bhavan Karyalaya, Kolkata", "The publishing trust of Gita Press."],
   [
-    "Section titles",
-    "The 218 topic headings follow the contents of the Gita Press editions, in Hindi from code 790 and in English from code 1318.",
-  ],
-  [
     "Paintings",
     "Original devotional art commissioned by Ved Vyas Foundation for the Ramayan app and this site, in the manner of Raja Ravi Varma and the Kangra school. No film imagery is used.",
   ],
-  [
-    "Typefaces",
-    "Literata and Inter for Latin text, Tiro Devanagari Hindi for the verse, Noto Sans Devanagari for Hindi meaning and interface, all under the SIL Open Font License.",
-  ],
-  [
-    "Verification",
-    "AI-assisted transcription of the printed pages, with disagreements adjudicated against the page image. It is not a human editorial certification. See how we verify the text.",
-  ],
-];
+  ];
 
 export default function Page() {
   return (
@@ -58,9 +46,6 @@ export default function Page() {
           ],
         }}
       />
-      <p className="text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-gold">
-        Ramayana.com
-      </p>
       <h1 className="mt-2 font-serif text-[2.25rem] sm:text-[3rem] font-semibold leading-[1.08] tracking-tight">
         Acknowledgements
       </h1>
@@ -79,8 +64,7 @@ export default function Page() {
                 <>
                   {" "}
                   <a
-                    href={href}
-                    rel="noopener"
+                    href={href} target="_blank" rel="noopener"
                     className="text-accent hover:text-accent-ink"
                   >
                     Buy the book →
@@ -93,16 +77,12 @@ export default function Page() {
       </dl>
       <p className="mt-8 text-[0.9375rem] text-muted">
         Ramayana.com is a non-profit project of{" "}
-        <a href={site.foundation.url} className="text-accent">
+        <a href={site.foundation.url} target="_blank" rel="noopener" className="text-accent">
           {site.foundation.name}
         </a>
         . It is free, carries no advertising and takes no payments. Read{" "}
         <Link href="/gita-press" className="text-accent">
           about the Gita Press editions
-        </Link>{" "}
-        and{" "}
-        <Link href="/how-we-verify" className="text-accent">
-          how the text was checked
         </Link>
         .
       </p>

@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
-import { site } from "@/lib/site";
+import { playUrl, site } from "@/lib/site";
+import { Phone } from "@/components/app-card";
 import { JsonLd, breadcrumb } from "@/components/json-ld";
 
 export const metadata: Metadata = {
@@ -61,9 +61,6 @@ export default function Page() {
       />
       <div className="grid items-center gap-10 lg:grid-cols-2">
         <div>
-          <p className="text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-gold">
-            The app
-          </p>
           <h1 className="mt-2 font-serif text-[2.5rem] sm:text-[3.5rem] font-semibold leading-[1.05] tracking-tight">
             Ramayan, in your pocket
           </h1>
@@ -74,8 +71,7 @@ export default function Page() {
           </p>
           <div className="mt-6 flex flex-wrap gap-3">
             <a
-              href={site.app.android}
-              rel="noopener"
+              href={playUrl("app-page")} target="_blank" rel="noopener"
               className="press inline-flex h-12 items-center rounded-full bg-foreground px-6 text-[1rem] font-medium text-background"
             >
               Get it on Google Play
@@ -93,16 +89,7 @@ export default function Page() {
             Screen.
           </p>
         </div>
-        <figure className="relative aspect-[4/5] max-h-[34rem] overflow-hidden rounded-[1.75rem] ring-1 ring-gold/25">
-          <Image
-            src="/images/deity/hanuman-heart-darshan.webp"
-            alt="Hanumanji showing Shri Ram and Mata Sita in his heart."
-            fill
-            priority
-            sizes="(min-width:1024px) 50vw, 100vw"
-            className="object-cover object-top"
-          />
-        </figure>
+        <div className="flex justify-center gap-4 overflow-hidden" aria-hidden><Phone src="/images/app/today.webp" alt="" className="w-44 shrink-0 sm:w-56" /><Phone src="/images/app/reader.webp" alt="" className="mt-10 w-44 shrink-0 sm:w-56" /></div>
       </div>
       <section className="mt-16 max-w-3xl">
         <h2 className="font-serif text-[1.75rem] font-semibold">
