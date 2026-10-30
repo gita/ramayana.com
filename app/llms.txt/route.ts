@@ -14,7 +14,7 @@ export function GET() {
     "",
     `> ${site.description} Every page has a Markdown twin at the same URL with .md appended, or by requesting it with Accept: text/markdown.`,
     "",
-    "The Ramcharitmanas text follows Gita Press, Gorakhpur editions (code 790 Hindi tika by Hanuman Prasad Poddar, code 1318 original text and English translation). Verse IDs are stable and shared with the Ramayan Android app. English pages are at the root, Hindi pages under /hi/.",
+    "The text follows the Gita Press, Gorakhpur editions. English pages are at the root, Hindi pages under /hi/.",
     "",
     "## Start here",
     `- [Sunderkand, complete with meaning](${u("/sunderkand.md")}): the fifth kand on one page, 60 dohas`,

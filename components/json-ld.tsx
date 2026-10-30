@@ -58,7 +58,7 @@ export const bookNode = (lang: "en" | "hi" = "en") => ({
   workExample: [
     {
       "@type": "Book",
-      bookEdition: "Gita Press code 790, Hindi tika by Hanuman Prasad Poddar",
+      bookEdition: "Hindi tika by Hanuman Prasad Poddar",
       inLanguage: "hi",
       publisher: {
         "@type": "Organization",
@@ -70,7 +70,7 @@ export const bookNode = (lang: "en" | "hi" = "en") => ({
     {
       "@type": "Book",
       bookEdition:
-        "Gita Press code 1318, Romanised edition with English translation (2019)",
+        "Romanised edition with English translation",
       inLanguage: "en",
       publisher: {
         "@type": "Organization",
