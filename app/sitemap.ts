@@ -3,7 +3,7 @@ import { site } from "@/lib/site";
 import { index, kand, kandPath, unitPath } from "@/lib/content";
 import { chaupais, chaupaiPath } from "@/lib/chaupai";
 import { articles } from "@/lib/articles";
-import { released } from "@/lib/release";
+import { isReleased } from "@/lib/release";
 import { vIndex, vHub, vKandPath, vSargaPath } from "@/lib/valmiki";
 import { feelings, feelingPath } from "@/lib/feelings";
 
@@ -29,14 +29,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...chaupais.flatMap((c) => pair(chaupaiPath("en", c.slug), chaupaiPath("hi", c.slug), 0.7)),
   ];
   for (const k of index().kands) {
-    if (!released.kands.includes(k.slug)) continue;
     out.push(...pair(kandPath("en", k.slug), kandPath("hi", k.slug), 0.85, "weekly"));
-    if (!released.units.includes(k.slug)) continue;
-    for (const u of kand(k.slug)!.units) out.push(...pair(unitPath("en", k.slug, u.slug), unitPath("hi", k.slug, u.slug), 0.6));
+    for (const [i, u] of kand(k.slug)!.units.entries()) if (isReleased("rcm", k.slug, i + 1)) out.push(...pair(unitPath("en", k.slug, u.slug), unitPath("hi", k.slug, u.slug), 0.6));
   }
   for (const k of vIndex().kands) {
     out.push(...pair(vKandPath("en", k.slug), vKandPath("hi", k.slug), 0.8, "weekly"));
-    if (released.valmiki.includes(k.slug)) for (const g of k.sargas.en) out.push(...pair(vSargaPath("en", k.slug, g.n), vSargaPath("hi", k.slug, g.n), 0.6));
+    for (const [i, g] of k.sargas.en.entries()) if (isReleased("val", k.slug, i + 1)) out.push(...pair(vSargaPath("en", k.slug, g.n), vSargaPath("hi", k.slug, g.n), 0.6));
   }
   return out;
 }

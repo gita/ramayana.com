@@ -16,6 +16,7 @@ import { site } from "@/lib/site";
 import { JsonLd, bookNode, breadcrumb } from "@/components/json-ld";
 import { SourceLine, UnitBody, UnitNav } from "@/components/reader";
 import { Article } from "@/components/article";
+import { isReleased, HOLD } from "@/lib/release";
 import { AppCard } from "@/components/app-card";
 import { KandProgress, TrackRead } from "@/components/progress";
 
@@ -73,11 +74,13 @@ export function unitMetadata(
   const k = kandTitle(r.kand, lang);
   const u = lang === "hi" ? r.unit.label_hi : r.unit.label_en;
   const title = t[lang].unitTitle(k, u);
+  const robots = isReleased("rcm", kandSlug, r.kand.units.indexOf(r.unit) + 1) ? undefined : HOLD;
   const desc = `${firstLine(r.unit)} ${lang === "hi" ? "गीताप्रेस की हिंदी टीका के साथ, निःशुल्क।" : "Read online with the Gita Press Hindi tika and English translation. Free, no ads."}`;
   const en = unitPath("en", kandSlug, unitSlug),
     hi = unitPath("hi", kandSlug, unitSlug);
   return {
     title,
+    robots,
     description: desc,
     alternates: { canonical: lang === "hi" ? hi : en, ...alt(en, hi), types: { "text/markdown": `${lang === "hi" ? hi : en}.md` } },
     openGraph: { siteName: "Ramayana.com", 

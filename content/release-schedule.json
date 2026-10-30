@@ -1,0 +1,231 @@
+{
+ "note": "Set pausedFrom to a date to hold the release at that point.",
+ "pausedFrom": null,
+ "always": [
+  {
+   "book": "rcm",
+   "kand": "sunderkand"
+  },
+  {
+   "book": "val",
+   "kand": "sundara-kanda"
+  }
+ ],
+ "batches": [
+  {
+   "date": "2026-11-03",
+   "release": [
+    {
+     "book": "rcm",
+     "kand": "bal-kand",
+     "through": 100
+    }
+   ]
+  },
+  {
+   "date": "2026-11-06",
+   "release": [
+    {
+     "book": "rcm",
+     "kand": "bal-kand",
+     "through": 200
+    }
+   ]
+  },
+  {
+   "date": "2026-11-09",
+   "release": [
+    {
+     "book": "rcm",
+     "kand": "bal-kand",
+     "through": 300
+    }
+   ]
+  },
+  {
+   "date": "2026-11-12",
+   "release": [
+    {
+     "book": "rcm",
+     "kand": "bal-kand",
+     "through": 362
+    },
+    {
+     "book": "val",
+     "kand": "yuddha-kanda",
+     "through": 38
+    }
+   ]
+  },
+  {
+   "date": "2026-11-15",
+   "release": [
+    {
+     "book": "val",
+     "kand": "yuddha-kanda",
+     "through": 128
+    },
+    {
+     "book": "rcm",
+     "kand": "ayodhya-kand",
+     "through": 10
+    }
+   ]
+  },
+  {
+   "date": "2026-11-18",
+   "release": [
+    {
+     "book": "rcm",
+     "kand": "ayodhya-kand",
+     "through": 110
+    }
+   ]
+  },
+  {
+   "date": "2026-11-21",
+   "release": [
+    {
+     "book": "rcm",
+     "kand": "ayodhya-kand",
+     "through": 210
+    }
+   ]
+  },
+  {
+   "date": "2026-11-24",
+   "release": [
+    {
+     "book": "rcm",
+     "kand": "ayodhya-kand",
+     "through": 310
+    }
+   ]
+  },
+  {
+   "date": "2026-11-27",
+   "release": [
+    {
+     "book": "rcm",
+     "kand": "ayodhya-kand",
+     "through": 327
+    },
+    {
+     "book": "val",
+     "kand": "bala-kanda",
+     "through": 77
+    },
+    {
+     "book": "rcm",
+     "kand": "lanka-kand",
+     "through": 6
+    }
+   ]
+  },
+  {
+   "date": "2026-11-30",
+   "release": [
+    {
+     "book": "rcm",
+     "kand": "lanka-kand",
+     "through": 106
+    }
+   ]
+  },
+  {
+   "date": "2026-12-03",
+   "release": [
+    {
+     "book": "rcm",
+     "kand": "lanka-kand",
+     "through": 122
+    },
+    {
+     "book": "val",
+     "kand": "ayodhya-kanda",
+     "through": 84
+    }
+   ]
+  },
+  {
+   "date": "2026-12-06",
+   "release": [
+    {
+     "book": "val",
+     "kand": "ayodhya-kanda",
+     "through": 119
+    },
+    {
+     "book": "rcm",
+     "kand": "uttar-kand",
+     "through": 65
+    }
+   ]
+  },
+  {
+   "date": "2026-12-09",
+   "release": [
+    {
+     "book": "rcm",
+     "kand": "uttar-kand",
+     "through": 131
+    },
+    {
+     "book": "val",
+     "kand": "aranya-kanda",
+     "through": 34
+    }
+   ]
+  },
+  {
+   "date": "2026-12-12",
+   "release": [
+    {
+     "book": "val",
+     "kand": "aranya-kanda",
+     "through": 76
+    },
+    {
+     "book": "rcm",
+     "kand": "aranya-kand",
+     "through": 47
+    },
+    {
+     "book": "rcm",
+     "kand": "kishkindha-kand",
+     "through": 11
+    }
+   ]
+  },
+  {
+   "date": "2026-12-15",
+   "release": [
+    {
+     "book": "rcm",
+     "kand": "kishkindha-kand",
+     "through": 31
+    },
+    {
+     "book": "val",
+     "kand": "kishkindha-kanda",
+     "through": 67
+    },
+    {
+     "book": "val",
+     "kand": "uttara-kanda",
+     "through": 13
+    }
+   ]
+  },
+  {
+   "date": "2026-12-18",
+   "release": [
+    {
+     "book": "val",
+     "kand": "uttara-kanda",
+     "through": 113
+    }
+   ]
+  }
+ ]
+}

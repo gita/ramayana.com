@@ -9,6 +9,7 @@ import { JsonLd, breadcrumb, orgNode } from "@/components/json-ld";
 import { SourceLine, UnitNav } from "@/components/reader";
 import { AppCard } from "@/components/app-card";
 import { Article } from "@/components/article";
+import { isReleased, HOLD } from "@/lib/release";
 import { KandProgress, TrackRead } from "@/components/progress";
 
 const book = (lang: Lang) => ({ "@type": "Book", "@id": `${site.url}/valmiki-ramayana#book`, name: lang === "hi" ? "श्रीमद्वाल्मीकीय रामायण" : "Valmiki Ramayana", alternateName: ["Ramayanam", "Srimad Valmiki Ramayana", "वाल्मीकि रामायण"], author: { "@type": "Person", name: "Maharshi Valmiki", url: `${site.url}/valmiki` }, inLanguage: "sa", url: `${site.url}/valmiki-ramayana`, isAccessibleForFree: true });
@@ -88,7 +89,8 @@ export function vSargaMetadata(lang: Lang, slug: string, sarga: string): Metadat
   if (!r) return {};
   const title = sargaTitle(lang, vTitle(r.kand, lang), r.sarga.n);
   const description = `${r.sarga.verses[0]?.text.split("\n")[0] ?? ""} ${(r.sarga.verses[0]?.m ?? "").slice(0, 110)}`.trim();
-  return { title, description, alternates: alt(vSargaPath("en", slug, r.sarga.n), vSargaPath("hi", slug, r.sarga.n), lang), openGraph: og(title, description, vArt[slug], lang) };
+  const robots = isReleased("val", slug, r.kand.editions[lang].indexOf(r.sarga) + 1) ? undefined : HOLD;
+  return { title, description, robots, alternates: alt(vSargaPath("en", slug, r.sarga.n), vSargaPath("hi", slug, r.sarga.n), lang), openGraph: og(title, description, vArt[slug], lang) };
 }
 export function VSargaPage({ lang, slug, sarga }: { lang: Lang; slug: string; sarga: string }) {
   const r = vSarga(lang, slug, sarga);

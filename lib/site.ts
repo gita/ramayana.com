@@ -26,6 +26,7 @@ export const site = {
     home: "https://gitapress.org",
   },
   contact: "contact@bhagavadgita.io",
+  indexNowKey: "07b923ade2fa10960745ae1211116197",
 } as const;
 
 /** Play Store link tagged with where the tap came from, so installs can be measured per placement. */

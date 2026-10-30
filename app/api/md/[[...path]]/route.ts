@@ -29,7 +29,7 @@ export async function GET(req: NextRequest, ctx: { params: Promise<{ path?: stri
   return new NextResponse(md, {
     headers: {
       "Content-Type": "text/markdown; charset=utf-8",
-      Vary: "Accept",
+      Vary: "Accept", "X-Robots-Tag": "noindex",
       "Cache-Control": "public, max-age=3600, s-maxage=86400",
       Link: `<${site.url}${path}>; rel="canonical"`,
     },
