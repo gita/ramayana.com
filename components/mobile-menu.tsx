@@ -18,7 +18,7 @@ export function MobileMenu({ items }: { items: readonly { label: string; href: s
     return () => document.removeEventListener("pointerdown", onDown);
   }, []);
   return (
-    <details ref={ref} className="md:hidden relative">
+    <details ref={ref} className="lg:hidden relative">
       <summary className="list-none cursor-pointer -mr-2 flex h-12 w-12 items-center justify-center rounded-full text-foreground [&::-webkit-details-marker]:hidden" aria-label="Menu">
         <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" aria-hidden><path d="M4 7h16M4 12h16M4 17h16" /></svg>
       </summary>

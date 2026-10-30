@@ -54,7 +54,7 @@ export function ChaupaiListPage({ lang }: { lang: Lang }) {
   const s = t[lang];
   const items = chaupais.map((c) => chaupai(c.slug)!);
   return (
-    <div lang={lang} className="mx-auto max-w-6xl px-4 sm:px-6 pt-10">
+    <div lang={lang} className="wrap pt-10">
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -240,13 +240,7 @@ export function ChaupaiPage({ lang, slug }: { lang: Lang; slug: string }) {
         >
           {s.inText}: {kt} {ul}
         </Link>
-        <Link
-          href={chaupaiPath(lang === "hi" ? "en" : "hi", slug)}
-          lang={lang === "hi" ? "en" : "hi"}
-          className="inline-flex h-12 items-center px-2 text-[1rem] text-accent hover:text-accent-ink"
-        >
-          {lang === "hi" ? "Read in English" : "हिंदी में पढ़ें"}
-        </Link>
+        
       </div>
       <nav
         aria-label="More chaupais"

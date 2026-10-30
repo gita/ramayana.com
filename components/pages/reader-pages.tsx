@@ -166,16 +166,7 @@ export function UnitPage({
             {u.sections.map((x) => sectionTitle(x, lang)).join(" · ")}
           </p>
         )}
-        <p className="mt-3 text-[0.875rem] text-faint">
-          <Link
-            href={unitPath(lang === "hi" ? "en" : "hi", k.slug, u.slug)}
-            className="tap text-accent hover:text-accent-ink"
-            lang={lang === "hi" ? "en" : "hi"}
-          >
-            {lang === "hi" ? s.read_en : s.read_hi}
-          </Link>
-        </p>
-      </header>
+        </header>
       <div className="mt-10">
         <UnitBody unit={u} lang={lang} />
       </div>
@@ -294,13 +285,7 @@ export async function KandPage({ lang, slug }: { lang: Lang; slug: string }) {
             >
               {s.start}
             </Link>
-            <Link
-              href={kandPath(lang === "hi" ? "en" : "hi", slug)}
-              lang={lang === "hi" ? "en" : "hi"}
-              className="press inline-flex h-12 items-center rounded-full border border-border bg-surface px-6 text-[1rem] text-foreground hover:border-accent/40"
-            >
-              {lang === "hi" ? s.read_en : s.read_hi}
-            </Link>
+            
           </div>
         </div>
       </div>
@@ -312,7 +297,7 @@ export async function KandPage({ lang, slug }: { lang: Lang; slug: string }) {
           />
         )}
         <section className="mt-12">
-          <h2 className="font-serif text-[1.5rem] font-semibold">
+          <h2 className="t-title">
             {s.sections}
           </h2>
           <ol className="mt-4 divide-y divide-border rounded-2xl border border-border bg-surface">
@@ -337,7 +322,7 @@ export async function KandPage({ lang, slug }: { lang: Lang; slug: string }) {
           </ol>
         </section>
         <section className="mt-12">
-          <h2 className="font-serif text-[1.5rem] font-semibold">
+          <h2 className="t-title">
             {s.contents}
           </h2>
           <ol className="mt-4 grid grid-cols-5 gap-2 sm:grid-cols-8 md:grid-cols-10">
@@ -356,7 +341,7 @@ export async function KandPage({ lang, slug }: { lang: Lang; slug: string }) {
           </ol>
         </section>
         <section className="mt-14">
-          <h2 className="font-serif text-[1.5rem] font-semibold">{s.kands}</h2>
+          <h2 className="t-title">{s.kands}</h2>
           <ul className="mt-4 grid grid-cols-2 gap-3 sm:grid-cols-4 md:grid-cols-7">
             {idx.map((x) => (
               <li key={x.slug}>
@@ -419,7 +404,7 @@ export async function HubPage({ lang }: { lang: Lang }) {
     },
   ];
   return (
-    <div lang={lang} className="mx-auto max-w-6xl px-4 sm:px-6 pt-10">
+    <div lang={lang} className="wrap pt-10">
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -446,17 +431,11 @@ export async function HubPage({ lang }: { lang: Lang }) {
           >
             {lang === "hi" ? "सुन्दरकाण्ड पाठ" : "Sunderkand paath"}
           </Link>
-          <Link
-            href={lang === "hi" ? "/ramcharitmanas" : "/hi/ramcharitmanas"}
-            lang={lang === "hi" ? "en" : "hi"}
-            className="inline-flex h-12 items-center px-2 text-[1rem] text-accent hover:text-accent-ink"
-          >
-            {lang === "hi" ? s.read_en : s.read_hi}
-          </Link>
+          
         </div>
       </header>
       <section className="mt-14">
-        <h2 className="font-serif text-[1.75rem] font-semibold">{s.kands}</h2>
+        <h2 className="t-title">{s.kands}</h2>
         <ol className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {idx.kands.map((k) => (
             <li key={k.slug}>

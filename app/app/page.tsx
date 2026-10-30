@@ -36,7 +36,7 @@ const points = [
 
 export default function Page() {
   return (
-    <div className="mx-auto max-w-6xl px-4 sm:px-6 pt-10">
+    <div className="wrap pt-10">
       <JsonLd
         data={{
           "@context": "https://schema.org",
@@ -89,10 +89,10 @@ export default function Page() {
             Screen.
           </p>
         </div>
-        <div className="flex justify-center gap-4 overflow-hidden" aria-hidden><Phone src="/images/app/today.webp" alt="" className="w-44 shrink-0 sm:w-56" /><Phone src="/images/app/reader.webp" alt="" className="mt-10 w-44 shrink-0 sm:w-56" /></div>
+        <div className="flex justify-center gap-4 overflow-hidden" aria-hidden><Phone src="/images/app/today.webp" alt="" className="w-40 shrink-0 sm:w-56" /><Phone src="/images/app/reader.webp" alt="" className="mt-10 w-40 shrink-0 sm:w-56" /></div>
       </div>
       <section className="mt-16 max-w-3xl">
-        <h2 className="font-serif text-[1.75rem] font-semibold">
+        <h2 className="t-title">
           What it does
         </h2>
         <dl className="mt-5 divide-y divide-border rounded-3xl border border-border bg-surface">

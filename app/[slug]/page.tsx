@@ -87,7 +87,7 @@ export default async function Page({
       })),
     });
   return (
-    <article className="mx-auto max-w-6xl px-4 sm:px-6 pt-8">
+    <article className="wrap pt-8">
       <JsonLd data={{ "@context": "https://schema.org", "@graph": graph }} />
       <div className="grid gap-8 lg:grid-cols-[minmax(0,1fr)_22rem] lg:gap-14">
         <div className="min-w-0">

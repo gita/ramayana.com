@@ -26,7 +26,7 @@ export async function VHubPage({ lang }: { lang: Lang }) {
   const crumbs = [{ name: lang === "hi" ? "मुखपृष्ठ" : "Home", url: lang === "hi" ? "/hi" : "/" }, { name: name(lang), url: vHub(lang) }];
   const intro = lang === "en" ? await Article.html("valmiki-intro") : null;
   return (
-    <div lang={lang} className="mx-auto max-w-6xl px-4 pt-10 sm:px-6">
+    <div lang={lang} className="wrap pt-10">
       <JsonLd data={{ "@context": "https://schema.org", "@graph": [breadcrumb(crumbs), book(lang)] }} />
       <h1 className="font-serif text-[2.5rem] font-semibold leading-[1.05] tracking-tight sm:text-[3.5rem]">{name(lang)}</h1>
       <p className="mt-3 font-serif text-[1.25rem] text-muted">{lang === "hi" ? "महर्षि वाल्मीकि कृत, हर श्लोक अर्थ सहित।" : "By Maharshi Valmiki, every shloka with its meaning."}</p>
@@ -69,11 +69,11 @@ export async function VKandPage({ lang, slug }: { lang: Lang; slug: string }) {
         <p className="mt-2 text-[1.0625rem] text-muted">{name(lang)} · {list.length} {lang === "hi" ? "सर्ग" : "sargas"}</p>
         <div className="mt-6 flex flex-wrap gap-3">
           <Link href={vSargaPath(lang, slug, list[0].n)} className="press inline-flex h-12 items-center rounded-full bg-accent px-6 font-medium text-white hover:bg-accent-ink">{lang === "hi" ? "पढ़ना शुरू करें" : "Start reading"}</Link>
-          <Link href={vKandPath(lang === "hi" ? "en" : "hi", slug)} lang={lang === "hi" ? "en" : "hi"} className="tap px-2 text-accent">{lang === "hi" ? "Read in English" : "हिंदी में पढ़ें"}</Link>
+          
         </div>
         <KandProgress prefix={`val:${slug}:`} total={list.length} lang={lang} />
         {intro && <div className="prose-ram mt-10" dangerouslySetInnerHTML={{ __html: intro }} />}
-        <h2 className="mt-12 font-serif text-[1.5rem] font-semibold">{lang === "hi" ? "सर्ग" : "Sargas"}</h2>
+        <h2 className="mt-12 t-title">{lang === "hi" ? "सर्ग" : "Sargas"}</h2>
         <ol className="mt-4 grid grid-cols-5 gap-2 sm:grid-cols-8 md:grid-cols-10">
           {list.map((s) => (<li key={s.n}><Link href={vSargaPath(lang, slug, s.n)} data-unit={`val:${slug}:${s.n}`} className="press flex h-12 items-center justify-center rounded-xl border border-border bg-surface tabular-nums hover:border-accent/50">{s.n}</Link></li>))}
         </ol>
@@ -105,7 +105,7 @@ export function VSargaPage({ lang, slug, sarga }: { lang: Lang; slug: string; sa
       <JsonLd data={{ "@context": "https://schema.org", "@graph": [breadcrumb(crumbs), { "@type": "Chapter", name: `${t} ${label(s.n)}`, position: s.n, isPartOf: { "@type": "Chapter", name: t, isPartOf: book(lang) }, inLanguage: ["sa", lang], isAccessibleForFree: true, url: `${site.url}${here}`, publisher: { "@id": orgNode["@id"] } }] }} />
       <nav aria-label="Breadcrumb" className="text-[0.8125rem] text-muted"><ol className="flex flex-wrap items-center gap-1.5">{crumbs.slice(0, -1).map((c, i) => (<li key={c.url} className="flex items-center gap-1.5">{i > 0 && <span aria-hidden>›</span>}<Link href={c.url} className="hover:text-foreground">{c.name}</Link></li>))}</ol></nav>
       <h1 className="mt-2 font-serif text-[2rem] font-semibold leading-[1.1] tracking-tight sm:text-[2.5rem]">{t}, {label(s.n)}</h1>
-      <Link href={vSargaPath(lang === "hi" ? "en" : "hi", slug, s.n)} lang={lang === "hi" ? "en" : "hi"} className="tap text-[0.9375rem] text-accent">{lang === "hi" ? "Read in English" : "हिंदी में पढ़ें"}</Link>
+      
       <div className="mt-6 space-y-8">
         {s.verses.map((v) => (
           <section key={v.n} id={`shloka-${v.n.split(".").pop()}`} className="scroll-mt-20">

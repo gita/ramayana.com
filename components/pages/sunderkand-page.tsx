@@ -140,13 +140,7 @@ export async function SunderkandPage({ lang }: { lang: Lang }) {
             >
               {hi ? "दोहा-दर-दोहा पढ़ें" : "Read doha by doha"}
             </Link>
-            <Link
-              href={hi ? "/sunderkand" : "/hi/sunderkand"}
-              lang={hi ? "en" : "hi"}
-              className="inline-flex h-12 items-center px-2 text-[1rem] text-accent hover:text-accent-ink"
-            >
-              {hi ? "Read in English" : "हिंदी में पढ़ें"}
-            </Link>
+            
           </div>
         </div>
       </div>
@@ -158,7 +152,7 @@ export async function SunderkandPage({ lang }: { lang: Lang }) {
           />
         )}
         <nav aria-label={hi ? "दोहे" : "Dohas"} className="mt-12">
-          <h2 className="font-serif text-[1.5rem] font-semibold">
+          <h2 className="t-title">
             {hi ? "दोहे" : "Jump to a doha"}
           </h2>
           <ol className="mt-4 grid grid-cols-6 gap-2 sm:grid-cols-10">
@@ -181,12 +175,7 @@ export async function SunderkandPage({ lang }: { lang: Lang }) {
                 <h2 className="font-serif text-[1.375rem] font-semibold">
                   {hi ? u.label_hi : u.label_en}
                 </h2>
-                <Link
-                  href={unitPath(hi ? "en" : "hi", "sunderkand", u.slug)}
-                  className="tap shrink-0 text-[0.8125rem] text-accent hover:text-accent-ink"
-                >
-                  {hi ? "English में खोलें" : "हिंदी में खोलें"}
-                </Link>
+                
               </header>
               {u.sections.length > 0 && (
                 <p className="mb-6 font-serif text-[1.0625rem] text-muted">
@@ -201,7 +190,7 @@ export async function SunderkandPage({ lang }: { lang: Lang }) {
         </div>
         {faq.length > 0 && (
           <section className="mt-16">
-            <h2 className="font-serif text-[1.75rem] font-semibold">
+            <h2 className="t-title">
               Questions people ask
             </h2>
             <dl className="mt-6 space-y-6">

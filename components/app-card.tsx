@@ -29,27 +29,10 @@ export function PlayButton({
   );
 }
 
-export function Phone({
-  src,
-  alt,
-  className = "",
-}: {
-  src: string;
-  alt: string;
-  className?: string;
-}) {
+export function Phone({ src, alt, className = "" }: { src: string; alt: string; className?: string }) {
   return (
-    <div
-      className={`overflow-hidden rounded-[1.75rem] bg-[#1b1b1f] p-[5px] shadow-[0_24px_48px_-20px_rgba(20,33,63,0.5)] ${className}`}
-    >
-      <Image
-        src={src}
-        alt={alt}
-        width={320}
-        height={696}
-        sizes="(min-width: 768px) 240px, 45vw"
-        className="block h-auto w-full rounded-[1.45rem]"
-      />
+    <div className={`overflow-hidden rounded-[1.75rem] bg-[#1b1b1f] p-[5px] shadow-[0_24px_48px_-20px_rgba(0,0,0,0.5)] ${className}`}>
+      <Image src={src} alt={alt} width={320} height={693} sizes="(min-width: 768px) 240px, 45vw" className="block h-auto w-full rounded-[1.45rem]" />
     </div>
   );
 }

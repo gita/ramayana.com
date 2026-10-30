@@ -79,15 +79,13 @@ export function AppNudge() {
   );
   if (mode === "desktop") {
     return (
-      <aside aria-label="Get the Ramayan app" className={`fixed bottom-6 right-6 z-40 w-72 ${moved} ${motion}`}>
-        <a href={playUrl("floating-card")} target="_blank" rel="noopener" className="press group block rounded-3xl border border-white/50 bg-white/90 p-5 shadow-2xl shadow-black/15 backdrop-blur-xl transition-shadow hover:shadow-black/25">
-          <p className="pr-10 font-serif text-[1.25rem] font-semibold leading-tight">Get the Ramayan app</p>
-          <Image src="/images/app/install-qr.svg" alt="QR code to install the Ramayan app from Google Play" width={168} height={168} unoptimized className="mx-auto mt-3 rounded-xl" />
-          <p className="mt-2 text-center text-[0.875rem] text-muted">Scan with your phone. Free, no ads.</p>
-          <span className="mt-3 flex h-11 items-center justify-center rounded-full bg-accent font-medium text-white transition-colors group-hover:bg-accent-ink">Open in Google Play</span>
+      <aside aria-label="Get the Ramayan app" className={`fixed bottom-5 right-5 z-40 ${moved} ${motion}`}>
+        <a href={playUrl("floating-card")} target="_blank" rel="noopener" className="press flex items-center gap-3 rounded-2xl border border-white/60 bg-white/90 py-2 pl-2 pr-12 shadow-xl shadow-black/15 backdrop-blur-xl transition-shadow hover:shadow-black/25">
+          <Image src="/images/app/install-qr.svg" alt="QR code to install the Ramayan app from Google Play" width={64} height={64} unoptimized className="rounded-lg" />
+          <span className="leading-tight"><span className="block font-medium">Get the Ramayan app</span><span className="block text-[0.875rem] text-accent">Scan, or open Google Play</span></span>
         </a>
-        <button onClick={dismiss} aria-label="Dismiss" className="press absolute right-3 top-3 flex h-10 w-10 items-center justify-center rounded-full bg-black/5 text-foreground transition-colors hover:bg-black/10">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.25" strokeLinecap="round" aria-hidden><path d="M6 6l12 12M18 6L6 18" /></svg>
+        <button onClick={dismiss} aria-label="Dismiss" className="press absolute right-1.5 top-1/2 flex h-9 w-9 -translate-y-1/2 items-center justify-center rounded-full text-muted transition-colors hover:bg-black/5 hover:text-foreground">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.25" strokeLinecap="round" aria-hidden><path d="M6 6l12 12M18 6L6 18" /></svg>
         </button>
       </aside>
     );
