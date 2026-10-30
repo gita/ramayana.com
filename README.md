@@ -11,7 +11,7 @@ English at the root and Hindi under `/hi/`.
 app/                      routes (reader, Sunderkand, chaupai, articles, api/md twins, sitemap, robots, manifest, llms.txt)
 components/               header, footer, reader blocks, JSON-LD, page modules under components/pages/
 content/ramcharitmanas/   built from the app's verified Gita Press dataset (scripts/build-content.py)
-content/articles/         markdown pages drafted with Codex gpt-6.1-sol from a verified brief, human-edited
+content/articles/         markdown pages drafted with Codex gpt-6.1-sol from a fact brief
 content/chaupai.json      the famous chaupai registry (slug -> stable verse id)
 lib/                      site constants, content loaders, release gating (lib/release.ts)
 public/images/            derived from the app's paintings (scripts/build-images.mjs); never regenerate art here

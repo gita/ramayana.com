@@ -570,18 +570,15 @@ Radhakrishna's decisions on the evening of 30 October, recorded so they are not 
 
 ## 14. The duplicate-text test
 
-Twenty-eight passages were sampled from the dataset (two Hindi tika and two English passages from each kand, eleven words each, plus two original Awadhi lines as controls) and searched on Google India as exact phrases. The raw results are in `docs/research/keyword-data-2026-10-30/duplicate-text-test.json`.
+**Correction, 30 October.** The first version of this section said only 3 of 28 passages had an exact copy and that the carriers had no traffic. Both statements were wrong, and the test cannot support them.
 
-| Finding                                                                  |                                                                                                                    Count |
-| ------------------------------------------------------------------------ | -----------------------------------------------------------------------------------------------------------------------: |
-| Passages with at least one site carrying the exact text in the results   |                                                                                                                  3 of 28 |
-| Carriers found                                                           | ramcharitmanas.org (English, Bal Kand), ramcharit.in (Hindi, Aranya Kand), old.ancientknowledge.in (English, Lanka Kand) |
-| Organic traffic of those carriers (Ahrefs, India)                        |                                                                                                                  0, 0, 0 |
-| Organic traffic of the strongest Gita Press carrier, ramcharitmanas.info |                                                                                                      about 1,100 a month |
+- Exact-phrase search has poor recall here. The two original Awadhi control lines, which are on countless sites, returned no carrier at all, so a blank result does not mean a passage is unique. The raw data is in `docs/research/keyword-data-2026-10-30/duplicate-text-test.json`.
+- The traffic figures came from a wrong Ahrefs mode. With `subdomains`, ramcharit.in has about 9,400 monthly visits in India from about 1,160 keywords. ramcharitmanas.org has about 200. The July fingerprint study found the same tika on at least eight sites, including webdunia.com, a site with about 1.8 million monthly visits in India.
+- The bhagavadgita.com lookup for a verse page returned no data, so it is no evidence for how duplicated verse pages rank. Only the domain-level result stands: 1,649 keywords.
 
-For comparison, a sentence of Swami Sivananda's Gita translation returns 6,670 exact copies, and bhagavadgita.com ranks for 1,649 keywords, 761 in the top three, with the same widely copied translations on its verse pages. Duplicate translation text does not stop a verse site from ranking. What ranks is the better page.
+**What is known.** The Gita Press text is widely copied, and ramcharit.in shows a site carrying it can earn real traffic. How a duplicated verse page ranks against a better page on a new domain is unmeasured.
 
-**Decision: publish the Gita Press text as it is. Do not rewrite it with a model.** Three reasons. A paraphrase of a copyrighted translation is a derivative work of that translation, so rewriting makes the rights position worse, not better. The app's integrity rule forbids presenting a paraphrase as the published translation, and the site carries the same text as the app under the same verse ids. And the uniqueness that Google rewards is already on the page: original text, Hindi tika and English together (no other site has both), the 218 section titles in both languages, the stable anchors, the notes, the reading structure, the chaupai pages and the human-written introductions. The verse pages are not duplicates of any page on the web. They are the only pages that carry all of it.
+**Recommendation: publish the Gita Press text unchanged and do not rewrite it with a model.** This rests on two reasons that do not depend on the test. A paraphrase of a copyrighted translation is a derivative work, so rewriting does not improve the rights position. The app's integrity rule forbids presenting a paraphrase as the published translation. The ranking question is settled by measurement after launch: compare Search Console impressions for Sunderkand doha pages against the original chaupai and article pages over the first month. If verse pages are not indexed, add human-written notes to the most searched verses before considering anything else.
 
 ---
 

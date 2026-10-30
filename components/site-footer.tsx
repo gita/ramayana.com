@@ -36,12 +36,12 @@ export function SiteFooter() {
             <h2 className="text-xs font-semibold uppercase tracking-[0.08em] text-muted">
               Ved Vyas Foundation
             </h2>
-            <ul className="mt-3 space-y-2.5">
+            <ul className="mt-3 space-y-0">
               {network.map((n) => (
                 <li key={n.href}>
                   <a
                     href={n.href}
-                    className="group text-[0.9375rem] text-foreground hover:text-accent"
+                    className="group block py-3 text-[0.9375rem] text-foreground hover:text-accent"
                   >
                     {n.label}{" "}
                     <span className="text-muted group-hover:text-accent/80">
@@ -81,7 +81,7 @@ function FooterCol({
       <h2 className="text-xs font-semibold uppercase tracking-[0.08em] text-muted">
         {title}
       </h2>
-      <ul className="mt-3 space-y-2.5">
+      <ul className="mt-3 space-y-0">
         {items.map((i) => (
           <li key={i.href}>
             <Link

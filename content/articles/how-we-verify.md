@@ -28,7 +28,7 @@ Matching these totals helps establish completeness and order. It does not establ
 
 ## What this verification claims
 
-The verification is AI-assisted, with human review of flagged pages and spot checks. It is not a publisher's editorial certification.
+The verification is AI-assisted. It is not a human editorial certification or a publisher's certification.
 
 That distinction matters when you rely on a word, a meaning or a reference. The site presents a transcription checked against named printed editions. It does not claim that Gita Press has certified the online text, or that every passage has received a complete human editorial review.
 
@@ -42,6 +42,6 @@ The next step is comparison with the source page. A report identifies something 
 
 ## How AI is used elsewhere on the site
 
-AI also assists with drafting explanatory pages, with human editing. It is never used to compose the scripture or its translations. Its role in transcription is to read existing printed material.
+AI also assists with drafting explanatory pages. It is never used to compose the scripture or its translations. Its role in transcription is to read existing printed material.
 
 Read slowly. If a word gives you pause, use the verse's error report to help us check it.

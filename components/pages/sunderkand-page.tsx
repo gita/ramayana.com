@@ -117,7 +117,7 @@ export async function SunderkandPage({ lang }: { lang: Lang }) {
             className="object-cover object-[50%_35%]"
           />
         </div>
-        <div className="relative mx-auto -mt-16 max-w-3xl px-4 sm:-mt-24 sm:px-6">
+        <div className="relative mx-auto -mt-4 max-w-3xl px-4 sm:-mt-10 sm:px-6">
           <p className="text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-gold">
             {hi
               ? "श्रीरामचरितमानस · पञ्चम सोपान"
@@ -129,7 +129,7 @@ export async function SunderkandPage({ lang }: { lang: Lang }) {
           <p className="mt-3 max-w-2xl font-serif text-[1.1875rem] leading-relaxed text-muted">
             {hi
               ? "सम्पूर्ण पाठ, 60 दोहे और 343 पद, हर पद के नीचे हनुमानप्रसाद पोद्दार की हिंदी टीका। हनुमानजी की लंका-यात्रा से समुद्र-तट पर श्रीराम तक।"
-              : "The complete path, 60 dohas and 343 verses, each with its meaning. From Hanumanji's leap across the sea to Shri Ram at the shore."}
+              : "The complete paath, 60 dohas and 343 verses, each with its meaning. From Hanumanji's leap across the sea to Shri Ram at the shore."}
           </p>
           <p className="mt-2 text-[0.9375rem] text-muted">
             {hi
@@ -191,10 +191,10 @@ export async function SunderkandPage({ lang }: { lang: Lang }) {
                   {hi ? u.label_hi : u.label_en}
                 </h2>
                 <Link
-                  href={unitPath(lang, "sunderkand", u.slug)}
-                  className="shrink-0 text-[0.8125rem] text-accent hover:text-accent-ink"
+                  href={unitPath(hi ? "en" : "hi", "sunderkand", u.slug)}
+                  className="tap shrink-0 text-[0.8125rem] text-accent hover:text-accent-ink"
                 >
-                  {hi ? "अंग्रेज़ी सहित खोलें" : "Open with Hindi"}
+                  {hi ? "English में खोलें" : "हिंदी में खोलें"}
                 </Link>
               </header>
               {u.sections.length > 0 && (

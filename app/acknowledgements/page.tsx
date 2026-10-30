@@ -40,7 +40,7 @@ const rows: [string, string, string?][] = [
   ],
   [
     "Verification",
-    "AI-assisted transcription of the printed pages with human adjudication of every flagged reading. See how we verify the text.",
+    "AI-assisted transcription of the printed pages, with disagreements adjudicated against the page image. It is not a human editorial certification. See how we verify the text.",
   ],
 ];
 

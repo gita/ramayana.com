@@ -16,7 +16,7 @@ Place the jewel lamp of Shri Ram's Name upon the tongue, he teaches, if you seek
 
 The complete Ramcharitmanas is available verse by verse, with the original Awadhi text, Hindi tika [commentary and meaning] by Hanuman Prasad Poddar, and English translation, in Hindi and English interfaces. Both editions are from Gita Press. The English edition names no single translator, and we preserve that distinction in our credit.
 
-The text was transcribed from printed Gita Press pages. Two independent AI readings were compared, disagreements checked against page images, and verse counters and totals reconciled. Verification includes human review of flagged pages and spot checks. This is AI-assisted verification, not a publisher's editorial certification.
+The text was transcribed from printed Gita Press pages. Two independent AI readings were compared, disagreements checked against page images, and verse counters and totals reconciled. Verification is AI-assisted, not a human editorial certification. This is AI-assisted verification, not a publisher's editorial certification.
 
 ## What we will never do
 

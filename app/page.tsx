@@ -108,13 +108,13 @@ export default function Home() {
           <div className="mt-6 flex flex-wrap gap-4 text-[0.9375rem]">
             <Link
               href={chaupaiPath("en", today.slug)}
-              className="text-accent hover:text-accent-ink"
+              className="tap text-accent hover:text-accent-ink"
             >
               Meaning in Hindi and English →
             </Link>
             <Link
               href={`${unitPath("en", today.kand.slug, today.unit.slug)}#${today.verse.id}`}
-              className="text-accent hover:text-accent-ink"
+              className="tap text-accent hover:text-accent-ink"
             >
               Read it in context →
             </Link>
@@ -144,7 +144,7 @@ export default function Home() {
           <Link
             href="/hi/ramcharitmanas"
             lang="hi"
-            className="text-[1rem] text-accent hover:text-accent-ink"
+            className="tap text-[1rem] text-accent hover:text-accent-ink"
           >
             हिंदी में पढ़ें →
           </Link>
@@ -244,7 +244,7 @@ export default function Home() {
           </div>
           <Link
             href="/chaupai"
-            className="text-[1rem] text-accent hover:text-accent-ink"
+            className="tap text-[1rem] text-accent hover:text-accent-ink"
           >
             All {chaupais.length} →
           </Link>
@@ -339,8 +339,7 @@ export default function Home() {
             </h2>
             <p className="mt-3 text-[1rem] leading-relaxed text-muted">
               The same text, offline, with reading plans, bookmarks and a daily
-              verse. No ads, no payments. iPhone soon. Or install this site: it
-              works offline too.
+              verse. No ads, no payments. iPhone soon. Or install this site: pages you have read open offline.
             </p>
             <div className="mt-5 flex flex-wrap gap-3">
               <a

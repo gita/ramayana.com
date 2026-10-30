@@ -239,3 +239,6 @@ body {
     transition: none !important;
   }
 }
+
+/* 48px minimum hit area for standalone links (house rule). Inline prose links are exempt. */
+.tap, footer ul a:not(.group), nav[aria-label="Breadcrumb"] a { display: inline-flex; align-items: center; min-height: 48px; }

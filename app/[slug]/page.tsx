@@ -112,8 +112,7 @@ export default async function Page({
           />
           <p className="mt-12 border-t border-border pt-5 text-[0.875rem] leading-relaxed text-muted">
             Written by the Ramayana.com editorial team of Ved Vyas Foundation
-            from the sources named on this site, drafted with AI assistance and
-            edited and checked by a person. Last reviewed 30 October 2026. Found
+            from the sources named on this site, drafted with AI assistance. Found
             an error? Write to {site.contact}.
           </p>
         </div>

@@ -167,7 +167,7 @@ export function SourceLine({ lang }: { lang: Lang }) {
       <p className="mt-1">
         <a
           href={site.gitaPress.product}
-          className="font-medium text-accent hover:text-accent-ink"
+          className="tap font-medium text-accent hover:text-accent-ink"
           rel="noopener"
         >
           {s.buy} →

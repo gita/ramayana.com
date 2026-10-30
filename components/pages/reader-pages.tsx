@@ -166,7 +166,7 @@ export function UnitPage({
         <p className="mt-3 text-[0.875rem] text-faint">
           <Link
             href={unitPath(lang === "hi" ? "en" : "hi", k.slug, u.slug)}
-            className="text-accent hover:text-accent-ink"
+            className="tap text-accent hover:text-accent-ink"
             lang={lang === "hi" ? "en" : "hi"}
           >
             {lang === "hi" ? s.read_en : s.read_hi}
@@ -275,7 +275,7 @@ export async function KandPage({ lang, slug }: { lang: Lang; slug: string }) {
             className="object-cover object-[50%_30%]"
           />
         </div>
-        <div className="mx-auto -mt-16 max-w-3xl px-4 sm:px-6 sm:-mt-24 relative">
+        <div className="mx-auto -mt-4 max-w-3xl px-4 sm:px-6 sm:-mt-10 relative">
           <p className="text-[0.8125rem] font-semibold uppercase tracking-[0.08em] text-gold">
             {s.rcm} ·{" "}
             {lang === "hi" ? `काण्ड ${k.number}` : `Kand ${k.number} of 7`}

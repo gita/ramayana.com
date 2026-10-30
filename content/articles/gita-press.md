@@ -34,7 +34,7 @@ The text was transcribed from printed Gita Press pages. Two independent AI readi
 
 The counts were then reconciled against the edition's contents: 218 topics, 1,074 dohas [couplets] and 6,157 verse units.
 
-Verification combines AI assistance with human review of flagged pages and spot checks. It is not a publisher's editorial certification. Readers can report an error on any verse. The [account of how the text is verified](/how-we-verify) explains the process.
+Verification is AI-assisted. It is not a human editorial certification or a publisher's certification. Readers can report an error on any verse. The [account of how the text is verified](/how-we-verify) explains the process.
 
 ## A place for the printed book at home
 

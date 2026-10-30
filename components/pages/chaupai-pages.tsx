@@ -235,13 +235,7 @@ export function ChaupaiPage({ lang, slug }: { lang: Lang; slug: string }) {
           <p lang="en" className="meaning-en whitespace-pre-line">
             {englishForVerse(c.verse, c.en)}
           </p>
-          {false && (
-            <p className="mt-2 text-[0.8125rem] text-faint">
-              {lang === "hi"
-                ? "यह अनुवाद इस पद सहित लगातार कई पदों का है।"
-                : "This translation covers this verse together with the verses around it."}
-            </p>
-          )}
+          
         </section>
       )}
       <div className="mt-8 flex flex-wrap gap-3">

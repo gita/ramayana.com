@@ -16,7 +16,6 @@ export const orgNode = {
   "@id": site.foundation.id,
   name: site.foundation.name,
   url: site.foundation.url,
-  nonprofitStatus: "Nonprofit501c3",
   sameAs: [
     "https://bhagavadgita.com",
     "https://radhakrishna.com",
@@ -51,7 +50,6 @@ export const bookNode = (lang: "en" | "hi" = "en") => ({
     "@id": `${site.url}/tulsidas#person`,
     name: "Goswami Tulsidas",
     url: `${site.url}/tulsidas`,
-    sameAs: ["https://www.wikidata.org/wiki/Q314144"],
   },
   inLanguage: "awa",
   url: `${site.url}/ramcharitmanas`,

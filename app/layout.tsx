@@ -10,6 +10,7 @@ import { site } from "@/lib/site";
 import { SiteHeader } from "@/components/site-header";
 import { SiteFooter } from "@/components/site-footer";
 import { OrgJsonLd } from "@/components/json-ld";
+import { Pwa } from "@/components/pwa";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -104,6 +105,7 @@ export default function RootLayout({
     >
       <body className="min-h-dvh flex flex-col">
         <OrgJsonLd />
+        <Pwa />
         <SiteHeader />
         <main id="main" className="flex-1">
           {children}

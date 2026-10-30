@@ -157,7 +157,7 @@ async function render(path: string): Promise<string | null> {
     return (
       fm({ canonical: `${site.url}${path}`, lang: "en" }) +
       raw +
-      "\n\n---\n\nRamayana.com, a free, ad-free project of Ved Vyas Foundation. Written from the sources named on the site, drafted with AI assistance and edited by a person.\n"
+      "\n\n---\n\nRamayana.com, a free, ad-free project of Ved Vyas Foundation. Written from the sources named on the site, drafted with AI assistance.\n"
     );
   }
   return null;
