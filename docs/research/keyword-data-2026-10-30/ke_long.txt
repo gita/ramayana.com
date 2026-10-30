@@ -1,0 +1,228 @@
+== in
+   823000  ayodhya
+   673000  hanuman
+   450000  ram
+   368000  sunderkand
+   368000  sundarkand
+   368000  sundar kand
+   246000  chitrakoot
+   201000  ram stuti
+   135000  ram setu
+   110000  lanka
+   110000  panchavati
+    90500  ram stuti lyrics
+    90500  shri ram
+    74000  tulsidas
+    74000  goswami tulsidas
+    74000  sunderkand pdf
+    74000  shri ram stuti
+    74000  ravan
+    49500  valmiki
+    49500  sunderkand lyrics
+    49500  sita
+    40500  valmiki jayanti
+    40500  gita press
+    40500  mangal bhavan amangal hari
+    40500  urmila
+    40500  kishkindha
+    33100  ram siya ram
+    33100  shri ramchandra kripalu bhajman
+    33100  lakshman
+    33100  jatayu
+    27100  who wrote ramayana
+    27100  who wrote ramayan
+    27100  sunderkand paath
+    27100  lord rama
+    27100  ashok vatika
+    22200  sunderkand path
+    22200  shri ramchandra kripalu bhajman lyrics
+    22200  ravana
+    22200  dashrath
+    18100  gita press gorakhpur
+    14800  mangal bhavan amangal hari lyrics
+    14800  mandodari
+    12100  sunderkand lyrics in hindi
+    12100  shatrughan
+     9900  sunderkand hindi pdf
+     8100  aarti shri ramayan ji ki
+     8100  sita mata
+     8100  kumbhkaran
+     8100  ahilya
+     6600  shabari
+     5400  tulsidas ke dohe
+     5400  maharishi valmiki
+     5400  kishkindha kand
+     5400  sunderkand path pdf
+     5400  ramayan aarti
+     5400  ramayan ji ki aarti
+     5400  kaikeyi
+     4400  hanuman prasad poddar
+     4400  ayodhya kand
+     3600  yuddha kanda
+     3600  ramayana characters
+     3600  manthara
+     2900  who wrote ramcharitmanas
+     2900  gita press books
+     2900  balkand
+     2900  sundarkand path in hindi
+     2900  ramayan characters name
+     2900  sugriv
+     2900  vibhishan
+     2400  tulsidas books
+     2400  sunderkand in hindi
+     2400  sunderkand ki chaupai
+     2400  sunderkand hindi
+     2400  ramayan chaupai in hindi
+     1900  ramayana author
+     1900  kishkindha kanda
+     1900  lanka kand
+     1900  jaki rahi bhavna jaisi
+     1900  ramayan characters
+     1900  meghnad
+     1900  kevat
+     1600  tulsidas ji
+     1600  sant tulsidas
+     1600  aranya kand
+     1600  ramayan aarti lyrics
+     1300  bala kanda
+     1300  uttar kand
+     1000  tulsidas dohe
+     1000  gita press valmiki ramayana
+     1000  sunderkand in english
+      880  tulsidas jayanti
+      880  ayodhya kanda
+      880  sunderkand doha
+      880  akhand ramayan path
+      720  tulsidas biography
+      720  uttara kanda
+      590  gita press ramayan
+      590  aranya kanda
+      590  sunderkand with meaning
+      480  gita press ramcharitmanas
+      480  mangal bhavan amangal hari meaning
+      390  sunderkand path benefits
+      320  ramayana characters list
+      260  valmiki biography
+      110  tulsidas ke dohe in hindi
+      110  ramayan chaupai with meaning
+       90  ramcharitmanas chaupai with meaning
+       90  famous chaupai of ramcharitmanas
+       90  ramayan ki chaupai in hindi
+       90  bharat ramayana
+       70  lanka kanda
+== us
+   450000  ram
+    74000  hanuman
+     9900  urmila
+     9900  ayodhya
+     6600  sita
+     5400  ravana
+     5400  shabari
+     5400  ram setu
+     4400  lord rama
+     4400  lanka
+     3600  sunderkand
+     3600  sundarkand
+     3600  sundar kand
+     2400  sunderkand pdf
+     2400  ram stuti lyrics
+     2400  ravan
+     1900  valmiki
+     1900  kaikeyi
+     1600  ram stuti
+     1600  shri ram
+     1600  jatayu
+     1600  kishkindha
+     1300  tulsidas
+     1300  goswami tulsidas
+     1000  sunderkand path
+     1000  chitrakoot
+      880  gita press
+      880  lakshman
+      720  sunderkand in hindi
+      720  mandodari
+      590  who wrote ramayana
+      590  who wrote ramayan
+      590  sunderkand lyrics
+      590  sunderkand hindi pdf
+      590  panchavati
+      480  sunderkand path pdf
+      480  mangal bhavan amangal hari lyrics
+      390  sunderkand lyrics in hindi
+      390  mangal bhavan amangal hari
+      390  ramayana characters
+      390  ahilya
+      320  gita press gorakhpur
+      320  ram siya ram
+      320  shri ram stuti
+      320  shri ramchandra kripalu bhajman lyrics
+      320  dashrath
+      260  sunderkand in english
+      260  kumbhkaran
+      210  kishkindha kanda
+      210  manthara
+      170  balkand
+      170  sunderkand hindi
+      170  shri ramchandra kripalu bhajman
+      170  ashok vatika
+      140  ramayan ji ki aarti
+      140  sita mata
+      110  hanuman prasad poddar
+      110  sunderkand paath
+      110  sundarkand path in hindi
+      110  ramayan aarti
+      110  aarti shri ramayan ji ki
+      110  shatrughan
+      110  vibhishan
+      110  meghnad
+       90  valmiki jayanti
+       90  ramayana author
+       90  bala kanda
+       70  kishkindha kand
+       70  yuddha kanda
+       70  uttara kanda
+       70  ramayan aarti lyrics
+       70  kevat
+       50  gita press valmiki ramayana
+       50  gita press books
+       50  ayodhya kanda
+       50  akhand ramayan path
+       50  ramayan characters
+       50  ramayana characters list
+       50  sugriv
+       40  sant tulsidas
+       40  maharishi valmiki
+       40  aranya kanda
+       40  sunderkand with meaning
+       40  mangal bhavan amangal hari meaning
+       30  tulsidas books
+       30  gita press ramcharitmanas
+       30  sunderkand path benefits
+       30  uttar kand
+       30  ramayan characters name
+       20  tulsidas ji
+       20  who wrote ramcharitmanas
+       20  ayodhya kand
+       20  lanka kand
+       20  ramayan chaupai in hindi
+       20  jaki rahi bhavna jaisi
+       10  tulsidas jayanti
+       10  tulsidas biography
+       10  tulsidas ke dohe
+       10  tulsidas dohe
+       10  tulsidas ke dohe in hindi
+       10  valmiki biography
+       10  gita press ramayan
+       10  aranya kand
+       10  sunderkand ki chaupai
+       10  sunderkand doha
+       10  lanka kanda
+       10  ramayan chaupai with meaning
+       10  ramcharitmanas chaupai with meaning
+       10  famous chaupai of ramcharitmanas
+       10  ramayan ki chaupai in hindi
+       10  ramcharitmanas mangalacharan
+       10  ramayan paath vidhi
+       10  navah parayan
+       10  maas parayan
+       10  bharat ramayana

@@ -1,0 +1,2304 @@
+{
+ "in": {
+  "keywords": [
+   {
+    "keyword": "ramayana ranbir kapoor",
+    "volume": 11000,
+    "difficulty": 12,
+    "cpc": null,
+    "traffic_potential": 63000,
+    "parent_topic": "ramayana 2026",
+    "clicks": null,
+    "global_volume": 12000,
+    "serp_features": [
+     "news",
+     "video_th",
+     "image_th",
+     "question",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 12525
+   },
+   {
+    "keyword": "ramayana pdf",
+    "volume": 250,
+    "difficulty": 0,
+    "cpc": 25,
+    "traffic_potential": 700,
+    "parent_topic": "valmiki ramayana original book pdf",
+    "clicks": 207,
+    "global_volume": 500,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 244
+   },
+   {
+    "keyword": "ramayana box office",
+    "volume": 10,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 20,
+    "serp_features": [],
+    "intents": {},
+    "volume_monthly": 18
+   },
+   {
+    "keyword": "ramayana release date",
+    "volume": 18000,
+    "difficulty": 4,
+    "cpc": 1,
+    "traffic_potential": 31000,
+    "parent_topic": "ramayana movie",
+    "clicks": null,
+    "global_volume": 19000,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th",
+     "video",
+     "question",
+     "news"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 39543
+   },
+   {
+    "keyword": "hoihi soi jo ram rachi rakha",
+    "volume": 10,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 10,
+    "serp_features": [],
+    "intents": {},
+    "volume_monthly": 8
+   },
+   {
+    "keyword": "ramayana movie",
+    "volume": 63000,
+    "difficulty": 8,
+    "cpc": 1,
+    "traffic_potential": 1900,
+    "parent_topic": "ramayana trailer release date",
+    "clicks": 29673,
+    "global_volume": 78000,
+    "serp_features": [
+     "news",
+     "image_th",
+     "question",
+     "video",
+     "video_th",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 81830
+   },
+   {
+    "keyword": "ramayan aarti",
+    "volume": 1200,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 600,
+    "parent_topic": "\u0906\u0930\u0924\u0940 \u0936\u094d\u0930\u0940 \u0930\u093e\u092e\u093e\u092f\u0923 \u091c\u0940 \u0915\u0940",
+    "clicks": 484,
+    "global_volume": 1300,
+    "serp_features": [
+     "image",
+     "ai_overview",
+     "ai_overview_sitelink",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 1394
+   },
+   {
+    "keyword": "sunderkand pdf",
+    "volume": 23000,
+    "difficulty": 0,
+    "cpc": 4,
+    "traffic_potential": 22000,
+    "parent_topic": "\u0938\u0941\u0902\u0926\u0930\u0915\u093e\u0902\u0921 \u092a\u093e\u0920 \u0939\u093f\u0902\u0926\u0940 \u092e\u0947\u0902 pdf",
+    "clicks": 19829,
+    "global_volume": 24000,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 23267
+   },
+   {
+    "keyword": "ramayan chaupai",
+    "volume": 11000,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 30,
+    "parent_topic": "ramayan chaupai pdf",
+    "clicks": 6863,
+    "global_volume": 11000,
+    "serp_features": [
+     "video_th",
+     "question",
+     "image"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 12812
+   },
+   {
+    "keyword": "shri ramchandra kripalu bhajman",
+    "volume": 7800,
+    "difficulty": 0,
+    "cpc": 5,
+    "traffic_potential": 1600,
+    "parent_topic": "shri ramchandra kripalu bhajman",
+    "clicks": 4421,
+    "global_volume": 7900,
+    "serp_features": [
+     "image",
+     "video_th",
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 7958
+   },
+   {
+    "keyword": "ramayana trailer",
+    "volume": 38000,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 3300,
+    "parent_topic": "ramayana 2026 trailer",
+    "clicks": null,
+    "global_volume": 43000,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": true,
+     "local": false
+    },
+    "volume_monthly": 12342
+   },
+   {
+    "keyword": "ramayana movie cast",
+    "volume": 4000,
+    "difficulty": 5,
+    "cpc": null,
+    "traffic_potential": 6800,
+    "parent_topic": "cast of ramayana 2026",
+    "clicks": null,
+    "global_volume": 4200,
+    "serp_features": [
+     "question",
+     "image_th",
+     "news",
+     "image",
+     "video_th",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": true,
+     "local": false
+    },
+    "volume_monthly": 328
+   },
+   {
+    "keyword": "ayodhya kand",
+    "volume": 2100,
+    "difficulty": 0,
+    "cpc": 2,
+    "traffic_potential": 40,
+    "parent_topic": "\u0905\u092f\u094b\u0927\u094d\u092f\u093e \u0915\u093e\u0902\u0921 \u0930\u093e\u092e\u091a\u0930\u093f\u0924\u092e\u093e\u0928\u0938",
+    "clicks": 1138,
+    "global_volume": 2100,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video",
+     "question",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 2234
+   },
+   {
+    "keyword": "ramcharitmanas in hindi",
+    "volume": 700,
+    "difficulty": 3,
+    "cpc": 1,
+    "traffic_potential": 6900,
+    "parent_topic": "ramcharitmanas",
+    "clicks": 520,
+    "global_volume": 700,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 706
+   },
+   {
+    "keyword": "kishkindha kand",
+    "volume": 800,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 150,
+    "parent_topic": "kishkindha kand chaupai",
+    "clicks": 417,
+    "global_volume": 800,
+    "serp_features": [
+     "video",
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "question",
+     "video_th",
+     "image"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 659
+   },
+   {
+    "keyword": "ramayana vs ramcharitmanas",
+    "volume": 10,
+    "difficulty": 0,
+    "cpc": null,
+    "traffic_potential": 150,
+    "parent_topic": "ramcharitmanas kis bhasha mein likha gaya hai",
+    "clicks": null,
+    "global_volume": 10,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "question",
+     "sitelink",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 4
+   },
+   {
+    "keyword": "uttar kand",
+    "volume": 450,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 350,
+    "parent_topic": "\u0909\u0924\u094d\u0924\u0930\u0915\u093e\u0902\u0921",
+    "clicks": 132,
+    "global_volume": 450,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th",
+     "video",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 461
+   },
+   {
+    "keyword": "valmiki",
+    "volume": 33000,
+    "difficulty": 4,
+    "cpc": 2,
+    "traffic_potential": 13000,
+    "parent_topic": "valmiki",
+    "clicks": 15092,
+    "global_volume": 37000,
+    "serp_features": [
+     "question",
+     "video_th",
+     "sitelink",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": true,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 100038
+   },
+   {
+    "keyword": "ramcharitmanas pdf",
+    "volume": 4600,
+    "difficulty": 0,
+    "cpc": 3,
+    "traffic_potential": 8000,
+    "parent_topic": "ramcharitmanas",
+    "clicks": 5693,
+    "global_volume": 4700,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 3413
+   },
+   {
+    "keyword": "ramcharitmanas",
+    "volume": 13000,
+    "difficulty": 5,
+    "cpc": 1,
+    "traffic_potential": 6900,
+    "parent_topic": "ramcharitmanas",
+    "clicks": 6003,
+    "global_volume": 15000,
+    "serp_features": [
+     "video",
+     "organic_shopping",
+     "image_th",
+     "question",
+     "video_th",
+     "sitelink",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": true,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 11748
+   },
+   {
+    "keyword": "sunderkand",
+    "volume": 83000,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 29000,
+    "parent_topic": "sunderkand lyrics",
+    "clicks": 53041,
+    "global_volume": 85000,
+    "serp_features": [
+     "video",
+     "knowledge_panel",
+     "video_th",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 76957
+   },
+   {
+    "keyword": "ramayan ki chaupai",
+    "volume": 3400,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 1400,
+    "parent_topic": "chaupai",
+    "clicks": 1795,
+    "global_volume": 3400,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 3522
+   },
+   {
+    "keyword": "ramayana 2026",
+    "volume": 56000,
+    "difficulty": 15,
+    "cpc": 6,
+    "traffic_potential": 44000,
+    "parent_topic": "ramayana 2026",
+    "clicks": null,
+    "global_volume": 63000,
+    "serp_features": [
+     "image_th",
+     "news",
+     "question",
+     "video_th",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 109149
+   },
+   {
+    "keyword": "ramayan katha",
+    "volume": 2200,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 0,
+    "parent_topic": "shri ramayan",
+    "clicks": 1262,
+    "global_volume": 2200,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 2193
+   },
+   {
+    "keyword": "ram katha",
+    "volume": 7200,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 500,
+    "parent_topic": "rajan ji maharaj",
+    "clicks": 3691,
+    "global_volume": 7500,
+    "serp_features": [
+     "video_th",
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 6825
+   },
+   {
+    "keyword": "lanka kand",
+    "volume": 400,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 40,
+    "parent_topic": "ramayan lanka kand",
+    "clicks": 121,
+    "global_volume": 400,
+    "serp_features": [
+     "video",
+     "ai_overview",
+     "ai_overview_sitelink"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 304
+   },
+   {
+    "keyword": "ramayana book",
+    "volume": 900,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 10,
+    "parent_topic": "original real ramayana book",
+    "clicks": 267,
+    "global_volume": 1300,
+    "serp_features": [
+     "question",
+     "organic_shopping",
+     "image_th",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": true,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 905
+   },
+   {
+    "keyword": "ramayana movie review",
+    "volume": 30,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 30,
+    "serp_features": [],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": true,
+     "local": false
+    },
+    "volume_monthly": 38
+   },
+   {
+    "keyword": "aranya kand",
+    "volume": 300,
+    "difficulty": 0,
+    "cpc": 2,
+    "traffic_potential": 30,
+    "parent_topic": "aranya kand",
+    "clicks": 87,
+    "global_volume": 300,
+    "serp_features": [
+     "knowledge_panel",
+     "video",
+     "question",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 311
+   },
+   {
+    "keyword": "bal kand",
+    "volume": 600,
+    "difficulty": 0,
+    "cpc": null,
+    "traffic_potential": 250,
+    "parent_topic": "balkand",
+    "clicks": 350,
+    "global_volume": 600,
+    "serp_features": [
+     "knowledge_panel",
+     "video_th",
+     "video",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 190
+   },
+   {
+    "keyword": "ramayana story",
+    "volume": 1700,
+    "difficulty": 37,
+    "cpc": 3,
+    "traffic_potential": 6000,
+    "parent_topic": "ramayanam",
+    "clicks": 1015,
+    "global_volume": 3200,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video",
+     "question",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 1650
+   },
+   {
+    "keyword": "ram stuti",
+    "volume": 91000,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 30000,
+    "parent_topic": "ram stuti lyrics",
+    "clicks": 48979,
+    "global_volume": 93000,
+    "serp_features": [
+     "image",
+     "video",
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 91357
+   },
+   {
+    "keyword": "ramayan",
+    "volume": 147000,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 0,
+    "parent_topic": "kekai in ramayan",
+    "clicks": 68883,
+    "global_volume": 157000,
+    "serp_features": [
+     "video_th",
+     "news",
+     "image_th",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 181270
+   },
+   {
+    "keyword": "shri ramcharitmanas",
+    "volume": 250,
+    "difficulty": 5,
+    "cpc": 1,
+    "traffic_potential": 6200,
+    "parent_topic": "ramcharitmanas",
+    "clicks": 157,
+    "global_volume": 500,
+    "serp_features": [
+     "question",
+     "knowledge_panel",
+     "video",
+     "sitelink"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": true,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 235
+   },
+   {
+    "keyword": "goswami tulsidas",
+    "volume": 2500,
+    "difficulty": 6,
+    "cpc": 3,
+    "traffic_potential": 12000,
+    "parent_topic": "tulsidas",
+    "clicks": 1039,
+    "global_volume": 2700,
+    "serp_features": [
+     "image_th",
+     "question",
+     "knowledge_panel",
+     "video_th",
+     "video"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": true,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 2129
+   },
+   {
+    "keyword": "valmiki ramayana",
+    "volume": 3300,
+    "difficulty": 1,
+    "cpc": 1,
+    "traffic_potential": 600,
+    "parent_topic": "valmiki ramayana",
+    "clicks": 2608,
+    "global_volume": 3900,
+    "serp_features": [
+     "question",
+     "video_th",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 4159
+   },
+   {
+    "keyword": "tulsidas",
+    "volume": 41000,
+    "difficulty": 15,
+    "cpc": 25,
+    "traffic_potential": 12000,
+    "parent_topic": "tulsidas",
+    "clicks": 16011,
+    "global_volume": 42000,
+    "serp_features": [
+     "question",
+     "video",
+     "video_th",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 42681
+   },
+   {
+    "keyword": "ramayana characters",
+    "volume": 1800,
+    "difficulty": 1,
+    "cpc": 2,
+    "traffic_potential": 1300,
+    "parent_topic": "44 ramayan characters name",
+    "clicks": 948,
+    "global_volume": 2500,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "question",
+     "image"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 2606
+   },
+   {
+    "keyword": "ramayana part 1",
+    "volume": 11000,
+    "difficulty": 13,
+    "cpc": 1,
+    "traffic_potential": 44000,
+    "parent_topic": "ramayana 2026",
+    "clicks": null,
+    "global_volume": 13000,
+    "serp_features": [
+     "news",
+     "image_th",
+     "video_th",
+     "question",
+     "video",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": true,
+     "local": false
+    },
+    "volume_monthly": 2262
+   },
+   {
+    "keyword": "mangal bhavan amangal hari",
+    "volume": 22000,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 7200,
+    "parent_topic": "mangal bhavan amangal hari",
+    "clicks": 9680,
+    "global_volume": 22000,
+    "serp_features": [
+     "video_th",
+     "ai_overview",
+     "ai_overview_sitelink"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 31426
+   },
+   {
+    "keyword": "ramayan in hindi",
+    "volume": 1300,
+    "difficulty": 2,
+    "cpc": 1,
+    "traffic_potential": 3800,
+    "parent_topic": "valmiki ramayana original book pdf in hindi",
+    "clicks": 944,
+    "global_volume": 1300,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th",
+     "video",
+     "question",
+     "sitelink"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 1591
+   },
+   {
+    "keyword": "ramayana",
+    "volume": 55000,
+    "difficulty": 0,
+    "cpc": 3,
+    "traffic_potential": 0,
+    "parent_topic": "ravan role in ramayana",
+    "clicks": 25415,
+    "global_volume": 102000,
+    "serp_features": [
+     "news",
+     "image_th",
+     "question",
+     "video_th",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 75032
+   },
+   {
+    "keyword": "ramayana quotes",
+    "volume": 250,
+    "difficulty": 0,
+    "cpc": null,
+    "traffic_potential": 250,
+    "parent_topic": "ramayana quotes",
+    "clicks": 113,
+    "global_volume": 400,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 240
+   },
+   {
+    "keyword": "who wrote ramayana",
+    "volume": 21000,
+    "difficulty": 43,
+    "cpc": 1,
+    "traffic_potential": 6000,
+    "parent_topic": "ramayanam",
+    "clicks": 4536,
+    "global_volume": 21000,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "question",
+     "video_th",
+     "sitelink",
+     "image"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 22177
+   },
+   {
+    "keyword": "ramayana in english",
+    "volume": 200,
+    "difficulty": 16,
+    "cpc": 1,
+    "traffic_potential": 6100,
+    "parent_topic": "ramayanam",
+    "clicks": 106,
+    "global_volume": 250,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th",
+     "question",
+     "video"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 196
+   },
+   {
+    "keyword": "ramayana summary",
+    "volume": 150,
+    "difficulty": 2,
+    "cpc": 1,
+    "traffic_potential": 450,
+    "parent_topic": "ramayana story",
+    "clicks": 117,
+    "global_volume": 800,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "question",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 166
+   },
+   {
+    "keyword": "sunderkand path",
+    "volume": 3800,
+    "difficulty": 1,
+    "cpc": 4,
+    "traffic_potential": 40000,
+    "parent_topic": "sunderkand",
+    "clicks": 2326,
+    "global_volume": 4800,
+    "serp_features": [
+     "video_th",
+     "question",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 3540
+   }
+  ]
+ },
+ "us": {
+  "keywords": [
+   {
+    "keyword": "shri ramchandra kripalu bhajman",
+    "volume": 20,
+    "difficulty": 0,
+    "cpc": null,
+    "traffic_potential": 0,
+    "parent_topic": "shri ram chandra kripalu bhajman",
+    "clicks": null,
+    "global_volume": 7900,
+    "serp_features": [
+     "video",
+     "video_th",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 7
+   },
+   {
+    "keyword": "ramayan ki chaupai",
+    "volume": 0,
+    "difficulty": null,
+    "cpc": 2,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 3400,
+    "serp_features": [],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 1
+   },
+   {
+    "keyword": "ramcharitmanas",
+    "volume": 400,
+    "difficulty": 36,
+    "cpc": 20,
+    "traffic_potential": 200,
+    "parent_topic": "ramcharitmanas",
+    "clicks": 206,
+    "global_volume": 15000,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "question",
+     "sitelink",
+     "video",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 340
+   },
+   {
+    "keyword": "sunderkand pdf",
+    "volume": 900,
+    "difficulty": 0,
+    "cpc": 1,
+    "traffic_potential": 200,
+    "parent_topic": "sunderkand path pdf",
+    "clicks": 644,
+    "global_volume": 24000,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "question",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 608
+   },
+   {
+    "keyword": "tulsidas",
+    "volume": 350,
+    "difficulty": 6,
+    "cpc": 15,
+    "traffic_potential": 200,
+    "parent_topic": "tulsidas",
+    "clicks": 177,
+    "global_volume": 42000,
+    "serp_features": [
+     "question",
+     "knowledge_panel",
+     "video"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 311
+   },
+   {
+    "keyword": "ramayana book",
+    "volume": 250,
+    "difficulty": 38,
+    "cpc": 10,
+    "traffic_potential": 20,
+    "parent_topic": "ramayan book",
+    "clicks": 119,
+    "global_volume": 1300,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th",
+     "sitelink",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": true,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 234
+   },
+   {
+    "keyword": "ramayan aarti",
+    "volume": 10,
+    "difficulty": 0,
+    "cpc": null,
+    "traffic_potential": 0,
+    "parent_topic": "ramayan aarti",
+    "clicks": null,
+    "global_volume": 1300,
+    "serp_features": [
+     "video",
+     "ai_overview",
+     "ai_overview_sitelink",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 5
+   },
+   {
+    "keyword": "ramayana box office",
+    "volume": 0,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 20,
+    "serp_features": [],
+    "intents": {},
+    "volume_monthly": 5
+   },
+   {
+    "keyword": "ram katha",
+    "volume": 60,
+    "difficulty": 0,
+    "cpc": 5,
+    "traffic_potential": 0,
+    "parent_topic": "morari bapu katha",
+    "clicks": 22,
+    "global_volume": 7500,
+    "serp_features": [
+     "video",
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th",
+     "question",
+     "news"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 88
+   },
+   {
+    "keyword": "ramayana pdf",
+    "volume": 40,
+    "difficulty": 0,
+    "cpc": 600,
+    "traffic_potential": 10,
+    "parent_topic": "ramayana book",
+    "clicks": 49,
+    "global_volume": 500,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 41
+   },
+   {
+    "keyword": "ramayana part 1",
+    "volume": 250,
+    "difficulty": 6,
+    "cpc": null,
+    "traffic_potential": 800,
+    "parent_topic": "ramayana 2026",
+    "clicks": null,
+    "global_volume": 13000,
+    "serp_features": [
+     "sitelink",
+     "knowledge_panel",
+     "question",
+     "image_th",
+     "video",
+     "news",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": true,
+     "local": false
+    },
+    "volume_monthly": 89
+   },
+   {
+    "keyword": "valmiki ramayana",
+    "volume": 300,
+    "difficulty": 1,
+    "cpc": 20,
+    "traffic_potential": 150,
+    "parent_topic": "valmiki ramayana",
+    "clicks": 245,
+    "global_volume": 3900,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "question",
+     "news",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": true,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 324
+   },
+   {
+    "keyword": "ramayana movie cast",
+    "volume": 100,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 4200,
+    "serp_features": [],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 77
+   },
+   {
+    "keyword": "ramayan in hindi",
+    "volume": 0,
+    "difficulty": 3,
+    "cpc": null,
+    "traffic_potential": 0,
+    "parent_topic": "ramayana pdf",
+    "clicks": null,
+    "global_volume": 1300,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th",
+     "video",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 1
+   },
+   {
+    "keyword": "ramcharitmanas in hindi",
+    "volume": 10,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 700,
+    "serp_features": [],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": true,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 4
+   },
+   {
+    "keyword": "ram stuti",
+    "volume": 500,
+    "difficulty": 0,
+    "cpc": 35,
+    "traffic_potential": 60,
+    "parent_topic": "ram stuti",
+    "clicks": null,
+    "global_volume": 93000,
+    "serp_features": [
+     "video",
+     "video_th",
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 670
+   },
+   {
+    "keyword": "ramcharitmanas pdf",
+    "volume": 40,
+    "difficulty": 0,
+    "cpc": null,
+    "traffic_potential": 20,
+    "parent_topic": "ram charit manas pdf",
+    "clicks": null,
+    "global_volume": 4700,
+    "serp_features": [
+     "question",
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 5
+   },
+   {
+    "keyword": "ramayana release date",
+    "volume": 150,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 19000,
+    "serp_features": [],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": true,
+     "local": false
+    },
+    "volume_monthly": 235
+   },
+   {
+    "keyword": "ayodhya kand",
+    "volume": 0,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 2100,
+    "serp_features": [],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 1
+   },
+   {
+    "keyword": "kishkindha kand",
+    "volume": 0,
+    "difficulty": 0,
+    "cpc": null,
+    "traffic_potential": 0,
+    "parent_topic": "kishkinda",
+    "clicks": null,
+    "global_volume": 800,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video",
+     "video_th",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 2
+   },
+   {
+    "keyword": "ramayan katha",
+    "volume": 20,
+    "difficulty": 0,
+    "cpc": 4,
+    "traffic_potential": 0,
+    "parent_topic": "ramayan katha",
+    "clicks": null,
+    "global_volume": 2200,
+    "serp_features": [
+     "video_th",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 26
+   },
+   {
+    "keyword": "ramayana characters",
+    "volume": 150,
+    "difficulty": 2,
+    "cpc": 9,
+    "traffic_potential": 30,
+    "parent_topic": "ramayana characters",
+    "clicks": 128,
+    "global_volume": 2500,
+    "serp_features": [
+     "question",
+     "news",
+     "image_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 191
+   },
+   {
+    "keyword": "ramayan",
+    "volume": 1300,
+    "difficulty": 35,
+    "cpc": 10,
+    "traffic_potential": 4300,
+    "parent_topic": "ramayana",
+    "clicks": 598,
+    "global_volume": 157000,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th",
+     "video",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 1395
+   },
+   {
+    "keyword": "shri ramcharitmanas",
+    "volume": 150,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 500,
+    "serp_features": [],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 218
+   },
+   {
+    "keyword": "sunderkand",
+    "volume": 600,
+    "difficulty": 0,
+    "cpc": 6,
+    "traffic_potential": 20,
+    "parent_topic": "sundarkand path",
+    "clicks": 429,
+    "global_volume": 85000,
+    "serp_features": [
+     "video",
+     "video_th",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 406
+   },
+   {
+    "keyword": "uttar kand",
+    "volume": 0,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 450,
+    "serp_features": [],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 3
+   },
+   {
+    "keyword": "ramayana story",
+    "volume": 500,
+    "difficulty": 37,
+    "cpc": 25,
+    "traffic_potential": 8600,
+    "parent_topic": "ramayana",
+    "clicks": 467,
+    "global_volume": 3200,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "video_th",
+     "question",
+     "video",
+     "sitelink"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 749
+   },
+   {
+    "keyword": "ramayana movie",
+    "volume": 5700,
+    "difficulty": 2,
+    "cpc": 5,
+    "traffic_potential": 1600,
+    "parent_topic": "ramayana movie",
+    "clicks": 4545,
+    "global_volume": 78000,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "news",
+     "video_th",
+     "sitelink",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": true,
+     "local": false
+    },
+    "volume_monthly": 6574
+   },
+   {
+    "keyword": "sunderkand path",
+    "volume": 350,
+    "difficulty": 0,
+    "cpc": 9,
+    "traffic_potential": 30,
+    "parent_topic": "sunderkand path",
+    "clicks": 211,
+    "global_volume": 4800,
+    "serp_features": [
+     "video",
+     "question",
+     "video_th",
+     "sitelink",
+     "news",
+     "image_th",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 378
+   },
+   {
+    "keyword": "who wrote ramayana",
+    "volume": 200,
+    "difficulty": 0,
+    "cpc": null,
+    "traffic_potential": 40,
+    "parent_topic": "sage valmiki",
+    "clicks": 53,
+    "global_volume": 21000,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "question",
+     "video_th",
+     "sitelink"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 40
+   },
+   {
+    "keyword": "ramayana ranbir kapoor",
+    "volume": 150,
+    "difficulty": 0,
+    "cpc": 40,
+    "traffic_potential": 2300,
+    "parent_topic": "ramayana film",
+    "clicks": null,
+    "global_volume": 12000,
+    "serp_features": [
+     "news",
+     "image_th",
+     "video_th",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 176
+   },
+   {
+    "keyword": "lanka kand",
+    "volume": 0,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 400,
+    "serp_features": [],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 2
+   },
+   {
+    "keyword": "ramayan chaupai",
+    "volume": 40,
+    "difficulty": 0,
+    "cpc": null,
+    "traffic_potential": 20,
+    "parent_topic": "ramayan chaupai",
+    "clicks": null,
+    "global_volume": 11000,
+    "serp_features": [
+     "video_th",
+     "question",
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 95
+   },
+   {
+    "keyword": "bal kand",
+    "volume": 0,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 600,
+    "serp_features": [],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 1
+   },
+   {
+    "keyword": "ramayana quotes",
+    "volume": 50,
+    "difficulty": 0,
+    "cpc": null,
+    "traffic_potential": 10,
+    "parent_topic": "ramayana quotes",
+    "clicks": 45,
+    "global_volume": 400,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "question",
+     "sitelink"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 58
+   },
+   {
+    "keyword": "ramayana movie review",
+    "volume": 0,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 30,
+    "serp_features": [],
+    "intents": {},
+    "volume_monthly": 3
+   },
+   {
+    "keyword": "valmiki",
+    "volume": 1600,
+    "difficulty": 0,
+    "cpc": 10,
+    "traffic_potential": 500,
+    "parent_topic": "valmiki",
+    "clicks": 807,
+    "global_volume": 37000,
+    "serp_features": [
+     "image_th",
+     "question",
+     "video",
+     "news",
+     "video_th",
+     "sitelink",
+     "knowledge_panel"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 958
+   },
+   {
+    "keyword": "ramayana 2026",
+    "volume": 1600,
+    "difficulty": 0,
+    "cpc": null,
+    "traffic_potential": 1200,
+    "parent_topic": "ramayana movie",
+    "clicks": null,
+    "global_volume": 63000,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "video",
+     "question",
+     "news",
+     "image_th",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": true,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 2264
+   },
+   {
+    "keyword": "hoihi soi jo ram rachi rakha",
+    "volume": 0,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 10,
+    "serp_features": [],
+    "intents": {},
+    "volume_monthly": 1
+   },
+   {
+    "keyword": "ramayana in english",
+    "volume": 20,
+    "difficulty": null,
+    "cpc": 8,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 250,
+    "serp_features": [],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 25
+   },
+   {
+    "keyword": "aranya kand",
+    "volume": 0,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 300,
+    "serp_features": [],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 2
+   },
+   {
+    "keyword": "ramayana trailer",
+    "volume": 600,
+    "difficulty": 4,
+    "cpc": 4,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 43000,
+    "serp_features": [
+     "video_th",
+     "news",
+     "image_th",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": true,
+     "local": false
+    },
+    "volume_monthly": 1443
+   },
+   {
+    "keyword": "goswami tulsidas",
+    "volume": 40,
+    "difficulty": 0,
+    "cpc": 6,
+    "traffic_potential": 200,
+    "parent_topic": "tulsidas",
+    "clicks": null,
+    "global_volume": 2700,
+    "serp_features": [
+     "question",
+     "knowledge_panel",
+     "video_th",
+     "video",
+     "sitelink",
+     "image_th",
+     "news"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 70
+   },
+   {
+    "keyword": "mangal bhavan amangal hari",
+    "volume": 100,
+    "difficulty": 0,
+    "cpc": null,
+    "traffic_potential": 20,
+    "parent_topic": "mangal bhavan amangal hari",
+    "clicks": null,
+    "global_volume": 22000,
+    "serp_features": [
+     "video",
+     "image_th",
+     "video_th",
+     "question"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 105
+   },
+   {
+    "keyword": "ramayana vs ramcharitmanas",
+    "volume": 0,
+    "difficulty": null,
+    "cpc": null,
+    "traffic_potential": null,
+    "parent_topic": null,
+    "clicks": null,
+    "global_volume": 10,
+    "serp_features": [],
+    "intents": {},
+    "volume_monthly": 1
+   },
+   {
+    "keyword": "ramayana",
+    "volume": 15000,
+    "difficulty": 47,
+    "cpc": 15,
+    "traffic_potential": 4400,
+    "parent_topic": "ramayana",
+    "clicks": 8838,
+    "global_volume": 102000,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "question",
+     "video",
+     "news",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 18410
+   },
+   {
+    "keyword": "ramayana summary",
+    "volume": 250,
+    "difficulty": 2,
+    "cpc": 4,
+    "traffic_potential": 250,
+    "parent_topic": "ramayana summary",
+    "clicks": 277,
+    "global_volume": 800,
+    "serp_features": [
+     "ai_overview",
+     "ai_overview_sitelink",
+     "image_th",
+     "question",
+     "video_th"
+    ],
+    "intents": {
+     "informational": true,
+     "navigational": false,
+     "commercial": false,
+     "transactional": false,
+     "branded": false,
+     "local": false
+    },
+    "volume_monthly": 417
+   }
+  ]
+ }
+}
