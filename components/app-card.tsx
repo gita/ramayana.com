@@ -52,7 +52,7 @@ export function AppCard({
   if (compact) {
     return (
       <a
-        href={playUrl(place)}
+        data-app-cta href={playUrl(place)}
         target="_blank"
         rel="noopener"
         className={`press flex items-center gap-4 rounded-2xl bg-surface px-4 py-3.5 ring-1 ring-border/70 ${className}`}
@@ -77,40 +77,15 @@ export function AppCard({
     );
   }
   return (
-    <aside
-      aria-label={site.app.name}
-      className={`relative overflow-hidden rounded-[1.75rem] bg-[#14213f] text-white ${className}`}
-    >
-      <div className="px-6 pt-7 sm:px-8 sm:pt-8">
-        <h2 className="font-serif text-[1.625rem] font-semibold leading-tight tracking-tight">
-          {headline}
-        </h2>
-        <p className="mt-1.5 text-[1rem] text-white/70">
-          Free. No ads. Works offline.
-        </p>
-        <a
-          href={playUrl(place)}
-          target="_blank"
-          rel="noopener"
-          className="press mt-5 inline-flex h-12 items-center rounded-full bg-white px-6 font-medium text-[#14213f]"
-        >
-          Get the app
-        </a>
+    <aside data-app-cta aria-label={site.app.name} className={`grid items-center overflow-hidden rounded-3xl bg-[#14213f] text-white sm:grid-cols-[minmax(0,1fr)_16rem] ${className}`}>
+      <div className="px-6 pt-8 sm:py-8 sm:pl-8 sm:pr-2">
+        <h2 className="t-sub text-white">{headline}</h2>
+        <p className="mt-1.5 text-[1rem] text-white/70">Free. No ads. Works offline.</p>
+        <a href={playUrl(place)} target="_blank" rel="noopener" className="press mt-5 inline-flex h-12 items-center rounded-full bg-white px-6 font-medium text-[#14213f]">Get the app</a>
       </div>
-      <div
-        className="mt-6 flex h-52 justify-center gap-3 overflow-hidden px-6"
-        aria-hidden
-      >
-        <Phone
-          src="/images/app/today.webp"
-          alt=""
-          className="w-36 shrink-0 sm:w-40"
-        />
-        <Phone
-          src="/images/app/reader.webp"
-          alt=""
-          className="mt-6 w-36 shrink-0 sm:w-40"
-        />
+      <div className="mt-6 flex h-44 justify-center gap-3 self-end overflow-hidden sm:mt-0 sm:h-56" aria-hidden>
+        <Phone src="/images/app/today.webp" alt="" className="mt-4 w-[7rem] shrink-0" />
+        <Phone src="/images/app/read.webp" alt="" className="mt-10 w-[7rem] shrink-0" />
       </div>
     </aside>
   );
