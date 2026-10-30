@@ -6,18 +6,12 @@ const t = {
   en: {
     meaning: "Meaning",
     note: "Note",
-    source_hi: "Hindi tika: Hanuman Prasad Poddar, Gita Press code 790",
-    source_en: "English: Gita Press code 1318, Romanised edition (2019)",
     buy: "Buy the book from Gita Press",
-    original: "Original text: Gita Press code 1318",
   },
   hi: {
     meaning: "भावार्थ",
     note: "टिप्पणी",
-    source_hi: "हिंदी टीका: हनुमानप्रसाद पोद्दार, गीताप्रेस कोड ७९०",
-    source_en: "अंग्रेज़ी: गीताप्रेस कोड १३१८",
     buy: "गीताप्रेस से पुस्तक खरीदें",
-    original: "मूल पाठ: गीताप्रेस कोड १३१८",
   },
 };
 

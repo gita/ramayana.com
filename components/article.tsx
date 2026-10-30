@@ -6,7 +6,7 @@ const newTab = (html: string) => html.replace(/<a href="https?:/g, (m) => m.repl
 
 const ROOT = join(process.cwd(), "content", "articles");
 
-/** Markdown article drafts (Codex gpt-6.1-sol) rendered to HTML on the server. */
+/** Markdown article drafts rendered to HTML on the server. */
 export const Article = {
   async raw(slug: string): Promise<string | null> {
     try {

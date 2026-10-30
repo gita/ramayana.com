@@ -1,6 +1,6 @@
 /**
  * Registry of markdown article pages at the site root. The body lives in
- * content/articles/<slug>.md (drafted with Codex gpt-6.1-sol from a fact brief).
+ * content/articles/<slug>.md.
  */
 export type ArticleDef = {
   slug: string;

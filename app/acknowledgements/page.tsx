@@ -6,7 +6,7 @@ import { JsonLd, breadcrumb } from "@/components/json-ld";
 export const metadata: Metadata = {
   title: "Acknowledgements: the editions, people and tools behind the text",
   description:
-    "The printed editions, publishers, commentators, datasets and artists whose work Ramayana.com rests on, with links to buy the books.",
+    "The printed editions, publishers, commentators and artists whose work Ramayana.com rests on, with links to buy the books.",
   alternates: { canonical: "/acknowledgements" },
 };
 
