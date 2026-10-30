@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import {
   Inter,
   Literata,
@@ -116,6 +117,7 @@ export default function RootLayout({
           {children}
         </main>
         <SiteFooter />
+        <Script defer data-domain="ramayana.com" src="https://plausible.io/js/script.outbound-links.js" strategy="afterInteractive" />
         <AppNudge />
       </body>
     </html>
