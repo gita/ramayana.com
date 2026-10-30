@@ -16,8 +16,8 @@ export function LanguageSwitch() {
   const cell = (on: boolean) => `flex h-8 min-w-11 items-center justify-center rounded-full px-2.5 text-[0.875rem] transition-colors ${on ? "bg-surface text-foreground shadow-sm" : "text-muted hover:text-foreground"}`;
   return (
     <div role="group" aria-label="Language" className="flex rounded-full bg-surface-2 p-0.5">
-      <Link href={en} hrefLang="en" aria-current={!hi ? "true" : undefined} className={cell(!hi)}>EN</Link>
-      <Link href={hiHref} hrefLang="hi" lang="hi" aria-current={hi ? "true" : undefined} className={cell(hi)}>हिंदी</Link>
+      <Link href={en} prefetch={false} hrefLang="en" aria-current={!hi ? "true" : undefined} className={cell(!hi)}>EN</Link>
+      <Link href={hiHref} prefetch={false} hrefLang="hi" lang="hi" style={{ fontFamily: "system-ui, sans-serif" }} aria-current={hi ? "true" : undefined} className={cell(hi)}>हिंदी</Link>
     </div>
   );
 }
