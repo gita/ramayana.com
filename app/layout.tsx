@@ -55,7 +55,7 @@ export const metadata: Metadata = {
   },
   description: site.description,
   applicationName: site.name,
-  verification: { other: { "msvalidate.01": "EF3B38F33E672B692B353CA5266FDA18" } },
+  verification: { other: { "msvalidate.01": "0451A734F7E9BD838957319E106DE363" } },
   alternates: { canonical: "/" },
   openGraph: {
     type: "website",
