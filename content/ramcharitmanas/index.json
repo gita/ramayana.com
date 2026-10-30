@@ -1,0 +1,1406 @@
+{
+ "work": {
+  "title_en": "Shri Ramcharitmanas",
+  "title_hi": "श्रीरामचरितमानस",
+  "author_en": "Goswami Tulsidas",
+  "author_hi": "गोस्वामी तुलसीदास"
+ },
+ "kands": [
+  {
+   "number": 1,
+   "slug": "bal-kand",
+   "title_en": "Bal Kand",
+   "title_hi": "बालकाण्ड",
+   "title_iast": "Bāla-Kāṇḍa",
+   "units": 362,
+   "dohas": 361,
+   "verses": 1947,
+   "sections": [
+    {
+     "unit": "mangalacharan",
+     "n": 1,
+     "hi": "मंगलाचरण",
+     "en": "Invocations"
+    },
+    {
+     "unit": "mangalacharan",
+     "n": 2,
+     "hi": "गुरु-वन्दना",
+     "en": "Salutations to the Guru"
+    },
+    {
+     "unit": "doha-2",
+     "n": 3,
+     "hi": "ब्राह्मण-संत-वन्दना",
+     "en": "Salutations to Brāhmaṇas and saints"
+    },
+    {
+     "unit": "doha-3b",
+     "n": 4,
+     "hi": "खल-वन्दना",
+     "en": "Salutations to the wicked"
+    },
+    {
+     "unit": "doha-4",
+     "n": 5,
+     "hi": "संत-असंत-वन्दना",
+     "en": "Contrast between saints and the evil-minded"
+    },
+    {
+     "unit": "doha-7d",
+     "n": 6,
+     "hi": "रामरूपसे जीवमात्रकी वन्दना",
+     "en": "Salutations to all living beings as so many images of Śrī Rāma"
+    },
+    {
+     "unit": "doha-8",
+     "n": 7,
+     "hi": "तुलसीदासजीकी दीनता और रामभक्तिमयी कविताकी महिमा",
+     "en": "Tulasīdāsa’s humility and the glory of poetry describing Śrī Rāma’s greatness"
+    },
+    {
+     "unit": "doha-13",
+     "n": 8,
+     "hi": "कवि-वन्दना",
+     "en": "Salutations to the immortal bards"
+    },
+    {
+     "unit": "doha-14g",
+     "n": 9,
+     "hi": "वाल्मीकि, वेद, ब्रह्मा, देवता, शिव, पार्वती आदिकी वन्दना",
+     "en": "Salutations to the sage Vālmīki, the Vedas, Brahmā, Śiva, Pārvatī and other gods and goddesses"
+    },
+    {
+     "unit": "doha-15",
+     "n": 10,
+     "hi": "श्रीसीताराम-धाम-परिकर-वन्दना",
+     "en": "Salutations to the abode and companions of Sītā and Rāma"
+    },
+    {
+     "unit": "doha-18",
+     "n": 11,
+     "hi": "श्रीनाम-वन्दना और नाम-महिमा",
+     "en": "Salutations to and the glory of the Name"
+    },
+    {
+     "unit": "doha-27",
+     "n": 12,
+     "hi": "श्रीरामगुण और श्रीरामचरितकी महिमा",
+     "en": "The excellences of Śrī Rāma and the greatness of His story"
+    },
+    {
+     "unit": "doha-34",
+     "n": 13,
+     "hi": "मानसनिर्माणकी तिथि",
+     "en": "The date of composition of the Rāmacaritamānasa"
+    },
+    {
+     "unit": "doha-34",
+     "n": 14,
+     "hi": "मानसका रूप और माहात्म्य",
+     "en": "The metaphorical representation of the Mānasa as a lake and its glory"
+    },
+    {
+     "unit": "doha-44",
+     "n": 15,
+     "hi": "याज्ञवल्क्य-भरद्वाज-संवाद तथा प्रयाग-माहात्म्य",
+     "en": "Dialogue between the sages— Yājñavalkya and Bharadvāja and the greatness of Prayāga"
+    },
+    {
+     "unit": "doha-50",
+     "n": 16,
+     "hi": "सतीका भ्रम, श्रीरामजीका ऐश्वर्य और सतीका खेद",
+     "en": "Satī’s bewilderment, Śrī Rāma’s divine glory and Satī’s remorse"
+    },
+    {
+     "unit": "doha-56",
+     "n": 17,
+     "hi": "शिवजीद्वारा सतीका त्याग, शिवजीकी समाधि",
+     "en": "Repudiation of Satī by Śiva and Śiva’s Samādhi (trance)"
+    },
+    {
+     "unit": "doha-62",
+     "n": 18,
+     "hi": "सतीका दक्ष-यज्ञमें जाना",
+     "en": "Satī’s visit to Dakṣa’s sacrifice"
+    },
+    {
+     "unit": "doha-64",
+     "n": 19,
+     "hi": "पतिके अपमानसे दुःखी होकर सतीका योगाग्निसे जल जाना, दक्ष-यज्ञ-विध्वंस",
+     "en": "Satī’s self-immolation through the fire of Yoga out of indignation at the slight offered to Her Spouse by Her father: destruction of Dakṣa’s sacrifice"
+    },
+    {
+     "unit": "doha-64",
+     "n": 20,
+     "hi": "पार्वतीका जन्म और तपस्या",
+     "en": "Descent of Goddess Pārvatī and Her penance"
+    },
+    {
+     "unit": "doha-76",
+     "n": 21,
+     "hi": "श्रीरामजीका शिवजीसे विवाहके लिये अनुरोध",
+     "en": "Śrī Rāma’s intercession with Bhagavān Śiva for marriage"
+    },
+    {
+     "unit": "doha-76",
+     "n": 22,
+     "hi": "सप्तर्षियोंकी परीक्षामें पार्वतीजीका महत्त्व",
+     "en": "Pārvatī’s unique fidelity as revealed through Her test by the seven seers"
+    },
+    {
+     "unit": "doha-82",
+     "n": 23,
+     "hi": "कामदेवका देवकार्यके लिये जाना और भस्म होना",
+     "en": "Love’s departure on the errand of the gods and his being burnt to death"
+    },
+    {
+     "unit": "doha-87",
+     "n": 24,
+     "hi": "रतिको वरदान",
+     "en": "Śiva’s boon to Rati (Cupid’s consort)"
+    },
+    {
+     "unit": "doha-87",
+     "n": 25,
+     "hi": "देवताओंका शिवजीसे ब्याहके लिये प्रार्थना करना, सप्तर्षियोंका पार्वतीके पास जाना",
+     "en": "The god’s prayer to Śiva for marriage; the seven seers’ visit to Pārvatī"
+    },
+    {
+     "unit": "doha-92",
+     "n": 26,
+     "hi": "शिवजीकी विचित्र बारात और विवाहकी तैयारी",
+     "en": "Śiva’s peculiar marriage procession and preparations for the wedding (undertaken by the other party)"
+    },
+    {
+     "unit": "doha-95",
+     "n": 27,
+     "hi": "शिवजीका विवाह",
+     "en": "Śiva’s nuptials"
+    },
+    {
+     "unit": "doha-120d",
+     "n": 28,
+     "hi": "शिव-पार्वती-संवाद",
+     "en": "A dialogue between Śiva and Pārvatī"
+    },
+    {
+     "unit": "doha-121",
+     "n": 29,
+     "hi": "अवतारके हेतु",
+     "en": "Causes of Śrī Rāma’s Descent"
+    },
+    {
+     "unit": "doha-125",
+     "n": 30,
+     "hi": "नारदका अभिमान और मायाका प्रभाव",
+     "en": "Ego’s sway over Nārada and the effect of the Lord’s Māyā"
+    },
+    {
+     "unit": "doha-132",
+     "n": 31,
+     "hi": "विश्वमोहिनीका स्वयंवर, शिवगणोंको तथा भगवान्‌को शाप और नारदका मोह-भंग",
+     "en": "Princess Viśvamohinī’s self-selection of a husband; Nārada’s pronouncing a curse on the attendants of Śiva as well as on the Lord Himself and his subsequent release from the spell of infatuation"
+    },
+    {
+     "unit": "doha-140",
+     "n": 32,
+     "hi": "मनु-शतरूपा-तप एवं वरदान",
+     "en": "The austerities of Manu and Śatarūpā and their receiving boon from the Lord"
+    },
+    {
+     "unit": "doha-151",
+     "n": 33,
+     "hi": "प्रतापभानुकी कथा",
+     "en": "The story of king Pratāpabhānu"
+    },
+    {
+     "unit": "doha-175",
+     "n": 34,
+     "hi": "रावणादिका जन्म, तपस्या और उनका ऐश्वर्य तथा अत्याचार",
+     "en": "The birth of Rāvaṇa and his brothers, their austerities, opulence and tyranny"
+    },
+    {
+     "unit": "doha-183",
+     "n": 35,
+     "hi": "पृथ्वी और देवतादिकी करुण पुकार",
+     "en": "The piteous appeal of mother Earth and other gods"
+    },
+    {
+     "unit": "doha-186",
+     "n": 36,
+     "hi": "भगवान्‌का वरदान",
+     "en": "The Lord’s compassion on them"
+    },
+    {
+     "unit": "doha-188",
+     "n": 37,
+     "hi": "राजा दशरथका पुत्रेष्टि यज्ञ, रानियोंका गर्भवती होना",
+     "en": "King Daśaratha’s sacrifice for the birth of a son and his Queens’ pregnancy"
+    },
+    {
+     "unit": "doha-190",
+     "n": 38,
+     "hi": "श्रीभगवान्‌का प्राकट्य और बाललीलाका आनन्द",
+     "en": "The Lord’s manifestation and the delightful nature of His childish sports"
+    },
+    {
+     "unit": "doha-207",
+     "n": 39,
+     "hi": "विश्वामित्रका राजा दशरथसे राम-लक्ष्मणको माँगना",
+     "en": "Viśvāmitra visits king Daśaratha and asks for Śrī Rāma and Lakṣmaṇa"
+    },
+    {
+     "unit": "doha-208b",
+     "n": 40,
+     "hi": "विश्वामित्र-यज्ञकी रक्षा",
+     "en": "Protection of Viśvāmitra’s sacrifice"
+    },
+    {
+     "unit": "doha-210",
+     "n": 41,
+     "hi": "अहल्या-उद्धार",
+     "en": "Redemption of Ahalyā"
+    },
+    {
+     "unit": "doha-211",
+     "n": 42,
+     "hi": "श्रीराम-लक्ष्मणसहित विश्वामित्रका जनकपुरमें प्रवेश",
+     "en": "Entry of Viśvāmitra with Śrī Rāma and Lakṣmaṇa into the precincts of Mithilā"
+    },
+    {
+     "unit": "doha-214",
+     "n": 43,
+     "hi": "श्रीराम-लक्ष्मणको देखकर जनकजीकी प्रेम-मुग्धता",
+     "en": "Janaka’s ecstasy of love at the sight of Śrī Rāma and Lakṣmaṇa"
+    },
+    {
+     "unit": "doha-218",
+     "n": 44,
+     "hi": "श्रीराम-लक्ष्मणका जनकपुर-निरीक्षण",
+     "en": "A visit to the town by Śrī Rāma and Lakṣmaṇa"
+    },
+    {
+     "unit": "doha-226",
+     "n": 45,
+     "hi": "पुष्पवाटिका-निरीक्षण, सीताजीका प्रथम दर्शन, श्रीसीतारामजीका परस्पर दर्शन",
+     "en": "Śrī Rāma’s visit to Janaka’s garden; Rāma and Sītā catch sight of each other"
+    },
+    {
+     "unit": "doha-234",
+     "n": 46,
+     "hi": "श्रीसीताजीका पार्वती-पूजन एवं वरदानप्राप्ति तथा राम-लक्ष्मण-संवाद",
+     "en": "Worship of Goddess Pārvatī by Sītā, Her receiving blessings from the Goddess and a dialogue between Śrī Rāma and Lakṣmaṇa"
+    },
+    {
+     "unit": "doha-238",
+     "n": 47,
+     "hi": "श्रीराम-लक्ष्मणसहित विश्वामित्रका यज्ञशालामें प्रवेश",
+     "en": "Śrī Rāma’s entry into the pavilion erected for the Bow-stringing performance alongwith Lakṣmaṇa"
+    },
+    {
+     "unit": "doha-246",
+     "n": 48,
+     "hi": "श्रीसीताजीका यज्ञशालामें प्रवेश",
+     "en": "Sītā’s entry into the pavilion"
+    },
+    {
+     "unit": "doha-248",
+     "n": 49,
+     "hi": "बन्दीजनोंद्वारा जनकप्रतिज्ञाकी घोषणा",
+     "en": "Proclamation of Janaka’s vow by his heralds"
+    },
+    {
+     "unit": "doha-250",
+     "n": 50,
+     "hi": "राजाओंसे धनुष न उठना, जनककी निराशाजनक वाणी",
+     "en": "The princes’ failure to lift the bow and Janaka’s despondent utterance"
+    },
+    {
+     "unit": "doha-250",
+     "n": 51,
+     "hi": "श्रीलक्ष्मणजीका क्रोध",
+     "en": "Lakṣmaṇa’s fulmination"
+    },
+    {
+     "unit": "doha-261",
+     "n": 52,
+     "hi": "धनुषभंग",
+     "en": "The breaking of the Bow"
+    },
+    {
+     "unit": "doha-263",
+     "n": 53,
+     "hi": "जयमाल पहनाना",
+     "en": "Sītā places the wreath of victory round Śrī Rāma’s neck"
+    },
+    {
+     "unit": "doha-270",
+     "n": 54,
+     "hi": "श्रीराम-लक्ष्मण और परशुराम-संवाद",
+     "en": "Arrival of Paraśurāma, exchange of sharp words between Lakṣmaṇa and Paraśurāma and Śrī Rāma’s triumph over the latter"
+    },
+    {
+     "unit": "doha-285",
+     "n": 55,
+     "hi": "दशरथजीके पास जनकजीका दूत भेजना,अयोध्यासे बारातका प्रस्थान",
+     "en": "Janaka’s despatching of messengers to Ayodhyā and departure of the marriage procession from there"
+    },
+    {
+     "unit": "doha-303",
+     "n": 56,
+     "hi": "बारातका जनकपुरमें आना और स्वागतादि",
+     "en": "Arrival of the marriage procession and its reception etc., at Janakapura"
+    },
+    {
+     "unit": "doha-322",
+     "n": 57,
+     "hi": "श्रीसीता-राम-विवाह",
+     "en": "The wedding of Sītā and Śrī Rāma and Their farewell"
+    },
+    {
+     "unit": "doha-342",
+     "n": 58,
+     "hi": "बारातका अयोध्या लौटना और अयोध्यामें आनन्द",
+     "en": "Return of the marriage procession to Ayodhyā and rejoicing in the city"
+    },
+    {
+     "unit": "doha-361",
+     "n": 59,
+     "hi": "श्रीरामचरित सुनने-गानेकी महिमा",
+     "en": "The glory of hearing and singing the story of Śrī Rāma"
+    }
+   ]
+  },
+  {
+   "number": 2,
+   "slug": "ayodhya-kand",
+   "title_en": "Ayodhya Kand",
+   "title_hi": "अयोध्याकाण्ड",
+   "title_iast": "Ayodhyā-Kāṇḍa",
+   "units": 327,
+   "dohas": 326,
+   "verses": 1647,
+   "sections": [
+    {
+     "unit": "mangalacharan",
+     "n": 1,
+     "hi": "मंगलाचरण",
+     "en": "Invocations"
+    },
+    {
+     "unit": "doha-3",
+     "n": 2,
+     "hi": "रामराज्याभिषेककी तैयारी, देवताओंकी व्याकुलता तथा सरस्वतीजीसे उनकी प्रार्थना",
+     "en": "Preparations for Śrī Rāma’s installation as the Prince Regent of Ayodhyā; the god’s concern over the same and their approaching Goddess Sarasvatī for help"
+    },
+    {
+     "unit": "doha-12",
+     "n": 3,
+     "hi": "सरस्वतीका मन्थराकी बुद्धि फेरना,कैकेयी-मन्थरा-संवाद",
+     "en": "Sarasvatī perverts the mind of Mantharā (a handmaid of queen Kaikeyī); dialogue between Kaikeyī and Mantharā"
+    },
+    {
+     "unit": "doha-23",
+     "n": 4,
+     "hi": "कैकेयीका कोपभवनमें जाना",
+     "en": "Kaikeyī enters the sulking-chamber"
+    },
+    {
+     "unit": "doha-25",
+     "n": 5,
+     "hi": "दशरथ-कैकेयी-संवाद और दशरथ-शोक, सुमन्त्रका महलमें जाना और वहाँसे लौटकर श्रीरामजीको महलमें भेजना",
+     "en": "Dialogue between king Daśaratha and Kaikeyī; Daśaratha’s lamentation; Sumantra goes to the palace and, returning from it, sends Śrī Rāma to His father"
+    },
+    {
+     "unit": "doha-39",
+     "n": 6,
+     "hi": "श्रीराम-कैकेयी-संवाद",
+     "en": "Dialogue between Śrī Rāma and mother Kaikeyī"
+    },
+    {
+     "unit": "doha-44",
+     "n": 7,
+     "hi": "श्रीराम-दशरथ-संवाद, अवधवासियोंका विषाद, कैकेयीको समझाना",
+     "en": "Dialogue between Śrī Rāma and His father; the sadness of the people of Ayodhyā; their remonstrances with Kaikeyī"
+    },
+    {
+     "unit": "doha-51",
+     "n": 8,
+     "hi": "श्रीराम-कौसल्या-संवाद",
+     "en": "Dialogue between Śrī Rāma and mother Kausalyā"
+    },
+    {
+     "unit": "doha-60",
+     "n": 9,
+     "hi": "श्रीसीता-राम-संवाद",
+     "en": "Dialogue between Sītā and Śrī Rāma"
+    },
+    {
+     "unit": "doha-66",
+     "n": 10,
+     "hi": "श्रीराम-कौसल्या-सीता-संवाद",
+     "en": "Dialogue between Śrī Rāma, Kausalyā and Sītā"
+    },
+    {
+     "unit": "doha-68",
+     "n": 11,
+     "hi": "श्रीराम-लक्ष्मण-संवाद",
+     "en": "Dialogue between Śrī Rāma and Lakṣmaṇa"
+    },
+    {
+     "unit": "doha-73",
+     "n": 12,
+     "hi": "श्रीलक्ष्मण-सुमित्रा-संवाद",
+     "en": "Dialogue between Lakṣmaṇa and mother Sumitrā"
+    },
+    {
+     "unit": "doha-75",
+     "n": 13,
+     "hi": "श्रीरामजी, लक्ष्मणजी, सीताजीका महाराज दशरथके पास विदा माँगने जाना, दशरथजीका सीताजीको समझाना",
+     "en": "Śrī Rāma, Lakṣmaṇa and Sītā call on king Daśaratha to take leave of him; Daśaratha’s exhortation to Sītā"
+    },
+    {
+     "unit": "doha-79",
+     "n": 14,
+     "hi": "श्रीराम-सीता-लक्ष्मणका वनगमन और नगर-निवासियोंको सोये छोड़कर आगे बढ़ना",
+     "en": "Śrī Rāma, Sītā and Lakṣmaṇa proceed to the woods and slip past the citizens, deep in sleep"
+    },
+    {
+     "unit": "doha-86",
+     "n": 15,
+     "hi": "श्रीरामका शृङ्गवेरपुर पहुँचना, निषादके द्वारा सेवा",
+     "en": "Śrī Rāma’s arrival at Śṛṅgaverapura; the Niṣāda chief’s services"
+    },
+    {
+     "unit": "doha-90",
+     "n": 16,
+     "hi": "लक्ष्मण-निषाद-संवाद, श्रीराम-सीतासे सुमन्त्रका संवाद, सुमन्त्रका लौटना",
+     "en": "Dialogue between Lakṣmaṇa and the Niṣāda; Sumantra’s dialogue with Śrī Rāma and Sītā and his departing for Ayodhyā"
+    },
+    {
+     "unit": "doha-99",
+     "n": 17,
+     "hi": "केवटका प्रेम और गङ्गा-पार जाना",
+     "en": "The boatman’s love and the passage across the Gaṅgā, Sītā’s prayer to Gaṅgā"
+    },
+    {
+     "unit": "doha-105",
+     "n": 18,
+     "hi": "प्रयाग पहुँचना, भरद्वाज-संवाद, यमुनातीरनिवासियोंका प्रेम",
+     "en": "Arrival at Prayāga and dialogue between Śrī Rāma and the sage Bharadvāja; the love of the people inhabiting the bank of the Yamunā"
+    },
+    {
+     "unit": "doha-109",
+     "n": 19,
+     "hi": "तापस-प्रकरण",
+     "en": "The episode of an ascetic"
+    },
+    {
+     "unit": "doha-110",
+     "n": 20,
+     "hi": "यमुनाको प्रणाम, वनवासियोंका प्रेम",
+     "en": "Śrī Rāma greets the Yamunā; love of the villagers"
+    },
+    {
+     "unit": "doha-125",
+     "n": 21,
+     "hi": "श्रीराम-वाल्मीकि-संवाद",
+     "en": "Dialogue between Śrī Rāma and the sage Vālmīki"
+    },
+    {
+     "unit": "doha-132",
+     "n": 22,
+     "hi": "चित्रकूटमें निवास, कोल-भीलोंके द्वारा सेवा",
+     "en": "Śrī Rāma takes up His abode at Citrakūṭa; the services of the Kolas and Bhīlas"
+    },
+    {
+     "unit": "doha-142",
+     "n": 23,
+     "hi": "सुमन्त्रका अयोध्याको लौटना और सर्वत्र शोक देखना",
+     "en": "Sumantra returns to Ayodhyā and finds the city a picture of grief"
+    },
+    {
+     "unit": "doha-147",
+     "n": 24,
+     "hi": "दशरथ-सुमन्त्र-संवाद, दशरथ-मरण",
+     "en": "Dialogue between king Daśaratha and Sumantra, Daśaratha’s passing away"
+    },
+    {
+     "unit": "doha-155",
+     "n": 25,
+     "hi": "मुनि वसिष्ठका भरतजीको बुलानेके लिये दूत भेजना",
+     "en": "The sage Vasiṣṭha sends envoys to call Bharata"
+    },
+    {
+     "unit": "doha-158",
+     "n": 26,
+     "hi": "श्रीभरत-शत्रुघ्नका आगमन और शोक",
+     "en": "Arrival and lamentation of Bharata and Śatrughna"
+    },
+    {
+     "unit": "doha-162",
+     "n": 27,
+     "hi": "भरत-कौसल्या-संवाद और दशरथजीकी अन्त्येष्टि-क्रिया",
+     "en": "Dialogue between Bharata and mother Kausalyā and king Daśaratha’s cremation"
+    },
+    {
+     "unit": "doha-169",
+     "n": 28,
+     "hi": "वसिष्ठ-भरत-संवाद, श्रीरामजीको लानेके लिये चित्रकूट जानेकी तैयारी",
+     "en": "Dialogue between the sage Vasiṣṭha and Bharata; Bharata prepares for a journey to Citrakūṭa in order to bring Śrī Rāma back to Ayodhyā"
+    },
+    {
+     "unit": "doha-184",
+     "n": 29,
+     "hi": "अयोध्यावासियोंसहित श्रीभरत-शत्रुघ्न आदिका वनगमन",
+     "en": "Departure of Bharata and Śatrughna with the citizens of Ayodhyā to the woods"
+    },
+    {
+     "unit": "doha-189",
+     "n": 30,
+     "hi": "निषादकी शङ्का और सावधानी",
+     "en": "The Niṣāda’s suspicion and precautions"
+    },
+    {
+     "unit": "doha-193",
+     "n": 31,
+     "hi": "भरत-निषाद-मिलन और संवाद एवं भरतजीका तथा नगरवासियोंका प्रेम",
+     "en": "Bharata’s meeting and dialogue with the Niṣāda chief; the love of Bharata and the citizens of Ayodhyā for Śrī Rāma"
+    },
+    {
+     "unit": "doha-203",
+     "n": 32,
+     "hi": "भरतजीका प्रयाग जाना और भरत-भरद्वाज-संवाद",
+     "en": "Bharata’s arrival at Prayāga and dialogue between Bharata and the sage Bharadvāja"
+    },
+    {
+     "unit": "doha-205",
+     "n": 33,
+     "hi": "भरद्वाजद्वारा भरतका सत्कार",
+     "en": "Bharadvāja shows hospitality to Bharata"
+    },
+    {
+     "unit": "doha-217",
+     "n": 34,
+     "hi": "इन्द्र-बृहस्पति-संवाद",
+     "en": "Dialogue between Indra and his preceptor (the sage Bṛhaspati)"
+    },
+    {
+     "unit": "doha-221",
+     "n": 35,
+     "hi": "भरतजी चित्रकूटके मार्गमें",
+     "en": "Bharata on his way to Citrakūṭa"
+    },
+    {
+     "unit": "doha-225",
+     "n": 36,
+     "hi": "श्रीसीताजीका स्वप्न, श्रीरामजीको कोल-किरातोंद्वारा भरतजीके आगमनकी सूचना, रामजीका शोक, लक्ष्मणजीका क्रोध",
+     "en": "Sītā’s dream; the Kolas and Kirātas bring news of Bharata’s arrival to Śrī Rāma; Śrī Rāma’s concern at the report; Lakṣmaṇa’s outburst of passion"
+    },
+    {
+     "unit": "doha-231",
+     "n": 37,
+     "hi": "श्रीरामजीका लक्ष्मणजीको समझाना एवं भरतजीकी महिमा कहना",
+     "en": "Śrī Rāma admonishes Lakṣmaṇa and dwells on Bharata’s greatness"
+    },
+    {
+     "unit": "doha-233",
+     "n": 38,
+     "hi": "भरतजीका मन्दाकिनी-स्नान, चित्रकूटमें पहुँचना, भरतादि सबका परस्पर मिलाप, पिताका शोक और श्राद्ध",
+     "en": "Bharata takes a dip in the Mandākinī and arrives at Citrakūṭa; Bharata and others meet one another, mourn the king’s death and perform his Śrāddha (obsequies)"
+    },
+    {
+     "unit": "doha-248",
+     "n": 39,
+     "hi": "वनवासियोंद्वारा भरतजीकी मण्डलीका सत्कार, कैकेयीका पश्चात्ताप",
+     "en": "Hospitality of the foresters towards Bharata and his party; Kaikeyī’s remorse"
+    },
+    {
+     "unit": "doha-252",
+     "n": 40,
+     "hi": "श्रीवसिष्ठजीका भाषण",
+     "en": "Vasiṣṭha’s speech"
+    },
+    {
+     "unit": "doha-258",
+     "n": 41,
+     "hi": "श्रीराम-भरतादिका संवाद",
+     "en": "Dialogue between Śrī Rāma, Bharata and others"
+    },
+    {
+     "unit": "doha-273",
+     "n": 42,
+     "hi": "जनकजीका पहुँचना, कोल-किरातादिकी भेंट, सबका परस्पर मिलाप",
+     "en": "King Janaka’s arrival at Citrakūṭa; the Kolas and Kirātas offer presents to the visitors and all meet one another"
+    },
+    {
+     "unit": "doha-279",
+     "n": 43,
+     "hi": "कौसल्या-सुनयना-संवाद, श्रीसीताजीका शील",
+     "en": "Dialogue between queens Kausalyā and Sunayanā (king Janaka’s wife); Sītā’s amiability"
+    },
+    {
+     "unit": "doha-287",
+     "n": 44,
+     "hi": "जनक-सुनयना-संवाद,भरतजीकी महिमा",
+     "en": "Dialogue between king Janaka and his wife; Bharata’s glory"
+    },
+    {
+     "unit": "doha-291",
+     "n": 45,
+     "hi": "जनक-वसिष्ठादि-संवाद,इन्द्रकी चिन्ता,सरस्वतीका इन्द्रको समझाना",
+     "en": "Dialogue between king Janaka and Bharata; Indra’s anxiety; Goddess Sarasvatī’s admonition to Indra"
+    },
+    {
+     "unit": "doha-294",
+     "n": 46,
+     "hi": "श्रीराम-भरत-संवाद",
+     "en": "Dialogue between the sage Vasiṣṭha, Śrī Rāma and Bharata"
+    },
+    {
+     "unit": "doha-309",
+     "n": 47,
+     "hi": "भरतजीका तीर्थ-जल-स्थापन तथा चित्रकूटभ्रमण",
+     "en": "Bharata deposits the sacred waters; his perambulation through Citrakūṭa"
+    },
+    {
+     "unit": "doha-312",
+     "n": 48,
+     "hi": "श्रीराम-भरत-संवाद,पादुका-प्रदान,भरतजीकी विदाई",
+     "en": "Dialogue between Śrī Rāma and Bharata; Śrī Rāma’s gift of His sandals; Bharata’s farewell"
+    },
+    {
+     "unit": "doha-314",
+     "n": 49,
+     "hi": "भरतजीका अयोध्या लौटना, भरतजीद्वारा पादुकाकी स्थापना, नन्दिग्राममें निवास और श्रीभरतजीके चरित्र-श्रवणकी महिमा",
+     "en": "Returning to Ayodhyā, Bharata places the Lord’s sandals on the throne and takes up his residence at Nandigrāma; the virtue of listening to Bharata’s story"
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "slug": "aranya-kand",
+   "title_en": "Aranya Kand",
+   "title_hi": "अरण्यकाण्ड",
+   "title_iast": "Araṇya-Kāṇḍa",
+   "units": 47,
+   "dohas": 46,
+   "verses": 355,
+   "sections": [
+    {
+     "unit": "mangalacharan",
+     "n": 1,
+     "hi": "मंगलाचरण",
+     "en": "Invocations"
+    },
+    {
+     "unit": "doha-1",
+     "n": 2,
+     "hi": "जयन्तकी कुटिलता और फलप्राप्ति",
+     "en": "Jayanta’s mischief and punishment"
+    },
+    {
+     "unit": "doha-2",
+     "n": 3,
+     "hi": "अत्रि-मिलन एवं स्तुति",
+     "en": "Meeting with sage Atri and his hymn of praise to Śrī Rāma"
+    },
+    {
+     "unit": "doha-4",
+     "n": 4,
+     "hi": "श्रीसीता-अनसूया-मिलन और श्रीसीताजीको अनसूयाजीका पातिव्रतधर्म कहना",
+     "en": "Sītā’s meeting with Anasūyā (Atri’s wife) and the latter’s discourse on the duties of a devoted wife"
+    },
+    {
+     "unit": "doha-6b",
+     "n": 5,
+     "hi": "श्रीरामजीका आगे प्रस्थान, विराध-वध और शरभङ्ग-प्रसङ्ग",
+     "en": "Śrī Rāma proceeds further and kills Virādha; the episode of the sage Śarabhaṅga"
+    },
+    {
+     "unit": "doha-9",
+     "n": 6,
+     "hi": "राक्षस-वधकी प्रतिज्ञा करना",
+     "en": "Śrī Rāma takes a vow to kill the demons"
+    },
+    {
+     "unit": "doha-9",
+     "n": 7,
+     "hi": "सुतीक्ष्णजीका प्रेम, अगस्त्य-मिलन, अगस्त्य संवाद, रामका दण्डक-वन-प्रवेश और जटायु-मिलन",
+     "en": "Sutīkṣṇa’s love and Śrī Rāma’s meeting with the sage Agastya; dialogue with Agastya; Śrī Rāma’s entry into the Daṇḍaka forest and His meeting with Jaṭāyu"
+    },
+    {
+     "unit": "doha-13",
+     "n": 8,
+     "hi": "पञ्चवटी-निवास और श्रीराम-लक्ष्मण-संवाद",
+     "en": "Śrī Rāma takes up His abode at Pañcavaṭī; dialogue between Śrī Rāma and Lakṣmaṇa"
+    },
+    {
+     "unit": "doha-16",
+     "n": 9,
+     "hi": "शूर्पणखाकी कथा, शूर्पणखाका खर-दूषणके पास जाना और खर-दूषणादिका वध",
+     "en": "The story of Śūrpaṇakhā; her approaching Khara, Dūṣaṇa and Triśirā for redress and their subsequent death at Śrī Rāma’s hands"
+    },
+    {
+     "unit": "doha-20b",
+     "n": 10,
+     "hi": "शूर्पणखाका रावणके निकट जाना, श्रीसीताजीका अग्नि-प्रवेश और माया-सीता",
+     "en": "Śūrpaṇakhā approaches Rāvaṇa; Sītā enters into the fire leaving Her shadow behind"
+    },
+    {
+     "unit": "doha-22",
+     "n": 11,
+     "hi": "मारीचप्रसंग और स्वर्णमृगरूपमें मारीचका मारा जाना",
+     "en": "The episode of Mārīca and how he was killed in the form of a gold deer"
+    },
+    {
+     "unit": "doha-27",
+     "n": 12,
+     "hi": "श्रीसीताहरण और श्रीसीता-विलाप",
+     "en": "Sītā’s abduction and Her wailing"
+    },
+    {
+     "unit": "doha-28",
+     "n": 13,
+     "hi": "जटायु-रावण-युद्ध",
+     "en": "The combat of Jaṭāyu with Rāvaṇa"
+    },
+    {
+     "unit": "doha-29b",
+     "n": 14,
+     "hi": "श्रीरामजीका विलाप, जटायुका प्रसंग",
+     "en": "Śrī Rāma’s lament; His meeting with Jaṭāyu"
+    },
+    {
+     "unit": "doha-32",
+     "n": 15,
+     "hi": "कबन्ध-उद्धार",
+     "en": "Deliverance of Kabandha"
+    },
+    {
+     "unit": "doha-34",
+     "n": 16,
+     "hi": "शबरीपर कृपा, नवधा भक्ति-उपदेश और पम्पासरकी ओर प्रस्थान",
+     "en": "Grace on Śabarī; description of the nine forms of Devotion and departure for the Pampā lake"
+    },
+    {
+     "unit": "doha-40",
+     "n": 17,
+     "hi": "नारद-राम-संवाद",
+     "en": "Dialogue between the sage Nārada and Śrī Rāma"
+    },
+    {
+     "unit": "doha-44",
+     "n": 18,
+     "hi": "संतोंके लक्षण और सत्संग-भजनके लिये प्रेरणा",
+     "en": "The glory of hearing the praises of Śrī Rāma and an exhortation to cultivate fellowship with saints and practise adoration"
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "slug": "kishkindha-kand",
+   "title_en": "Kishkindha Kand",
+   "title_hi": "किष्किन्धाकाण्ड",
+   "title_iast": "Kiṣkindhā-Kāṇḍa",
+   "units": 31,
+   "dohas": 30,
+   "verses": 193,
+   "sections": [
+    {
+     "unit": "mangalacharan",
+     "n": 1,
+     "hi": "मंगलाचरण",
+     "en": "Invocations"
+    },
+    {
+     "unit": "doha-1",
+     "n": 2,
+     "hi": "श्रीरामजीसे हनुमान्‌जीका मिलना और श्रीराम-सुग्रीवकी मित्रता",
+     "en": "Śrī Rāma’s meeting with Hanumān and the conclusion of an alliance between Śrī Rāma and Sugrīva"
+    },
+    {
+     "unit": "doha-5",
+     "n": 3,
+     "hi": "सुग्रीवका दुःख सुनाना, बालिवधकी प्रतिज्ञा, श्रीरामजीका मित्र-लक्षण-वर्णन",
+     "en": "Sugrīva apprizes Śrī Rāma of his woes; the latter’s vow to kill Vāli; Śrī Rāma expatiates on the characteristics of a friend"
+    },
+    {
+     "unit": "doha-7",
+     "n": 4,
+     "hi": "सुग्रीवका वैराग्य",
+     "en": "Sugrīva’s dispassion"
+    },
+    {
+     "unit": "doha-7",
+     "n": 5,
+     "hi": "बालि-सुग्रीव-युद्ध, बालि-उद्धार",
+     "en": "Duel between Vāli and Sugrīva; deliverance of Vāli"
+    },
+    {
+     "unit": "doha-9",
+     "n": 6,
+     "hi": "ताराका विलाप, ताराको श्रीरामजीद्वारा उपदेश और सुग्रीवका राज्याभिषेक तथा अंगदको युवराजपद",
+     "en": "Tārā’s wail; Śrī Rāma’s advice to Tārā and Sugrīva’s coronation and Aṅgada’s installation as his Heir- Apparent"
+    },
+    {
+     "unit": "doha-12",
+     "n": 7,
+     "hi": "वर्षा-ऋतु-वर्णन",
+     "en": "A description of the rainy season"
+    },
+    {
+     "unit": "doha-15b",
+     "n": 8,
+     "hi": "शरद्-ऋतु-वर्णन",
+     "en": ""
+    },
+    {
+     "unit": "doha-16",
+     "n": 9,
+     "hi": "श्रीरामकी सुग्रीवपर नाराजी, लक्ष्मणजीका कोप",
+     "en": "Śrī Rāma’s show of displeasure towards Sugrīva and Lakṣmaṇa’s wrath"
+    },
+    {
+     "unit": "doha-21",
+     "n": 10,
+     "hi": "सुग्रीव-राम-संवाद और सीताजीकी खोजके लिये बंदरोंका प्रस्थान",
+     "en": "Dialogue between Sugrīva and Śrī Rāma and the departure of the monkeys in quest of Sītā"
+    },
+    {
+     "unit": "doha-25",
+     "n": 11,
+     "hi": "गुफामें तपस्विनीके दर्शन",
+     "en": "Their meeting with a hermitess in a cavern"
+    },
+    {
+     "unit": "doha-25",
+     "n": 12,
+     "hi": "वानरोंका समुद्रतटपर आना, सम्पातीसे भेंट और बातचीत",
+     "en": "The monkeys’ arrival at the seashore; their meeting and conversation with Sampātī (Jaṭāyu’s brother)"
+    },
+    {
+     "unit": "doha-28",
+     "n": 13,
+     "hi": "समुद्र लाँघनेका परामर्श, जाम्बवन्तका हनुमान्‌जीको बल याद दिलाकर उत्साहित करना",
+     "en": "Sampātī’s advice to the monkeys to leap across the ocean; Jāmbavān encourages Hanumān by reminding him of his strength"
+    },
+    {
+     "unit": "doha-30b",
+     "n": 14,
+     "hi": "श्रीरामगुणका माहात्म्य",
+     "en": "The greatness of Śrī Rāma’s glories"
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "slug": "sunderkand",
+   "title_en": "Sunderkand",
+   "title_hi": "सुन्दरकाण्ड",
+   "title_iast": "Sundara-Kāṇḍa",
+   "units": 61,
+   "dohas": 60,
+   "verses": 343,
+   "sections": [
+    {
+     "unit": "mangalacharan",
+     "n": 1,
+     "hi": "मंगलाचरण",
+     "en": "Invocations"
+    },
+    {
+     "unit": "mangalacharan",
+     "n": 2,
+     "hi": "हनुमान्‌जीका लङ्काको प्रस्थान, सुरसासे भेंट,छाया पकड़नेवाली राक्षसीका वध",
+     "en": "Hanumān leaves for Laṅkā, meets Surasā and kills the image-catching demoness"
+    },
+    {
+     "unit": "doha-3",
+     "n": 3,
+     "hi": "लङ्कावर्णन, लङ्किनीपर प्रहार,लङ्कामें प्रवेश",
+     "en": "Description of Laṅkā; Hanumān strikes Laṅkinī and enters Laṅkā"
+    },
+    {
+     "unit": "doha-4",
+     "n": 4,
+     "hi": "हनुमान्-विभीषण-संवाद",
+     "en": "Hanumān meets Vibhīṣaṇa"
+    },
+    {
+     "unit": "doha-8",
+     "n": 5,
+     "hi": "हनुमान्‌जीका अशोकवाटिकामें सीताको देखकर दुःखी होना और रावणका सीताजीको भय दिखलाना",
+     "en": "Hanumān’s grief at the sight of Sītā in the Aśoka grove and Rāvaṇa’s threat to Sītā"
+    },
+    {
+     "unit": "doha-10",
+     "n": 6,
+     "hi": "श्रीसीता-त्रिजटा-संवाद",
+     "en": "Dialogue between Sītā and Trijaṭā"
+    },
+    {
+     "unit": "doha-12",
+     "n": 7,
+     "hi": "श्रीसीता-हनुमान्-संवाद",
+     "en": "Dialogue between Sītā and Hanumān"
+    },
+    {
+     "unit": "doha-17",
+     "n": 8,
+     "hi": "हनुमान्‌जीद्वारा अशोकवाटिका-विध्वंस, अक्षयकुमार-वध और मेघनादका हनुमान्‌जीको नागपाशमें बाँधकर सभामें ले जाना",
+     "en": "Hanumān lays waste the Aśoka grove and kills prince Akṣaya; at last Meghanāda entangles Hanumān in a noose of Brahmā and carries him off to Rāvaṇa’s court"
+    },
+    {
+     "unit": "doha-20",
+     "n": 9,
+     "hi": "हनुमान्-रावण-संवाद",
+     "en": "Dialogue between Hanumān and Rāvaṇa"
+    },
+    {
+     "unit": "doha-25",
+     "n": 10,
+     "hi": "लङ्का-दहन",
+     "en": "Burning of Laṅkā"
+    },
+    {
+     "unit": "doha-25",
+     "n": 11,
+     "hi": "लङ्का जलानेके बाद हनुमान्‌जीका सीताजीसे विदा माँगना और चूड़ामणि पाना",
+     "en": "After burning Laṅkā Hanumān asks leave of Sītā and obtains the crest-jewel from Her"
+    },
+    {
+     "unit": "doha-25",
+     "n": 12,
+     "hi": "समुद्रके इस पार आना, सबका लौटना, मधुवन-प्रवेश,सुग्रीव-मिलन, श्रीराम-हनुमान्-संवाद",
+     "en": "On Hanumān’s reaching the opposite shore all the monkeys return and enter Madhuvana; their meeting with Sugrīva and the dialogue between Śrī Rāma and Hanumān"
+    },
+    {
+     "unit": "doha-35",
+     "n": 13,
+     "hi": "श्रीरामजीका वानरोंकी सेनाके साथ चलकर समुद्रतटपर पहुँचना",
+     "en": "Śrī Rāma’s march to the beach alongwith the army of monkeys"
+    },
+    {
+     "unit": "doha-35",
+     "n": 14,
+     "hi": "मन्दोदरी-रावण-संवाद",
+     "en": "Dialogue between Mandodarī and Rāvaṇa"
+    },
+    {
+     "unit": "doha-37",
+     "n": 15,
+     "hi": "रावणको विभीषणका समझाना और विभीषणका अपमान",
+     "en": "Vibhīṣaṇa offers advice to Rāvaṇa and meets with an affront at the latter’s hands"
+    },
+    {
+     "unit": "doha-41",
+     "n": 16,
+     "hi": "विभीषणका भगवान् श्रीरामजीकी शरणके लिये प्रस्थान और शरणप्राप्ति",
+     "en": "Vibhīṣaṇa sallies forth to obtain Śrī Rāma’s protection and secures it"
+    },
+    {
+     "unit": "doha-49b",
+     "n": 17,
+     "hi": "समुद्र पार करनेके लिये विचार, रावणदूत शुकका आना और लक्ष्मणजीके पत्रको लेकर लौटना",
+     "en": "Deliberation over the question of crossing the sea; appearance of Śuka, a spy of Rāvaṇa, and his return with Lakṣmaṇa’s letter"
+    },
+    {
+     "unit": "doha-53",
+     "n": 18,
+     "hi": "दूतका रावणको समझाना और लक्ष्मणजीका पत्र देना",
+     "en": "The spy gives counsel to Rāvaṇa and delivers Lakṣmaṇa’s note to him"
+    },
+    {
+     "unit": "doha-57",
+     "n": 19,
+     "hi": "समुद्रपर श्रीरामजीका क्रोध और समुद्रकी विनती",
+     "en": "Śrī Rāma’s fury against the sea and the latter’s supplication"
+    },
+    {
+     "unit": "doha-59",
+     "n": 20,
+     "hi": "श्रीराम-गुणगानकी महिमा",
+     "en": "Glory of hymning Śrī Rāma’s glories"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "slug": "lanka-kand",
+   "title_en": "Lanka Kand",
+   "title_hi": "लंकाकाण्ड",
+   "title_iast": "Laṅkā-Kāṇḍa",
+   "units": 122,
+   "dohas": 121,
+   "verses": 800,
+   "sections": [
+    {
+     "unit": "mangalacharan",
+     "n": 1,
+     "hi": "मंगलाचरण",
+     "en": "Invocations"
+    },
+    {
+     "unit": "mangalacharan",
+     "n": 2,
+     "hi": "नल-नीलद्वारा पुल बाँधना, श्रीरामजीद्वारा श्रीरामेश्वरकी स्थापना",
+     "en": "Bridging of the ocean by Nala and Nīla; Śrī Rāma’s installation of Śrī Rāmeśvara Liṅgam"
+    },
+    {
+     "unit": "doha-4",
+     "n": 3,
+     "hi": "श्रीरामजीका सेनासहित समुद्र पार उतरना, सुबेल पर्वतपर निवास, रावणकी व्याकुलता",
+     "en": "Śrī Rāma crosses the ocean with the whole army and encamps on Mount Suvela; Rāvaṇa feels agitated at the news"
+    },
+    {
+     "unit": "doha-4",
+     "n": 4,
+     "hi": "रावणको मन्दोदरीका समझाना, रावण-प्रहस्त-संवाद",
+     "en": "Mandodarī expostulates with Rāvaṇa; dialogue between Rāvaṇa and Prahasta (his son)"
+    },
+    {
+     "unit": "doha-10",
+     "n": 5,
+     "hi": "सुबेलपर श्रीरामजीकी झाँकी और चन्द्रोदयवर्णन",
+     "en": "A description of Śrī Rāma on Mount Suvela and a view of the rising moon"
+    },
+    {
+     "unit": "doha-12b",
+     "n": 6,
+     "hi": "श्रीरामजीके बाणसे रावणके मुकुट-छत्रादिका गिरना",
+     "en": "An arrow from Śrī Rāma’s bow strikes down Rāvaṇa’s diadems and umbrella"
+    },
+    {
+     "unit": "doha-14",
+     "n": 7,
+     "hi": "मन्दोदरीका फिर रावणको समझाना और श्रीरामकी महिमा कहना",
+     "en": "Mandodarī makes remonstrance with Rāvaṇa again and dwells upon Śrī Rāma’s glory"
+    },
+    {
+     "unit": "doha-17b",
+     "n": 8,
+     "hi": "अंगदजीका लंका जाना और रावणकी सभामें अंगद-रावण-संवाद",
+     "en": "Aṅgada’s departure for Laṅkā and dialogue between Aṅgada and Rāvaṇa in the latter’s court"
+    },
+    {
+     "unit": "doha-35b",
+     "n": 9,
+     "hi": "रावणको पुनः मन्दोदरीका समझाना",
+     "en": "Mandodarī offers advice to Rāvaṇa once more"
+    },
+    {
+     "unit": "doha-38b",
+     "n": 10,
+     "hi": "अंगद-राम-संवाद",
+     "en": "Dialogue between Aṅgada and Śrī Rāma; war actually begins"
+    },
+    {
+     "unit": "doha-38b",
+     "n": 11,
+     "hi": "युद्धारम्भ",
+     "en": ""
+    },
+    {
+     "unit": "doha-47",
+     "n": 12,
+     "hi": "माल्यवान्‌का रावणको समझाना",
+     "en": "Mālyavān’s admonition to Rāvaṇa"
+    },
+    {
+     "unit": "doha-51",
+     "n": 13,
+     "hi": "लक्ष्मण-मेघनाद-युद्ध, लक्ष्मणजीको शक्ति लगना",
+     "en": "The battle recommences; encounter between Lakṣmaṇa and Meghanāda; a javelin thrown by the latter strikes Lakṣmaṇa in the breast"
+    },
+    {
+     "unit": "doha-55",
+     "n": 14,
+     "hi": "हनुमान्‌जीका सुषेण वैद्यको लाना एवं संजीवनीके लिये जाना, कालनेमि-रावण-संवाद, मकरी-उद्धार, कालनेमि-उद्धार",
+     "en": "Hanumān fetches the physician Suṣeṇa and proceeds in quest of the life-giving herb; dialogue between Kālanemi and Rāvaṇa, redemption of the she-alligator; deliverance of Kālanemi"
+    },
+    {
+     "unit": "doha-57",
+     "n": 15,
+     "hi": "भरतजीके बाणसे हनुमान्‌का मूर्च्छित होना, भरत-हनुमान्-संवाद",
+     "en": "Struck by Bharata’s arrow, Hanumān drops down unconscious; dialogue between Bharata and Hanumān"
+    },
+    {
+     "unit": "doha-59",
+     "n": 16,
+     "hi": "श्रीरामजीकी प्रलापलीला, हनुमान्‌जीका लौटना, लक्ष्मणजीका उठ बैठना",
+     "en": "Śrī Rāma’s sport of a touching wail; Hanumān’s return; Lakṣmaṇa’s coming back to consciousness"
+    },
+    {
+     "unit": "doha-61",
+     "n": 17,
+     "hi": "रावणका कुम्भकर्णको जगाना, कुम्भकर्णका रावणको उपदेश और विभीषण-कुम्भकर्ण-संवाद",
+     "en": "Rāvaṇa awakes Kumbhakarṇa; Kumbhakarṇa’s exhortation to Rāvaṇa and dialogue between Vibhīṣaṇa and Kumbhakarṇa"
+    },
+    {
+     "unit": "doha-64",
+     "n": 18,
+     "hi": "कुम्भकर्ण-युद्ध और उसकी परमगति",
+     "en": "Kumbhakarṇa joins the battle and attains final beatitude"
+    },
+    {
+     "unit": "doha-71",
+     "n": 19,
+     "hi": "मेघनादका युद्ध, रामजीका लीलासे नागपाशमें बँधना",
+     "en": "Meghanāda gives battle and Śrī Rāma sportfully allows Himself to be bound by a snare of serpents"
+    },
+    {
+     "unit": "doha-75",
+     "n": 20,
+     "hi": "मेघनाद-यज्ञ-विध्वंस, युद्ध और मेघनाद-उद्धार",
+     "en": "Destruction of Meghanāda’s sacrificial performance; his engagement on the battle-field and deliverance at the hands of Lakṣmaṇa"
+    },
+    {
+     "unit": "doha-78",
+     "n": 21,
+     "hi": "रावणका युद्धके लिये प्रस्थान और श्रीरामजीका विजय-रथ तथा वानर-राक्षसोंका युद्ध",
+     "en": "Rāvaṇa’s march to the field of battle; Śrī Rāma’s victory-chariot and an encounter between the monkey- warriors and the demons"
+    },
+    {
+     "unit": "doha-81",
+     "n": 22,
+     "hi": "लक्ष्मण-रावण-युद्ध",
+     "en": "Encounter between Lakṣmaṇa and Rāvaṇa"
+    },
+    {
+     "unit": "doha-83",
+     "n": 23,
+     "hi": "रावण-मूर्च्छा,रावण-यज्ञ-विध्वंस,राम-रावण-युद्ध",
+     "en": "Rāvaṇa’s swoon; destruction of his sacrificial performance; combat between Śrī Rāma and Rāvaṇa"
+    },
+    {
+     "unit": "doha-88",
+     "n": 24,
+     "hi": "इन्द्रका श्रीरामजीके लिये रथ भेजना, राम-रावण-युद्ध",
+     "en": "Indra (the lord of paradise) sends a chariot for the use of Śrī Rāma; encounter between Śrī Rāma and Rāvaṇa"
+    },
+    {
+     "unit": "doha-92",
+     "n": 25,
+     "hi": "रावणका विभीषणपर शक्ति छोड़ना, रामजीका शक्तिको अपने ऊपर लेना, विभीषण-रावण-युद्ध",
+     "en": "Rāvaṇa hurls a lance at Vibhīṣaṇa : Śrī Rāma puts Vibhīṣaṇa behind Him and exposes Himself to its full force; encounter between Vibhīṣaṇa and Rāvaṇa"
+    },
+    {
+     "unit": "doha-94",
+     "n": 26,
+     "hi": "रावण-हनुमान्-युद्ध, रावणका माया रचना, रामजीद्वारा माया-नाश",
+     "en": "Combat of Rāvaṇa and Hanumān; Rāvaṇa creates phantoms and Śrī Rāma disperses the phantoms"
+    },
+    {
+     "unit": "doha-95",
+     "n": 27,
+     "hi": "घोर युद्ध, रावणकी मूर्च्छा",
+     "en": "Fierce fighting; Rāvaṇa’s swoon"
+    },
+    {
+     "unit": "doha-98",
+     "n": 28,
+     "hi": "त्रिजटा-सीता-संवाद",
+     "en": "Dialogue between Sītā and Trijaṭā"
+    },
+    {
+     "unit": "doha-101b",
+     "n": 29,
+     "hi": "राम-रावण-युद्ध, रावण-वध, सर्वत्र जयध्वनि",
+     "en": "Final encounter between Śrī Rāma and Rāvaṇa; end of Rāvaṇa; shouts of victory everywhere"
+    },
+    {
+     "unit": "doha-103",
+     "n": 30,
+     "hi": "मन्दोदरी-विलाप, रावणकी अन्त्येष्टि-क्रिया",
+     "en": "Mandodarī and other queens lament; Rāvaṇa’s funeral"
+    },
+    {
+     "unit": "doha-106",
+     "n": 31,
+     "hi": "विभीषणका राज्याभिषेक",
+     "en": "Vibhīṣaṇa’s installation"
+    },
+    {
+     "unit": "doha-106",
+     "n": 32,
+     "hi": "हनुमान्‌जीका सीताजीको कुशल सुनाना, सीताजीका आगमन और अग्नि-परीक्षा",
+     "en": "Hanumān carries the happy news to Sītā; Sītā rejoins Śrī Rāma and enters fire as a test of her purity and restoration real Sītā by the God of Fire to Lord Śrī Rāma"
+    },
+    {
+     "unit": "doha-109b",
+     "n": 33,
+     "hi": "देवताओंकी स्तुति, इन्द्रकी अमृत-वर्षा",
+     "en": "The gods sing the Lord’s glories; Indra rains down nectar on the dead"
+    },
+    {
+     "unit": "doha-115",
+     "n": 34,
+     "hi": "विभीषणकी प्रार्थना, श्रीरामजीके द्वारा भरतजीके प्रेमदशाका वर्णन,शीघ्र अयोध्या पहुँचनेका अनुरोध",
+     "en": "Vibhīṣaṇa’s entreaty; Śrī Rāma’s portrayal of Bharata’s condition due to the excessive love he bore towards the Lord; Śrī Rāma urges Vibhīṣaṇa to arrange for His speedy return to Ayodhyā"
+    },
+    {
+     "unit": "doha-117b",
+     "n": 35,
+     "hi": "विभीषणका वस्त्राभूषण बरसाना और वानर-भालुओंका उन्हें पहनना",
+     "en": "Vibhīṣaṇa rains down raiments and jewels from the air and the monkeys and bears pick them up and adorn their person with them"
+    },
+    {
+     "unit": "doha-118c",
+     "n": 36,
+     "hi": "पुष्पकविमानपर चढ़कर श्रीसीता-रामजीका अवधके लिये प्रस्थान",
+     "en": "Śrī Rāma and Sītā leave for Ayodhyā by the aerial car, Puṣpaka"
+    },
+    {
+     "unit": "doha-121b",
+     "n": 37,
+     "hi": "श्रीरामचरितकी महिमा",
+     "en": "The glory of Śrī Rāma’s story"
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "slug": "uttar-kand",
+   "title_en": "Uttar Kand",
+   "title_hi": "उत्तरकाण्ड",
+   "title_iast": "Uttara-Kāṇḍa",
+   "units": 131,
+   "dohas": 130,
+   "verses": 872,
+   "sections": [
+    {
+     "unit": "mangalacharan",
+     "n": 1,
+     "hi": "मंगलाचरण",
+     "en": "Invocations"
+    },
+    {
+     "unit": "mangalacharan",
+     "n": 2,
+     "hi": "भरत-विरह तथा भरत-हनुमान्-मिलन, अयोध्यामें आनन्द",
+     "en": "Bharata’s desolation; meeting of Bharata and Hanumān; rejoicing in Ayodhyā"
+    },
+    {
+     "unit": "doha-2b",
+     "n": 3,
+     "hi": "श्रीरामजीका स्वागत, भरत-मिलाप, सबका मिलनानन्द",
+     "en": "Śrī Rāma’s Reception; meeting with Bharata; universal rejoicing on meeting Śrī Rāma"
+    },
+    {
+     "unit": "doha-11c",
+     "n": 4,
+     "hi": "राम-राज्याभिषेक, वेदस्तुति, शिवस्तुति",
+     "en": "Śrī Rāma’s Coronation; Vedas’ alleluia; Lord Śiva’s alleluia"
+    },
+    {
+     "unit": "doha-15",
+     "n": 5,
+     "hi": "वानरोंकी और निषादकी विदाई",
+     "en": "Śrī Rāma bestows parting presents on the monkeys and the Niṣāda chief"
+    },
+    {
+     "unit": "doha-19c",
+     "n": 6,
+     "hi": "रामराज्यका वर्णन",
+     "en": "Account of Śrī Rāma’s Reign"
+    },
+    {
+     "unit": "doha-25",
+     "n": 7,
+     "hi": "पुत्रोत्पत्ति, अयोध्याजीकी रमणीयता,सनकादिका आगमन और संवाद",
+     "en": "Birth of sons to the four brothers; Ayodhyā’s loveliness; arrival of the sage Sanaka and his three brothers and their dialogue with Śrī Rāma"
+    },
+    {
+     "unit": "doha-34",
+     "n": 8,
+     "hi": "हनुमान्‌जीके द्वारा भरतजीका प्रश्न और श्रीरामजीका उपदेश",
+     "en": "Hanumān’s introduction of Bharata’s question and Śrī Rāma’s discourse on the subject"
+    },
+    {
+     "unit": "doha-42",
+     "n": 9,
+     "hi": "श्रीरामजीका प्रजाको उपदेश (श्रीरामगीता), पुरवासियोंकी कृतज्ञता",
+     "en": "Śrī Rāma’s exhortation to His subjects (Śrī Rāma-Gītā); the citizens’ acknowledgement"
+    },
+    {
+     "unit": "doha-47",
+     "n": 10,
+     "hi": "श्रीराम-वसिष्ठ-संवाद, श्रीरामजीका भाइयोंसहित अमराईमें जाना",
+     "en": "Dialogue between Śrī Rāma and the sage Vasiṣṭha; Śrī Rāma’s excursion to a mango grove in the company of His brothers"
+    },
+    {
+     "unit": "doha-49",
+     "n": 11,
+     "hi": "नारदजीका आना और स्तुति करके ब्रह्मलोकको लौट जाना",
+     "en": "Nārada’s visit and return to Brahmā’s abode after hymning the Lord’s praises"
+    },
+    {
+     "unit": "doha-51",
+     "n": 12,
+     "hi": "शिव-पार्वती-संवाद, गरुड़-मोह, गरुड़जीका काकभुशुण्डिसे रामकथा और राम-महिमा सुनना",
+     "en": "Dialogue between Lord Śiva and Goddess Pārvatī; Garuḍa’s delusion; Garuḍa listens to Śrī Rāma’s story and to an account of His glory from Kākabhuśuṇḍi"
+    },
+    {
+     "unit": "doha-95b",
+     "n": 13,
+     "hi": "काकभुशुण्डिका अपनी पूर्वजन्मकथा और कलिमहिमा कहना",
+     "en": "Kākabhuśuṇḍi narrates the story of his previous lives and tells Garuḍa the glory of the Kali age"
+    },
+    {
+     "unit": "doha-106b",
+     "n": 14,
+     "hi": "गुरुजीका अपमान एवं शिवजीके शापकी बात सुनना",
+     "en": "Insult offered by him to his preceptor in a previous birth and the curse pronounced on him by Lord Śiva"
+    },
+    {
+     "unit": "doha-106b",
+     "n": 15,
+     "hi": "रुद्राष्टक",
+     "en": "A hymn of eight verses addressed to Lord Śiva"
+    },
+    {
+     "unit": "doha-108d",
+     "n": 16,
+     "hi": "गुरुजीका शिवजीसे अपराध-क्षमापन, शापानुग्रह और काकभुशुण्डिकी आगेकी कथा",
+     "en": "Guru’s appeal to Lord Śiva for forgiving the wrong; mollification of the curse; continuation of Kākabhuśuṇḍi’s narrative"
+    },
+    {
+     "unit": "doha-110d",
+     "n": 17,
+     "hi": "काकभुशुण्डिजीका लोमशजीके पास जाना और शाप तथा अनुग्रह पाना",
+     "en": "Kākabhuśuṇḍi approaches the sage Lomaśa, who first pronounces a curse on him but later on showers his grace and bestows a boon on him"
+    },
+    {
+     "unit": "doha-115b",
+     "n": 18,
+     "hi": "ज्ञान-भक्ति-निरूपण, ज्ञानदीपक और भक्तिकी महान्‌ महिमा",
+     "en": "Delineation of Jñāna and Devotion; a description of the Lamp of wisdom and the surpassing glory of Devotion"
+    },
+    {
+     "unit": "doha-120b",
+     "n": 19,
+     "hi": "गरुड़जीके सात प्रश्न तथा काकभुशुण्डिके उत्तर",
+     "en": "Seven questions of Garuḍa and Kākabhuśuṇḍi’s replies to them"
+    },
+    {
+     "unit": "doha-121b",
+     "n": 20,
+     "hi": "भजन-महिमा",
+     "en": "Glory of adoration"
+    },
+    {
+     "unit": "doha-122b",
+     "n": 21,
+     "hi": "रामायण-माहात्म्य, तुलसी-विनय और फलस्तुति",
+     "en": "Greatness of the Rāmāyaṇa; Tulasīdāsa’s prayer and reward of reciting this poem"
+    }
+   ]
+  }
+ ],
+ "totals": {
+  "units": 1081,
+  "verses": 6157
+ }
+}

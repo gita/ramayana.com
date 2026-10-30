@@ -1,0 +1,260 @@
+@import "tailwindcss";
+
+/*
+ * Tokens. Prakash (light) is the network's set, with the Ramayan app's decisions
+ * layered on: Shyam blue as the single accent, kumkum ink for scripture.
+ * Light only on purpose: the family does not auto-switch on OS preference.
+ */
+:root {
+  --background: hsl(48 33% 97%);
+  --surface: hsl(0 0% 100%);
+  --surface-2: hsl(46 30% 94%);
+  --foreground: hsl(48 20% 20%);
+  --muted: hsl(50 7% 40%);
+  --faint: hsl(50 8% 58%);
+  --border: hsl(50 9% 86%);
+  --accent: #2b54a4;
+  --accent-ink: #1f3f80;
+  --accent-soft: hsl(221 55% 95%);
+  --gold: hsl(46 68% 31%);
+  --scripture: #7a2410;
+  --radius: 14px;
+  color-scheme: light;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-faint: var(--faint);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-ink: var(--accent-ink);
+  --color-accent-soft: var(--accent-soft);
+  --color-gold: var(--gold);
+  --color-scripture: var(--scripture);
+  --font-serif: var(--font-literata), Georgia, "Times New Roman", serif;
+  --font-sans:
+    var(--font-inter), system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-verse:
+    var(--font-tiro), "Tiro Devanagari Hindi", "Kohinoor Devanagari",
+    "Noto Serif Devanagari", serif;
+  --font-dev:
+    var(--font-noto-dev), "Noto Sans Devanagari", "Kohinoor Devanagari",
+    system-ui, sans-serif;
+  --radius-card: var(--radius);
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  scroll-padding-top: 5rem;
+}
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  font-feature-settings:
+    "rlig" 1,
+    "calt" 1;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+:lang(hi) {
+  font-family: var(--font-dev);
+}
+
+/* Scripture. Word tracking only: letter tracking pulls matras off their base. */
+.verse {
+  font-family: var(--font-verse);
+  color: var(--scripture);
+  font-size: 1.375rem;
+  line-height: 1.75;
+  word-spacing: 0.12em;
+  white-space: pre-line;
+  overflow-wrap: anywhere;
+}
+@media (min-width: 640px) {
+  .verse {
+    font-size: 1.5rem;
+  }
+}
+.verse-lg {
+  font-size: 1.625rem;
+  line-height: 1.7;
+}
+@media (min-width: 640px) {
+  .verse-lg {
+    font-size: 2rem;
+  }
+}
+
+/* Meaning text. */
+.meaning-hi {
+  font-family: var(--font-dev);
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  color: var(--foreground);
+}
+.meaning-en {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  line-height: 1.65;
+  color: var(--foreground);
+}
+@media (min-width: 640px) {
+  .meaning-en {
+    font-size: 1.1875rem;
+  }
+  .meaning-hi {
+    font-size: 1.125rem;
+  }
+}
+
+/* Running prose for article pages. */
+.prose-ram {
+  font-family: var(--font-serif);
+  font-size: 1.1875rem;
+  line-height: 1.65;
+  max-width: 68ch;
+}
+.prose-ram > * + * {
+  margin-top: 1.1em;
+}
+.prose-ram h2 {
+  font-weight: 600;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  margin-top: 2.2em;
+  letter-spacing: -0.01em;
+  text-wrap: balance;
+}
+.prose-ram h3 {
+  font-weight: 600;
+  font-size: 1.3125rem;
+  line-height: 1.3;
+  margin-top: 1.8em;
+  text-wrap: balance;
+}
+.prose-ram p,
+.prose-ram li {
+  color: var(--foreground);
+}
+.prose-ram a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--accent) 35%, transparent);
+  text-underline-offset: 3px;
+}
+.prose-ram a:hover {
+  text-decoration-color: var(--accent);
+}
+.prose-ram ul,
+.prose-ram ol {
+  padding-left: 1.4em;
+}
+.prose-ram li + li {
+  margin-top: 0.4em;
+}
+.prose-ram li::marker {
+  color: var(--gold);
+}
+.prose-ram blockquote {
+  border-left: 3px solid var(--gold);
+  padding-left: 1.1em;
+  color: var(--scripture);
+  font-family: var(--font-verse);
+  font-size: 1.3125rem;
+  line-height: 1.75;
+  word-spacing: 0.1em;
+}
+.prose-ram table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-sans);
+  font-size: 0.9375rem;
+  line-height: 1.4;
+  display: block;
+  overflow-x: auto;
+}
+.prose-ram th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding: 0.6em 0.75em;
+  border-bottom: 1px solid var(--border);
+  white-space: nowrap;
+}
+.prose-ram td {
+  padding: 0.7em 0.75em;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+  min-width: 9rem;
+}
+.prose-ram strong {
+  font-weight: 600;
+}
+.prose-ram hr {
+  border: 0;
+  border-top: 1px solid var(--border);
+}
+
+/* Painting that fades into the page: no hard seam. */
+.art-fade {
+  -webkit-mask-image: linear-gradient(to bottom, black 55%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 55%, transparent 100%);
+}
+
+/* Pressable things: scale and opacity, never a ripple. */
+.press {
+  transition:
+    transform 160ms cubic-bezier(0.2, 0.7, 0.2, 1),
+    opacity 160ms;
+}
+.press:active {
+  transform: scale(0.985);
+  opacity: 0.92;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+  }
+}
+
+/* 48px minimum hit area for standalone links (house rule). Inline prose links are exempt. */
+.tap, footer ul a, nav[aria-label="Breadcrumb"] a { display: inline-flex; align-items: center; min-height: 48px; }
+
+.is-read { background: var(--accent-soft); color: var(--accent-ink); border-color: transparent; }
+
+
+/* Tailwind resets buttons to the default cursor. Everything pressable should say so. */
+button, summary, label[for], [role="button"] { cursor: pointer; }
+
+/* Layout and type system. One column, one heading size, one rhythm. */
+.wrap { width: 100%; max-width: 1168px; margin-inline: auto; padding-inline: 24px; }
+@media (max-width: 639px) { .wrap { padding-inline: 16px; } }
+.band { margin-top: 72px; }
+@media (min-width: 768px) { .band { margin-top: 112px; } }
+.t-display { font-family: var(--font-serif); font-weight: 600; font-size: clamp(2.625rem, 7vw, 4.75rem); line-height: 1.04; letter-spacing: -0.025em; text-wrap: balance; }
+.t-lede { font-family: var(--font-serif); font-size: clamp(1.1875rem, 2.4vw, 1.5rem); line-height: 1.4; color: var(--muted); text-wrap: balance; }
+.t-title { font-family: var(--font-serif); font-weight: 600; font-size: clamp(1.875rem, 4vw, 2.75rem); line-height: 1.1; letter-spacing: -0.02em; text-wrap: balance; }
+.t-sub { font-family: var(--font-serif); font-weight: 600; font-size: 1.5rem; line-height: 1.2; letter-spacing: -0.01em; }

@@ -1,3 +1,9 @@
+node_modules
+.next
+out
+.env*
 .DS_Store
+*.tsbuildinfo
+next-env.d.ts
 .vercel
-node_modules/
+.claude/command-history.log

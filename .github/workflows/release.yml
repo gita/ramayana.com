@@ -1,0 +1,30 @@
+name: Staged page release
+on:
+  schedule:
+    - cron: "30 0 * * *" # 06:00 IST daily
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - id: tick
+        run: node scripts/release-tick.mjs | tee out.txt && echo "$(grep '^dates=' out.txt)" >> "$GITHUB_OUTPUT"
+      - name: Commit, which deploys through Vercel
+        if: steps.tick.outputs.dates != ''
+        run: |
+          git config user.name "ramayana-release"
+          git config user.email "contact@bhagavadgita.io"
+          git add content/release-log.json
+          git commit -m "Release verse pages: ${{ steps.tick.outputs.dates }}"
+          git push
+      - name: Tell Bing and other IndexNow engines
+        if: steps.tick.outputs.dates != ''
+        env:
+          PING_DATES: ${{ steps.tick.outputs.dates }}
+        run: node scripts/release-tick.mjs --ping

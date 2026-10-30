@@ -1,55 +1,46 @@
 # ramayana.com
 
-Holding page for [ramayana.com](https://ramayana.com), the coming digital home of the
-Ramayana. A project of Ved Vyas Foundation, alongside
-[bhagavadgita.com](https://bhagavadgita.com), [radhakrishna.com](https://radhakrishna.com)
-and [hanumanchalisa.net](https://hanumanchalisa.net).
+The free, ad-free home of the Ramayana online, a project of Ved Vyas Foundation alongside
+[bhagavadgita.com](https://bhagavadgita.com), [radhakrishna.com](https://radhakrishna.com) and
+[hanumanchalisa.net](https://hanumanchalisa.net). Next.js 16, App Router, static generation,
+English at the root and Hindi under `/hi/`.
 
-This is deliberately a single static `index.html` with no build step and no
-dependencies. The real site will be Next.js, built in this same repo, and this
-page gets deleted when it lands.
-
-## Layout
+## What is here
 
 ```
-index.html            the whole page, styles inlined
-assets/
-  _hero-master.png    gpt-image-2 original, 1536x1024, the only hand-held file
-  build.py            derives every other image from the master
-  hero-*.{webp,jpg}   responsive hero
-  og.jpg              1200x630 social card
-  icon-*, favicon-*   square icons
-  fonts/              Crimson Pro + Inter, latin subset, self hosted
+app/                      routes (reader, Sunderkand, chaupai, articles, api/md twins, sitemap, robots, manifest, llms.txt)
+components/               header, footer, reader blocks, JSON-LD, page modules under components/pages/
+content/ramcharitmanas/   built from the app's verified Gita Press dataset (scripts/build-content.py)
+content/articles/         markdown pages drafted with Codex gpt-6.1-sol from a fact brief
+content/chaupai.json      the famous chaupai registry (slug -> stable verse id)
+lib/                      site constants, content loaders, release gating (lib/release.ts)
+public/images/            derived from the app's paintings (scripts/build-images.mjs); never regenerate art here
+docs/                     the search strategy and the raw keyword research
 ```
 
 ## Working on it
 
-No install, no server needed for a quick look:
-
 ```sh
-open index.html
+npm install
+npm run content          # rebuilds content/ramcharitmanas from ~/Documents/ramayan-app/data/verified
+npm run images           # rebuilds public/images from ~/Documents/ramayan-app/brand and assets/
+npm run dev              # http://localhost:3000
+npm run build
 ```
 
-To serve it the way Vercel will, with absolute `/assets` paths resolving:
-
-```sh
-python3 -m http.server 4000
-```
-
-After replacing `assets/_hero-master.png`, regenerate the derivatives:
-
-```sh
-python3 assets/build.py
-```
-
-## Deploying
-
-Pushes to `main` deploy to production through the Vercel Git integration. DNS
-for the domain is at Cloudflare, set to DNS only so Vercel terminates TLS.
+Every page has a Markdown twin at `<path>.md`, also served for `Accept: text/markdown`.
+`/llms.txt` indexes them. `lib/release.ts` controls which kands appear in the sitemap, so the
+book is released a few hundred URLs at a time (see `docs/seo-strategy-2026-10-30.md`).
 
 ## House rules
 
-Design and copy follow the network standards: Calm and Apple as the bar,
-English-only interface copy, no em dashes or semicolons, light theme only, and
-correct iconography for Shri Ram, which means a jewelled crown, tilak, and his
-bow Kodanda, and never a peacock feather.
+Calm and Apple as the bar. Light theme only. No em dashes, no semicolons, no exclamation marks in
+copy. Tiro Devanagari for the verse with word tracking only, never letter tracking and never a hard
+clip. The verse, its meaning and its notes are the page: no model-written essay on verse pages.
+Shri Ram is drawn with a jewelled crown, tilak and the bow Kodanda, never a peacock feather.
+Every meaning names its Gita Press edition with a link to buy the book.
+
+## Deploying
+
+Pushes to `main` deploy to production through the Vercel Git integration. DNS for the domain is at
+Cloudflare, DNS only, so Vercel terminates TLS.
