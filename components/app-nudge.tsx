@@ -52,8 +52,7 @@ export function AppNudge() {
     } catch {}
   };
   if (!mode) return null;
-  const moved = show
-    ? "translate-y-0 opacity-100"
+  const moved = show && !covered ? "translate-y-0 opacity-100"
     : "pointer-events-none translate-y-6 opacity-0";
   const motion =
     "transition-[transform,opacity] duration-300 ease-[cubic-bezier(.2,.8,.2,1)] motion-reduce:transition-opacity";
