@@ -3,7 +3,7 @@
 ---
 The first instalment of [the Ramayana film](/ramayana-movie) releases worldwide today, 5 November 2026. The makers announced the release date on 11 October 2026, as reported by IANS and Outlook. Nitesh Tiwari directs the two-part film, with Ranbir Kapoor playing Shri Ram, Sai Pallavi playing Mata Sita and Yash playing Ravan.
 
-The film releases in Hindi, Tamil, Telugu, Kannada, Malayalam and English, including IMAX 3D. Part Two is planned for Diwali 2027. The film draws on the Ramayana tradition.
+The film releases in Hindi, Tamil, Telugu, Kannada, Malayalam and English, including IMAX 3D. Part Two was announced for Diwali 2027, though [reports say it may move to 2028](/news/ramayana-part-2-diwali-2028-report). The film draws on the Ramayana tradition.
 
 ## A story without limit
 
