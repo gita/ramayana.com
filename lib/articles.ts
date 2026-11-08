@@ -14,6 +14,66 @@ export type ArticleDef = {
 
 export const articles: ArticleDef[] = [
   {
+    slug: "why-did-ravan-kidnap-sita",
+    image: "/images/kand/aranya-kand.webp",
+    imageAlt: "Panchavati in the forest, the setting of Aranya Kand.",
+    eyebrow: "Aranya Kand",
+    type: "Article",
+    related: [
+      { label: "Characters: Ravan", href: "/characters/ravan" },
+      { label: "Aranya Kand", href: "/ramcharitmanas/aranya-kand" },
+      { label: "The 2026 Ramayana film", href: "/ramayana-movie" },
+    ],
+  },
+  {
+    slug: "was-ravan-at-sita-swayamvar",
+    image: "/images/kand/bal-kand.webp",
+    imageAlt: "The breaking of Shiv's bow in Janakpur.",
+    eyebrow: "Bal Kand",
+    type: "Article",
+    related: [
+      { label: "Mata Sita", href: "/characters/sita" },
+      { label: "Janakpur", href: "/places/janakpur" },
+      { label: "Bal Kand", href: "/ramcharitmanas/bal-kand" },
+    ],
+  },
+  {
+    slug: "surpanakha",
+    image: "/images/kand/aranya-kand.webp",
+    imageAlt: "The forest of Panchavati.",
+    eyebrow: "Characters",
+    type: "Article",
+    related: [
+      { label: "Panchavati", href: "/places/panchavati" },
+      { label: "Ravan", href: "/characters/ravan" },
+      { label: "Why did Ravan kidnap Sita?", href: "/why-did-ravan-kidnap-sita" },
+    ],
+  },
+  {
+    slug: "lakshman-avatar",
+    image: "/images/deity/lakshman.webp",
+    imageAlt: "Lakshmanji with his bow.",
+    eyebrow: "Characters",
+    type: "Article",
+    related: [
+      { label: "Lakshman", href: "/characters/lakshman" },
+      { label: "Urmila", href: "/characters/urmila" },
+      { label: "Shri Ram", href: "/characters/ram" },
+    ],
+  },
+  {
+    slug: "ravan-boon",
+    image: "/images/kand/lanka-kand.webp",
+    imageAlt: "Lanka Kand.",
+    eyebrow: "Characters",
+    type: "Article",
+    related: [
+      { label: "Ravan", href: "/characters/ravan" },
+      { label: "Lanka", href: "/places/lanka" },
+      { label: "Why did Ravan kidnap Sita?", href: "/why-did-ravan-kidnap-sita" },
+    ],
+  },
+  {
     slug: "ramayana-movie",
     image: "/images/deity/ram-kodanda.webp",
     imageAlt: "Shri Ram with his bow Kodanda.",
@@ -25,8 +85,12 @@ export const articles: ArticleDef[] = [
         href: "/ramayana-vs-ramcharitmanas",
       },
       { label: "Who wrote the Ramayana?", href: "/who-wrote-the-ramayana" },
+      { label: "Why did Ravan kidnap Sita?", href: "/why-did-ravan-kidnap-sita" },
+      { label: "Was Ravan at Sita's swayamvar?", href: "/was-ravan-at-sita-swayamvar" },
+      { label: "Who gave Ravan his boon?", href: "/ravan-boon" },
+      { label: "Whose avatar was Lakshman?", href: "/lakshman-avatar" },
+      { label: "Who was Surpanakha?", href: "/surpanakha" },
       { label: "Read the Ramcharitmanas", href: "/ramcharitmanas" },
-      { label: "Sunderkand", href: "/sunderkand" },
     ],
   },
   {

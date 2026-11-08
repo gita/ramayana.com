@@ -39,5 +39,23 @@ try:
 except Exception as e:
     out.append(f"Plausible error: {e}\n")
 bad = [f"{u} {requests.get('https://ramayana.com' + u, timeout=30, allow_redirects=False).status_code}" for u in ["/", "/hi", "/sunderkand", "/privacy", "/support", "/sitemap.xml", "/robots.txt", "/news"] if requests.get("https://ramayana.com" + u, timeout=30, allow_redirects=False).status_code != 200]
+# Trends: rising searches around the film and the main figures, and our own new queries.
+try:
+    K = os.environ.get("SERP_API_KEY")
+    seeds = ["ramayana", "ramayana movie", "hanuman", "sita", "lakshman", "ravan", "ramcharitmanas", "sunderkand"]
+    rising = []
+    for t in seeds:
+        r = requests.get("https://serpapi.com/search.json", params={"engine": "google_trends", "q": t, "geo": "IN", "date": "now 7-d", "data_type": "RELATED_QUERIES", "api_key": K}, timeout=60).json()
+        for x in (r.get("related_queries", {}).get("rising") or [])[:6]:
+            rising.append(f"- {t}: {x.get('query')} ({x.get('value') or x.get('extracted_value')})")
+    out.append("## Rising searches, India, past 7 days\n\n" + ("\n".join(rising) if rising else "None returned.") + "\n")
+    cur = {r["keys"][0]: r for r in q({"startDate": str(today - dt.timedelta(days=3)), "endDate": end, "dimensions": ["query"], "rowLimit": 500})}
+    old = {r["keys"][0] for r in q({"startDate": str(today - dt.timedelta(days=17)), "endDate": str(today - dt.timedelta(days=4)), "dimensions": ["query"], "rowLimit": 2000})}
+    new = sorted((r for k, r in cur.items() if k not in old), key=lambda r: -r["impressions"])[:15]
+    out.append("## New queries we appear for (last 3 days)\n\n" + ("\n".join(f"- {r['keys'][0]}: {r['impressions']:.0f} impressions, pos {r['position']:.1f}" for r in new) or "None.") + "\n")
+    near = sorted((r for r in cur.values() if 4 <= r["position"] <= 15 and r["impressions"] >= 20 and r["clicks"] / max(r["impressions"], 1) < 0.03), key=lambda r: -r["impressions"])[:10]
+    out.append("## Near misses to improve (position 4 to 15, low clicks)\n\n" + ("\n".join(f"- {r['keys'][0]}: {r['impressions']:.0f} impressions, {r['clicks']:.0f} clicks, pos {r['position']:.1f}" for r in near) or "None.") + "\n")
+except Exception as e:
+    out.append(f"Trends error: {e}\n")
 out.append("## Live checks\n\n" + ("All key URLs return 200.\n" if not bad else "PROBLEM: " + ", ".join(bad) + "\n"))
 d = ROOT / "monitoring"; d.mkdir(exist_ok=True); f = d / f"{today}.md"; f.write_text("\n".join(out)); print(f); print("\n".join(out))
