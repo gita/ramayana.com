@@ -18,3 +18,10 @@ export function isReleased(book: Book, kand: string, position: number) {
   const now = paused && paused < today() ? paused : today();
   return schedule.batches.some((b) => b.date <= now && b.release.some((r) => r.book === book && r.kand === kand && r.through >= position));
 }
+
+/** The date a unit was (or will be) released, for sitemap lastmod. Always-on kands date from launch. */
+export function releasedOn(book: Book, kand: string, position: number) {
+  if (schedule.always.some((a) => a.book === book && a.kand === kand)) return "2026-10-30";
+  const b = schedule.batches.find((x) => x.release.some((r) => r.book === book && r.kand === kand && r.through >= position));
+  return b?.date ?? "2026-10-30";
+}

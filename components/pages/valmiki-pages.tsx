@@ -75,7 +75,7 @@ export async function VKandPage({ lang, slug }: { lang: Lang; slug: string }) {
         {intro && <div className="prose-ram mt-10" dangerouslySetInnerHTML={{ __html: intro }} />}
         <h2 className="mt-12 t-title">{lang === "hi" ? "सर्ग" : "Sargas"}</h2>
         <ol className="mt-4 grid grid-cols-5 gap-2 sm:grid-cols-8 md:grid-cols-10">
-          {list.map((s) => (<li key={s.n}><Link href={vSargaPath(lang, slug, s.n)} data-unit={`val:${slug}:${s.n}`} className="press flex h-12 items-center justify-center rounded-xl border border-border bg-surface tabular-nums hover:border-accent/50">{s.n}</Link></li>))}
+          {list.map((s, i) => (<li key={s.n}><Link href={vSargaPath(lang, slug, s.n)} rel={isReleased("val", slug, i + 1) ? undefined : "nofollow"} data-unit={`val:${slug}:${s.n}`} className="press flex h-12 items-center justify-center rounded-xl border border-border bg-surface tabular-nums hover:border-accent/50">{s.n}</Link></li>))}
         </ol>
         <AppCard place="valmiki-kand" compact className="mt-10" />
       </div>
@@ -114,7 +114,7 @@ export function VSargaPage({ lang, slug, sarga }: { lang: Lang; slug: string; sa
           </section>
         ))}
       </div>
-      <UnitNav lang={lang} up={{ href: vKandPath(lang, slug), label: t }} prev={prev ? { href: vSargaPath(lang, prev.slug, prev.n), label: label(prev.n) } : null} next={next ? { href: vSargaPath(lang, next.slug, next.n), label: label(next.n) } : null} />
+      <UnitNav lang={lang} up={{ href: vKandPath(lang, slug), label: t }} prev={prev ? { href: vSargaPath(lang, prev.slug, prev.n), label: label(prev.n), hold: !isReleased("val", prev.slug, prev.n) } : null} next={next ? { href: vSargaPath(lang, next.slug, next.n), label: label(next.n), hold: !isReleased("val", next.slug, next.n) } : null} />
       <AppCard place="valmiki-sarga" compact className="mt-10" />
       <SourceLine lang={lang} />
     </article>

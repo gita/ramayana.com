@@ -178,6 +178,7 @@ export function UnitPage({
             ? {
                 href: unitPath(lang, prev.kand.slug, prev.unit.slug),
                 label: label(prev),
+                hold: !isReleased("rcm", prev.kand.slug, prev.kand.units.indexOf(prev.unit) + 1),
               }
             : null
         }
@@ -186,6 +187,7 @@ export function UnitPage({
             ? {
                 href: unitPath(lang, next.kand.slug, next.unit.slug),
                 label: label(next),
+                hold: !isReleased("rcm", next.kand.slug, next.kand.units.indexOf(next.unit) + 1),
               }
             : null
         }
@@ -250,7 +252,7 @@ export async function KandPage({ lang, slug }: { lang: Lang; slug: string }) {
               isPartOf: bookNode(lang),
               url: `${site.url}${kandPath(lang, slug)}`,
               isAccessibleForFree: true,
-              hasPart: k.units.map((u) => ({
+              hasPart: k.units.filter((_, i) => isReleased("rcm", slug, i + 1)).map((u) => ({
                 "@type": "Chapter",
                 name: lang === "hi" ? u.label_hi : u.label_en,
                 url: `${site.url}${unitPath(lang, slug, u.slug)}`,
@@ -326,10 +328,11 @@ export async function KandPage({ lang, slug }: { lang: Lang; slug: string }) {
             {s.contents}
           </h2>
           <ol className="mt-4 grid grid-cols-5 gap-2 sm:grid-cols-8 md:grid-cols-10">
-            {k.units.map((u) => (
+            {k.units.map((u, i) => (
               <li key={u.slug}>
                 <Link
                   href={unitPath(lang, slug, u.slug)}
+                  rel={isReleased("rcm", slug, i + 1) ? undefined : "nofollow"}
                   data-unit={`rcm:${slug}:${u.slug}`}
                   className="press flex h-11 items-center justify-center rounded-xl border border-border bg-surface text-[0.9375rem] tabular-nums text-foreground hover:border-accent/50 hover:text-accent"
                   title={lang === "hi" ? u.label_hi : u.label_en}

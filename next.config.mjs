@@ -43,6 +43,8 @@ const nextConfig = {
     // One URL per intent. Other spellings land on it.
     const aliases = [["/ramayan", "/"], ["/ramayana", "/"], ["/tulsi-ramayan", "/ramcharitmanas"], ["/ram-charit-manas", "/ramcharitmanas"], ["/valmiki-ramayan", "/valmiki-ramayana"], ["/sundarkand", "/sunderkand"], ["/sundar-kand", "/sunderkand"], ["/ramayan-movie", "/ramayana-movie"]];
     return [
+      // The production Vercel address is a second copy of the site. Send it to the real domain.
+      { source: "/:path*", has: [{ type: "host", value: "ramayana-rust.vercel.app" }], destination: "https://ramayana.com/:path*", permanent: true },
       ...aliases.map(([source, destination]) => ({ source, destination, statusCode: 301 })),
       ...map.map(([source, destination]) => ({ source, destination, statusCode: 301 })),
       { source: "/holy_places.htm", has: [{ type: "query", key: "lang" }], destination: "/places", statusCode: 301 },

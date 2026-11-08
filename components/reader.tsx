@@ -165,8 +165,8 @@ export function UnitNav({
 }: {
   lang: Lang;
   up: { href: string; label: string };
-  prev: { href: string; label: string } | null;
-  next: { href: string; label: string } | null;
+  prev: { href: string; label: string; hold?: boolean } | null;
+  next: { href: string; label: string; hold?: boolean } | null;
 }) {
   return (
     <nav
@@ -197,7 +197,7 @@ function NavCell({
   align,
   hint,
 }: {
-  item: { href: string; label: string } | null;
+  item: { href: string; label: string; hold?: boolean } | null;
   align: "left" | "right";
   hint: string;
 }) {
@@ -205,6 +205,7 @@ function NavCell({
   return (
     <Link
       href={item.href}
+      rel={item.hold ? "nofollow" : undefined}
       className={`press flex flex-col rounded-2xl border border-border bg-surface px-4 py-3 hover:border-accent/40 ${align === "right" ? "items-end text-right" : ""}`}
     >
       <span className="text-[0.75rem] text-faint">

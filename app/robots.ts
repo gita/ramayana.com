@@ -5,7 +5,7 @@ import { site } from "@/lib/site";
 const agents = ["Googlebot", "Bingbot", "OAI-SearchBot", "ChatGPT-User", "GPTBot", "PerplexityBot", "Perplexity-User", "Claude-SearchBot", "Claude-User", "ClaudeBot", "Google-Extended", "Applebot", "Applebot-Extended", "DuckDuckBot", "YandexBot"];
 export default function robots(): MetadataRoute.Robots {
   return {
-    rules: [{ userAgent: "*", allow: "/", disallow: ["/search?", "/api/"] }, ...agents.map((userAgent) => ({ userAgent, allow: "/" }))],
+    rules: [{ userAgent: "*", allow: "/", disallow: ["/search?", "/api/"] }, ...agents.map((userAgent) => ({ userAgent, allow: "/", disallow: ["/search?", "/api/"] }))],
     sitemap: `${site.url}/sitemap.xml`,
     host: site.url,
   };
