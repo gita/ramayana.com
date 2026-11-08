@@ -5,7 +5,7 @@ import { verseById, englishForVerse, type Lang } from "@/lib/content";
  *  from content/valmiki, or traditional public-domain lines. Copyrighted lyrics are never stored. */
 export type SongLine = { ref?: string; text?: string; source?: string; roman: string[]; sung?: string; meaning_en?: string; meaning_hi?: string };
 export type Song = {
-  slug: string; title: string; title_hi: string; kind: "full" | "explainer";
+  slug: string; title: string; title_hi: string; kind: "full" | "explainer" | "hymn";
   from_en: string; from_hi: string; credits: string; video?: string; channel?: string;
   lines: SongLine[];
   intro_en: string; intro_hi: string; about_en: string; about_hi: string;
