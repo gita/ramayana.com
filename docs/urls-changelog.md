@@ -35,3 +35,17 @@ Updated:
 - FAQ rows on chaupai, stuti and song pages: aligned toggle
 Pipeline:
 - scripts/qa/deslop.py (slop gate with Codex repair), scripts/qa/visual_qa.py (screenshots reviewed by GPT-6.1 Sol)
+
+### 8 November 2026, evening
+New:
+- /songs/hanuman-chalisa (+ Hindi): full text checked against Gita Press, meaning of every chaupai, the Ramcharitmanas episodes behind it
+- /songs/shri-ramchandra-kripalu (+ Hindi): Vinay Patrika pad 45
+- /songs/thumak-chalat-ramchandra (+ Hindi): traditionally attributed to Tulsidas
+- /songs/aarti-shri-ramayan-ji-ki (+ Hindi): the aarti sung after a Manas paath
+- /songs/payoji-maine-ram-ratan-dhan-payo (+ Hindi): Meera Bai
+- /songs/shiv-tandav-stotram (+ Hindi): traditionally ascribed to Ravan, with the Kailash story labelled as tradition
+Updated:
+- /songs hub: "Bhajans, stutis and aarti" group
+- All images: hero art at quality 90, everything else at 85 (was 60 and 75)
+- Header: more opaque so scrolling verses no longer show through
+Search Console: sitemap resubmitted (816 URLs); indexing requested for the five question articles, Rudrashtakam, two song pages, Ravan, Jatayu and Lanka

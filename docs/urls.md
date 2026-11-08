@@ -1,6 +1,6 @@
 # ramayana.com URLs
 
-Generated 2026-11-08 from the live sitemap: 816 URLs.
+Generated 2026-11-08 from the live sitemap: 828 URLs.
 
 ## Change log
 
@@ -40,11 +40,25 @@ Updated:
 Pipeline:
 - scripts/qa/deslop.py (slop gate with Codex repair), scripts/qa/visual_qa.py (screenshots reviewed by GPT-6.1 Sol)
 
+### 8 November 2026, evening
+New:
+- /songs/hanuman-chalisa (+ Hindi): full text checked against Gita Press, meaning of every chaupai, the Ramcharitmanas episodes behind it
+- /songs/shri-ramchandra-kripalu (+ Hindi): Vinay Patrika pad 45
+- /songs/thumak-chalat-ramchandra (+ Hindi): traditionally attributed to Tulsidas
+- /songs/aarti-shri-ramayan-ji-ki (+ Hindi): the aarti sung after a Manas paath
+- /songs/payoji-maine-ram-ratan-dhan-payo (+ Hindi): Meera Bai
+- /songs/shiv-tandav-stotram (+ Hindi): traditionally ascribed to Ravan, with the Kailash story labelled as tradition
+Updated:
+- /songs hub: "Bhajans, stutis and aarti" group
+- All images: hero art at quality 90, everything else at 85 (was 60 and 75)
+- Header: more opaque so scrolling verses no longer show through
+Search Console: sitemap resubmitted (816 URLs); indexing requested for the five question articles, Rudrashtakam, two song pages, Ravan, Jatayu and Lanka
+
 
 ## All URLs by type
 
 
-### Articles and core pages (23)
+### Articles and core pages (29)
 
 - https://ramayana.com/
 - https://ramayana.com/why-did-ravan-kidnap-sita
@@ -69,6 +83,12 @@ Pipeline:
 - https://ramayana.com/songs/mangal-bhavan-amangal-hari
 - https://ramayana.com/songs/sitas-aspiration
 - https://ramayana.com/songs/mangal-rang
+- https://ramayana.com/songs/hanuman-chalisa
+- https://ramayana.com/songs/shri-ramchandra-kripalu
+- https://ramayana.com/songs/thumak-chalat-ramchandra
+- https://ramayana.com/songs/aarti-shri-ramayan-ji-ki
+- https://ramayana.com/songs/payoji-maine-ram-ratan-dhan-payo
+- https://ramayana.com/songs/shiv-tandav-stotram
 
 ### Characters (17)
 
@@ -208,13 +228,19 @@ Pipeline:
 - https://ramayana.com/valmiki-ramayana/sundara-kanda/sarga-10
 - ... and 58 more
 
-### Hindi: Articles and core pages (5)
+### Hindi: Articles and core pages (11)
 
 - https://ramayana.com/hi
 - https://ramayana.com/hi/songs
 - https://ramayana.com/hi/songs/mangal-bhavan-amangal-hari
 - https://ramayana.com/hi/songs/sitas-aspiration
 - https://ramayana.com/hi/songs/mangal-rang
+- https://ramayana.com/hi/songs/hanuman-chalisa
+- https://ramayana.com/hi/songs/shri-ramchandra-kripalu
+- https://ramayana.com/hi/songs/thumak-chalat-ramchandra
+- https://ramayana.com/hi/songs/aarti-shri-ramayan-ji-ki
+- https://ramayana.com/hi/songs/payoji-maine-ram-ratan-dhan-payo
+- https://ramayana.com/hi/songs/shiv-tandav-stotram
 
 ### Hindi: Chaupai (21)
 
