@@ -12,7 +12,7 @@ export function sunderkandMetadata(lang: Lang): Metadata {
   const title =
     lang === "hi"
       ? "सुन्दरकाण्ड पाठ: सम्पूर्ण, हिंदी अर्थ सहित, निःशुल्क"
-      : "Sunderkand: the complete path with Hindi and English meaning, free";
+      : "Sunderkand Paath: full text in Hindi with meaning, free";
   const desc =
     lang === "hi"
       ? "श्रीरामचरितमानस का सम्पूर्ण सुन्दरकाण्ड, सभी 60 दोहे और चौपाइयाँ, हर पद के नीचे गीताप्रेस की हिंदी टीका। मोबाइल पर पढ़ें, पीडीएफ की ज़रूरत नहीं। निःशुल्क, विज्ञापन रहित।"
@@ -173,7 +173,9 @@ export async function SunderkandPage({ lang }: { lang: Lang }) {
             <section key={u.slug} id={u.slug} className="scroll-mt-20">
               <header className="mb-6 flex items-baseline justify-between gap-4 border-b border-border pb-3">
                 <h2 className="font-serif text-[1.375rem] font-semibold">
-                  {hi ? u.label_hi : u.label_en}
+                  <Link href={unitPath(lang, "sunderkand", u.slug)} className="hover:text-accent">
+                    {hi ? u.label_hi : u.label_en}
+                  </Link>
                 </h2>
                 
               </header>

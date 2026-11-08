@@ -55,7 +55,7 @@ To keep reading on your phone, the free [Ramayan app](/app) includes both script
 
 ### Which Ramayana is the 2026 movie based on?
 
-The makers have not named one text as the source of the screenplay. Maharshi Valmiki's Sanskrit Ramayana tells the story, and Goswami Tulsidas retells it in the Awadhi Ramcharitmanas. Many regional Ramayanas also carry it. We should therefore avoid presenting either text as the film's confirmed sole source.
+The makers have not named one text as the source of the screenplay. Maharshi Valmiki's Sanskrit Ramayana tells the story, and Goswami Tulsidas retells it in the Awadhi Ramcharitmanas. Many regional Ramayanas also carry it. So the film is best read as one telling drawn from this shared tradition, and both texts are worth reading for themselves.
 
 ### Is the Ramcharitmanas the same as the Valmiki Ramayana?
 

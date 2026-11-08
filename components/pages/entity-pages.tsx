@@ -15,6 +15,7 @@ const hub = {
   characters: { title: "Characters of the Ramayana", short: "Characters", lede: "The people of the Ramayana, their stories and their verses.", desc: "Who is who in the Ramayana: Shri Ram, Mata Sita, Lakshman, Hanumanji, Ravan, Urmila, Jatayu, Shabari and more, with their stories and verses." },
   places: { title: "Holy places of the Ramayana", short: "Places", lede: "Where the story happens, from Ayodhya to Lanka.", desc: "The holy places of the Ramayana: Ayodhya, Chitrakoot, Panchavati, Kishkindha, Rameshwaram, Lanka and more, with what happened there and the verses." },
 };
+const NAME_HI: Record<string, string> = {"ravan": "रावण", "dashrath": "दशरथ", "kaikeyi": "कैकेयी", "jatayu": "जटायु", "kumbhkaran": "कुम्भकर्ण", "mandodari": "मन्दोदरी", "sugriv": "सुग्रीव", "urmila": "उर्मिला", "vibhishan": "विभीषण"};
 const ogFor = (e: { art: string }) => `${artSrc(e.art)}-og.jpg`;
 
 export function hubMetadata(kind: Kind): Metadata {
@@ -33,7 +34,11 @@ export function EntityHub({ kind }: { kind: Kind }) {
         {list.map((e, i) => (
           <li key={e.slug}>
             <Link href={`/${kind}/${e.slug}`} className="press group block">
-              <span className="relative block aspect-[4/5] overflow-hidden rounded-3xl"><Image src={`${artSrc(e.art)}.webp`} alt="" fill preload={i < 2} sizes="(min-width: 1024px) 270px, 50vw" className="object-cover object-top" /></span>
+              {kind === "characters" && e.art.startsWith("kand:") ? (
+                <span className="flex aspect-[4/5] items-center justify-center rounded-3xl bg-surface-2 ring-1 ring-border/70" aria-hidden><span lang="hi" className="font-verse text-[2.5rem] text-accent-ink sm:text-[3rem]">{NAME_HI[e.slug] ?? e.name}</span></span>
+              ) : (
+                <span className="relative block aspect-[4/5] overflow-hidden rounded-3xl"><Image src={`${artSrc(e.art)}.webp`} alt="" fill preload={i < 2} sizes="(min-width: 1024px) 270px, 50vw" className="object-cover object-top" /></span>
+              )}
               <span className="mt-2.5 block font-serif text-[1.1875rem] font-semibold leading-tight group-hover:text-accent">{e.name}</span>
             </Link>
           </li>
@@ -57,7 +62,7 @@ export function EntityPage({ kind, slug }: { kind: Kind; slug: string }) {
   return (
     <>
       <JsonLd data={{ "@context": "https://schema.org", "@graph": [breadcrumb(crumbs), { "@type": "Article", headline: e.title, description: e.description, url, image: `${site.url}${ogFor(e)}`, inLanguage: "en", about: { "@type": kind === "places" ? "Place" : "Thing", name: e.name }, author: { "@id": orgNode["@id"] }, publisher: { "@id": orgNode["@id"] }, datePublished: "2026-10-30", dateModified: "2026-10-30", isAccessibleForFree: true }, { "@type": "FAQPage", mainEntity: e.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }] }} />
-      <LongPage title={e.title} lede={e.answer} image={`${artSrc(e.art)}.webp`} crumbs={crumbs} wide={e.art.startsWith("kand:")} related={[...others, { label: `All ${h.short.toLowerCase()}`, href: `/${kind}` }, { label: "Read the Ramcharitmanas", href: "/ramcharitmanas" }]}>
+      <LongPage title={e.title} lede={e.answer} image={kind === "characters" && e.art.startsWith("kand:") ? undefined : `${artSrc(e.art)}.webp`} crumbs={crumbs} wide={e.art.startsWith("kand:")} related={[...others, { label: `All ${h.short.toLowerCase()}`, href: `/${kind}` }, { label: "Read the Ramcharitmanas", href: "/ramcharitmanas" }]}>
         <div className="prose-ram">
           {e.sections.map((s) => (<section key={s.h2}><h2>{s.h2}</h2><div dangerouslySetInnerHTML={{ __html: marked.parse(s.md, { async: false }) as string }} /></section>))}
         </div>

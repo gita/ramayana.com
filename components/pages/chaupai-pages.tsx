@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { chaupai, chaupaiPath, chaupais } from "@/lib/chaupai";
+import { chaupai, chaupaiDetail, chaupaiPath, chaupais } from "@/lib/chaupai";
+import { stutis, stutiPath } from "@/lib/stuti";
 import { englishForVerse, kandTitle, unitPath, type Lang } from "@/lib/content";
 import { site } from "@/lib/site";
 import { JsonLd, bookNode, breadcrumb } from "@/components/json-ld";
 import { AppCard } from "@/components/app-card";
-import { SourceLine, VerseBlock } from "@/components/reader";
+import { SourceLine } from "@/components/reader";
 
 const t = {
   en: {
@@ -19,9 +20,9 @@ const t = {
     meaning_en: "Meaning",
     inText: "Read it in context",
     from: "From",
-    title: (s: string) => `${s}: lyrics and meaning`,
+    title: (s: string) => `${s}: lyrics, meaning and story`,
     desc: (s: string, k: string) =>
-      `${s}, from the ${k} of Tulsidas's Ramcharitmanas, in Devanagari with the Gita Press Hindi tika and English translation.`,
+      `${s} lyrics in Hindi and English with word-by-word meaning, the scene in the ${k} of the Ramcharitmanas, and what it teaches.`,
   },
   hi: {
     list: "रामचरितमानस की प्रसिद्ध चौपाइयाँ और दोहे, अर्थ सहित",
@@ -35,7 +36,7 @@ const t = {
     from: "स्रोत",
     title: (s: string) => `${s}: चौपाई अर्थ सहित`,
     desc: (s: string, k: string) =>
-      `${s}, श्रीरामचरितमानस के ${k} से, देवनागरी में गीताप्रेस की हिंदी टीका और अंग्रेज़ी अनुवाद के साथ।`,
+      `${s}: श्रीरामचरितमानस के ${k} से, अर्थ, शब्दार्थ, प्रसंग और भावार्थ सहित।`,
   },
 };
 
@@ -96,19 +97,29 @@ export function ChaupaiListPage({ lang }: { lang: Lang }) {
               href={chaupaiPath(lang, c.slug)}
               className="press flex h-full flex-col rounded-3xl border border-border bg-surface px-6 py-5 hover:border-accent/40"
             >
-              <span className="text-[0.75rem] text-faint">
-                {lang === "hi" ? c.theme_hi : c.theme} ·{" "}
-                {kandTitle(c.kand, lang)}
+              <span className="font-serif text-[1.25rem] font-semibold leading-snug">
+                {lang === "hi" ? c.title_hi : c.title}
               </span>
-              <span lang="awa" className="verse mt-2 text-[1.25rem]">
+              <span lang="awa" className="verse mt-2 text-[1.0625rem] text-muted">
                 {c.verse.text
                   .split("\n")
                   .find((l) => l.includes(c.title_hi.split(" ")[0])) ??
                   c.verse.text.split("\n")[0]}
               </span>
-              <span className="mt-3 text-[0.9375rem] text-accent">
-                {lang === "hi" ? "अर्थ पढ़ें →" : "Read the meaning →"}
+              <span className="mt-3 text-[0.8125rem] text-faint">
+                {lang === "hi" ? c.theme_hi : c.theme} · {kandTitle(c.kand, lang)}
               </span>
+            </Link>
+          </li>
+        ))}
+      </ul>
+      <h2 className="t-sub mt-16">{lang === "hi" ? "तुलसीदासजी की स्तुतियाँ" : "Stutis of Goswami Tulsidas"}</h2>
+      <ul className="mt-5 grid gap-4 sm:grid-cols-3">
+        {stutis.map((x) => (
+          <li key={x.slug}>
+            <Link href={stutiPath(lang, x.slug)} className="press flex h-full flex-col rounded-3xl border border-border bg-surface px-6 py-5 hover:border-accent/40">
+              <span className="font-serif text-[1.25rem] font-semibold leading-snug">{lang === "hi" ? x.title_hi : x.title}</span>
+              <span className="mt-2 text-[0.9375rem] text-muted">{lang === "hi" ? "सम्पूर्ण पाठ, अर्थ सहित" : "Full lyrics with meaning"}</span>
             </Link>
           </li>
         ))}
@@ -145,19 +156,26 @@ export function chaupaiMetadata(lang: Lang, slug: string): Metadata {
 export function ChaupaiPage({ lang, slug }: { lang: Lang; slug: string }) {
   const c = chaupai(slug);
   if (!c) notFound();
+  const d = chaupaiDetail(slug);
+  const hi = lang === "hi";
   const s = t[lang];
-  const name = lang === "hi" ? c.title_hi : c.title;
+  const name = hi ? c.title_hi : c.title;
   const kt = kandTitle(c.kand, lang);
-  const ul = lang === "hi" ? c.unit.label_hi : c.unit.label_en;
+  const ul = hi ? c.unit.label_hi : c.unit.label_en;
   const here = chaupaiPath(lang, slug);
   const crumbs = [
-    { name: s.home, url: lang === "hi" ? "/hi" : "/" },
-    { name: s.crumb, url: lang === "hi" ? "/hi/chaupai" : "/chaupai" },
+    { name: s.home, url: hi ? "/hi" : "/" },
+    { name: s.crumb, url: hi ? "/hi/chaupai" : "/chaupai" },
     { name, url: here },
   ];
   const i = chaupais.findIndex((x) => x.slug === slug);
   const prev = chaupais[(i + chaupais.length - 1) % chaupais.length],
     next = chaupais[(i + 1) % chaupais.length];
+  const english = c.en ? englishForVerse(c.verse, c.en) : null;
+  const faq = d?.faq.map((f) => ({ q: hi ? f.q_hi : f.q_en, a: hi ? f.a_hi : f.a_en })) ?? [];
+  const H2 = ({ children }: { children: React.ReactNode }) => (
+    <h2 className="t-sub mt-14 mb-4">{children}</h2>
+  );
   return (
     <article lang={lang} className="mx-auto max-w-3xl px-4 sm:px-6 pb-16 pt-6">
       <JsonLd
@@ -177,100 +195,138 @@ export function ChaupaiPage({ lang, slug }: { lang: Lang; slug: string }) {
                 url: `${site.url}${unitPath(lang, c.kand.slug, c.unit.slug)}`,
                 isPartOf: bookNode(lang),
               },
-              creator: {
-                "@type": "Person",
-                name: "Goswami Tulsidas",
-                url: `${site.url}/tulsidas`,
-              },
+              creator: { "@type": "Person", name: "Goswami Tulsidas", url: `${site.url}/tulsidas` },
               isAccessibleForFree: true,
               url: `${site.url}${here}`,
             },
+            ...(faq.length
+              ? [{ "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }]
+              : []),
           ],
         }}
       />
       <nav aria-label="Breadcrumb" className="text-[0.8125rem] text-muted">
-        <ol className="flex flex-wrap gap-1.5">
+        <ol className="flex flex-wrap items-center gap-1.5">
           {crumbs.slice(0, -1).map((x, j) => (
-            <li key={x.url} className="flex gap-1.5">
+            <li key={x.url} className="flex items-center gap-1.5">
               {j > 0 && <span aria-hidden>›</span>}
-              <Link href={x.url} className="hover:text-foreground">
-                {x.name}
-              </Link>
+              <Link href={x.url} className="hover:text-foreground">{x.name}</Link>
             </li>
           ))}
         </ol>
       </nav>
       <header className="mt-5">
-        <h1 className="mt-1 font-serif text-[2rem] sm:text-[2.5rem] font-semibold leading-[1.1] tracking-tight">
-          {name}
-        </h1>
-      </header>
-      <div className="mt-8">
-        <VerseBlock verse={c.verse} lang={lang} size="lg" />
-      </div>
-      <section className="mt-8 rounded-2xl bg-surface px-5 py-4 ring-1 ring-border/70">
-        <h2
-          className="mb-1.5 text-[0.75rem] font-semibold text-gold"
-          lang="hi"
-        >
-          {s.meaning_hi}
-        </h2>
-        <p lang="hi" className="meaning-hi whitespace-pre-line">
-          {c.verse.hi}
+        <h1 className="t-title">{name}</h1>
+        <p className="mt-3 text-[0.9375rem] text-muted">
+          {hi ? "श्रीरामचरितमानस" : "Ramcharitmanas"} · {kt} · {ul}
         </p>
-      </section>
-      {c.en && (
-        <section className="mt-4 rounded-2xl bg-surface px-5 py-4 ring-1 ring-border/70">
-          <h2
-            className="mb-1.5 text-[0.75rem] font-semibold text-gold"
-            lang="en"
-          >
-            {s.meaning_en}
-          </h2>
-          <p lang="en" className="meaning-en whitespace-pre-line">
-            {englishForVerse(c.verse, c.en)}
+      </header>
+
+      <section className="mt-8 rounded-3xl bg-surface px-5 py-6 ring-1 ring-border/70 sm:px-8 sm:py-8">
+        <p lang="awa" className="verse verse-lg whitespace-pre-line">{c.verse.text}</p>
+        {d && (
+          <p lang="en" className="mt-4 border-t border-border/70 pt-4 font-serif text-[1.0625rem] italic leading-relaxed text-muted">
+            {d.roman.map((l, k) => (<span key={k} className="block">{l}</span>))}
           </p>
-          
-        </section>
+        )}
+      </section>
+
+      <H2>{hi ? "अर्थ" : "Meaning"}</H2>
+      {hi ? (
+        <>
+          <p lang="hi" className="meaning-hi whitespace-pre-line">{c.verse.hi}</p>
+          {english && (
+            <details className="mt-4 text-muted">
+              <summary className="tap cursor-pointer text-[0.9375rem] text-accent">English meaning</summary>
+              <p lang="en" className="meaning-en mt-2 whitespace-pre-line">{english}</p>
+            </details>
+          )}
+        </>
+      ) : (
+        <>
+          {english && <p lang="en" className="meaning-en whitespace-pre-line">{english}</p>}
+          <p lang="hi" className="meaning-hi mt-4 whitespace-pre-line text-muted">{c.verse.hi}</p>
+        </>
       )}
-      <div className="mt-8 flex flex-wrap gap-3">
-        <Link
-          href={`${unitPath(lang, c.kand.slug, c.unit.slug)}#${c.verse.id}`}
-          className="press inline-flex h-12 items-center rounded-full bg-accent px-6 text-[1rem] font-medium text-white hover:bg-accent-ink"
-        >
-          {s.inText}: {kt} {ul}
-        </Link>
-        
+
+      {d && d.words.length > 0 && (
+        <>
+          <H2>{hi ? "शब्दार्थ" : "Word by word"}</H2>
+          <dl className="grid grid-cols-2 gap-x-6 gap-y-4 sm:grid-cols-3">
+            {d.words.map((w) => (
+              <div key={w.w}>
+                <dt><span lang="awa" className="font-verse text-[1.25rem] text-scripture">{w.w}</span> <span className="text-[0.8125rem] text-faint">{w.r}</span></dt>
+                <dd className="mt-0.5 text-[0.9375rem] leading-snug">{hi ? w.hi : w.en}</dd>
+              </div>
+            ))}
+          </dl>
+        </>
+      )}
+
+      {d && (
+        <>
+          <H2>{hi ? "प्रसंग" : "The scene"}</H2>
+          <p className={hi ? "meaning-hi" : "meaning-en"}>{hi ? d.scene_hi : d.scene_en}</p>
+          <H2>{hi ? "यह चौपाई क्या सिखाती है" : "What it teaches"}</H2>
+          <div className={`${hi ? "meaning-hi" : "meaning-en"} space-y-4`}>
+            {(hi ? d.teaching_hi : d.teaching_en).split(/\n\s*\n/).map((para, k) => (<p key={k}>{para}</p>))}
+          </div>
+        </>
+      )}
+
+      <H2>{hi ? `पूरा प्रसंग: ${kt}, ${ul}` : `The full passage: ${kt}, ${ul}`}</H2>
+      <div className="space-y-3">
+        {c.unit.verses.map((v) => (
+          <p
+            key={v.id}
+            lang="awa"
+            className={`verse whitespace-pre-line rounded-2xl px-4 py-3 ${v.id === c.verse.id ? "bg-accent/8 ring-1 ring-accent/25" : ""}`}
+          >
+            {v.text}
+          </p>
+        ))}
       </div>
-      <nav
-        aria-label="More chaupais"
-        className="mt-10 grid grid-cols-2 gap-2 text-[0.9375rem]"
+      <Link
+        href={`${unitPath(lang, c.kand.slug, c.unit.slug)}#${c.verse.id}`}
+        className="press mt-6 inline-flex h-12 items-center rounded-full bg-accent px-6 text-[1rem] font-medium text-white hover:bg-accent-ink"
       >
-        <Link
-          href={chaupaiPath(lang, prev.slug)}
-          className="press rounded-2xl border border-border bg-surface px-4 py-3 hover:border-accent/40"
-        >
-          <span className="block text-[0.75rem] text-faint">
-            ← {lang === "hi" ? "पिछली" : "Previous"}
-          </span>
-          <span className="font-medium">
-            {lang === "hi" ? prev.title_hi : prev.title}
-          </span>
+        {hi ? "हर पंक्ति का अर्थ पढ़ें" : "Read every line with meaning"}
+      </Link>
+
+      {faq.length > 0 && (
+        <>
+          <H2>{hi ? "अक्सर पूछे जाने वाले प्रश्न" : "Questions people ask"}</H2>
+          <div className="divide-y divide-border/70 border-y border-border/70">
+            {faq.map((f) => (
+              <details key={f.q} className="group py-4">
+                <summary className="tap flex cursor-pointer list-none items-start justify-between gap-4 font-medium">
+                  {f.q}<span aria-hidden className="text-faint transition-transform group-open:rotate-45">+</span>
+                </summary>
+                <p className={`mt-2 ${hi ? "meaning-hi" : "meaning-en"} text-[1rem]`}>{f.a}</p>
+              </details>
+            ))}
+          </div>
+        </>
+      )}
+
+      {d && d.spellings.length > 0 && (
+        <p className="mt-8 text-[0.8125rem] text-faint">
+          {hi ? "इसे ऐसे भी लिखा जाता है: " : "Also written as: "}{d.spellings.join(" · ")}
+        </p>
+      )}
+
+      <nav aria-label="More chaupais" className="mt-12 grid grid-cols-2 gap-2 text-[0.9375rem]">
+        <Link href={chaupaiPath(lang, prev.slug)} className="press rounded-2xl border border-border bg-surface px-4 py-3 hover:border-accent/40">
+          <span className="block text-[0.75rem] text-faint">← {hi ? "पिछली" : "Previous"}</span>
+          <span className="font-medium">{hi ? prev.title_hi : prev.title}</span>
         </Link>
-        <Link
-          href={chaupaiPath(lang, next.slug)}
-          className="press rounded-2xl border border-border bg-surface px-4 py-3 text-right hover:border-accent/40"
-        >
-          <span className="block text-[0.75rem] text-faint">
-            {lang === "hi" ? "अगली" : "Next"} →
-          </span>
-          <span className="font-medium">
-            {lang === "hi" ? next.title_hi : next.title}
-          </span>
+        <Link href={chaupaiPath(lang, next.slug)} className="press rounded-2xl border border-border bg-surface px-4 py-3 text-right hover:border-accent/40">
+          <span className="block text-[0.75rem] text-faint">{hi ? "अगली" : "Next"} →</span>
+          <span className="font-medium">{hi ? next.title_hi : next.title}</span>
         </Link>
       </nav>
       <AppCard place="reader" compact className="mt-10" />
-<SourceLine lang={lang} />
+      <SourceLine lang={lang} />
     </article>
   );
 }

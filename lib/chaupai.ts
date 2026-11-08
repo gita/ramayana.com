@@ -1,4 +1,5 @@
 import list from "@/content/chaupai.json";
+import details from "@/content/chaupai-detail/index.json";
 import { verseById, type Lang } from "@/lib/content";
 
 export type ChaupaiEntry = (typeof list)[number];
@@ -28,3 +29,14 @@ export const chaupaiPath = (lang: Lang, slug: string) =>
 
 import { englishForVerse, type Verse } from "@/lib/content";
 export const englishForVerseSafe = (v: Verse, e: { verses: string[]; text: string } | null) => englishForVerse(v, e) ?? "";
+
+export type ChaupaiDetail = {
+  roman: string[];
+  spellings: string[];
+  words: { w: string; r: string; en: string; hi: string }[];
+  scene_en: string; scene_hi: string;
+  teaching_en: string; teaching_hi: string;
+  faq: { q_en: string; a_en: string; q_hi: string; a_hi: string }[];
+};
+export const chaupaiDetail = (slug: string) =>
+  ((details as Record<string, ChaupaiDetail>)[slug] ?? null);

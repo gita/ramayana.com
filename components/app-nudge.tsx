@@ -18,6 +18,7 @@ export function AppNudge() {
   useEffect(() => {
     const ua = navigator.userAgent;
     if (/iPhone|iPad|iPod/.test(ua)) return;
+    if (/^\/(hi\/)?app\/?$/.test(window.location.pathname)) return;
     try {
       if (Date.now() - Number(localStorage.getItem(KEY) ?? 0) < WEEK) return;
     } catch {}
