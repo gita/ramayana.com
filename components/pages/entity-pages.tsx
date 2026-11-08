@@ -62,7 +62,7 @@ export function EntityPage({ kind, slug }: { kind: Kind; slug: string }) {
   return (
     <>
       <JsonLd data={{ "@context": "https://schema.org", "@graph": [breadcrumb(crumbs), { "@type": "Article", headline: e.title, description: e.description, url, image: `${site.url}${ogFor(e)}`, inLanguage: "en", about: { "@type": kind === "places" ? "Place" : "Thing", name: e.name }, author: { "@id": orgNode["@id"] }, publisher: { "@id": orgNode["@id"] }, datePublished: "2026-10-30", dateModified: "2026-10-30", isAccessibleForFree: true }, { "@type": "FAQPage", mainEntity: e.faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }] }} />
-      <LongPage title={e.title} lede={e.answer} image={(kind === "characters" && e.art.startsWith("kand:")) || e.art === "none" ? undefined : `${artSrc(e.art)}.webp`} crumbs={crumbs} wide={e.art.startsWith("kand:")} related={[...others, { label: `All ${h.short.toLowerCase()}`, href: `/${kind}` }, { label: "Read the Ramcharitmanas", href: "/ramcharitmanas" }]}>
+      <LongPage title={e.title} lede={e.answer} image={(kind === "characters" && e.art.startsWith("kand:")) || e.art === "none" ? undefined : `${artSrc(e.art)}.webp`} crumbs={crumbs} wide={e.art.startsWith("kand:")} focus={e.art.startsWith("kand:") ? undefined : "50% 8%"} related={[...others, { label: `All ${h.short.toLowerCase()}`, href: `/${kind}` }, { label: "Read the Ramcharitmanas", href: "/ramcharitmanas" }]}>
         <div className="prose-ram">
           {e.sections.map((s) => (<section key={s.h2}><h2>{s.h2}</h2><div dangerouslySetInnerHTML={{ __html: marked.parse(s.md, { async: false }) as string }} /></section>))}
         </div>

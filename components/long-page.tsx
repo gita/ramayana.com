@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 /** One layout for every article-style page: a centred reading column, the painting wider than the text. */
-export function LongPage({ title, lede, image, imageAlt, wide = true, crumbs, children, related }: { title: string; lede?: string; image?: string; imageAlt?: string; wide?: boolean; crumbs: { name: string; url: string }[]; children: React.ReactNode; related?: { label: string; href: string }[] }) {
+export function LongPage({ title, lede, image, imageAlt, wide = true, focus = "50% 25%", crumbs, children, related }: { title: string; lede?: string; image?: string; imageAlt?: string; wide?: boolean; focus?: string; crumbs: { name: string; url: string }[]; children: React.ReactNode; related?: { label: string; href: string }[] }) {
   return (
     <article className="wrap pt-6">
       <div className="mx-auto max-w-[44rem]">
@@ -16,7 +16,7 @@ export function LongPage({ title, lede, image, imageAlt, wide = true, crumbs, ch
       </div>
       {image && (
         <figure className={`relative mx-auto mt-8 overflow-hidden rounded-3xl ${wide ? "aspect-[16/9] sm:aspect-[21/9]" : "aspect-[4/3] max-w-[44rem]"}`}>
-          <Image src={image} alt={imageAlt ?? ""} fill preload fetchPriority="high" quality={90} sizes="(min-width: 1168px) 1120px, 100vw" className="object-cover object-[50%_25%]" />
+          <Image src={image} alt={imageAlt ?? ""} fill preload fetchPriority="high" quality={90} sizes="(min-width: 1168px) 1120px, 100vw" className="object-cover" style={{ objectPosition: focus }} />
         </figure>
       )}
       <div className="mx-auto mt-10 max-w-[44rem]">

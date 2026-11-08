@@ -28,7 +28,7 @@ export const articles: ArticleDef[] = [
   {
     slug: "was-ravan-at-sita-swayamvar",
     image: "/images/kand/bal-kand.webp",
-    imageAlt: "Shri Ram with Shiv's bow in King Janak's assembly.",
+    imageAlt: "Shri Ram breaks Shiv's bow in King Janak's assembly as Mata Sita waits with the garland.",
     eyebrow: "Bal Kand",
     type: "Article",
     related: [
@@ -51,8 +51,8 @@ export const articles: ArticleDef[] = [
   },
   {
     slug: "lakshman-avatar",
-    image: "/images/deity/lakshman.webp",
-    imageAlt: "Shri Ram, Mata Sita and Lakshmanji in the forest, with Hanumanji at their feet.",
+    image: "/images/deity/lakshman-solo.webp",
+    imageAlt: "Lakshmanji standing guard with his bow beside the hut at Panchavati, by the Godavari.",
     eyebrow: "Characters",
     type: "Article",
     related: [
@@ -123,7 +123,7 @@ export const articles: ArticleDef[] = [
   {
     slug: "read-ramcharitmanas-online",
     image: "/images/kand/bal-kand.webp",
-    imageAlt: "Shri Ram with Shiv's bow in King Janak's assembly.",
+    imageAlt: "Shri Ram breaks Shiv's bow in King Janak's assembly as Mata Sita waits with the garland.",
     eyebrow: "Reading online",
     type: "Article",
     related: [
