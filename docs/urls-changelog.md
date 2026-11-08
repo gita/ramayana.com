@@ -21,3 +21,5 @@ Updated:
 - /ramayana-movie: writer's note removed from an FAQ answer, links to the five new answers
 - /news/ramayana-film-releases-worldwide-november-5: headline no longer says "today"
 - Play Store links now carry utm_campaign=website for install attribution
+- Image fixes: /places/prayag now shows Kevat ferrying Shri Ram; /places/ashok-vatika and /places/chitrakoot show name cards until correct paintings exist; corrected alt text on /lakshman-avatar, /was-ravan-at-sita-swayamvar, /ravan-boon, /read-ramcharitmanas-online, /valmiki
+- All published copy cleaned by the new slop gate (scripts/qa/deslop.py)
