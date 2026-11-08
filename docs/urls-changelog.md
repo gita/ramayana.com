@@ -23,3 +23,15 @@ Updated:
 - Play Store links now carry utm_campaign=website for install attribution
 - Image fixes: /places/prayag now shows Kevat ferrying Shri Ram; /places/ashok-vatika and /places/chitrakoot show name cards until correct paintings exist; corrected alt text on /lakshman-avatar, /was-ravan-at-sita-swayamvar, /ravan-boon, /read-ramcharitmanas-online, /valmiki
 - All published copy cleaned by the new slop gate (scripts/qa/deslop.py)
+
+### 8 November 2026, later
+New:
+- /songs and /hi/songs: Ramayan songs hub
+- /songs/mangal-bhavan-amangal-hari (+ Hindi): the serial's song, full lyrics (all Tulsidas plus the traditional refrain), meaning of every line
+- /songs/sitas-aspiration (+ Hindi): the 2026 film's Valmiki shloka, full text and meaning
+- /songs/mangal-rang (+ Hindi): the 2026 film's wedding song, explained through the wedding verses of the Ramcharitmanas
+Updated:
+- Navigation and footer: Songs link
+- FAQ rows on chaupai, stuti and song pages: aligned toggle
+Pipeline:
+- scripts/qa/deslop.py (slop gate with Codex repair), scripts/qa/visual_qa.py (screenshots reviewed by GPT-6.1 Sol)

@@ -9,6 +9,7 @@ const navHi = [
   { label: "रामचरितमानस", href: "/hi/ramcharitmanas" },
   { label: "वाल्मीकि रामायण", href: "/hi/valmiki-ramayana" },
   { label: "सुन्दरकाण्ड", href: "/hi/sunderkand" },
+  { label: "गीत", href: "/hi/songs" },
   { label: "2026 की फ़िल्म", href: "/ramayana-movie" },
   { label: "ऐप", href: "/app" },
 ];

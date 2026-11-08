@@ -36,6 +36,7 @@ export const nav = [
   { label: "Ramcharitmanas", href: "/ramcharitmanas" },
   { label: "Valmiki Ramayana", href: "/valmiki-ramayana" },
   { label: "Sunderkand", href: "/sunderkand" },
+  { label: "Songs", href: "/songs" },
   { label: "The 2026 film", href: "/ramayana-movie" },
   { label: "App", href: "/app" },
 ] as const;

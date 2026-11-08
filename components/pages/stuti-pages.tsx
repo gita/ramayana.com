@@ -100,7 +100,7 @@ export function StutiPage({ lang, slug }: { lang: Lang; slug: string }) {
       <div className="divide-y divide-border/70 border-y border-border/70">
         {faq.map((f) => (
           <details key={f.q} className="group py-4">
-            <summary className="tap flex cursor-pointer list-none items-start justify-between gap-4 font-medium">{f.q}<span aria-hidden className="text-faint transition-transform group-open:rotate-45">+</span></summary>
+            <summary className="tap flex w-full cursor-pointer list-none items-start gap-4 font-medium [&::-webkit-details-marker]:hidden"><span className="flex-1">{f.q}</span><span aria-hidden className="shrink-0 text-[1.25rem] leading-none text-faint transition-transform group-open:rotate-45">+</span></summary>
             <p className={`mt-2 ${prose} text-[1rem]`}>{f.a}</p>
           </details>
         ))}

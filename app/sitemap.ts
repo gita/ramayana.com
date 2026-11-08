@@ -3,6 +3,7 @@ import { site } from "@/lib/site";
 import { index, kand, kandPath, unitPath } from "@/lib/content";
 import { chaupais, chaupaiPath } from "@/lib/chaupai";
 import { stutis, stutiPath } from "@/lib/stuti";
+import { songs, songPath } from "@/lib/songs";
 import { articles } from "@/lib/articles";
 import { isReleased } from "@/lib/release";
 import { entities } from "@/lib/entities";
@@ -31,6 +32,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: url("/acknowledgements"), lastModified: now, changeFrequency: "monthly", priority: 0.4 },
     ...chaupais.flatMap((c) => pair(chaupaiPath("en", c.slug), chaupaiPath("hi", c.slug), 0.7)),
     ...stutis.flatMap((s) => pair(stutiPath("en", s.slug), stutiPath("hi", s.slug), 0.8)),
+    ...(songs.length ? pair("/songs", "/hi/songs", 0.8) : []),
+    ...songs.flatMap((s) => pair(songPath("en", s.slug), songPath("hi", s.slug), 0.8)),
   ];
   for (const k of index().kands) {
     out.push(...pair(kandPath("en", k.slug), kandPath("hi", k.slug), 0.85, "weekly"));

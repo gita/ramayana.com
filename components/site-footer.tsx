@@ -9,6 +9,7 @@ const read = [
   { label: "Valmiki Ramayana", href: "/valmiki-ramayana" },
   { label: "Sunderkand", href: "/sunderkand" },
   { label: "Chaupai", href: "/chaupai" },
+  { label: "Songs", href: "/songs" },
   { label: "Characters", href: "/characters" },
   { label: "Places", href: "/places" },
   { label: "Film news", href: "/news" },
@@ -26,6 +27,7 @@ const readHi = [
   { label: "वाल्मीकि रामायण", href: "/hi/valmiki-ramayana" },
   { label: "सुन्दरकाण्ड", href: "/hi/sunderkand" },
   { label: "चौपाई", href: "/hi/chaupai" },
+  { label: "गीत", href: "/hi/songs" },
   { label: "पात्र", href: "/characters" },
   { label: "स्थान", href: "/places" },
 ];
