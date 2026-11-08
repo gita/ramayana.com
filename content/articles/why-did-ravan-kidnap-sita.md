@@ -4,7 +4,7 @@ Ravan kidnapped Mata Sita out of revenge, desire for her, and a plan to destroy 
 
 ## Ravan’s resolve in the Ramcharitmanas
 
-Surpanakha comes to Ravan’s court after the destruction of Khar and Dushan. She rebukes him, describes the strength of Shri Ram and Lakshmanji, and praises Mata Sita’s beauty. Hearing that Khar, Dushan and Trishira have been killed, Ravan burns with anger. He boasts of his strength before Surpanakha, yet spends the night without sleep.
+Surpanakha comes to Ravan’s court after the destruction of Khar and Dushan. She rebukes him, describes the strength of Shri Ram and Lakshmanji, and praises Mata Sita’s beauty. Hearing that Khar, Dushan and Trishira have been killed, Ravan burns with anger. He speaks proudly of his strength before Surpanakha, but spends the night without sleep.
 
 Alone, his reasoning takes another turn. Khar and Dushan were as powerful as himself. Who could have killed them except the Lord? He then forms a deliberate resolve:
 

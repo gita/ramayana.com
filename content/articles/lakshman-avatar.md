@@ -50,7 +50,7 @@ Here, one may wonder how the two descriptions fit together. Many devotees reconc
 
 **Strength finds its purpose in service.** Goswami Tulsidas describes the support of the universe as one who descends to remove fear. His power is joined with compassion. The prayer therefore asks for his grace, directing our attention toward the good that strength can accomplish.
 
-For example, a student who understands a difficult lesson can use that ability to help a classmate. The student must listen patiently and explain the steps clearly. Knowing the answer becomes an opportunity to serve. Similarly, reflecting on Lakshmanji’s strength can encourage us to use our abilities to ease another person’s difficulty.
+For example, a student who understands a difficult lesson can use that ability to help a classmate. The student must listen patiently and explain the steps clearly. Knowing the answer becomes an opportunity to serve. When we think of Lakshmanji’s strength, we too can learn to use our abilities to ease another person’s difficulty.
 
 **Divine greatness and affection belong together.** Guru Vashishth’s naming places “dear to Shri Ram” beside “support of the whole world.” We should dwell on both descriptions. The verse gives us divine majesty together with a relationship of love.
 
