@@ -28,7 +28,7 @@ export const articles: ArticleDef[] = [
   {
     slug: "was-ravan-at-sita-swayamvar",
     image: "/images/kand/bal-kand.webp",
-    imageAlt: "The breaking of Shiv's bow in Janakpur.",
+    imageAlt: "Shri Ram with Shiv's bow in King Janak's assembly.",
     eyebrow: "Bal Kand",
     type: "Article",
     related: [
@@ -52,7 +52,7 @@ export const articles: ArticleDef[] = [
   {
     slug: "lakshman-avatar",
     image: "/images/deity/lakshman.webp",
-    imageAlt: "Lakshmanji with his bow.",
+    imageAlt: "Shri Ram, Mata Sita and Lakshmanji in the forest, with Hanumanji at their feet.",
     eyebrow: "Characters",
     type: "Article",
     related: [
@@ -64,7 +64,7 @@ export const articles: ArticleDef[] = [
   {
     slug: "ravan-boon",
     image: "/images/kand/lanka-kand.webp",
-    imageAlt: "Lanka Kand.",
+    imageAlt: "The bridge to Lanka built by the vanara army.",
     eyebrow: "Characters",
     type: "Article",
     related: [
@@ -123,7 +123,7 @@ export const articles: ArticleDef[] = [
   {
     slug: "read-ramcharitmanas-online",
     image: "/images/kand/bal-kand.webp",
-    imageAlt: "Bal Kand painting.",
+    imageAlt: "Shri Ram with Shiv's bow in King Janak's assembly.",
     eyebrow: "Reading online",
     type: "Article",
     related: [
@@ -161,7 +161,7 @@ export const articles: ArticleDef[] = [
     slug: "valmiki",
     image: "/images/authors/valmiki.webp",
     imageAlt:
-      "Maharshi Valmiki watching a pair of krauncha birds at the water.",
+      "Maharshi Valmiki writing the Ramayana in his ashram.",
     eyebrow: "Maharshi Valmiki",
     type: "Article",
     related: [
