@@ -16,7 +16,7 @@ export function LongPage({ title, lede, image, imageAlt, wide = true, crumbs, ch
       </div>
       {image && (
         <figure className={`relative mx-auto mt-8 overflow-hidden rounded-3xl ${wide ? "aspect-[16/9] sm:aspect-[21/9]" : "aspect-[4/3] max-w-[44rem]"}`}>
-          <Image src={image} alt={imageAlt ?? ""} fill preload fetchPriority="high" quality={60} sizes="(min-width: 1168px) 1120px, 100vw" className="object-cover object-[50%_25%]" />
+          <Image src={image} alt={imageAlt ?? ""} fill preload fetchPriority="high" quality={90} sizes="(min-width: 1168px) 1120px, 100vw" className="object-cover object-[50%_25%]" />
         </figure>
       )}
       <div className="mx-auto mt-10 max-w-[44rem]">

@@ -20,7 +20,7 @@ const nextConfig = {
   reactStrictMode: true,
   experimental: { globalNotFound: true },
   turbopack: { root: import.meta.dirname },
-  images: { qualities: [60, 75], formats: ["image/avif", "image/webp"], minimumCacheTTL: 31536000, deviceSizes: [360, 414, 640, 768, 1024, 1280, 1536, 1920] },
+  images: { qualities: [85, 90], formats: ["image/avif", "image/webp"], minimumCacheTTL: 31536000, deviceSizes: [360, 414, 640, 768, 1024, 1280, 1536, 1920] },
   async headers() {
     return [
       { source: "/images/:path*", headers: immutable },

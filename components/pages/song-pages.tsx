@@ -22,8 +22,10 @@ export function SongHub({ lang }: { lang: Lang }) {
       <JsonLd data={{ "@context": "https://schema.org", "@graph": [breadcrumb([{ name: hi ? "मुखपृष्ठ" : "Home", url: hi ? "/hi" : "/" }, { name: h.h1, url: hi ? "/hi/songs" : "/songs" }])] }} />
       <h1 className="t-display">{h.h1}</h1>
       <p className="t-lede mt-4 max-w-2xl">{h.lede}</p>
-      <ul className="mt-10 grid gap-4 sm:grid-cols-2">
-        {songs.map((s) => (
+      {[{ t: hi ? "भजन, स्तुति और आरती" : "Bhajans, stutis and aarti", l: songs.filter((s) => s.kind === "hymn") }, { t: hi ? "धारावाहिक और फ़िल्म के गीत" : "From the serial and the film", l: songs.filter((s) => s.kind !== "hymn") }].filter((g) => g.l.length).map((g) => (<section key={g.t} className="mt-12">
+      <h2 className="t-sub">{g.t}</h2>
+      <ul className="mt-5 grid gap-4 sm:grid-cols-2">
+        {g.l.map((s) => (
           <li key={s.slug}>
             <Link href={songPath(lang, s.slug)} className="press flex h-full flex-col rounded-3xl border border-border bg-surface px-6 py-5 hover:border-accent/40">
               <span className="font-serif text-[1.25rem] font-semibold leading-snug">{hi ? s.title_hi : s.title}</span>
@@ -33,6 +35,7 @@ export function SongHub({ lang }: { lang: Lang }) {
           </li>
         ))}
       </ul>
+      </section>))}
     </div>
   );
 }
@@ -41,9 +44,11 @@ export function songMetadata(lang: Lang, slug: string): Metadata {
   const s = song(slug);
   if (!s) return {};
   const hi = lang === "hi";
-  const full = s.kind === "full";
+  const full = s.kind !== "explainer", hymn = s.kind === "hymn";
   const title = hi ? `${s.title_hi}: ${full ? "बोल और अर्थ" : "अर्थ और मूल प्रसंग"}` : `${s.title}: ${full ? "lyrics and meaning" : "meaning and the scripture behind it"}`;
-  const description = hi
+  const description = hymn
+    ? (hi ? `${s.title_hi} के सम्पूर्ण बोल, रोमन लिपि में, हर पंक्ति का सरल अर्थ और इसके पीछे की रामकथा। ${s.from_hi}।` : `${s.title} full lyrics in Hindi with English transliteration, the meaning of every line in simple words, and the Ramayana story behind it. ${s.from_en}.`)
+    : hi
     ? `${s.title_hi} (${s.from_hi}) के पीछे की चौपाइयाँ और श्लोक, हर पंक्ति का अर्थ, प्रसंग और आधिकारिक वीडियो।`
     : `${s.title} from ${s.from_en}: ${full ? "full lyrics in Hindi and English transliteration, " : ""}the meaning of each line, the scripture it comes from, and the official video.`;
   return { title, description, alternates: { canonical: songPath(lang, slug), languages: { en: songPath("en", slug), hi: songPath("hi", slug), "x-default": songPath("en", slug) } }, openGraph: { siteName: site.name, title, description } };
@@ -62,12 +67,12 @@ export function SongPage({ lang, slug }: { lang: Lang; slug: string }) {
   const paras = (t: string) => t.split(/\n\s*\n/).map((p, i) => <p key={i}>{em(p)}</p>);
   const clean = (t?: string | null) => t?.replace(/\s*\(\d+(?:[-—–]\d+)?\)\s*$/gm, "").replace(/॥\s*[\d२-९०१ -]+\s*॥\s*$/gm, "॥").trim();
   const H2 = ({ children, id }: { children: React.ReactNode; id?: string }) => <h2 id={id} className="t-sub mt-14 mb-4 scroll-mt-20">{children}</h2>;
-  const full = s.kind === "full";
+  const full = s.kind !== "explainer", hymn = s.kind === "hymn";
   return (
     <article lang={lang} className="mx-auto max-w-3xl px-4 sm:px-6 pb-16 pt-6">
       <JsonLd data={{ "@context": "https://schema.org", "@graph": [
         breadcrumb(crumbs),
-        { "@type": "MusicComposition", name: s.title, alternateName: s.title_hi, url: `${site.url}${here}`, ...(full ? { lyrics: { "@type": "CreativeWork", text: s.lines.map((l) => l.verse?.text ?? l.text ?? "").join("\n\n") } } : {}) },
+        { "@type": "MusicComposition", name: s.title, alternateName: s.title_hi, url: `${site.url}${here}`, ...(hymn ? { lyricist: { "@type": "Person", name: s.from_en.split(",")[0] } } : {}), ...(full ? { lyrics: { "@type": "CreativeWork", text: s.lines.map((l) => l.verse?.text ?? l.text ?? "").join("\n\n") } } : {}) },
         ...(faq.length ? [{ "@type": "FAQPage", mainEntity: faq.map((f) => ({ "@type": "Question", name: f.q, acceptedAnswer: { "@type": "Answer", text: f.a } })) }] : []),
       ] }} />
       <nav aria-label="Breadcrumb" className="text-[0.8125rem] text-muted">
@@ -113,12 +118,12 @@ export function SongPage({ lang, slug }: { lang: Lang; slug: string }) {
         })}
       </div>
 
-      <H2>{hi ? "गीत के बारे में" : "About the song"}</H2>
+      <H2>{hymn ? (hi ? "इस रचना के बारे में" : "About this hymn") : (hi ? "गीत के बारे में" : "About the song")}</H2>
       <div className={`${prose} space-y-4`}>{paras(hi ? s.about_hi : s.about_en)}</div>
-      <p className="mt-3 text-[0.875rem] text-muted">{s.credits}</p>
+      {s.credits && <p className="mt-3 text-[0.875rem] text-muted">{s.credits}</p>}
       <H2>{hi ? "प्रसंग" : "The scene in the Ramayana"}</H2>
       <div className={`${prose} space-y-4`}>{paras(hi ? s.scene_hi : s.scene_en)}</div>
-      <H2>{hi ? "यह गीत क्या सिखाता है" : "What it teaches"}</H2>
+      <H2>{hi ? (hymn ? "यह रचना क्या सिखाती है" : "यह गीत क्या सिखाता है") : "What it teaches"}</H2>
       <div className={`${prose} space-y-4`}>{paras(hi ? s.teaching_hi : s.teaching_en)}</div>
 
       {faq.length > 0 && (<>

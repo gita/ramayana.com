@@ -72,7 +72,7 @@ export function HomePage({ lang }: { lang: Lang }) {
         </div>
         <div className="mx-auto max-w-md text-left"><ContinueReading lang={lang} /></div>
         <figure className="relative mt-12 aspect-[3/2] overflow-hidden rounded-3xl sm:mt-16 sm:aspect-[16/8]">
-          <Image src="/images/hero/ram-darbar.webp" alt="Shri Ram and Mata Sita enthroned at Ayodhya, with Lakshman, Bharat and Shatrughna standing behind and Hanumanji kneeling before them." fill preload fetchPriority="high" quality={60} sizes="(min-width: 1168px) 1120px, 100vw" className="object-cover object-[50%_40%]" />
+          <Image src="/images/hero/ram-darbar.webp" alt="Shri Ram and Mata Sita enthroned at Ayodhya, with Lakshman, Bharat and Shatrughna standing behind and Hanumanji kneeling before them." fill preload fetchPriority="high" quality={90} sizes="(min-width: 1168px) 1120px, 100vw" className="object-cover object-[50%_40%]" />
         </figure>
       </section>
 
