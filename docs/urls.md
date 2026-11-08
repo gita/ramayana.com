@@ -1,6 +1,6 @@
 # ramayana.com URLs
 
-Generated 2026-11-08 from the live sitemap: 808 URLs.
+Generated 2026-11-08 from the live sitemap: 816 URLs.
 
 ## Change log
 
@@ -25,12 +25,26 @@ Updated:
 - /ramayana-movie: writer's note removed from an FAQ answer, links to the five new answers
 - /news/ramayana-film-releases-worldwide-november-5: headline no longer says "today"
 - Play Store links now carry utm_campaign=website for install attribution
+- Image fixes: /places/prayag now shows Kevat ferrying Shri Ram; /places/ashok-vatika and /places/chitrakoot show name cards until correct paintings exist; corrected alt text on /lakshman-avatar, /was-ravan-at-sita-swayamvar, /ravan-boon, /read-ramcharitmanas-online, /valmiki
+- All published copy cleaned by the new slop gate (scripts/qa/deslop.py)
+
+### 8 November 2026, later
+New:
+- /songs and /hi/songs: Ramayan songs hub
+- /songs/mangal-bhavan-amangal-hari (+ Hindi): the serial's song, full lyrics (all Tulsidas plus the traditional refrain), meaning of every line
+- /songs/sitas-aspiration (+ Hindi): the 2026 film's Valmiki shloka, full text and meaning
+- /songs/mangal-rang (+ Hindi): the 2026 film's wedding song, explained through the wedding verses of the Ramcharitmanas
+Updated:
+- Navigation and footer: Songs link
+- FAQ rows on chaupai, stuti and song pages: aligned toggle
+Pipeline:
+- scripts/qa/deslop.py (slop gate with Codex repair), scripts/qa/visual_qa.py (screenshots reviewed by GPT-6.1 Sol)
 
 
 ## All URLs by type
 
 
-### Articles and core pages (19)
+### Articles and core pages (23)
 
 - https://ramayana.com/
 - https://ramayana.com/why-did-ravan-kidnap-sita
@@ -51,6 +65,10 @@ Updated:
 - https://ramayana.com/support
 - https://ramayana.com/app
 - https://ramayana.com/acknowledgements
+- https://ramayana.com/songs
+- https://ramayana.com/songs/mangal-bhavan-amangal-hari
+- https://ramayana.com/songs/sitas-aspiration
+- https://ramayana.com/songs/mangal-rang
 
 ### Characters (17)
 
@@ -190,9 +208,13 @@ Updated:
 - https://ramayana.com/valmiki-ramayana/sundara-kanda/sarga-10
 - ... and 58 more
 
-### Hindi: Articles and core pages (1)
+### Hindi: Articles and core pages (5)
 
 - https://ramayana.com/hi
+- https://ramayana.com/hi/songs
+- https://ramayana.com/hi/songs/mangal-bhavan-amangal-hari
+- https://ramayana.com/hi/songs/sitas-aspiration
+- https://ramayana.com/hi/songs/mangal-rang
 
 ### Hindi: Chaupai (21)
 
