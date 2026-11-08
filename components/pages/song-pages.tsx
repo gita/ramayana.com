@@ -66,6 +66,8 @@ export function SongPage({ lang, slug }: { lang: Lang; slug: string }) {
   const em = (t: string) => t.split(/(\*[^*]+\*)/).map((x, k) => (/^\*[^*]+\*$/.test(x) ? <em key={k}>{x.slice(1, -1)}</em> : x));
   const paras = (t: string) => t.split(/\n\s*\n/).map((p, i) => <p key={i}>{em(p)}</p>);
   const clean = (t?: string | null) => t?.replace(/\s*\(\d+(?:[-—–]\d+)?\)\s*$/gm, "").replace(/॥\s*[\d२-९०१ -]+\s*॥\s*$/gm, "॥").trim();
+  // Keep a closing verse marker (॥१॥, ।) on the same line as the word before it.
+  const keep = (t?: string) => (t ?? "").split("\n").map((ln, k, a) => { const m = ln.match(/^(.*?)(\S+[।॥][^\s]*)$/); return <span key={k}>{m ? <>{m[1]}<span className="whitespace-nowrap">{m[2]}</span></> : ln}{k < a.length - 1 && "\n"}</span>; });
   const H2 = ({ children, id }: { children: React.ReactNode; id?: string }) => <h2 id={id} className="t-sub mt-14 mb-4 scroll-mt-20">{children}</h2>;
   const full = s.kind !== "explainer", hymn = s.kind === "hymn";
   return (
@@ -95,24 +97,24 @@ export function SongPage({ lang, slug }: { lang: Lang; slug: string }) {
       <section className="space-y-6 rounded-3xl bg-surface px-5 py-6 ring-1 ring-border/70 sm:px-8 sm:py-8">
         {s.lines.map((l, i) => (
           <div key={i}>
-            <p lang="awa" className="verse whitespace-pre-line">{l.verse?.text ?? l.text}</p>
+            <p lang="awa" className="verse whitespace-pre-line">{keep(l.verse?.text ?? l.text)}</p>
             <p lang="en" className="mt-2 font-serif text-[1rem] italic leading-relaxed text-muted">{l.roman.map((r, k) => <span key={k} className="block">{r}</span>)}</p>
-            {l.sung && <p className="mt-1 text-[0.8125rem] text-faint">{hi ? "गाया जाता है: " : "Commonly sung as: "}<span className="italic">{l.sung}</span></p>}
+            {hymn ? ((hi ? l.sung_hi : l.sung) && <p className="mt-1 text-[0.8125rem] text-faint">{hi ? l.sung_hi : l.sung}</p>) : l.sung && <p className="mt-1 text-[0.8125rem] text-faint">{hi ? "गाया जाता है: " : "Commonly sung as: "}<span className="italic">{l.sung}</span></p>}
           </div>
         ))}
       </section>
 
-      <H2 id="meaning">{hi ? "हर पंक्ति का अर्थ" : "Meaning, line by line"}</H2>
+      <H2 id="meaning">{hymn ? (hi ? "पदों का अर्थ" : "Meaning, verse by verse") : (hi ? "हर पंक्ति का अर्थ" : "Meaning, line by line")}</H2>
       <div className="space-y-8">
         {s.lines.map((l, i) => {
           const mhi = clean(l.verse?.hi ?? l.meaning_hi), men = clean(l.verse?.en ?? l.meaning_en);
           return (
             <div key={i} className="border-l-2 border-accent/25 pl-4">
-              <p lang="awa" className="font-verse text-[1.125rem] text-scripture whitespace-pre-line">{l.verse?.text ?? l.text}</p>
-              {hi ? mhi && <p lang="hi" className="meaning-hi mt-2 whitespace-pre-line">{mhi}</p> : (<>{men && <p className="meaning-en mt-2 whitespace-pre-line">{men}</p>}{mhi && <p lang="hi" className="meaning-hi mt-2 whitespace-pre-line text-muted">{mhi}</p>}</>)}
-              <p className="mt-1 text-[0.875rem] text-faint">
+              <p lang="awa" className="font-verse text-[1.125rem] text-scripture whitespace-pre-line">{keep(l.verse?.text ?? l.text)}</p>
+              {hi ? mhi && <p lang="hi" className="meaning-hi mt-2 whitespace-pre-line">{mhi}</p> : (<>{men && <p className="meaning-en mt-2 whitespace-pre-line">{men}</p>}{!hymn && mhi && <p lang="hi" className="meaning-hi mt-2 whitespace-pre-line text-muted">{mhi}</p>}</>)}
+              {!hymn && <p className="mt-1 text-[0.875rem] text-faint">
                 {l.verse ? <Link href={`${hi ? "/hi" : ""}${l.verse.path}`} className="tap text-accent">{hi ? l.verse.label_hi : l.verse.label_en} →</Link> : l.source}
-              </p>
+              </p>}
             </div>
           );
         })}
@@ -121,7 +123,7 @@ export function SongPage({ lang, slug }: { lang: Lang; slug: string }) {
       <H2>{hymn ? (hi ? "इस रचना के बारे में" : "About this hymn") : (hi ? "गीत के बारे में" : "About the song")}</H2>
       <div className={`${prose} space-y-4`}>{paras(hi ? s.about_hi : s.about_en)}</div>
       {s.credits && <p className="mt-3 text-[0.875rem] text-muted">{s.credits}</p>}
-      <H2>{hi ? "प्रसंग" : "The scene in the Ramayana"}</H2>
+      <H2>{hymn ? (hi ? "इसके पीछे की कथा" : "The story behind it") : (hi ? "प्रसंग" : "The scene in the Ramayana")}</H2>
       <div className={`${prose} space-y-4`}>{paras(hi ? s.scene_hi : s.scene_en)}</div>
       <H2>{hi ? (hymn ? "यह रचना क्या सिखाती है" : "यह गीत क्या सिखाता है") : "What it teaches"}</H2>
       <div className={`${prose} space-y-4`}>{paras(hi ? s.teaching_hi : s.teaching_en)}</div>

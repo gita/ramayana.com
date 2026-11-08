@@ -294,5 +294,1247 @@
    "Mangal Rang Shreya Ghoshal",
    "Mangal Rang Kumar Vishwas"
   ]
+ },
+ {
+  "slug": "hanuman-chalisa",
+  "title": "Hanuman Chalisa",
+  "title_hi": "श्रीहनुमान चालीसा",
+  "kind": "hymn",
+  "from_en": "Goswami Tulsidas",
+  "from_hi": "गोस्वामी तुलसीदास",
+  "credits": "",
+  "lines": [
+   {
+    "text": "श्रीगुरु चरन सरोज रज निज मनु मुकुरु सुधारि।\nबरनउँ रघुबर बिमल जसु जो दायकु फल चारि॥",
+    "source": "Goswami Tulsidas, Hanuman Chalisa",
+    "roman": [
+     "Shri Guru charan saroj raj, nij manu mukuru sudhaari",
+     "Baranau Raghubar bimal jasu, jo daayaku phal chaari"
+    ],
+    "sung": "",
+    "meaning_en": "With the dust of the Guru's lotus feet, I clean the mirror of my mind. I sing Shri Ram's pure glory, which this doha describes as granting the four aims of life: dharma, righteous living, artha, material well-being, kama, fulfilment of desires, and moksha, liberation.",
+    "meaning_hi": "गुरु के चरणकमलों की धूल से मैं अपने मन का दर्पण साफ करता हूँ। फिर श्री राम के निर्मल यश का गान करता हूँ, जो धर्म, अर्थ, काम और मोक्ष, ये चार फल देने वाला है।"
+   },
+   {
+    "text": "बुद्धिहीन तनु जानिके सुमिरौं पवनकुमार।\nबल बुद्धि बिद्या देहु मोहिं हरहु कलेस बिकार॥",
+    "roman": [
+     "Buddhiheen tanu jaanike, sumirau Pawan Kumar",
+     "Bal buddhi bidya dehu mohi, harahu kales bikaar"
+    ],
+    "sung": "",
+    "meaning_en": "Knowing my limited understanding, I remember Hanumanji, son of the wind god. Grant me strength, wisdom and learning, and remove my suffering and inner faults.",
+    "meaning_hi": "अपनी समझ की कमी जानकर मैं पवनपुत्र हनुमानजी का स्मरण करता हूँ। मुझे बल, बुद्धि और विद्या दीजिए, मेरे दुख और मन के दोष दूर कीजिए।"
+   },
+   {
+    "text": "जय हनुमान ज्ञान गुन सागर।\nजय कपीस तिहुँ लोक उजागर॥१॥",
+    "roman": [
+     "Jai Hanuman gyaan gun saagar",
+     "Jai Kapees tihu lok ujaagar"
+    ],
+    "sung": "",
+    "meaning_en": "Glory to Hanumanji, ocean of knowledge and virtue. Glory to the lord of the vanaras, whose fame shines through the three worlds.",
+    "meaning_hi": "ज्ञान और गुणों के सागर हनुमानजी की जय हो। तीनों लोकों में प्रसिद्ध वानरों के स्वामी की जय हो।"
+   },
+   {
+    "text": "राम दूत अतुलित बल धामा।\nअंजनिपुत्र पवनसुत नामा॥२॥",
+    "roman": [
+     "Ram doot atulit bal dhaama",
+     "Anjani putra Pawansut naama"
+    ],
+    "sung": "",
+    "meaning_en": "You are Shri Ram's messenger and the dwelling place of strength beyond measure. You are known as Mata Anjani's son and the son of the wind god.",
+    "meaning_hi": "आप श्री राम के दूत और अपार बल के धाम हैं। आप माता अंजनी के पुत्र और पवनपुत्र के नाम से जाने जाते हैं।"
+   },
+   {
+    "text": "महाबीर बिक्रम बजरंगी।\nकुमति निवार सुमति के संगी॥३॥",
+    "roman": [
+     "Mahabeer bikram Bajrangi",
+     "Kumati nivaar sumati ke sangi"
+    ],
+    "sung": "",
+    "meaning_en": "You are a great hero, mighty in action, with a body strong as a thunderbolt. You remove harmful thinking and stand beside those of sound understanding.",
+    "meaning_hi": "आप महान वीर हैं, बड़े पराक्रमी हैं और आपका शरीर वज्र जैसा बलवान है। आप बुरी बुद्धि दूर करते हैं और अच्छी बुद्धि वालों के साथी हैं।"
+   },
+   {
+    "text": "कंचन बरन बिराज सुबेसा।\nकानन कुंडल कुंचित केसा॥४॥",
+    "roman": [
+     "Kanchan baran biraaj subesa",
+     "Kaanan kundal kunchit kesa"
+    ],
+    "sung": "",
+    "meaning_en": "Your golden form is beautifully adorned. Earrings shine at your ears, and your hair is curly.",
+    "meaning_hi": "आपका सुनहरा शरीर सुंदर वेश से सजा है। कानों में कुंडल हैं और बाल घुँघराले हैं।"
+   },
+   {
+    "text": "हाथ बज्र औ ध्वजा बिराजै।\nकाँधे मूँज जनेऊ साजै॥५॥",
+    "roman": [
+     "Haath bajra au dhwaja biraajai",
+     "Kaandhe moonj janeu saajai"
+    ],
+    "sung": "Also sung as 'aur dhwaja' or 'aru dhwaja'.",
+    "meaning_en": "A thunderbolt and a flag adorn your hands. A sacred thread of munja grass rests across your shoulder.",
+    "meaning_hi": "आपके हाथों में वज्र और ध्वजा सुशोभित हैं। कंधे पर मूँज का जनेऊ सजा है।",
+    "sung_hi": "कहीं कहीं 'और ध्वजा' या 'अरु ध्वजा' भी गाया जाता है।"
+   },
+   {
+    "text": "संकर सुवन केसरीनंदन।\nतेज प्रताप महा जग बंदन॥६॥",
+    "roman": [
+     "Sankar suvan Kesari nandan",
+     "Tej prataap maha jag bandan"
+    ],
+    "sung": "Also sung as 'Shankar swayam'. Both readings belong to the devotional tradition.",
+    "meaning_en": "The hymn calls you Lord Shiva's son and Kesari's son. Devotional tradition understands your relationship with Shiva as being His emanation. The world honours your radiance and mighty deeds.",
+    "meaning_hi": "चालीसा आपको भगवान शिव का पुत्र और केसरीनंदन कहती है। भक्ति परंपरा में आपको शिव का अंश माना जाता है। आपके तेज और प्रताप को संसार प्रणाम करता है।",
+    "sung_hi": "'शंकर स्वयं' भी गाया जाता है। दोनों पाठ भक्ति परंपरा में हैं।"
+   },
+   {
+    "text": "विद्यावान गुनी अति चातुर।\nराम काज करिबे को आतुर॥७॥",
+    "roman": [
+     "Bidyavaan guni ati chaatur",
+     "Ram kaaj karibe ko aatur"
+    ],
+    "sung": "",
+    "meaning_en": "You possess learning, virtue and keen understanding. You are eager to carry out Shri Ram's work.",
+    "meaning_hi": "आप विद्वान, गुणवान और बहुत समझदार हैं। श्री राम का काम करने के लिए सदा उत्सुक रहते हैं।"
+   },
+   {
+    "text": "प्रभु चरित्र सुनिबे को रसिया।\nराम लखन सीता मन बसिया॥८॥",
+    "roman": [
+     "Prabhu charitra sunibe ko rasiya",
+     "Ram Lakhan Sita man basiya"
+    ],
+    "sung": "",
+    "meaning_en": "You delight in hearing the Lord's deeds. Shri Ram, Lakshman and Mata Sita dwell in your heart.",
+    "meaning_hi": "आपको प्रभु की कथा सुनने में बड़ा आनंद आता है। आपके मन में श्री राम, लक्ष्मणजी और माता सीता बसे हैं।"
+   },
+   {
+    "text": "सूक्ष्म रूप धरि सियहिं दिखावा।\nबिकट रूप धरि लंक जरावा॥९॥",
+    "roman": [
+     "Sookshma roop dhari Siyahi dikhaava",
+     "Bikat roop dhari Lank jaraava"
+    ],
+    "sung": "",
+    "meaning_en": "You appeared before Mata Sita in a small form. You took a fearsome form to burn Lanka.",
+    "meaning_hi": "आपने छोटा रूप धरकर माता सीता को दर्शन दिए। फिर भयानक रूप धरकर लंका जलाई।"
+   },
+   {
+    "text": "भीम रूप धरि असुर सँहारे।\nरामचंद्र के काज सँवारे॥१०॥",
+    "roman": [
+     "Bheem roop dhari asur sanhaare",
+     "Ramchandra ke kaaj sanvaare"
+    ],
+    "sung": "",
+    "meaning_en": "You assumed a mighty form and destroyed the demons. You brought Shri Ram's tasks to completion.",
+    "meaning_hi": "आपने विशाल और बलवान रूप धरकर राक्षसों का संहार किया। श्री राम के काम पूरे किए।"
+   },
+   {
+    "text": "लाय सजीवन लखन जियाये।\nश्रीरघुबीर हरषि उर लाये॥११॥",
+    "roman": [
+     "Laay sajeevan Lakhan jiyaaye",
+     "Shri Raghubeer harashi ur laaye"
+    ],
+    "sung": "Also sung as 'laay sanjeevan' or 'laay sanjeevani'.",
+    "meaning_en": "You brought the life-restoring herb and revived Lakshman. Shri Ram joyfully held you to His heart.",
+    "meaning_hi": "आप जीवन बचाने वाली औषधि लाए और लक्ष्मणजी को फिर जीवन मिला। श्री राम ने प्रसन्न होकर आपको हृदय से लगा लिया।",
+    "sung_hi": "कहीं कहीं 'लाय संजीवन' या 'लाय संजीवनी' भी गाया जाता है।"
+   },
+   {
+    "text": "रघुपति कीन्ही बहुत बड़ाई।\nतुम मम प्रिय भरतहि सम भाई॥१२॥",
+    "roman": [
+     "Raghupati keenhi bahut badaai",
+     "Tum mam priya Bharatahi sam bhaai"
+    ],
+    "sung": "",
+    "meaning_en": "Shri Ram praised you greatly. He called you His brother, as dear to Him as Bharat.",
+    "meaning_hi": "श्री राम ने आपकी बहुत प्रशंसा की। उन्होंने आपको अपना भाई कहा, जो उन्हें भरतजी के समान प्रिय है।"
+   },
+   {
+    "text": "सहस बदन तुम्हरो जस गावैं।\nअस कहि श्रीपति कंठ लगावैं॥१३॥",
+    "roman": [
+     "Sahas badan tumharo jas gaavai",
+     "As kahi Shripati kanth lagaavai"
+    ],
+    "sung": "",
+    "meaning_en": "Shri Ram said that the thousand-mouthed Shesh sings your glory. Saying this, He held you close.",
+    "meaning_hi": "श्री राम ने कहा कि हजार मुख वाले शेषजी भी आपका यश गाते हैं। ऐसा कहकर उन्होंने आपको गले लगा लिया।"
+   },
+   {
+    "text": "सनकादिक ब्रह्मादि मुनीसा।\nनारद सारद सहित अहीसा॥१४॥",
+    "roman": [
+     "Sanakaadik Brahmaadi muneesa",
+     "Naarad Saarad sahit Aheesa"
+    ],
+    "sung": "",
+    "meaning_en": "The sages Sanak and his brothers, Brahma and the great sages, Narad, Goddess Saraswati and Shesh all praise you.",
+    "meaning_hi": "सनक आदि ऋषि, ब्रह्माजी और बड़े मुनि, नारदजी, माता सरस्वती और शेषजी, सभी आपका यश गाते हैं।"
+   },
+   {
+    "text": "जम कुबेर दिगपाल जहाँ ते।\nकबि कोबिद कहि सके कहाँ ते॥१५॥",
+    "roman": [
+     "Jam Kuber digpaal jahaan te",
+     "Kabi kobid kahi sake kahaan te"
+    ],
+    "sung": "",
+    "meaning_en": "Even Yama, Kuber and the guardians of the directions cannot fully describe your glory. Poets and learned people can express only a little of it.",
+    "meaning_hi": "यमराज, कुबेर और दिशाओं के रक्षक भी आपके यश का पूरा वर्णन नहीं कर पाते। कवि और विद्वान भी उसका थोड़ा ही वर्णन कर पाते हैं।"
+   },
+   {
+    "text": "तुम उपकार सुग्रीवहिं कीन्हा।\nराम मिलाय राज पद दीन्हा॥१६॥",
+    "roman": [
+     "Tum upkaar Sugreevahi keenha",
+     "Ram milaay raaj pad deenha"
+    ],
+    "sung": "",
+    "meaning_en": "You helped Sugriv by bringing him to Shri Ram. Through that friendship, Sugriv regained his kingship.",
+    "meaning_hi": "आपने सुग्रीवजी को श्री राम से मिलाकर उनका उपकार किया। इसी मित्रता से उन्हें फिर राजपद मिला।"
+   },
+   {
+    "text": "तुम्हरो मंत्र बिभीषन माना।\nलंकेस्वर भए सब जग जाना॥१७॥",
+    "roman": [
+     "Tumharo mantra Bibheeshan maana",
+     "Lankeswar bhaye sab jag jaana"
+    ],
+    "sung": "",
+    "meaning_en": "Vibhishan accepted your counsel. He became the ruler of Lanka, as the whole world knows.",
+    "meaning_hi": "विभीषणजी ने आपकी सलाह मानी। वे लंका के राजा बने, यह बात संसार जानता है।"
+   },
+   {
+    "text": "जुग सहस्र जोजन पर भानू।\nलील्यो ताहि मधुर फल जानू॥१८॥",
+    "roman": [
+     "Jug sahasra jojan par bhaanu",
+     "Leelyo taahi madhur phal jaanu"
+    ],
+    "sung": "",
+    "meaning_en": "The hymn recalls the later devotional tradition in which you swallowed the distant sun, mistaking it for a sweet fruit.",
+    "meaning_hi": "चालीसा बाद की भक्ति परंपरा की वह बाललीला याद करती है जिसमें आपने दूर स्थित सूर्य को मीठा फल समझकर निगल लिया।"
+   },
+   {
+    "text": "प्रभु मुद्रिका मेलि मुख माहीं।\nजलधि लाँघि गये अचरज नाहीं॥१९॥",
+    "roman": [
+     "Prabhu mudrika meli mukh maahee",
+     "Jaladhi laanghi gaye acharaj naahee"
+    ],
+    "sung": "",
+    "meaning_en": "Placing Shri Ram's ring in your mouth, you crossed the ocean. Such a deed is no wonder for you.",
+    "meaning_hi": "श्री राम की अँगूठी मुख में रखकर आप समुद्र पार कर गए। आपके लिए यह आश्चर्य की बात नहीं है।"
+   },
+   {
+    "text": "दुर्गम काज जगत के जेते।\nसुगम अनुग्रह तुम्हरे तेते॥२०॥",
+    "roman": [
+     "Durgam kaaj jagat ke jete",
+     "Sugam anugrah tumhare tete"
+    ],
+    "sung": "",
+    "meaning_en": "The verse expresses faith that your grace makes even the world's difficult tasks easy.",
+    "meaning_hi": "इस चौपाई में भक्त विश्वास व्यक्त करता है कि आपकी कृपा से संसार के कठिन काम भी सरल हो जाते हैं।"
+   },
+   {
+    "text": "राम दुआरे तुम रखवारे।\nहोत न आज्ञा बिनु पैसारे॥२१॥",
+    "roman": [
+     "Ram duaare tum rakhvaare",
+     "Hot na aagya binu paisaare"
+    ],
+    "sung": "",
+    "meaning_en": "You guard the doorway to Shri Ram. No one enters without your permission.",
+    "meaning_hi": "आप श्री राम के द्वार के रक्षक हैं। आपकी आज्ञा के बिना कोई भीतर प्रवेश नहीं कर सकता।"
+   },
+   {
+    "text": "सब सुख लहै तुम्हारी सरना।\nतुम रच्छक काहू को डर ना॥२२॥",
+    "roman": [
+     "Sab sukh lahai tumhaari sarna",
+     "Tum rachchhak kaahu ko dar naa"
+    ],
+    "sung": "Another reading is 'sab sukh lahahin'.",
+    "meaning_en": "The devotee expresses trust that your shelter brings every happiness and that, with you as protector, there is no one to fear.",
+    "meaning_hi": "भक्त को भरोसा है कि आपकी शरण में सब सुख मिलते हैं और आपके रक्षक होने पर किसी का डर नहीं रहता।",
+    "sung_hi": "एक अन्य पाठ 'सब सुख लहहिं' भी मिलता है।"
+   },
+   {
+    "text": "आपन तेज सम्हारो आपै।\nतीनों लोक हाँक तें काँपै॥२३॥",
+    "roman": [
+     "Aapan tej samhaaro aapai",
+     "Teeno lok haank te kaampai"
+    ],
+    "sung": "Another reading is 'sanhaaro'. Here, 'samhaaro' means holding one's own radiance in check.",
+    "meaning_en": "You alone can contain your own power. Your mighty call makes the three worlds tremble.",
+    "meaning_hi": "अपने तेज को आप ही सँभाल सकते हैं। आपकी हुंकार से तीनों लोक काँप उठते हैं।",
+    "sung_hi": "'संहारो' पाठ भी मिलता है। यहाँ 'सम्हारो' का अर्थ अपने तेज को सँभालना है।"
+   },
+   {
+    "text": "भूत पिसाच निकट नहिं आवै।\nमहाबीर जब नाम सुनावै॥२४॥",
+    "roman": [
+     "Bhoot pisaach nikat nahi aavai",
+     "Mahabeer jab naam sunaavai"
+    ],
+    "sung": "",
+    "meaning_en": "The hymn declares that ghosts and harmful spirits do not come near when your name, Hanumanji the great hero, is spoken.",
+    "meaning_hi": "यह चौपाई कहती है कि जब महावीर हनुमानजी का नाम सुनाया जाता है, तब भूत और पिशाच पास नहीं आते।"
+   },
+   {
+    "text": "नासै रोग हरै सब पीरा।\nजपत निरंतर हनुमत बीरा॥२५॥",
+    "roman": [
+     "Naasai rog harai sab peera",
+     "Japat nirantar Hanumat beera"
+    ],
+    "sung": "",
+    "meaning_en": "The hymn praises constant remembrance of brave Hanumanji as relief from illness and pain. It voices the devotee's faith in His compassionate help.",
+    "meaning_hi": "यह चौपाई वीर हनुमानजी के निरंतर नामजप को रोग और पीड़ा से राहत देने वाला बताती है। इसमें उनकी करुणा पर भक्त का विश्वास व्यक्त होता है।"
+   },
+   {
+    "text": "संकट तें हनुमान छुड़ावै।\nमन क्रम बचन ध्यान जो लावै॥२६॥",
+    "roman": [
+     "Sankat te Hanuman chhudaavai",
+     "Man kram bachan dhyaan jo laavai"
+    ],
+    "sung": "",
+    "meaning_en": "The verse expresses faith that Hanumanji frees from distress those who remember Him in thought, deed and word.",
+    "meaning_hi": "यह चौपाई विश्वास व्यक्त करती है कि मन, कर्म और वचन से हनुमानजी का ध्यान करने वाले को वे संकट से छुड़ाते हैं।"
+   },
+   {
+    "text": "सब पर राम तपस्वी राजा।\nतिन के काज सकल तुम साजा॥२७॥",
+    "roman": [
+     "Sab par Ram tapasvee raaja",
+     "Tin ke kaaj sakal tum saaja"
+    ],
+    "sung": "Also sung as 'Ram raay sirtaaja'.",
+    "meaning_en": "Shri Ram, the ascetic king, is supreme over all. You carry out all His tasks.",
+    "meaning_hi": "तपस्वी राजा श्री राम सबसे ऊपर हैं। उनके सारे काम आप पूरे करते हैं।",
+    "sung_hi": "कहीं कहीं 'राम राय सिरताजा' भी गाया जाता है।"
+   },
+   {
+    "text": "और मनोरथ जो कोई लावै।\nसोई अमित जीवन फल पावै॥२८॥",
+    "roman": [
+     "Aur manorath jo koi laavai",
+     "Soi amit jeevan phal paavai"
+    ],
+    "sung": "",
+    "meaning_en": "The hymn expresses faith that whoever brings a wish to you receives abundant fruits in life.",
+    "meaning_hi": "चालीसा में यह विश्वास व्यक्त होता है कि जो आपके पास मन की इच्छा लेकर आता है, उसे जीवन में भरपूर फल मिलते हैं।"
+   },
+   {
+    "text": "चारों जुग परताप तुम्हारा।\nहै परसिद्ध जगत उजियारा॥२९॥",
+    "roman": [
+     "Chaaro jug prataap tumhaara",
+     "Hai parasiddh jagat ujiyaara"
+    ],
+    "sung": "",
+    "meaning_en": "Your glory endures through all four ages. Your renown brings light to the world.",
+    "meaning_hi": "चारों युगों में आपका प्रताप बना रहता है। आपका यश संसार को उजाला देता है।"
+   },
+   {
+    "text": "साधु संत के तुम रखवारे।\nअसुर निकंदन राम दुलारे॥३०॥",
+    "roman": [
+     "Saadhu sant ke tum rakhvaare",
+     "Asur nikandan Ram dulaare"
+    ],
+    "sung": "",
+    "meaning_en": "You protect holy people and Saints. You destroy demons and are dearly loved by Shri Ram.",
+    "meaning_hi": "आप साधुओं और संतों की रक्षा करते हैं। आप राक्षसों का नाश करने वाले और श्री राम के दुलारे हैं।"
+   },
+   {
+    "text": "अष्ट सिद्धि नौ निधि के दाता।\nअस बर दीन जानकी माता॥३१॥",
+    "roman": [
+     "Ashta siddhi nau nidhi ke daata",
+     "As bar deen Janaki Maata"
+    ],
+    "sung": "Another reading is 'as bar deenh'. 'Nau nidhi' is also sung as 'nav nidhi'.",
+    "meaning_en": "The hymn praises you as the giver of the eight spiritual powers and nine treasures, through a boon from Mata Sita. This specific boon belongs to devotional tradition.",
+    "meaning_hi": "चालीसा आपको माता सीता के वरदान से आठ सिद्धियाँ और नौ निधियाँ देने वाला कहती है। यह विशेष वरदान भक्ति परंपरा में आता है।",
+    "sung_hi": "'अस बर दीन्ह' पाठ भी मिलता है। 'नौ निधि' को 'नव निधि' भी गाते हैं।"
+   },
+   {
+    "text": "राम रसायन तुम्हरे पासा।\nसदा रहो रघुपति के दासा॥३२॥",
+    "roman": [
+     "Ram rasaayan tumhare paasa",
+     "Sadaa raho Raghupati ke daasa"
+    ],
+    "sung": "Another reading is 'saadar hau'.",
+    "meaning_en": "You hold the nectar of devotion to Shri Ram. You remain forever His servant.",
+    "meaning_hi": "आपके पास श्री राम की भक्ति का अमृत है। आप सदा उनके सेवक बने रहते हैं।",
+    "sung_hi": "एक अन्य पाठ 'सादर हौ' भी मिलता है।"
+   },
+   {
+    "text": "तुम्हरे भजन राम को पावै।\nजनम जनम के दुख बिसरावै॥३३॥",
+    "roman": [
+     "Tumhare bhajan Ram ko paavai",
+     "Janam janam ke dukh bisraavai"
+    ],
+    "sung": "",
+    "meaning_en": "Through devotion to you, one reaches Shri Ram. The sorrow carried through many births falls away.",
+    "meaning_hi": "आपका भजन करने से श्री राम मिलते हैं। जन्मों से चले आ रहे दुख दूर हो जाते हैं।"
+   },
+   {
+    "text": "अंत काल रघुबर पुर जाई।\nजहाँ जन्म हरिभक्त कहाई॥३४॥",
+    "roman": [
+     "Ant kaal Raghubar pur jaai",
+     "Jahaan janma Haribhakt kahaai"
+    ],
+    "sung": "",
+    "meaning_en": "At life's end, the devotee reaches Shri Ram's abode. If born again, the devotee is known as a servant of God.",
+    "meaning_hi": "जीवन के अंत में भक्त श्री राम के धाम जाता है। यदि फिर जन्म हो, तो वह भगवान के भक्त के रूप में जाना जाता है।"
+   },
+   {
+    "text": "और देवता चित्त न धरई।\nहनुमत सेई सर्ब सुख करई॥३५॥",
+    "roman": [
+     "Aur devta chitt na dharai",
+     "Hanumat sei sarb sukh karai"
+    ],
+    "sung": "",
+    "meaning_en": "The verse describes wholehearted devotion to Hanumanji, without fixing the mind on other deities, and expresses faith that serving Him brings every happiness.",
+    "meaning_hi": "यह चौपाई दूसरे देवताओं पर चित्त लगाए बिना हनुमानजी की सेवा में एकाग्र रहने की बात कहती है। इसमें विश्वास व्यक्त होता है कि उनकी सेवा से सब सुख मिलते हैं।"
+   },
+   {
+    "text": "संकट कटै मिटै सब पीरा।\nजो सुमिरै हनुमत बलबीरा॥३६॥",
+    "roman": [
+     "Sankat katai mitai sab peera",
+     "Jo sumirai Hanumat balbeera"
+    ],
+    "sung": "",
+    "meaning_en": "The verse voices the devotee's trust that remembering mighty Hanumanji removes distress and pain.",
+    "meaning_hi": "इस चौपाई में भक्त विश्वास व्यक्त करता है कि बलवान हनुमानजी के स्मरण से संकट और पीड़ा दूर होते हैं।"
+   },
+   {
+    "text": "जै जै जै हनुमान गोसाईं।\nकृपा करहु गुरु देव की नाईं॥३७॥",
+    "roman": [
+     "Jai jai jai Hanuman Gosaai",
+     "Kripa karahu Gurudev ki naai"
+    ],
+    "sung": "",
+    "meaning_en": "Glory again and again to Hanumanji, our Lord. Show us grace as a compassionate Guru would.",
+    "meaning_hi": "स्वामी हनुमानजी की बारंबार जय हो। गुरुदेव की तरह हम पर कृपा कीजिए।"
+   },
+   {
+    "text": "जो सत बार पाठ कर कोई।\nछूटहि बंदि महा सुख होई॥३८॥",
+    "roman": [
+     "Jo sat baar paath kar koi",
+     "Chhootahi bandi maha sukh hoi"
+    ],
+    "sung": "Also sung as 'chhootahin bandi' or 'chhootai bandi'.",
+    "meaning_en": "The hymn declares that one who recites it a hundred times is freed from bondage and finds great happiness.",
+    "meaning_hi": "चालीसा कहती है कि जो इसका सौ बार पाठ करता है, वह बंधन से छूटकर बड़ा सुख पाता है।",
+    "sung_hi": "कहीं कहीं 'छूटहिं बंदि' या 'छूटै बंदि' भी गाया जाता है।"
+   },
+   {
+    "text": "जो यह पढ़ै हनुमान चलीसा।\nहोय सिद्धि साखी गौरीसा॥३९॥",
+    "roman": [
+     "Jo yah padhai Hanuman Chaleesa",
+     "Hoy siddhi saakhi Gaureesa"
+    ],
+    "sung": "",
+    "meaning_en": "The hymn declares that whoever reads the Hanuman Chalisa attains fulfilment. Lord Shiva is named as the witness.",
+    "meaning_hi": "चालीसा कहती है कि जो हनुमान चालीसा पढ़ता है, उसे सिद्धि मिलती है। भगवान शिव को इसका साक्षी कहा गया है।"
+   },
+   {
+    "text": "तुलसीदास सदा हरि चेरा।\nकीजै नाथ हृदय महँ डेरा॥४०॥",
+    "roman": [
+     "Tulsidas sadaa Hari chera",
+     "Keejai Naath hriday mah dera"
+    ],
+    "sung": "",
+    "meaning_en": "Goswami Tulsidas declares himself forever a servant of God. He asks Hanumanji to make His home in his heart.",
+    "meaning_hi": "गोस्वामी तुलसीदास अपने को सदा भगवान का सेवक कहते हैं। वे हनुमानजी से प्रार्थना करते हैं कि आप मेरे हृदय में निवास कीजिए।"
+   },
+   {
+    "text": "पवनतनय संकट हरन मंगल मूरति रूप।\nराम लखन सीता सहित हृदय बसहु सुर भूप॥",
+    "roman": [
+     "Pawantanay sankat haran, mangal moorati roop",
+     "Ram Lakhan Sita sahit, hriday basahu sur bhoop"
+    ],
+    "sung": "",
+    "meaning_en": "Hanumanji, son of the wind god, you remove distress and embody all that is auspicious. Dwell in my heart with Shri Ram, Lakshman and Mata Sita.",
+    "meaning_hi": "पवनपुत्र हनुमानजी, आप संकट हरने वाले और मंगलमय स्वरूप हैं। श्री राम, लक्ष्मणजी और माता सीता के साथ मेरे हृदय में बसिए।"
+   }
+  ],
+  "intro_en": "The Hanuman Chalisa sings of Hanumanji crossing the sea, finding Mata Sita and bringing the herb that saves Lakshman. Devotees recite it in daily prayer, especially on Tuesdays and Saturdays, and ask for strength, clear understanding and help when they are afraid.",
+  "intro_hi": "हनुमान चालीसा में हनुमानजी के समुद्र लाँघने, माता सीता को खोजने और लक्ष्मणजी के लिए संजीवनी लाने का गान है। भक्त रोज की पूजा में, खासकर मंगलवार और शनिवार को, इसका पाठ करते हैं और बल, अच्छी बुद्धि तथा संकट में सहारा माँगते हैं।",
+  "about_en": "The opening prayer asks for strength, wisdom and learning, and for suffering and inner faults to be removed. The closing prayer asks Hanumanji to dwell in the devotee's heart. Between these prayers, praise takes the form of direct, loving address. Chaupai 40 names Tulsidas as a servant of God, while the hymn's authorship remains traditionally attributed to Goswami Tulsidas.",
+  "about_hi": "आरंभ की प्रार्थना में बल, बुद्धि और विद्या माँगी गई है, साथ ही दुख और मन के दोष दूर करने की विनती है। अंत में हनुमानजी से हृदय में बसने की प्रार्थना है। इनके बीच भक्त सीधे उनसे बात करते हुए उनका गुणगान करता है। चालीसवीं चौपाई में तुलसीदास स्वयं को भगवान का सेवक कहते हैं। रचना के बारे में परंपरागत मान्यता यही है कि यह गोस्वामी तुलसीदास की है।",
+  "scene_en": "Kishkindha Kand, doha 4, describes Hanumanji bringing Sugriv and Shri Ram into friendship with fire as their witness. Before Sunderkand, doha 7, He reassures Vibhishan of Shri Ram's love for His servants. Before doha 16, He shows Mata Sita His mighty form, then becomes small again. The burning of Lanka is described before doha 26. Shri Ram anoints Vibhishan before doha 49. In Lanka Kand, before doha 58, Hanumanji lifts the mountain because He cannot identify the herb. Before doha 62, Shri Ram embraces Him, and Sushen treats Lakshman, who sits up joyfully.",
+  "scene_hi": "किष्किन्धाकाण्ड के दोहा 4 में हनुमानजी अग्नि को साक्षी बनाकर सुग्रीवजी और श्री राम की मित्रता कराते हैं। सुन्दरकाण्ड में दोहा 7 से पहले वे विभीषणजी को श्री राम के सेवक प्रेम का भरोसा देते हैं। दोहा 16 से पहले माता सीता को अपना विशाल रूप दिखाते हैं, फिर छोटा रूप धर लेते हैं। दोहा 26 से पहले लंका दहन का वर्णन है। दोहा 49 से पहले श्री राम विभीषणजी का राजतिलक करते हैं। लंकाकाण्ड में दोहा 58 से पहले औषधि न पहचान पाने पर हनुमानजी पर्वत उठा लेते हैं। दोहा 62 से पहले श्री राम उन्हें गले लगाते हैं। फिर सुषेण के उपचार से लक्ष्मणजी प्रसन्न होकर उठ बैठते हैं।",
+  "teaching_en": "Hanumanji teaches us to put ability at the service of someone else's need. Strength has a purpose. The word sumati in chaupai 3 means sound understanding, the judgment that helps us choose a good action before pride or anger takes charge.\n\nFor example, a neighbour may ask us to help fill out a form. We know how to do it, but the neighbour reads slowly and asks the same thing twice. Finishing quickly is easy. Sitting beside them until they understand takes patience, especially when we have already begun thinking about our own unfinished work. Similarly, devotion asks us to make our skill useful with care.\n\nAfter burning Lanka, Hanumanji gives the credit to Shri Ram: “सो सब तव प्रताप रघुराई। नाथ न कछू मोरि प्रभुताई॥५॥” (Ramcharitmanas, Sunderkand, chaupai before doha 33). “All this is Your power, Shri Ram. None of it is my own greatness.” Today, recite one chaupai slowly, consider its meaning, and complete one helpful task.",
+  "teaching_hi": "हनुमानजी सिखाते हैं कि अपनी योग्यता किसी के काम में लगाएँ। बल का भी उद्देश्य है। तीसरी चौपाई में सुमति का अर्थ अच्छी समझ है। यही समझ हमें अभिमान या क्रोध में बहने से पहले सही काम चुनना सिखाती है।\n\nमान लीजिए, पड़ोसी कोई फॉर्म भरने में मदद माँगते हैं। हमें वह भरना आता है, पर वे धीरे पढ़ते हैं और एक बात दो बार पूछते हैं। हम जल्दी से फॉर्म भर सकते हैं। उनके समझने तक पास बैठना धैर्य माँगता है। इसी तरह सेवा में काम के साथ व्यक्ति का ध्यान रखना होता है।\n\nलंका जलाने के बाद हनुमानजी कहते हैं: “सो सब तव प्रताप रघुराई। नाथ न कछू मोरि प्रभुताई॥५॥” (रामचरितमानस, सुन्दरकाण्ड, दोहा 33 से पहले की चौपाई)। वे अपने काम का श्रेय श्री राम को देते हैं। आज एक चौपाई धीरे पढ़ें, उसका अर्थ समझें और बिना प्रशंसा चाहे किसी का एक काम कर दें।",
+  "faq": [
+   {
+    "q_en": "What does Hanuman Chalisa mean?",
+    "a_en": "Chalisa refers to the hymn's forty chaupais. The Hanuman Chalisa praises Hanumanji's wisdom, strength and devotion to Shri Ram, and asks for His grace. Two opening dohas and one closing doha frame those forty chaupais.",
+    "q_hi": "हनुमान चालीसा का अर्थ क्या है?",
+    "a_hi": "चालीसा नाम इसकी चालीस चौपाइयों से जुड़ा है। इसमें हनुमानजी के ज्ञान, बल और श्री राम के प्रति भक्ति का गुणगान है, साथ ही उनकी कृपा की प्रार्थना है। आरंभ में दो दोहे और अंत में एक दोहा है।"
+   },
+   {
+    "q_en": "Who wrote the Hanuman Chalisa?",
+    "a_en": "The Hanuman Chalisa is traditionally attributed to Goswami Tulsidas. It is an independent work, not a part of the Ramcharitmanas.",
+    "q_hi": "हनुमान चालीसा किसने लिखी?",
+    "a_hi": "परंपरा हनुमान चालीसा को गोस्वामी तुलसीदास की रचना मानती है। यह स्वतंत्र रचना है, रामचरितमानस का भाग नहीं है।"
+   },
+   {
+    "q_en": "When can I recite the Hanuman Chalisa?",
+    "a_en": "You can choose a quiet time when you can attend to the words and their meaning. The hymn does not prescribe a weekday or hour. A regular time can help make attentive recitation part of daily worship.",
+    "q_hi": "हनुमान चालीसा कब पढ़ सकते हैं?",
+    "a_hi": "ऐसा शांत समय चुन सकते हैं जब शब्दों और उनके अर्थ पर ध्यान दे सकें। चालीसा में किसी खास दिन या घड़ी का निर्देश नहीं है। रोज का एक समय रखने से ध्यानपूर्वक पाठ करने की आदत बन सकती है।"
+   },
+   {
+    "q_en": "What are the benefits of reciting the Hanuman Chalisa?",
+    "a_en": "Devotees turn to Hanumanji for courage, sound judgment and support in distress. The hymn's prayers for relief express trust in His grace. Recitation can be joined with reflection and service, without treating it as a guarantee of health, wealth or a particular result.",
+    "q_hi": "हनुमान चालीसा पढ़ने से क्या लाभ होता है?",
+    "a_hi": "भक्त साहस, अच्छी बुद्धि और संकट में सहारे के लिए हनुमानजी का स्मरण करते हैं। दुख दूर करने की प्रार्थनाएँ उनकी कृपा पर भरोसा व्यक्त करती हैं। पाठ के साथ अर्थ पर मनन और सेवा करें, इसे स्वास्थ्य, धन या किसी खास परिणाम की गारंटी न मानें।"
+   },
+   {
+    "q_en": "Are the Hanuman Chalisa stories from the Ramcharitmanas?",
+    "a_en": "Several recall the Ramcharitmanas: Sugriv's friendship with Shri Ram in Kishkindha Kand, Mata Sita's meeting with Hanumanji and the burning of Lanka in Sunderkand, and Lakshman's recovery in Lanka Kand. The sun-swallowing account belongs to later devotional tradition. Valmiki's Kishkindha Kanda, sarga 66, verses 21 and 22, instead describes the child Hanumanji leaping towards the sun after mistaking it for a fruit. The Chalisa's wording is its own, so every line should not be read as a quotation from the Manas.",
+    "q_hi": "क्या हनुमान चालीसा की कथाएँ रामचरितमानस से हैं?",
+    "a_hi": "कई प्रसंग मानस की याद दिलाते हैं। सुग्रीवजी और श्री राम की मित्रता किष्किन्धाकाण्ड में है। माता सीता से भेंट और लंका दहन सुन्दरकाण्ड में हैं। लक्ष्मणजी के स्वस्थ होने का प्रसंग लंकाकाण्ड में है। सूर्य निगलने की कथा बाद की भक्ति परंपरा में आती है। वाल्मीकि रामायण के किष्किन्धाकाण्ड, सर्ग 66, श्लोक 21 और 22 में बाल हनुमानजी सूर्य को फल समझकर उसकी ओर छलाँग लगाते हैं। वहाँ सूर्य निगलने का वर्णन नहीं है। चालीसा के अपने शब्द हैं, हर पंक्ति को मानस का उद्धरण नहीं समझना चाहिए।"
+   }
+  ],
+  "spellings": [
+   "Hanuman Chalisa",
+   "Hanuman Chaleesa",
+   "Shri Hanuman Chalisa",
+   "Hanuman Chalisa arth",
+   "हनुमान चालीसा",
+   "श्रीहनुमान चालीसा",
+   "श्री हनुमान चालीसा",
+   "हनुमान चालीसा अर्थ"
+  ]
+ },
+ {
+  "slug": "shri-ramchandra-kripalu",
+  "title": "Shri Ramchandra Kripalu Bhaju Man",
+  "title_hi": "श्रीरामचंद्र कृपालु भजु मन",
+  "kind": "hymn",
+  "from_en": "Goswami Tulsidas, Vinay Patrika, pad 45",
+  "from_hi": "गोस्वामी तुलसीदास, विनय पत्रिका, पद ४५",
+  "credits": "",
+  "lines": [
+   {
+    "text": "श्रीरामचंद्र कृपालु भजु मन हरण भवभय दारुणं।\nनवकंज-लोचन, कंज-मुख, कर-कंज, पद कंजारुणं॥१॥",
+    "source": "Goswami Tulsidas, Vinay Patrika, pad 45 (raag Gauri)",
+    "roman": [
+     "Shri Ramchandra kripalu bhaju man haran bhav bhay darunam",
+     "Nav kanj lochan, kanj mukh, kar kanj, pad kanjarunam"
+    ],
+    "sung": "In singing, often written as 'daarunam' and 'kanjaarunam' with final 'm'. Gita Press uses anusvara.",
+    "meaning_en": "O mind, worship merciful Shri Ramchandra, who removes the terrible fear of worldly existence and the cycle of birth and death. His eyes, face and hands resemble fresh lotuses, and His feet are red like lotus blossoms.",
+    "meaning_hi": "हे मन, कृपालु श्रीरामचंद्र का भजन करो, जो संसार और जन्म-मरण के भयंकर भय को दूर करते हैं। उनके नेत्र, मुख और हाथ नए खिले कमल जैसे हैं, और चरण लाल कमल जैसे हैं।",
+    "sung_hi": "गायन में अक्सर 'दारुणम्' और 'कंजारुणम्' लिखा जाता है। गीता प्रेस में अनुस्वार है।"
+   },
+   {
+    "text": "कंदर्प अगणित अमित छवि, नवनील-नीरद सुंदरं।\nपट पीत मानहु तड़ित रुचि शुचि नौमि जनक-सुतावरं॥२॥",
+    "roman": [
+     "Kandarp aganit amit chhavi, nav neel neerad sundaram",
+     "Pat peet manahu tadit ruchi shuchi naumi Janak sutavaram"
+    ],
+    "sung": "Also sung as 'nav neel neeraj'. Here, 'navneel neerad' means a new blue cloud.",
+    "meaning_en": "His beauty exceeds that of countless Kamadevas, and His dark blue form resembles a fresh rain cloud. His yellow garment shines like lightning, and I bow to the pure Lord, the husband of Mata Sita, King Janak's daughter.",
+    "meaning_hi": "श्री राम की सुंदरता अनगिनत कामदेवों की सुंदरता से भी बढ़कर है, और उनका साँवला रूप नए नीले बादल जैसा है। उनके पीले वस्त्र बिजली जैसे चमकते हैं। मैं उन पवित्र प्रभु को प्रणाम करता हूँ, जो राजा जनक की पुत्री माता सीता के पति हैं।",
+    "sung_hi": "'नव नील नीरज' भी गाया जाता है। यहाँ 'नवनील नीरद' का अर्थ नया नीला बादल है।"
+   },
+   {
+    "text": "भजु दीनबंधु दिनेश दानव-दैत्य-वंश-निकंदनं।\nरघुनंद आनँदकंद कोशलचंद दशरथ-नंदनं॥३॥",
+    "roman": [
+     "Bhaju deenbandhu dinesh danav daitya vansh nikandanam",
+     "Raghunand anand kand Koshalchand Dasharath nandanam"
+    ],
+    "sung": "",
+    "meaning_en": "Worship Shri Ram, the friend of the helpless, the sun, who destroys the clans of demons. He brings joy to Raghu's family, is the source of bliss, shines like the moon over Koshal, and is King Dasharath's son.",
+    "meaning_hi": "हे मन, श्री राम का भजन करो, जो असहायों के मित्र, सूर्यस्वरूप और दानवों तथा दैत्यों के वंशों का नाश करने वाले हैं। वे रघुकुल को आनंद देने वाले, आनंद के मूल, कोशल के चंद्रमा और राजा दशरथ के पुत्र हैं।"
+   },
+   {
+    "text": "सिर मुकुट कुंडल तिलक चारु उदारु अंग विभूषणं।\nआजानुभुज शर-चाप-धर, संग्राम-जित-खरदूषणं॥४॥",
+    "roman": [
+     "Sir mukut kundal tilak charu udaru ang vibhushanam",
+     "Ajanubhuj shar chaap dhar, sangram jit Khar Dushanam"
+    ],
+    "sung": "",
+    "meaning_en": "A crown, earrings, a lovely tilak and ornaments adorn His noble form. His arms reach His knees, He holds arrows and a bow, and He has defeated Khar and Dushan in battle.",
+    "meaning_hi": "उनके सिर पर मुकुट है, कानों में कुंडल हैं, माथे पर सुंदर तिलक है और मनोहर अंगों पर आभूषण हैं। उनकी भुजाएँ घुटनों तक पहुँचती हैं, वे बाण और धनुष धारण करते हैं, और उन्होंने युद्ध में खर और दूषण को हराया है।"
+   },
+   {
+    "text": "इति वदति तुलसीदास शंकर-शेष-मुनि-मन-रंजनं।\nमम हृदय-कंज-निवास कुरु, कामादि खल-दल-गंजनं॥५॥",
+    "roman": [
+     "Iti vadati Tulsidas Shankar Shesh muni man ranjanam",
+     "Mam hriday kanj nivas kuru, kamadi khal dal ganjanam"
+    ],
+    "sung": "Also sung as 'khaldalmanjanam'. Here, the reading is 'khal dal ganjanam'.",
+    "meaning_en": "Goswami Tulsidas prays to Shri Ram, who delights the minds of Lord Shiva, Shesh and the sages. Dwell in the lotus of my heart and destroy the band of inner enemies led by lust.",
+    "meaning_hi": "गोस्वामी तुलसीदास उन श्री राम से प्रार्थना करते हैं, जो भगवान शिव, शेषजी और मुनियों के मन को आनंद देते हैं। मेरे हृदय के कमल में निवास कीजिए और काम आदि दुष्ट विकारों के समूह का नाश कीजिए।",
+    "sung_hi": "'खलदलमंजनम्' भी गाया जाता है। यहाँ पाठ 'खल दल गंजनं' है।"
+   }
+  ],
+  "intro_en": "This hymn praises Shri Ram's mercy, His lotus eyes, yellow garments and courage in battle. Sung during worship and gatherings of Ram bhajans, it asks Him to live in the heart and remove the desires that keep the mind restless.",
+  "intro_hi": "इस स्तुति में श्री राम की दया, कमल जैसे नेत्रों, पीले वस्त्रों और युद्ध के पराक्रम का गान है। भक्त इसे पूजा और भजन की बैठकों में गाते हैं और उनसे हृदय में बसकर काम जैसे विकार दूर करने की विनती करते हैं।",
+  "about_en": "Vinay Patrika is Goswami Tulsidas's collection of prayers to the Lord. Gita Press places this hymn under raag Gauri as pad 45. Its five stanzas form a complete prayer.",
+  "about_hi": "विनय पत्रिका गोस्वामी तुलसीदास की प्रार्थनाओं का संग्रह है। गीता प्रेस के संस्करण में यह स्तुति राग गौरी के अंतर्गत पद 45 है। इसके पाँच छंद मिलकर एक पूरी प्रार्थना बनते हैं।",
+  "scene_en": "The fourth stanza recalls Shri Ram's victory over Khar and Dushan. In Ramcharitmanas, Aranya Kand, the passages leading to verses 18 through 20 describe their army advancing and the battle that follows. Shri Ram sends Lakshman with Mata Sita to a mountain cave and faces the army alone. Marich later recalls the defeat of Khar, Dushan and Trishira in doha 25.",
+  "scene_hi": "चौथा छंद खर और दूषण पर श्री राम की विजय का स्मरण कराता है। रामचरितमानस के अरण्य कांड में पद संख्या 18 से 20 तक के प्रसंगों में राक्षसों की सेना के आने और युद्ध का वर्णन है। श्री राम लक्ष्मणजी को माता सीता के साथ पर्वत की गुफा में भेजते हैं और अकेले सेना का सामना करते हैं। आगे दोहा 25 में मारीच खर, दूषण और त्रिशिरा के वध का स्मरण करता है।",
+  "teaching_en": "The hymn begins by directing the mind towards Shri Ram and ends by asking Him to live in the heart. These two requests belong together. We remember His form so that our thoughts have a holy place to return to when desire pulls them elsewhere.\n\nThe word *deenbandhu* means friend of the helpless. It gives us reason to pray even while we struggle with faults. We need His help now. The last stanza openly names lust and the other inner enemies, so acknowledging weakness belongs within devotion.\n\nFor example, we may keep checking a delivery message while someone at home is speaking to us. We hear only half a sentence. Then we put the phone aside and listen again. Similarly, when attention wanders during prayer, we can return to one name of Shri Ram with patience.\n\nToday, read the final stanza slowly. Ask Shri Ram to dwell within, then give one person your full attention.",
+  "teaching_hi": "यह पद मन को श्री राम के भजन में लगाता है। अंत में उन्हीं से हृदय में बसने की विनती करता है। दोनों बातें जुड़ी हैं। प्रभु के रूप का स्मरण करें, ताकि मन भटके तो फिर उनकी ओर लौट सके।\n\n*दीनबंधु* का अर्थ है असहायों के मित्र। इसलिए अपने दोष देखकर प्रार्थना छोड़ने की जरूरत नहीं है। हमें अभी उनकी सहायता चाहिए। आखिरी छंद में काम आदि विकारों का नाम लेकर उन्हें दूर करने की विनती है। अपनी कमजोरी स्वीकार करना भी भक्ति में आता है।\n\nमान लीजिए, घर में कोई बात कर रहा है और हम बार-बार फोन पर सामान पहुँचने का संदेश देख रहे हैं। आधी बात सुनाई ही नहीं देती। फिर फोन रखकर ध्यान से सुनते हैं। इसी तरह भजन में मन भटके तो श्री राम के एक नाम पर लौट आएँ। आज आखिरी छंद धीरे पढ़ें। प्रभु से हृदय में बसने की विनती करें और किसी एक व्यक्ति की बात पूरा ध्यान देकर सुनें।",
+  "faq": [
+   {
+    "q_en": "What does Shri Ramchandra Kripalu Bhaju Man mean?",
+    "a_en": "It means “O mind, worship merciful Shri Ramchandra.” Goswami Tulsidas calls the mind towards Shri Ram, who removes the terrible fear of worldly existence. The hymn ends with a prayer for Him to dwell in the heart and remove inner faults.",
+    "q_hi": "श्रीरामचंद्र कृपालु भजु मन का अर्थ क्या है?",
+    "a_hi": "इसका अर्थ है कि हे मन, दयालु श्रीरामचंद्र का भजन करो। गोस्वामी तुलसीदास मन को उन प्रभु की ओर लगाते हैं, जो संसार के भयंकर भय को दूर करते हैं। अंत में वे हृदय में प्रभु का निवास और विकारों से छुटकारा माँगते हैं।"
+   },
+   {
+    "q_en": "Who wrote Shri Ramchandra Kripalu Bhaju Man?",
+    "a_en": "Goswami Tulsidas wrote it in Vinay Patrika. The Gita Press edition places it under raag Gauri as pad 45. This pad has five stanzas.",
+    "q_hi": "श्रीरामचंद्र कृपालु भजु मन किसने लिखा है?",
+    "a_hi": "यह पद गोस्वामी तुलसीदास की रचना है और विनय पत्रिका में मिलता है। गीता प्रेस के संस्करण में यह राग गौरी के अंतर्गत पद 45 है। इसमें पाँच छंद हैं।"
+   },
+   {
+    "q_en": "When can I recite Shri Ramchandra Kripalu Bhaju Man?",
+    "a_en": "You can include it in morning or evening prayer, or choose a quiet time to remember Shri Ram. The five stanzas do not prescribe a particular hour or number of repetitions. Read with attention to the meaning and pause at the closing prayer.",
+    "q_hi": "श्रीरामचंद्र कृपालु भजु मन का पाठ कब करें?",
+    "a_hi": "सुबह या शाम की प्रार्थना में इसका पाठ कर सकते हैं। श्री राम का स्मरण करने के लिए कोई शांत समय भी चुन सकते हैं। इन पाँच छंदों में कोई खास समय या पाठ की संख्या नहीं बताई गई है। अर्थ समझते हुए पढ़ें और अंतिम विनती पर थोड़ा ठहरें।"
+   },
+   {
+    "q_en": "What are the devotional benefits of reciting this hymn?",
+    "a_en": "Its words guide us to remember Shri Ram's mercy, place our fears before Him and seek freedom from lust and other faults. Recite with that intention and bring it into daily conduct. The hymn does not promise a particular worldly result after a fixed number of recitations.",
+    "q_hi": "इस स्तुति के पाठ का क्या लाभ है?",
+    "a_hi": "इसके शब्द श्री राम की दया का स्मरण कराते हैं और अपने भय तथा विकार उनके सामने रखने की दिशा देते हैं। इसी भाव से पाठ करें और व्यवहार में भी संयम रखें। किसी तय संख्या में पाठ करने पर कोई खास सांसारिक फल मिलने का वादा इन छंदों में नहीं है।"
+   },
+   {
+    "q_en": "Is Manu Jahi Racheu part of Shri Ramchandra Kripalu Bhaju Man?",
+    "a_en": "The stanza beginning “मनु जाहिं राचेउ मिलिहि सो बरु सहज सुंदर साँवरो।” comes from Ramcharitmanas, Bal Kand, the chhand preceding soratha 236. It describes Gauri's blessing to Mata Sita. Popular singing traditions often append it to the hymn, but Vinay Patrika pad 45 contains five stanzas without it.",
+    "q_hi": "क्या मनु जाहिं राचेउ विनय पत्रिका के इसी पद का हिस्सा है?",
+    "a_hi": "“मनु जाहिं राचेउ मिलिहि सो बरु सहज सुंदर साँवरो।” रामचरितमानस के बाल कांड में सोरठा 236 से पहले आने वाले छंद की पहली पंक्ति है। इसमें गौरी माता सीता को आशीर्वाद देती हैं। प्रचलित गायन परंपरा में इसे स्तुति के बाद जोड़ते हैं। विनय पत्रिका के पद 45 के पाँच छंदों में यह शामिल नहीं है।"
+   }
+  ],
+  "spellings": [
+   "Shri Ramchandra Kripalu Bhaju Man",
+   "Shree Ramchandra Kripalu Bhajman",
+   "Sri Ram Chandra Kripalu Bhaj Man",
+   "Shri Ramchandra Kripalu Bhajuman",
+   "Shri Ram Chandra Kripalu Bhaju Mana",
+   "श्रीरामचंद्र कृपालु भजु मन",
+   "श्री रामचन्द्र कृपालु भजु मन",
+   "श्री रामचंद्र कृपालु भजमन"
+  ]
+ },
+ {
+  "slug": "thumak-chalat-ramchandra",
+  "title": "Thumak Chalat Ramchandra",
+  "title_hi": "ठुमक चलत रामचंद्र",
+  "kind": "hymn",
+  "from_en": "Traditionally attributed to Goswami Tulsidas",
+  "from_hi": "परंपरा से गोस्वामी तुलसीदास की रचना माना जाता है",
+  "credits": "",
+  "lines": [
+   {
+    "text": "ठुमक चलत रामचंद्र बाजत पैंजनियाँ॥",
+    "source": "Traditionally attributed to Goswami Tulsidas",
+    "roman": [
+     "Thumak chalat Ramchandra baajat painjaniyaan"
+    ],
+    "sung": "",
+    "meaning_en": "Shri Ram takes little, swaying steps, and His anklets ring as He walks.",
+    "meaning_hi": "श्री राम छोटे छोटे डग भरते हुए ठुमककर चल रहे हैं। उनके पैरों की पैंजनियाँ बज रही हैं।"
+   },
+   {
+    "text": "किलकि किलकि उठत धाय गिरत भूमि लटपटाय।\nधाय मात गोद लेत दशरथ की रनियाँ॥",
+    "roman": [
+     "Kilaki kilaki uthat dhaay girat bhoomi latpataay",
+     "Dhaay maat god let Dashrath ki raniyaan"
+    ],
+    "sung": "",
+    "meaning_en": "Shri Ram squeals with delight, gets up and hurries forward, then loses His balance and falls to the ground. King Dashrath’s queens rush to gather Him into their laps.",
+    "meaning_hi": "श्री राम किलकारियाँ भरकर उठते हैं और दौड़ पड़ते हैं, फिर डगमगाकर धरती पर गिर जाते हैं। राजा दशरथ की रानियाँ दौड़कर उन्हें गोद में उठा लेती हैं।"
+   },
+   {
+    "text": "अंचल रज अंग झारि विविध भाँति सो दुलारि।\nतन मन धन वारि वारि कहत मृदु बचनियाँ॥",
+    "roman": [
+     "Anchal raj ang jhaari vividh bhaanti so dulaari",
+     "Tan man dhan vaari vaari kahat mridu bachaniyaan"
+    ],
+    "sung": "",
+    "meaning_en": "The mothers brush dust from His body with the edge of a sari and shower Him with affection. Offering body, mind and wealth to Him again and again, they speak tender words.",
+    "meaning_hi": "माताएँ आँचल से उनके शरीर की धूल झाड़ती हैं और तरह तरह से दुलार करती हैं। वे तन, मन और धन उन पर बार बार न्योछावर करते हुए मीठी बातें कहती हैं।"
+   },
+   {
+    "text": "विद्रुम से अरुण अधर बोलत मुख मधुर मधुर।\nसुभग नासिका में चारु लटकत लटकनियाँ॥",
+    "roman": [
+     "Vidrum se arun adhar bolat mukh madhur madhur",
+     "Subhag naasika mein chaaru latkat latkaniyaan"
+    ],
+    "sung": "",
+    "meaning_en": "His lips are red like coral, and sweet little sounds come from His mouth. A lovely ornament hangs from His beautiful nose.",
+    "meaning_hi": "उनके होंठ मूँगे जैसे लाल हैं और मुख से मीठे मीठे बोल निकल रहे हैं। उनकी सुंदर नाक में एक मनोहर आभूषण लटक रहा है।"
+   },
+   {
+    "text": "तुलसीदास अति आनंद देख के मुखारविंद।\nरघुवर छबि के समान रघुवर छबि बनियाँ॥",
+    "roman": [
+     "Tulsidas ati anand dekh ke mukharavind",
+     "Raghuvar chhabi ke samaan Raghuvar chhabi baniyaan"
+    ],
+    "sung": "",
+    "meaning_en": "The singer, speaking in the name of Goswami Tulsidas, feels great joy on seeing Shri Ram’s lotus-like face. Shri Ram’s beauty can be compared only with His own.",
+    "meaning_hi": "गोस्वामी तुलसीदास के नाम से कही गई इस पंक्ति में गायक श्री राम का कमल जैसा मुख देखकर बहुत आनंद पाता है। श्री राम की सुंदरता की बराबरी श्री राम की सुंदरता ही कर सकती है।"
+   }
+  ],
+  "intro_en": "Little Shri Ram takes unsteady steps, His anklets ring, and His mothers lift Him when He falls. Devotees sing this bhajan during worship and bhajan gatherings, remembering the child they long to hold, dust off and cradle in their arms.",
+  "intro_hi": "नन्हे श्री राम ठुमककर चलते हैं, पैंजनियाँ बजती हैं और गिरने पर माताएँ उन्हें गोद में उठा लेती हैं। भक्त पूजा और भजन की बैठकों में इसे गाते हुए उनके बालरूप को याद करते हैं, जिसे गोद में लेकर दुलारने का मन होता है।",
+  "about_en": "The final stanza carries the name of Goswami Tulsidas, and devotional tradition attributes this popular bhajan to him. That attribution remains uncertain. It is not found in the printed Gita Press edition of Tulsidas's Gitavali. It belongs to the tradition of singing about Shri Ram’s childhood.",
+  "about_hi": "अंतिम पद में गोस्वामी तुलसीदास का नाम आता है और भजन परंपरा इसे उनकी रचना मानती है। फिर भी इसका लेखक निश्चित नहीं है। यह भजन गीता प्रेस से छपी तुलसीदासजी की गीतावली में नहीं मिलता। यह श्री राम की बाललीला के लोकप्रिय भजनों में गाया जाता है।",
+  "scene_en": "In Ramcharitmanas, Bal Kand, doha 198, Goswami Tulsidas describes the unborn Lord in Mata Kaushalya’s lap, moved by love and devotion. The chaupais preceding doha 199 describe His anklets, red lips, sweet toddler speech and movement on hands and knees.\n\nIn the chaupais preceding doha 203, Shri Ram plays in King Dashrath’s courtyard. His father calls Him to eat, but He stays with His playmates. When Mata Kaushalya comes to fetch Him, He toddles away. He then comes covered in dust, and His father smiles and seats Him in his lap.\n\nThe bhajan brings this same affection for the child Shri Ram before us. His falling and being lifted by the queens belong to the bhajan’s scene. These details do not appear in the Manas passages cited here.",
+  "scene_hi": "रामचरितमानस के बालकाण्ड में दोहा 198 में गोस्वामी तुलसीदास बताते हैं कि अजन्मे प्रभु प्रेम और भक्ति के वश होकर माता कौशल्या की गोद में हैं। दोहा 199 से पहले की चौपाइयों में उनकी पैंजनियों, लाल होंठों, मीठे तोतले बोलों और घुटनों के बल चलने का वर्णन है।\n\nदोहा 203 से पहले की चौपाइयों में श्री राम राजा दशरथ के आँगन में खेलते हैं। पिता भोजन के लिए बुलाते हैं, पर वे सखाओं को छोड़कर नहीं आते। माता कौशल्या लेने आती हैं तो वे ठुमकते हुए भाग जाते हैं। फिर धूल से भरे शरीर के साथ आते हैं और पिता हँसकर उन्हें गोद में बैठा लेते हैं।\n\nभजन भी बालक श्री राम के प्रति यही स्नेह जगाता है। उनके गिरने और रानियों के उन्हें गोद में उठा लेने का दृश्य भजन में है। मानस के इन प्रसंगों में यह दृश्य नहीं आता।",
+  "teaching_en": "The mothers see Shri Ram take His unsteady steps, and when He falls, they hurry to lift Him into their arms. Their affection needs few words. His smallest movements hold their attention, and the bhajan lets us linger with them in the simple joy of caring for Him.\n\nThe word *vaari* means offering everything in love. When the mothers name body, mind and wealth, they express how fully their hearts belong to Shri Ram. Nothing feels too dear to offer. Their wish to give grows out of affection, as naturally as their wish to gather Him into their arms when He falls. Remembering this, we can let our own prayer be simple and tender, without searching for grand words to express what is in the heart.\n\nAfter singing, we might sit for a moment with this childhood scene in mind. We can say Shri Ram’s name softly and offer Him the care we bring to one small task today.",
+  "teaching_hi": "श्री राम ठुमकते हुए चलते हैं और गिर पड़ते हैं तो माताएँ उन्हें गोद में उठाने दौड़ती हैं। उनका मन बालक में लगा है। उनके छोटे कदमों को देखना और उन्हें गोद में लेना ही माताओं के लिए सुख है। भजन सुनते हुए हम भी इस स्नेह में कुछ देर ठहर सकते हैं।\n\n*वारि* का अर्थ है प्रेम से अपना सब कुछ न्योछावर कर देना। तन, मन और धन का नाम लेकर माताएँ कहती हैं कि उनका सब कुछ श्री राम का है। वे उन्हें अपना सारा स्नेह देना चाहती हैं। जैसे गिरते हुए बालक को उठाने के लिए बाँहें बढ़ती हैं, वैसे ही प्रेम में अपना सब कुछ अर्पण करने का भाव उठता है।\n\nभजन के बाद कुछ पल बालक श्री राम को याद करते हुए बैठें। धीरे से उनका नाम लें और आज का कोई छोटा काम उन्हें प्रेम से अर्पण करें।",
+  "faq": [
+   {
+    "q_en": "What does Thumak Chalat Ramchandra mean?",
+    "a_en": "It means that Shri Ram walks with little, swaying steps while His anklets ring. The bhajan describes His childhood play and the mothers’ loving care.",
+    "q_hi": "ठुमक चलत रामचंद्र का अर्थ क्या है?",
+    "a_hi": "इसका अर्थ है कि श्री राम छोटे छोटे डग भरकर ठुमकते हुए चल रहे हैं और उनकी पैंजनियाँ बज रही हैं। भजन में उनकी बाललीला और माताओं का दुलार है।"
+   },
+   {
+    "q_en": "Who wrote Thumak Chalat Ramchandra?",
+    "a_en": "It is traditionally attributed to Goswami Tulsidas, whose name appears in the final stanza. The authorship is uncertain, and the hymn is not found in the printed Gita Press Gitavali.",
+    "q_hi": "ठुमक चलत रामचंद्र किसने लिखा है?",
+    "a_hi": "परंपरा में यह भजन गोस्वामी तुलसीदास की रचना माना जाता है और अंतिम पद में उनका नाम आता है। लेखक का निश्चित प्रमाण नहीं है। यह भजन गीता प्रेस की मुद्रित गीतावली में नहीं मिलता।"
+   },
+   {
+    "q_en": "When can I sing Thumak Chalat Ramchandra?",
+    "a_en": "You can sing it during daily prayer or whenever you wish to remember Shri Ram’s childhood. A simple practice is to sing one stanza slowly and repeat the opening refrain.",
+    "q_hi": "ठुमक चलत रामचंद्र कब गा सकते हैं?",
+    "a_hi": "इसे रोज की प्रार्थना में या श्री राम की बाललीला का स्मरण करने के लिए गा सकते हैं। एक पद धीरे गाइए और फिर पहली पंक्ति की टेक दोहराइए।"
+   },
+   {
+    "q_en": "What are the devotional benefits of singing this bhajan?",
+    "a_en": "Singing offers a way to keep attention on Shri Ram’s childhood and approach Him with affection. We can carry the mothers’ tenderness into our own service. No particular worldly result is promised.",
+    "q_hi": "यह भजन गाने से भक्ति में क्या सहायता मिलती है?",
+    "a_hi": "इसे गाते हुए हम श्री राम की बाललीला पर मन लगा सकते हैं और उनके प्रति अपनापन रख सकते हैं। माताओं के स्नेह को याद करके अपनी सेवा में भी कोमलता लाइए। किसी खास सांसारिक फल का वचन नहीं है।"
+   },
+   {
+    "q_en": "Is Thumak Chalat Ramchandra from Ramcharitmanas or Gitavali?",
+    "a_en": "These are traditional bhajan lyrics. They are not lines from Ramcharitmanas. Related childhood scenes appear in Bal Kand around dohas 198, 199 and 203. The hymn is not found in the printed Gita Press Gitavali, and no Gitavali pad number is confirmed.",
+    "q_hi": "ठुमक चलत रामचंद्र रामचरितमानस या गीतावली से है?",
+    "a_hi": "ये पंक्तियाँ परंपरा में गाए जाने वाले भजन की हैं, रामचरितमानस का अंश नहीं हैं। बालकाण्ड में दोहा 198, 199 और 203 के आसपास मिलती जुलती बाललीलाएँ हैं। यह भजन गीता प्रेस की मुद्रित गीतावली में नहीं मिलता और इसकी कोई गीतावली पद संख्या निश्चित नहीं है।"
+   }
+  ],
+  "spellings": [
+   "Thumak Chalat Ramchandra",
+   "Thumak Chalat Ram Chandra",
+   "Thumak Chalat Ramchandra lyrics",
+   "Thumak Chalat Ramchandra meaning",
+   "Thumak Chalat Ramchandra Tulsidas",
+   "ठुमक चलत रामचंद्र",
+   "ठुमक चलत रामचन्द्र",
+   "ठुमक चलत रामचंद्र अर्थ"
+  ]
+ },
+ {
+  "slug": "aarti-shri-ramayan-ji-ki",
+  "title": "Aarti Shri Ramayan Ji Ki",
+  "title_hi": "आरति श्रीरामायनजी की",
+  "kind": "hymn",
+  "from_en": "Traditional aarti, printed in the Shri Ramcharitmanas",
+  "from_hi": "पारंपरिक आरती, श्रीरामचरितमानस में छपी",
+  "credits": "",
+  "lines": [
+   {
+    "text": "आरति श्रीरामायनजी की।\nकीरति कलित ललित सिय पी की॥",
+    "source": "Traditional aarti, printed in the Gita Press Shri Ramcharitmanas",
+    "roman": [
+     "Aarti Shri Ramayanji Ki",
+     "Keerati Kalit Lalit Siya Pi Ki"
+    ],
+    "sung": "Also sung as 'Siya Piya' instead of 'Siya Pi'.",
+    "meaning_en": "We offer aarti to the revered Ramayan, beautifully adorned with the glory of Shri Ram, the beloved husband of Mata Sita.",
+    "meaning_hi": "हम आदरणीय श्रीरामायणजी की आरती करते हैं। इसमें माता सीता के प्रिय पति श्री राम की सुंदर कीर्ति का गान है।",
+    "sung_hi": "कुछ पाठों में 'सिय पी' की जगह 'सिय पिय' गाया जाता है।"
+   },
+   {
+    "text": "गावत ब्रह्मादिक मुनि नारद।\nबालमीक बिग्यान बिसारद॥\nसुक सनकादि सेष अरु सारद।\nबरनि पवनसुत कीरति नीकी॥",
+    "roman": [
+     "Gaavat Brahmaadik Muni Naarad",
+     "Baalmeek Bigyaan Bisaarad",
+     "Shuk Sanakaadi Shesh Aru Shaarad",
+     "Barani Pavansut Keerati Neeki"
+    ],
+    "sung": "",
+    "meaning_en": "Brahma and the other divine beings, Sage Narad, and Maharshi Valmiki, accomplished in spiritual understanding, sing this glory. Shuk, Sanak and the other sages, Shesh, and Sharada also praise it, while Hanumanji describes its beautiful renown.",
+    "meaning_hi": "ब्रह्माजी आदि देवता, मुनि नारद और ज्ञान में निपुण महर्षि वाल्मीकि इसका गुणगान करते हैं। शुकदेवजी, सनकादि मुनि, शेषजी और शारदाजी भी इसकी महिमा गाते हैं, और हनुमानजी इसकी सुंदर कीर्ति का वर्णन करते हैं।"
+   },
+   {
+    "text": "गावत बेद पुरान अष्टदस।\nछओ सास्त्र सब ग्रंथन को रस॥\nमुनि जन धन संतन को सरबस।\nसार अंस संमत सबही की॥",
+    "roman": [
+     "Gaavat Ved Puraan Ashtadas",
+     "Chhao Shaastra Sab Granthan Ko Ras",
+     "Muni Jan Dhan Santan Ko Sarbas",
+     "Saar Ans Sammat Sabahi Ki"
+    ],
+    "sung": "Some versions read 'Muni Man Dhan' instead of 'Muni Jan Dhan'.",
+    "meaning_en": "The Vedas, the eighteen Puranas, and the six shastras sing its praise, for it holds the essence of the sacred books. It is the wealth of sages, everything to the Saints, and a teaching whose essential truth they all accept.",
+    "meaning_hi": "वेद, अठारह पुराण और छह शास्त्र इसकी महिमा गाते हैं, क्योंकि इसमें सभी धर्मग्रंथों का सार है। यह मुनियों का धन और संतों का सर्वस्व है, और इसके सार को सभी स्वीकार करते हैं।",
+    "sung_hi": "कुछ पाठों में 'मुनि जन धन' की जगह 'मुनि मन धन' मिलता है।"
+   },
+   {
+    "text": "गावत संतत संभु भवानी।\nअरु घटसंभव मुनि बिग्यानी॥\nब्यास आदि कबिबर्ज बखानी।\nकागभुसुंडि गरुड़ के ही की॥",
+    "roman": [
+     "Gaavat Santat Shambhu Bhavaani",
+     "Aru Ghatsambhav Muni Bigyaani",
+     "Vyaas Aadi Kavibarj Bakhaani",
+     "Kaagbhusundi Garud Ke Hi Ki"
+    ],
+    "sung": "",
+    "meaning_en": "Shiv and Bhavani continually sing this story, as does the wise Sage Agastya, here called Ghatsambhav. Vyas and other great poets proclaim it, and it is dear to the hearts of Kakbhushundi and Garud.",
+    "meaning_hi": "शिवजी और भवानी सदा इस कथा को गाते हैं। घटसंभव नाम से पुकारे गए ज्ञानी अगस्त्य मुनि, व्यासजी और दूसरे श्रेष्ठ कवि भी इसका वर्णन करते हैं, और यह काकभुशुण्डिजी तथा गरुड़जी के हृदय को प्रिय है।"
+   },
+   {
+    "text": "कलिमल हरनि बिषय रस फीकी।\nसुभग सिंगार मुक्ति जुबती की॥\nदलन रोग भव मूरि अमी की।\nतात मात सब बिधि तुलसी की॥",
+    "roman": [
+     "Kalimal Harani Vishay Ras Pheeki",
+     "Subhag Singaar Mukti Jubati Ki",
+     "Dalan Rog Bhav Moori Ami Ki",
+     "Taat Maat Sab Bidhi Tulsi Ki"
+    ],
+    "sung": "Some versions read 'Bhagati Jubati' instead of 'Mukti Jubati'.",
+    "meaning_en": "It removes the impurities of Kali Yug and makes the pleasures of the senses lose their sweetness. It is the lovely adornment of liberation pictured as a young woman, a nectar-like healing root for the disease of worldly bondage, and a father and mother to Tulsi in every way.",
+    "meaning_hi": "रामकथा कलियुग के दोष दूर करती है और इंद्रियों के सुखों का आकर्षण कम करती है। यहाँ मुक्ति को एक युवती और रामकथा को उसका सुंदर शृंगार कहा गया है। रामकथा भवरोग की अमृत जैसी औषधि है। भवरोग का अर्थ है संसार के बंधनों से होने वाला दुख। तुलसी के लिए यह कथा हर तरह से माता और पिता के समान है।",
+    "sung_hi": "कुछ पाठों में 'मुक्ति जुबती' की जगह 'भगति जुबती' मिलता है।"
+   }
+  ],
+  "intro_en": "This aarti honours the Ramayan and the glory of Shri Ram, Mata Sita's beloved, whose story sages and devotees sing. People sing it together at the close of a Ramayan or Ramcharitmanas reading, usually repeating the opening lines after each stanza.",
+  "intro_hi": "'आरती श्री रामायण जी की' रामकथा की महिमा गाती है, जिसका गुणगान शिवजी, मुनि और भक्त करते हैं। रामायण या श्रीरामचरितमानस का पाठ पूरा होने पर लोग मिलकर यह आरती गाते हैं और हर पद के बाद आरंभ की पंक्तियाँ दोहराते हैं।",
+  "about_en": "This traditional aarti appears in the front matter of the Gita Press Shri Ramcharitmanas. It is sometimes credited to Goswami Tulsidas, but its authorship is not established. That edition prints no author’s name with it. The closing words name Tulsi and express dependence on the Ramayan as a father and mother, but they do not settle who composed the hymn.",
+  "about_hi": "यह पारंपरिक आरती गीता प्रेस के श्रीरामचरितमानस के आरंभिक पृष्ठों में छपी है। कभी इसका रचयिता गोस्वामी तुलसीदास को कहा जाता है, लेकिन इसके लेखक का निश्चित पता नहीं है। उस संस्करण में आरती के साथ किसी लेखक का नाम नहीं छपा है। अंतिम पंक्ति में तुलसी का नाम आता है और रामायण को माता तथा पिता जैसा आश्रय कहा गया है। केवल इस पंक्ति से लेखक तय नहीं होता।",
+  "scene_en": "The aarti gathers many tellers and listeners around Shri Ram’s story. The Ramcharitmanas itself presents the story through conversations in which a sincere listener seeks understanding. In Bal Kand, Goswami Tulsidas recalls Shiv telling the sacred account to Parvati, also called Bhavani, and sets their conversation within the telling of the Manas (Bal Kand, chaupais before dohas 30 and 108). The aarti remembers them together. Its mention of Kakbhushundi and Garud points to another teacher and listener. Garud arrives at Kakbhushundi’s home and says that seeing the sacred ashram has already removed his confusion. He then asks to hear Shri Ram’s story, and Kakbhushundi begins telling it (Uttar Kand, chaupais before dohas 63a and 64). Thus, when devotees sing this aarti after paath, they honour a story received through attentive listening and shared through devotion.",
+  "scene_hi": "इस आरती में श्री राम की कथा कहने और सुनने वाले अनेक भक्तों का स्मरण आता है। श्रीरामचरितमानस में भी कथा ऐसे संवादों से आगे बढ़ती है, जिनमें सुनने वाला श्रद्धा से समझना चाहता है। बालकाण्ड में गोस्वामी तुलसीदास शिवजी के पार्वतीजी को रामकथा सुनाने का स्मरण करते हैं। आगे शिवजी और पार्वतीजी का संवाद कथा का आधार बनता है। आरती में इन्हीं पार्वतीजी का नाम भवानी है (बालकाण्ड, दोहा 30 और 108 से पहले की चौपाइयाँ)। काकभुशुण्डिजी और गरुड़जी का उल्लेख दूसरे वक्ता और श्रोता की याद दिलाता है। गरुड़जी काकभुशुण्डिजी के आश्रम पहुँचकर कहते हैं कि उस पवित्र स्थान के दर्शन से ही उनका मोह और भ्रम दूर हो गया है। इसके बाद वे श्री राम की कथा सुनाने का अनुरोध करते हैं और काकभुशुण्डिजी कथा आरंभ करते हैं (उत्तरकाण्ड, दोहा 63क और 64 से पहले की चौपाइयाँ)। पाठ के बाद आरती गाते हुए हम उस कथा का आदर करते हैं जिसे भक्तों ने श्रद्धा से सुना और प्रेम से सुनाया।",
+  "teaching_en": "The aarti teaches us to value what the Ramayan gives to the heart. We may finish a reading while our habits remain as they were. Hence, the final stanza draws attention to attachment, the weakness that repeatedly pulls the mind towards passing pleasures.\n\nThe word sarbas means everything one holds dear. Calling the Ramayan the Saints’ sarbas tells us how fully they depend upon its teaching. They return to it for guidance.\n\nFor example, a person learning to cook may read a recipe carefully and keep the book beside the stove. The meal still needs attention. If the flame is too high, remembering the instruction must lead to lowering it. Similarly, listening to Shri Ram’s story should guide what we do when impatience or selfishness arises.\n\nThe aarti therefore gives us a moment to receive the teaching with gratitude. After singing, recall one act of service or restraint from the day’s reading. Choose one small occasion to practise it before the next paath.",
+  "teaching_hi": "आरती हमें रामकथा की सीख को अपने व्यवहार में रखने की प्रेरणा देती है। पाठ पूरा हो सकता है और हमारी आदतें पहले जैसी रह सकती हैं। इसलिए अंतिम पद विषयों की आसक्ति की ओर ध्यान दिलाता है। मन बार-बार उन्हीं सुखों की ओर भागता है जो टिकते नहीं।\n\nसरबस का अर्थ है अपना सब कुछ। संतों के लिए रामकथा ऐसा ही सहारा है। वे उससे आचरण की दिशा लेते हैं।\n\nजैसे कोई व्यक्ति खाना बनाना सीख रहा हो। वह विधि पढ़कर पुस्तक चूल्हे के पास रख लेता है। फिर भी भोजन पर ध्यान देना पड़ता है। आँच तेज हो तो पढ़ी हुई बात याद करके उसे धीमा करना होगा। इसी तरह कथा सुनने के बाद क्रोध आने पर उसके अनुसार स्वयं को सँभालना पड़ता है।\n\nआरती गाने के बाद उस दिन के पाठ से सेवा या संयम की एक सीख याद करें। अगला पाठ होने से पहले उसे किसी छोटे काम में अपनाएँ।",
+  "faq": [
+   {
+    "q_en": "What does Aarti Shri Ramayan Ji Ki mean?",
+    "a_en": "It means offering aarti to the revered Ramayan. The hymn praises the story of Shri Ram and Mata Sita, remembers its tellers and listeners, and describes the spiritual support devotees receive from it.",
+    "q_hi": "आरती श्री रामायण जी की का अर्थ क्या है?",
+    "a_hi": "इसका अर्थ है आदरणीय श्रीरामायणजी की आरती करना। इसमें श्री राम और माता सीता की कथा की महिमा, उसे कहने और सुनने वाले भक्तों का स्मरण और रामकथा से मिलने वाले आध्यात्मिक सहारे का वर्णन है।"
+   },
+   {
+    "q_en": "Who wrote Aarti Shri Ramayan Ji Ki?",
+    "a_en": "This is a traditional aarti whose author is not established. It is sometimes credited to Goswami Tulsidas. The final line names Tulsi, but that alone does not establish authorship. The Gita Press Shri Ramcharitmanas prints the aarti without an author’s name.",
+    "q_hi": "आरती श्री रामायण जी की किसने लिखी है?",
+    "a_hi": "यह पारंपरिक आरती है और इसके लेखक का निश्चित पता नहीं है। कभी इसे गोस्वामी तुलसीदास की रचना कहा जाता है। अंतिम पंक्ति में तुलसी का नाम आता है, लेकिन केवल इससे लेखक तय नहीं होता। गीता प्रेस के श्रीरामचरितमानस में इसके साथ लेखक का नाम नहीं छपा है।"
+   },
+   {
+    "q_en": "When is this Ramayan aarti sung?",
+    "a_en": "Traditionally, it is sung at the end of a Ramayan or Ramcharitmanas paath. The opening two lines are commonly repeated after each stanza so that the gathering can join in.",
+    "q_hi": "रामायणजी की आरती कब गाई जाती है?",
+    "a_hi": "परंपरा से इसे रामायण या श्रीरामचरितमानस का पाठ पूरा होने पर गाते हैं। आमतौर पर हर पद के बाद आरंभ की दो पंक्तियाँ दोहराई जाती हैं, जिससे सभी लोग साथ गा सकें।"
+   },
+   {
+    "q_en": "What are the devotional benefits of singing this aarti?",
+    "a_en": "Devotees sing it to express gratitude for Ramkatha and strengthen their love for Shri Ram. Its final stanza encourages freedom from harmful attachments. Singing with attention can become an occasion to remember the teaching and practise it in daily conduct.",
+    "q_hi": "रामायणजी की आरती गाने का क्या लाभ है?",
+    "a_hi": "भक्त इसे रामकथा के प्रति कृतज्ञता प्रकट करने और श्री राम में प्रेम बढ़ाने के भाव से गाते हैं। अंतिम पद आसक्ति छोड़ने की प्रेरणा देता है। ध्यान से आरती गाते हुए हम कथा की सीख याद कर सकते हैं और उसे व्यवहार में उतारने का संकल्प ले सकते हैं।"
+   },
+   {
+    "q_en": "Is this aarti part of the Ramcharitmanas story?",
+    "a_en": "It is a traditional hymn printed in the front matter of the Gita Press Shri Ramcharitmanas. It is not a passage within a kand. Its references to Shiv and Bhavani, and to Kakbhushundi and Garud, recall the teacher and listener conversations found in Bal Kand and Uttar Kand.",
+    "q_hi": "क्या यह आरती श्रीरामचरितमानस के किसी काण्ड का अंश है?",
+    "a_hi": "यह गीता प्रेस के श्रीरामचरितमानस के आरंभिक पृष्ठों में छपी पारंपरिक आरती है। यह किसी काण्ड के भीतर का प्रसंग नहीं है। इसमें शिवजी और भवानी तथा काकभुशुण्डिजी और गरुड़जी के नाम बालकाण्ड और उत्तरकाण्ड के वक्ता और श्रोता का स्मरण कराते हैं।"
+   }
+  ],
+  "spellings": [
+   "Aarti Shri Ramayan Ji Ki",
+   "Arti Shri Ramayan Ji Ki",
+   "Aarti Shri Ramayana Ji Ki",
+   "Shri Ramayan Ji Ki Aarti",
+   "Ramayan Aarti",
+   "आरती श्री रामायण जी की",
+   "आरति श्रीरामायनजी की",
+   "श्री रामायण जी की आरती"
+  ]
+ },
+ {
+  "slug": "payoji-maine-ram-ratan-dhan-payo",
+  "title": "Payoji Maine Ram Ratan Dhan Payo",
+  "title_hi": "पायो जी मैंने राम रतन धन पायो",
+  "kind": "hymn",
+  "from_en": "Meera Bai",
+  "from_hi": "मीराबाई",
+  "credits": "",
+  "lines": [
+   {
+    "text": "पायो जी मैंने राम रतन धन पायो॥",
+    "source": "Meera Bai, pad 287 in Meera Brihat Padavali",
+    "roman": [
+     "Payo ji maine Ram ratan dhan payo."
+    ],
+    "sung": "Also sung as 'Payo ji main to Ram ratan dhan payo' or 'Payo ji mhe to'.",
+    "meaning_en": "I have received the jewel of Shri Ram's name. This is the wealth I rejoice in.",
+    "meaning_hi": "मुझे श्रीराम के नाम का रत्न मिल गया है। यही मेरा धन है, जिसे पाकर मैं प्रसन्न हूँ।",
+    "sung_hi": "कुछ गायन शैलियों में 'पायो जी मैं तो राम रतन धन पायो' या 'पायो जी म्हे तो' सुनते हैं।"
+   },
+   {
+    "text": "वस्तु अमोलक दी मेरे सतगुरु, किरपा कर अपनायो॥१॥",
+    "roman": [
+     "Vastu amolak di mere satguru, kirpa kar apnayo."
+    ],
+    "sung": "Some versions sing 'Di mhare satguru'.",
+    "meaning_en": "My true Guru has given me this priceless treasure. With compassion, the Guru has accepted me.",
+    "meaning_hi": "मेरे सतगुरु ने मुझे यह अमोल धन दिया है। उन्होंने कृपा करके मुझे अपना लिया है।",
+    "sung_hi": "कुछ रूपों में 'दी म्हारे सतगुरु' गाया जाता है।"
+   },
+   {
+    "text": "जनम जनम की पूँजी पाई, जग में सभी खोवायो॥२॥",
+    "roman": [
+     "Janam janam ki poonji payi, jag mein sabhi khovayo."
+    ],
+    "sung": "",
+    "meaning_en": "I have gained the spiritual wealth of many lifetimes. All that I had gathered in the world has been lost.",
+    "meaning_hi": "मुझे जन्मों की कमाई मिल गई है। संसार में जो कुछ जोड़ा था, वह सब खो गया।"
+   },
+   {
+    "text": "खरचै नहिं कोई चोर न लेवै, दिन दिन बढ़त सवायो॥३॥",
+    "roman": [
+     "Kharachai nahin koi chor na levai, din din badhat savayo."
+    ],
+    "sung": "Often sung as 'Kharach na khootai chor na lootai'.",
+    "meaning_en": "No spending can exhaust this wealth, and no thief can take it. It keeps growing, day after day.",
+    "meaning_hi": "इस धन को खर्च करने से यह घटता नहीं और कोई चोर इसे ले नहीं सकता। यह दिन पर दिन बढ़ता जाता है।",
+    "sung_hi": "अक्सर 'खरच न खूटै चोर न लूटै' गाया जाता है।"
+   },
+   {
+    "text": "सत की नाव खेवटिया सतगुरु, भवसागर तर आयो॥४॥",
+    "roman": [
+     "Sat ki naav khevatiya satguru, bhavsagar tar aayo."
+    ],
+    "sung": "",
+    "meaning_en": "Truth is the boat, and the true Guru steers it. With this support, I have crossed the ocean of worldly existence.",
+    "meaning_hi": "सत्य की नाव है और सतगुरु उसे पार ले जाने वाले हैं। उनके सहारे मैं संसार के दुखों के सागर से पार आ गई हूँ।"
+   },
+   {
+    "text": "मीरा के प्रभु गिरधर नागर, हरख हरख जस गायो॥५॥",
+    "roman": [
+     "Meera ke Prabhu Giridhar Nagar, harakh harakh jas gayo."
+    ],
+    "sung": "Also sung as 'Harash harash jas gayo'.",
+    "meaning_en": "Meera sings the glory of her Lord, Giridhar Nagar, with great joy.",
+    "meaning_hi": "मीरा अपने प्रभु गिरधर नागर का यश बड़े आनंद से गाती हैं।",
+    "sung_hi": "'हरष हरष जस गायो' भी गाया जाता है।"
+   }
+  ],
+  "intro_en": "This bhajan celebrates Shri Ram's name as wealth that no thief can take and no spending can exhaust. Sung in daily worship and bhajan gatherings, it gives thanks for the Guru's kindness and rejoices in a treasure that keeps growing.",
+  "intro_hi": "इस भजन में श्री राम का नाम ऐसा धन है, जो खर्च करने से घटता नहीं और जिसे कोई चोर ले नहीं सकता। भक्त रोज की पूजा और भजन की बैठकों में इसे गाकर सतगुरु की कृपा के लिए अपना आभार जताते हैं।",
+  "about_en": "This pad is attributed to Meera Bai and appears as pad 287 in Meera Brihat Padavali, with Asa/Mand as its raag designation. The Belvedere Shabdavali has a closely agreeing text. Meera Bai's songs have passed through oral singing and manuscripts, so their wording varies. Sing the opening as the refrain between the verses. Meera Brihat Padavali also contains a different pad, numbered 529, with a similar opening. It should be read separately.",
+  "about_hi": "यह पद मीरा बाई की रचना के रूप में प्रसिद्ध है। मीरा बृहत् पदावली में यह पद 287 है और इसके साथ राग आसा/मांड का उल्लेख है। बेलवेडियर शब्दावली का पाठ भी इससे बहुत मिलता है। मीरा बाई के पद गायन की मौखिक परंपरा और पांडुलिपियों से चले आए हैं, इसलिए उनके शब्दों में अंतर मिलते हैं। गाते समय पहली पंक्ति को टेक की तरह दोहराया जा सकता है। मीरा बृहत् पदावली का पद 529 भी मिलते हुए शब्दों से शुरू होता है, पर वह अलग पद है। दोनों को एक न समझें।",
+  "scene_en": "Goswami Tulsidas also praises the Name in Ramcharitmanas:\nरूप बिसेष नाम बिनु जानें। करतल गत न परहिं पहिचानें॥\nसुमिरिअ नाम रूप बिनु देखें। आवत हृदयँ सनेह बिसेषें॥३॥\n(Ramcharitmanas, Bal Kand, chaupai 3 before doha 21.)\n\nWithout knowing its name, we may fail to recognise even a form held in our hand. When we remember the Lord's name without having seen His form, that form comes into the heart with special love. Tulsidas describes the bond between name and form. The bhajan expresses the joy of receiving the Name.",
+  "scene_hi": "गोस्वामी तुलसीदास भी रामचरितमानस में नाम की महिमा कहते हैं:\nरूप बिसेष नाम बिनु जानें। करतल गत न परहिं पहिचानें॥\nसुमिरिअ नाम रूप बिनु देखें। आवत हृदयँ सनेह बिसेषें॥३॥\n(रामचरितमानस, बालकाण्ड, दोहा 21 से पहले की चौपाई 3।)\n\nनाम जाने बिना हाथ में रखी वस्तु का रूप भी पहचाना नहीं जाता। प्रभु का रूप देखे बिना भी उनका नाम स्मरण करने पर वह रूप विशेष प्रेम के साथ हृदय में आ जाता है। तुलसीदासजी यहाँ नाम और रूप का संबंध बताते हैं। भजन में नाम पाने का आनंद व्यक्त होता है।",
+  "teaching_en": "The hymn calls the Lord's Name a wealth that no thief can take and that grows each day. Money can be stolen or spent. Remembering Shri Ram does not use up His Name, and singing it with others leaves us with no less of it. This wealth needs no locked door. As we return to the Name, our love for the Lord has room to grow, even in the midst of the work and concerns of an ordinary day.\n\nMeera Bai gives thanks for the Guru's grace. The joy of receiving this treasure leads her to sing the Lord's praise. We may sing with a distracted mind or feel little devotion on some days. There is no need to force a feeling. Today, we might sing the refrain once, slowly, letting Shri Ram's name hold our attention for a few moments. If the mind wanders, we can gently return to His Name.",
+  "teaching_hi": "भजन में प्रभु का नाम ऐसा धन है जिसे कोई चोर ले नहीं सकता और जो दिन दिन बढ़ता है। पैसा खर्च करने से घटता है। नाम लेने से नाम चुकता नहीं। किसी और के साथ गाने से भी हमारे पास कम नहीं हो जाता। इस धन को ताले में रखने की ज़रूरत नहीं। काम और चिंताओं के बीच भी श्रीराम का नाम याद करने से उनके प्रति हमारा प्रेम बढ़ता है।\n\nमीरा बाई इस धन को पाकर सतगुरु की कृपा याद करती हैं और प्रभु का यश गाती हैं। कभी गाते समय मन भटकता है, कभी भाव कम आता है। भाव को जबरन लाने की ज़रूरत नहीं। आज थोड़ा समय मिले तो टेक एक बार धीरे गा लें। कुछ पल श्रीराम के नाम पर मन रहने दें। भटके तो प्यार से फिर नाम पर ले आएँ।",
+  "faq": [
+   {
+    "q_en": "What does Payoji Maine Ram Ratan Dhan Payo mean?",
+    "a_en": "It means, \"I have received the jewel of Shri Ram's name as my wealth.\"",
+    "q_hi": "पायो जी मैंने राम रतन धन पायो का अर्थ क्या है?",
+    "a_hi": "इसका अर्थ है कि मुझे श्रीराम के नाम का रत्न धन के रूप में मिल गया है।"
+   },
+   {
+    "q_en": "Who wrote Payoji Maine Ram Ratan Dhan Payo?",
+    "a_en": "The pad is traditionally attributed to Meera Bai. This attribution should not be treated as certain authorship.",
+    "q_hi": "पायो जी मैंने राम रतन धन पायो किसने लिखा है?",
+    "a_hi": "परंपरा में यह पद मीरा बाई की रचना माना जाता है। इसे उनके लेखन का निश्चित प्रमाण नहीं मानना चाहिए।"
+   },
+   {
+    "q_en": "When can I recite Payoji Maine Ram Ratan Dhan Payo?",
+    "a_en": "You can sing it during daily worship, with others in a bhajan gathering, or whenever you wish to remember the Lord.",
+    "q_hi": "पायो जी मैंने राम रतन धन पायो कब गा सकते हैं?",
+    "a_hi": "इसे रोज की पूजा में, मिलकर भजन करते समय या प्रभु का स्मरण करने की इच्छा होने पर गा सकते हैं।"
+   },
+   {
+    "q_en": "What are the devotional benefits of singing this bhajan?",
+    "a_en": "The bhajan invites gratitude for the Guru's grace and love for the Lord's name. It offers words with which to remember Shri Ram while we pray or do our daily work.",
+    "q_hi": "इस भजन को गाने का भक्तिभाव से क्या लाभ है?",
+    "a_hi": "यह भजन सतगुरु की कृपा के लिए कृतज्ञता और प्रभु के नाम से प्रेम रखने की प्रेरणा देता है। प्रार्थना या रोज के कामों के बीच श्रीराम का स्मरण करने के लिए इसके शब्द गाए जा सकते हैं।"
+   },
+   {
+    "q_en": "Where do the words of Payoji Maine Ram Ratan Dhan Payo come from?",
+    "a_en": "This bhajan belongs to the devotional song tradition associated with Meera Bai. It is separate from Ramcharitmanas. The familiar sung wording \"खरच न खूटै चोर न लूटै\" varies from \"खरचै नहिं कोई चोर न लेवै\" in the printed pad.",
+    "q_hi": "पायो जी मैंने राम रतन धन पायो की पंक्तियाँ कहाँ से हैं?",
+    "a_hi": "ये मीरा बाई से जुड़ी भजन परंपरा की पंक्तियाँ हैं। यह रामचरितमानस की चौपाई नहीं है। गाने में प्रचलित \"खरच न खूटै चोर न लूटै\" छपे हुए पद के \"खरचै नहिं कोई चोर न लेवै\" का अलग रूप है।"
+   }
+  ],
+  "spellings": [
+   "Payoji Maine Ram Ratan Dhan Payo",
+   "Payo Ji Maine Ram Ratan Dhan Payo",
+   "Payo Ji Main To Ram Ratan Dhan Payo",
+   "Paayo Ji Maine Ram Ratan Dhan Paayo",
+   "Ram Ratan Dhan Payo Meera Bhajan",
+   "पायो जी मैंने राम रतन धन पायो",
+   "पायो जी मैं तो राम रतन धन पायो",
+   "पायो जी म्हे तो राम रतन धन पायो"
+  ]
+ },
+ {
+  "slug": "shiv-tandav-stotram",
+  "title": "Shiv Tandav Stotram",
+  "title_hi": "शिवताण्डवस्तोत्रम्",
+  "kind": "hymn",
+  "from_en": "Traditionally ascribed to Ravan",
+  "from_hi": "परंपरा से रावण रचित माना जाता है",
+  "credits": "",
+  "lines": [
+   {
+    "text": "जटाटवीगलज्जलप्रवाहपावितस्थले\nगलेऽवलम्ब्य लम्बितां भुजङ्गतुङ्गमालिकाम्।\nडमड्डमड्डमड्डमन्निनादवड्डमर्वयं\nचकार चण्डताण्डवं तनोतु नः शिवः शिवम्॥१॥",
+    "source": "Shiv Tandav Stotram, traditionally ascribed to Ravan",
+    "roman": [
+     "Jataatavi galaj jala pravaaha paavita sthale",
+     "Gale avalambya lambitaam bhujanga tunga maalikaam",
+     "Damad damad damad daman ninaada vad damarvayam",
+     "Chakaara chanda taandavam tanotu nah Shivah Shivam"
+    ],
+    "sung": "",
+    "meaning_en": "May Shiv bless us with goodness. Water streaming through the forest of His matted hair makes His neck holy, a long serpent garland hangs upon it, and He performs His fierce Tandav to the damaru's rolling beat.",
+    "meaning_hi": "शिवजी हमारा कल्याण करें। उनकी जटाओं के वन से बहता जल उनके गले को पवित्र करता है, गले में सर्पों की लम्बी माला लटकती है और डमरू की गूँज पर वे प्रचण्ड ताण्डव करते हैं।"
+   },
+   {
+    "text": "जटाकटाहसम्भ्रमभ्रमन्निलिम्पनिर्झरी-\nविलोलवीचिवल्लरीविराजमानमूर्द्धनि।\nधगद्धगद्धगज्ज्वलल्ललाटपट्टपावके\nकिशोरचन्द्रशेखरे रतिः प्रतिक्षणं मम॥२॥",
+    "roman": [
+     "Jataa kataaha sambhrama bhraman nilimpa nirjhari",
+     "Vilola veechi vallari viraajamaana moordhani",
+     "Dhagad dhagad dhagaj jvalal lalaata patta paavake",
+     "Kishora chandra shekhare ratih pratikshanam mama"
+    ],
+    "sung": "",
+    "meaning_en": "May my love turn every moment towards Shiv, who wears the young crescent moon. The heavenly Ganga swirls through His matted hair in restless waves, while fire blazes across His forehead.",
+    "meaning_hi": "मेरा प्रेम हर क्षण उन शिवजी में लगा रहे, जिनके सिर पर नया चन्द्रमा सुशोभित है। उनकी जटाओं में स्वर्ग की गंगा की लहरें घूम रही हैं और ललाट पर अग्नि धधक रही है।"
+   },
+   {
+    "text": "धराधरेन्द्रनन्दिनीविलासबन्धुबन्धुर-\nस्फुरद्दिगन्तसन्ततिप्रमोदमानमानसे।\nकृपाकटाक्षधोरणीनिरुद्धदुर्धरापदि\nक्वचिद्दिगम्बरे मनो विनोदमेतु वस्तुनि॥३॥",
+    "roman": [
+     "Dharaadharendra nandini vilaasa bandhu bandhura",
+     "Sphurad diganta santati pramodamaana maanase",
+     "Kripaa kataaksha dhorani niruddha durdharaapadi",
+     "Kvachid digambare mano vinodam etu vastuni"
+    ],
+    "sung": "Some versions sing 'kvachich chidambare'.",
+    "meaning_en": "May my mind find joy in Shiv, who wears the directions as His garment. His heart delights in the play of Parvati, daughter of the mountain king, and the stream of His merciful glance holds back even unbearable distress.",
+    "meaning_hi": "मेरा मन उन दिगम्बर शिवजी में आनन्द पाए, जो दिशाओं को ही अपना वस्त्र बनाए हुए हैं। पर्वतराज की पुत्री पार्वती की लीलाओं से उनका मन प्रसन्न है और उनकी कृपाभरी दृष्टि की धारा कठिन से कठिन विपत्ति को रोक देती है।",
+    "sung_hi": "कुछ पाठों में 'क्वचिच्चिदम्बरे' गाया जाता है।"
+   },
+   {
+    "text": "जटाभुजङ्गपिङ्गलस्फुरत्फणामणिप्रभा-\nकदम्बकुङ्कुमद्रवप्रलिप्तदिग्वधूमुखे।\nमदान्धसिन्धुरस्फुरत्त्वगुत्तरीयमेदुरे\nमनो विनोदमद्भुतं बिभर्तु भूतभर्तरि॥४॥",
+    "roman": [
+     "Jataa bhujanga pingala sphurat phanaa mani prabhaa",
+     "Kadamba kunkuma drava pralipta dig vadhoo mukhe",
+     "Madaandha sindhura sphurat tvag uttareeya medure",
+     "Mano vinodam adbhutam bibhartu bhoota bhartari"
+    ],
+    "sung": "Some versions sing 'madaandha sindhuraasura tvag'.",
+    "meaning_en": "May my mind delight in Shiv, the sustainer of living beings. The jewels on the raised hoods of the tawny serpents in His hair cast a saffron glow across the directions, and the hide of a mighty, rutting elephant covers Him.",
+    "meaning_hi": "मेरा मन सब प्राणियों का पालन करने वाले शिवजी में आनन्द पाए। उनकी जटाओं के भूरे सर्पों के फणों की मणियों से दिशाओं पर केसर जैसी आभा फैल रही है और वे मदमस्त हाथी की खाल ओढ़े हुए हैं।",
+    "sung_hi": "कुछ पाठों में 'मदान्ध सिन्धुरासुर त्वग्' गाया जाता है।"
+   },
+   {
+    "text": "सहस्रलोचनप्रभृत्यशेषलेखशेखर-\nप्रसूनधूलिधोरणीविधूसराङ्घ्रिपीठभूः।\nभुजङ्गराजमालया निबद्धजाटजूटकः\nश्रियै चिराय जायतां चकोरबन्धुशेखरः॥५॥",
+    "roman": [
+     "Sahasra lochana prabhrity ashesha lekha shekhara",
+     "Prasoona dhooli dhorani vidhoosaraanghri peetha bhooh",
+     "Bhujanga raaja maalayaa nibaddha jaata jootakah",
+     "Shriyai chiraaya jaayataam chakora bandhu shekharah"
+    ],
+    "sung": "Also sung as 'Shriye' instead of 'Shriyai'.",
+    "meaning_en": "May Shiv, who wears the moon, grant lasting well-being. Flower dust from the crowns of Indra and the other gods settles at His feet, and the king of serpents binds His piled hair.",
+    "meaning_hi": "चन्द्रमा को सिर पर धारण करने वाले शिवजी हमें स्थायी मंगल दें। इन्द्र और दूसरे देवताओं के मुकुटों के फूलों की धूल उनके चरणों पर पड़ती है और सर्पराज उनकी जटाओं को बाँधे हुए हैं।",
+    "sung_hi": "'श्रियै' की जगह 'श्रिये' भी गाया जाता है।"
+   },
+   {
+    "text": "ललाटचत्वरज्वलद्धनञ्जयस्फुलिङ्गभा-\nनिपीतपञ्चसायकं नमन्निलिम्पनायकम्।\nसुधामयूखलेखया विराजमानशेखरं\nमहाकपालि सम्पदे शिरो जटालमस्तु नः॥६॥",
+    "roman": [
+     "Lalaata chatvara jvalad dhananjaya sphulingabhaa",
+     "Nipeeta pancha saayakam naman nilimpa naayakam",
+     "Sudhaa mayookha lekhayaa viraajamaana shekharam",
+     "Mahaakapaali sampade shiro jataalam astu nah"
+    ],
+    "sung": "A common reading is 'Mahah kapaali sampade sarij jataalam astu nah'.",
+    "meaning_en": "May the matted head of Shiv, the great bearer of the skull, bring us blessing. Sparks from His forehead fire consumed Kamadev with his five arrows, the gods bow before Him, and a slender ray of the nectar-shedding moon adorns His head.",
+    "meaning_hi": "कपाल धारण करने वाले शिवजी का जटाओं से सुशोभित मस्तक हमारा कल्याण करे। उनके ललाट की अग्नि की चिनगारियों ने पाँच बाणों वाले कामदेव को भस्म कर दिया, देवता उन्हें प्रणाम करते हैं और चन्द्रमा की अमृतमयी किरण उनके सिर को सुशोभित करती है।",
+    "sung_hi": "एक प्रचलित पाठ है 'महः कपालि सम्पदे सरिज् जटालम् अस्तु नः'।"
+   },
+   {
+    "text": "करालभालपट्टिकाधगद्धगद्धगज्ज्वल-\nद्धनञ्जयाहुतीकृतप्रचण्डपञ्चसायके।\nधराधरेन्द्रनन्दिनीकुचाग्रचित्रपत्रक-\nप्रकल्पनैकशिल्पिनि त्रिलोचने रतिर्मम॥७॥",
+    "roman": [
+     "Karaala bhaala pattikaa dhagad dhagad dhagaj jvala",
+     "Ddhananjayaahuti krita prachanda pancha saayake",
+     "Dharaadharendra nandini kuchaagra chitra patraka",
+     "Prakalpanaika shilpini trilochane ratir mama"
+    ],
+    "sung": "",
+    "meaning_en": "My love rests in three-eyed Shiv, whose terrible forehead fire made the mighty, five-arrowed Kamadev an offering to its flames. He is also the loving artist who paints delicate leaf designs upon Parvati's breasts.",
+    "meaning_hi": "मेरा प्रेम तीन नेत्रों वाले शिवजी में रहे। उनके ललाट की धधकती अग्नि में शक्तिशाली कामदेव आहुति बन गए, और वही शिवजी प्रेम से पार्वती के वक्ष पर पत्तियों के सुन्दर चित्र बनाते हैं।"
+   },
+   {
+    "text": "नवीनमेघमण्डलीनिरुद्धदुर्धरस्फुरत्-\nकुहूनिशीथिनीतमःप्रबन्धबद्धकन्धरः।\nनिलिम्पनिर्झरीधरस्तनोतु कृत्तिसिन्धुरः\nकलानिधानबन्धुरः श्रियं जगद्धुरन्धरः॥८॥",
+    "roman": [
+     "Naveena megha mandali niruddha durdhara sphurat",
+     "Kuhoo nisheethini tamah prabandha baddha kandharah",
+     "Nilimpa nirjhari dharas tanotu kritti sindhurah",
+     "Kalaa nidhaana bandhurah shriyam jagad dhurandharah"
+    ],
+    "sung": "",
+    "meaning_en": "May Shiv, who bears the burden of the world, grant us well-being. His neck is dark as midnight on a moonless night covered by fresh clouds, He carries the heavenly Ganga, wears an elephant hide, and shines with the moon.",
+    "meaning_hi": "संसार का भार सँभालने वाले शिवजी हमें मंगल दें। उनका कण्ठ नए बादलों से ढकी अमावस्या की आधी रात जैसा गहरा है, वे स्वर्ग की गंगा को धारण करते हैं, हाथी की खाल पहनते हैं और चन्द्रमा से सुशोभित हैं।"
+   },
+   {
+    "text": "प्रफुल्लनीलपङ्कजप्रपञ्चकालिमप्रभा-\nऽवलम्बिकण्ठकन्दलीरुचिप्रबद्धकन्धरम्।\nस्मरच्छिदं पुरच्छिदं भवच्छिदं मखच्छिदं\nगजच्छिदान्धकच्छिदं तमन्तकच्छिदं भजे॥९॥",
+    "roman": [
+     "Praphulla neela pankaja prapancha kaalima prabhaa",
+     "Valambi kantha kandali ruchi prabaddha kandharam",
+     "Smara chhidam pura chhidam bhava chhidam makha chhidam",
+     "Gaja chhidaandhaka chhidam tam antaka chhidam bhaje"
+    ],
+    "sung": "",
+    "meaning_en": "I worship Shiv, whose dark throat has the beauty of fully opened blue lotuses. He destroys Kamadev, the three cities, worldly bondage, the sacrifice, the elephant demon and Andhak, and He overcomes death itself.",
+    "meaning_hi": "मैं शिवजी को भजता हूँ, जिनके गहरे कण्ठ में खिले हुए नीले कमलों जैसी शोभा है। वे कामदेव, त्रिपुर, संसार के बन्धन, यज्ञ, गजासुर और अन्धक का नाश करते हैं और मृत्यु को भी जीत लेते हैं।"
+   },
+   {
+    "text": "अखर्वसर्वमङ्गलाकलाकदम्बमञ्जरी-\nरसप्रवाहमाधुरीविजृम्भणामधुव्रतम्।\nस्मरान्तकं पुरान्तकं भवान्तकं मखान्तकं\nगजान्तकान्धकान्तकं तमन्तकान्तकं भजे॥१०॥",
+    "roman": [
+     "Akharva sarva mangalaa kalaa kadamba manjari",
+     "Rasa pravaaha maadhuri vijrimbhanaa madhu vratam",
+     "Smaraantakam puraantakam bhavaantakam makhaantakam",
+     "Gajaantakaandhakaantakam tam antakaantakam bhaje"
+    ],
+    "sung": "",
+    "meaning_en": "I worship Shiv, who delights like a bee in the flowing sweetness of Parvati's abundant auspicious beauty. He ends Kamadev, the three cities, worldly bondage, the sacrifice, the elephant demon and Andhak, and He is the end of death itself.",
+    "meaning_hi": "मैं उन शिवजी को भजता हूँ, जो पार्वती की मंगलमयी शोभा की मधुरता में भौंरे की तरह आनन्द लेते हैं। वे कामदेव, त्रिपुर, संसार के बन्धन, यज्ञ, गजासुर और अन्धक का अन्त करते हैं और मृत्यु का भी अन्त करने वाले हैं।"
+   },
+   {
+    "text": "जयत्वदभ्रविभ्रमभ्रमद्भुजङ्गमश्वस-\nद्विनिर्गमत्क्रमस्फुरत्करालभालहव्यवाट्।\nधिमिद्धिमिद्धिमिद्ध्वनन्मृदङ्गतुङ्गमङ्गल-\nध्वनिक्रमप्रवर्तितप्रचण्डताण्डवः शिवः॥११॥",
+    "roman": [
+     "Jayatv adabhra vibhrama bhramad bhujangama shvasa",
+     "Dvinirgamat krama sphurat karaala bhaala havya vaat",
+     "Dhimid dhimid dhimid dhvanan mridanga tunga mangala",
+     "Dhvani krama pravartita prachanda taandavah Shivah"
+    ],
+    "sung": "Some versions sing 'dhimim dhimim dhimim dhvanan'.",
+    "meaning_en": "May Shiv be victorious in His fierce Tandav, set in motion by the lofty, auspicious rhythm of the mridang. The breath of the serpents whirling around Him fans the terrible fire upon His forehead.",
+    "meaning_hi": "शिवजी की जय हो, जिनका प्रचण्ड ताण्डव मृदंग की ऊँची मंगलध्वनि की ताल पर चलता है। उनके चारों ओर घूमते सर्पों की साँस से ललाट की भयंकर अग्नि और धधक उठती है।",
+    "sung_hi": "कुछ पाठों में 'धिमिं धिमिं धिमिं ध्वनन्' गाया जाता है।"
+   },
+   {
+    "text": "दृषद्विचित्रतल्पयोर्भुजङ्गमौक्तिकस्रजोर्-\nगरिष्ठरत्नलोष्ठयोः सुहृद्विपक्षपक्षयोः।\nतृणारविन्दचक्षुषोः प्रजामहीमहेन्द्रयोः\nसमप्रवृत्तिकः कदा सदाशिवं भजाम्यहम्॥१२॥",
+    "roman": [
+     "Drishad vichitra talpayor bhujanga mauktika srajor",
+     "Garishtha ratna loshthayoh suhrid vipaksha pakshayoh",
+     "Trinaaravinda chakshushoh prajaa mahee mahendrayoh",
+     "Sama pravrittikah kadaa Sadaashivam bhajaamy aham"
+    ],
+    "sung": "",
+    "meaning_en": "I long to worship Sadashiv with an equal mind towards stone and a fine bed, a serpent garland and a pearl garland, a precious jewel and a lump of earth, friend and enemy, grass and a lotus-eyed beauty, ordinary people and a king.",
+    "meaning_hi": "मेरी चाह है कि सदाशिव को ऐसे समभाव से भजूँ कि पत्थर और सुन्दर बिछौना, सर्पों की माला और मोतियों की माला, बहुमूल्य रत्न और मिट्टी का ढेला मुझे समान लगें। मित्र और शत्रु, तिनका और कमलनयनी सुन्दरी, साधारण प्रजा और राजा के प्रति भी मेरा मन समान रहे।"
+   },
+   {
+    "text": "कदा निलिम्पनिर्झरीनिकुञ्जकोटरे वसन्\nविमुक्तदुर्मतिः सदा शिरःस्थमञ्जलिं वहन्।\nविलोललोललोचनो ललामभाललग्नकः\nशिवेति मन्त्रमुच्चरन् कदा सुखी भवाम्यहम्॥१३॥",
+    "roman": [
+     "Kadaa nilimpa nirjhari nikunja kotare vasan",
+     "Vimukta durmatih sadaa shirahstham anjalim vahan",
+     "Vilola lola lochano lalaama bhaala lagnakah",
+     "Shiveti mantram uchcharan kadaa sukhee bhavaamy aham"
+    ],
+    "sung": "",
+    "meaning_en": "I long to live in a sheltered grove beside the heavenly Ganga, free from harmful thoughts and holding my joined hands above my head. With eyes moving in devotion and my attention fixed on Shiv's radiant forehead, I yearn to find joy in uttering His name.",
+    "meaning_hi": "मेरी चाह है कि स्वर्ग की गंगा के पास किसी लता-कुंज में रहूँ, बुरे विचारों से मुक्त होऊँ और हाथ जोड़कर सिर पर रखूँ। भक्ति में डोलते नेत्रों और शिवजी के शोभायमान ललाट में लगे ध्यान के साथ शिव नाम का उच्चारण करते हुए मैं सुख पाना चाहता हूँ।"
+   },
+   {
+    "text": "निलिम्पनाथनागरीकदम्बमौलमल्लिका-\nनिगुम्फनिर्भरक्षरन्मधूष्णिकामनोहरः।\nतनोतु नो मनोमुदं विनोदिनीमहर्निशं\nपरश्रियः परं पदं तदङ्गजत्विषां चयः॥१४॥",
+    "roman": [
+     "Nilimpa naatha naagari kadamba maula mallikaa",
+     "Nigumpha nirbhara ksharan madhooshnikaa manoharah",
+     "Tanotu no mano mudam vinodineem aharnisham",
+     "Parashriyah param padam tad angaja tvishaam chayah"
+    ],
+    "sung": "",
+    "meaning_en": "May the gathered radiance of Shiv's body, the highest abode of divine splendour, give our minds delight day and night. It is lovely with the flowing sweetness of jasmine garlands woven into the hair of the women of the celestial king's city.",
+    "meaning_hi": "शिवजी के अंगों की एकत्र आभा, जो दिव्य शोभा का परम स्थान है, हमारे मन को दिन-रात आनन्द दे। देवराज की नगरी की स्त्रियों के केशों में गुँथी चमेली की मालाओं से झरती मधुरता उसे मनोहर बनाती है।"
+   },
+   {
+    "text": "प्रचण्डवाडवानलप्रभाशुभप्रचारणी\nमहाष्टसिद्धिकामिनीजनावहूतजल्पना।\nविमुक्तवामलोचनाविवाहकालिकध्वनिः\nशिवेति मन्त्रभूषणा जगज्जयाय जायताम्॥१५॥",
+    "roman": [
+     "Prachanda vaadavaanala prabhaa shubha prachaarani",
+     "Mahaashta siddhi kaamini janaavahoota jalpanaa",
+     "Vimukta vaama lochanaa vivaaha kaalika dhvanih",
+     "Shiveti mantra bhooshanaa jagaj jayaaya jaayataam"
+    ],
+    "sung": "",
+    "meaning_en": "May the auspicious utterance adorned with the mantra 'Shiv' triumph throughout the world. Its radiance is like a fierce ocean fire, the eight great powers, pictured as women, voice this praise, and beautiful-eyed women sing it at the wedding.",
+    "meaning_hi": "शिव नाम के मन्त्र से सजी मंगलध्वनि सारे जगत में जय पाए। उसकी आभा समुद्र की प्रचण्ड अग्नि जैसी है, आठ महान सिद्धियाँ स्त्रीरूप में इस स्तुति का गान करती हैं और सुन्दर नेत्रों वाली स्त्रियाँ विवाह के समय इसे गाती हैं।"
+   },
+   {
+    "text": "इमं हि नित्यमेवमुक्तमुत्तमोत्तमं स्तवं\nपठन्स्मरन्ब्रुवन्नरो विशुद्धिमेति सन्ततम्।\nहरे गुरौ सुभक्तिमाशु याति नान्यथा गतिं\nविमोहनं हि देहिनां सुशङ्करस्य चिन्तनम्॥१६॥",
+    "roman": [
+     "Imam hi nityam evam uktam uttamottamam stavam",
+     "Pathan smaran bruvan naro vishuddhim eti santatam",
+     "Hare gurau subhaktim aashu yaati naanyathaa gatim",
+     "Vimohanam hi dehinaam Sushankarasya chintanam"
+    ],
+    "sung": "",
+    "meaning_en": "One who regularly reads, remembers and recites this excellent hymn becomes ever purer and soon gains sincere devotion to Shiv, the Guru, without turning elsewhere. Contemplation of gracious Shankar captivates the hearts of embodied beings.",
+    "meaning_hi": "जो मनुष्य इस उत्तम स्तुति को नियमित पढ़ता, याद करता और बोलता है, वह निरन्तर पवित्र होता है और गुरु शिवजी में सच्ची भक्ति पाकर दूसरी ओर नहीं भटकता। कल्याणकारी शंकर का चिन्तन देहधारी जीवों के मन को मुग्ध कर लेता है।"
+   },
+   {
+    "text": "पूजावसानसमये दशवक्त्रगीतं\nयः शम्भुपूजनपरं पठति प्रदोषे।\nतस्य स्थिरां रथगजेन्द्रतुरङ्गयुक्तां\nलक्ष्मीं सदैव सुमुखीं प्रददाति शम्भुः॥१७॥",
+    "roman": [
+     "Poojaavasaana samaye dasha vaktra geetam",
+     "Yah Shambhu poojana param pathati pradoshe",
+     "Tasya sthiraam ratha gajendra turanga yuktaam",
+     "Lakshmeem sadaiva sumukheem prada daati Shambhuh"
+    ],
+    "sung": "Some versions sing 'Lakshmeem prasaada samaye prada daati Shambhuh'.",
+    "meaning_en": "The hymn declares that Shambhu grants lasting, favourable prosperity, pictured with chariots, noble elephants and horses, to one who recites this song of the ten-headed Ravan at the close of worship during pradosh. This is its devotional praise of the fruit of recitation.",
+    "meaning_hi": "इस फलश्रुति में कहा गया है कि जो प्रदोष के समय पूजा के अन्त में दस मुखों वाले रावण के गाए इस शिवस्तवन को पढ़ता है, उसे शम्भु रथ, श्रेष्ठ हाथी और घोड़ों से युक्त स्थायी, अनुकूल सम्पदा देते हैं। यह पाठ के फल की भक्तिभरी स्तुति है।",
+    "sung_hi": "कुछ पाठों में 'लक्ष्मीं प्रसाद समये प्रददाति शम्भुः' गाया जाता है।"
+   }
+  ],
+  "intro_en": "The Shiv Tandav Stotram praises Shiv's dance with drums, swaying serpents and fire blazing on His forehead. Devotees recite it in regular worship and at the close of evening prayers around sunset, asking for devotion, a pure mind and an equal regard for all.",
+  "intro_hi": "शिव ताण्डव स्तोत्र में डमरू की ध्वनि, लहराते सर्पों और ललाट की अग्नि के साथ शिवजी के नृत्य का वर्णन है। भक्त नियमित पूजा में और सूर्यास्त के आसपास प्रदोष के समय पूजा के अंत में इसका पाठ करके भक्ति, निर्मल मन और समभाव माँगते हैं।",
+  "about_en": "The Shiv Tandav Stotram belongs to Sanskrit stotra literature and is traditionally ascribed to Ravan. Its closing colophon names him as its composer, but this attribution does not establish a historical author or date. It is an independent hymn. It is not a passage from Maharshi Valmiki's Ramayana or Goswami Tulsidas's Ramcharitmanas. This seventeen-verse form follows the main Sanskrit Documents reading. The first fifteen verses praise Shiv, and the last two describe the fruits of recitation.",
+  "about_hi": "शिव ताण्डव स्तोत्र संस्कृत के स्तोत्र साहित्य की रचना है। परम्परा इसे रावण से जोड़ती है और इसकी समापन पंक्ति भी उन्हें रचयिता बताती है। इससे ऐतिहासिक लेखक या रचना का समय तय नहीं होता। यह एक स्वतंत्र स्तोत्र है, महर्षि वाल्मीकि की रामायण या गोस्वामी तुलसीदास के रामचरितमानस का अंश नहीं। सत्रह श्लोकों वाला यह रूप संस्कृत डॉक्युमेंट्स के मुख्य पाठ का अनुसरण करता है। पहले पन्द्रह श्लोक शिवस्तुति हैं और अन्तिम दो फलश्रुति हैं।",
+  "scene_en": "A later tradition identifies this hymn with the praise Ravan offered after trying to lift Mount Kailash. Maharshi Valmiki recounts the lifting of the mountain in Uttara Kanda, sarga 16, verses 25 to 35. Shiv presses it down with His toe, trapping Ravan's arms beneath it. Ravan bows and sings verses from the Samaveda and other hymns until Shiv releases him. Valmiki does not identify those praises as the Shiv Tandav Stotram. The Ramcharitmanas does acknowledge Ravan's worship of Shiv and Brahma in Lanka Kand, doha 20, chaupai 2. It also shows Shri Ram establishing and worshipping the Shivling at Rameshwaram: “लिंग थापि बिधिवत करि पूजा। सिव समान प्रिय मोहि न दूजा॥ ३ ॥” (Ramcharitmanas, Lanka Kand, doha 2, chaupai 3). Shri Ram declares that no one is dearer to Him than Shiv. These passages invite reverence for Shiv while directing us to examine the humility of our own worship.",
+  "scene_hi": "बाद की परम्परा मानती है कि रावण ने कैलाश उठाने के प्रयास के बाद यही स्तोत्र गाया था। महर्षि वाल्मीकि की रामायण के उत्तरकाण्ड, सर्ग 16, श्लोक 25 से 35 में पर्वत उठाने की कथा आती है। शिवजी पैर के अँगूठे से पर्वत दबाते हैं और रावण की भुजाएँ उसके नीचे दब जाती हैं। रावण प्रणाम करके सामवेद के मन्त्रों और अन्य स्तुतियों से शिवजी को प्रसन्न करते हैं। तब शिवजी उनकी भुजाएँ मुक्त करते हैं। वाल्मीकि उन स्तुतियों को शिव ताण्डव स्तोत्र नहीं कहते। रामचरितमानस के लंकाकाण्ड, दोहा 20, चौपाई 2 में रावण के शिवजी और ब्रह्माजी की पूजा करने का उल्लेख है। श्री राम रामेश्वरम् में शिवलिंग की स्थापना और पूजा करते हैं: “लिंग थापि बिधिवत करि पूजा। सिव समान प्रिय मोहि न दूजा॥ ३ ॥” (रामचरितमानस, लंकाकाण्ड, दोहा 2, चौपाई 3)। श्री राम कहते हैं कि शिवजी के समान उन्हें कोई प्रिय नहीं है। इन प्रसंगों को पढ़ते हुए हम अपनी पूजा में विनम्रता का स्थान देखें।",
+  "teaching_en": "The hymn moves from Shiv's fierce dance to the singer's wish for an equal mind. Verse 12 uses samapravrittikah, which means being equally disposed. The prayer asks for freedom from the habit of valuing people and things only by what they offer us.\n\nDevotion needs humility in conduct. Ravan's devotion to Shiv did not save him from the consequences of his pride. We too can enjoy a sacred chant while resisting correction. For example, a person may practise a hymn carefully, then become irritated when someone at home points out a missed task. The words were remembered. The request was dismissed. Similarly, worship asks us to attend to the person before us with patience, even when praise or respect does not come our way.\n\nLearning the pronunciation takes effort, and that effort deserves care. Let the meaning receive care too. After reciting one verse today, sit for a moment, remember Shiv and accept one reasonable correction without defending yourself.",
+  "teaching_hi": "स्तोत्र में प्रचण्ड ताण्डव की स्तुति के बाद भक्त अपने मन में समभाव माँगता है। बारहवें श्लोक का समप्रवृत्तिकः शब्द समान भाव रखने की बात कहता है। हम लोगों को अपने लाभ और हानि से तौलते हैं। भक्ति इस आदत को पहचानने में हमारी सहायता करे।\n\nरावण की शिवभक्ति उन्हें अहंकार के परिणाम से नहीं बचा सकी। हमें भी अपने व्यवहार को देखना है। मान लीजिए, कोई व्यक्ति बड़े ध्यान से स्तोत्र का अभ्यास करता है। घर में कोई छूटा हुआ काम याद दिला दे तो वह चिढ़ जाता है। पाठ तो याद रहा। बात सुनने का धीरज नहीं रहा। इसी तरह पूजा के साथ दूसरों की उचित बात सुनने का अभ्यास भी चाहिए।\n\nसही उच्चारण सीखने में मेहनत लगती है। अर्थ को जीवन में उतारने पर भी ध्यान दें। आज एक श्लोक पढ़ने के बाद थोड़ा ठहरें, शिवजी का स्मरण करें और अपनी सफाई दिए बिना किसी की एक उचित बात स्वीकार करें।",
+  "faq": [
+   {
+    "q_en": "What does Shiv Tandav Stotram mean?",
+    "a_en": "Shiv Tandav Stotram means a hymn praising Shiv's Tandav, His powerful divine dance. Its verses describe His form and ask for well-being, devotion, purity and an equal mind.",
+    "q_hi": "शिव ताण्डव स्तोत्र का अर्थ क्या है?",
+    "a_hi": "शिव ताण्डव स्तोत्र का अर्थ है शिवजी के प्रचण्ड दिव्य नृत्य की स्तुति। इसके श्लोक उनके स्वरूप का वर्णन करते हैं और कल्याण, भक्ति, मन की शुद्धि तथा समभाव की प्रार्थना करते हैं।"
+   },
+   {
+    "q_en": "Who wrote Shiv Tandav Stotram?",
+    "a_en": "Tradition attributes it to Ravan, and its closing colophon names him as the composer. This is a traditional attribution, not a historically established authorship or date.",
+    "q_hi": "शिव ताण्डव स्तोत्र किसने लिखा था?",
+    "a_hi": "परम्परा इसे रावण की रचना मानती है और इसकी समापन पंक्ति भी उन्हें रचयिता बताती है। यह पारम्परिक मान्यता है। इससे ऐतिहासिक लेखक या रचना का समय तय नहीं होता।"
+   },
+   {
+    "q_en": "When should Shiv Tandav Stotram be recited?",
+    "a_en": "Verse 16 encourages regular reading, remembrance and recitation. Verse 17 mentions reading it at the end of Shiv worship during pradosh, the evening period around sunset. Begin at a pace that lets you attend to the words and their meaning.",
+    "q_hi": "शिव ताण्डव स्तोत्र कब पढ़ना चाहिए?",
+    "a_hi": "सोलहवाँ श्लोक नियमित पाठ और स्मरण की बात करता है। सत्रहवें श्लोक में सूर्यास्त के आसपास के प्रदोष समय में शिवपूजा के अन्त में पाठ का उल्लेख है। ऐसी गति से पढ़ें जिसमें शब्दों और अर्थ पर ध्यान रहे।"
+   },
+   {
+    "q_en": "What are the benefits of reciting Shiv Tandav Stotram?",
+    "a_en": "The hymn praises purity and sincere devotion to Shiv as fruits of regular recitation and remembrance. Its final verse celebrates prosperity through Shambhu's grace. Read these as devotional expressions and pray with humility, without treating recitation as a guarantee of wealth or a particular result.",
+    "q_hi": "शिव ताण्डव स्तोत्र पढ़ने के क्या लाभ हैं?",
+    "a_hi": "इसकी फलश्रुति में नियमित पाठ और स्मरण से मन की शुद्धि और शिवभक्ति की बात कही गई है। अन्तिम श्लोक शम्भु की कृपा से सम्पदा मिलने की स्तुति करता है। इन्हें भक्तिभाव से पढ़ें और विनम्रता से प्रार्थना करें। पाठ को धन या किसी निश्चित परिणाम की गारंटी न मानें।"
+   },
+   {
+    "q_en": "Is Shiv Tandav Stotram from the Ramayana, and why do verse counts differ?",
+    "a_en": "It is an independent Sanskrit hymn, not a passage from Maharshi Valmiki's Ramayana or the Ramcharitmanas. Versions include or omit verses, so their verse counts and numbering differ.",
+    "q_hi": "क्या शिव ताण्डव स्तोत्र रामायण में है और इसके श्लोकों की संख्या अलग क्यों मिलती है?",
+    "a_hi": "यह स्वतंत्र संस्कृत स्तोत्र है, महर्षि वाल्मीकि की रामायण या रामचरितमानस का अंश नहीं। अलग पाठों में कुछ श्लोक जुड़ते या छूटते हैं, इसलिए श्लोकों की संख्या और क्रमांक बदल जाते हैं।"
+   }
+  ],
+  "spellings": [
+   "Shiv Tandav Stotram",
+   "Shiva Tandava Stotram",
+   "Shiv Tandav Stotra",
+   "Shiv Tandav lyrics",
+   "Ravan Shiv Tandav",
+   "शिव तांडव स्तोत्र",
+   "शिव ताण्डव स्तोत्रम्",
+   "शिवताण्डवस्तोत्रम्"
+  ]
  }
 ]
