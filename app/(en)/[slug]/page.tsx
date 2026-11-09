@@ -92,7 +92,7 @@ export default async function Page({
   return (
     <>
       <JsonLd data={{ "@context": "https://schema.org", "@graph": graph }} />
-      <LongPage title={meta.title} image={showApp ? def.image : undefined} imageAlt={def.imageAlt} crumbs={crumbs} related={def.related}>
+      <LongPage title={meta.title} image={showApp ? def.image : undefined} imageAlt={def.imageAlt} focus={def.focus} crumbs={crumbs} related={def.related}>
         <div className="prose-ram" dangerouslySetInnerHTML={{ __html: first }} />
         {showApp && <AppCard place={slug} className="my-10" headline={slug === "ramayana-movie" ? "Watched the film? Read the original." : undefined} />}
         {rest && <div className="prose-ram" dangerouslySetInnerHTML={{ __html: rest }} />}

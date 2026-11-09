@@ -16,6 +16,7 @@ const url = (p: string) => `${site.url}${p}`;
 /** Last real change per path. Update when a page's content changes so crawlers come back. */
 const CHANGED: [RegExp, string][] = [
   [/^\/(hi\/)?(chaupai|stuti|songs)(\/|$)/, "2026-11-08"],
+  [/^\/did-ravan-love-sita$/, "2026-11-09"],
   [/^\/(why-did-ravan-kidnap-sita|was-ravan-at-sita-swayamvar|surpanakha|lakshman-avatar|ravan-boon|ramayana-movie)$/, "2026-11-08"],
   [/^\/(hi\/)?sunderkand$/, "2026-11-08"],
   [/^\/(characters|places)(\/|$)/, "2026-11-08"],

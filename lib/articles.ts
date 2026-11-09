@@ -6,6 +6,8 @@ export type ArticleDef = {
   slug: string;
   image: string; // under /images, 16:9 or portrait
   imageAlt: string;
+  /** CSS object-position for the hero crop, when the default cuts the subject. */
+  focus?: string;
   eyebrow: string;
   type: "Article" | "AboutPage" | "FAQPage";
   related?: { label: string; href: string }[];
@@ -20,6 +22,7 @@ export const articles: ArticleDef[] = [
     eyebrow: "Aranya Kand",
     type: "Article",
     related: [
+      { label: "Did Ravan love Sita?", href: "/did-ravan-love-sita" },
       { label: "Characters: Ravan", href: "/characters/ravan" },
       { label: "Aranya Kand", href: "/ramcharitmanas/aranya-kand" },
       { label: "The 2026 Ramayana film", href: "/ramayana-movie" },
@@ -59,6 +62,19 @@ export const articles: ArticleDef[] = [
       { label: "Lakshman", href: "/characters/lakshman" },
       { label: "Urmila", href: "/characters/urmila" },
       { label: "Shri Ram", href: "/characters/ram" },
+    ],
+  },
+  {
+    slug: "did-ravan-love-sita",
+    image: "/images/deity/place-ashok-vatika.webp",
+    imageAlt: "Mata Sita under the ashoka tree in Ashok Vatika, remembering Shri Ram.",
+    focus: "30% 52%",
+    eyebrow: "Sunderkand",
+    type: "Article",
+    related: [
+      { label: "Why did Ravan kidnap Sita?", href: "/why-did-ravan-kidnap-sita" },
+      { label: "Characters: Ravan", href: "/characters/ravan" },
+      { label: "Places: Ashok Vatika", href: "/places/ashok-vatika" },
     ],
   },
   {

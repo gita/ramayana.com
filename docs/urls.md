@@ -1,6 +1,6 @@
 # ramayana.com URLs
 
-Generated 2026-11-08 from the live sitemap: 828 URLs.
+Generated 2026-11-09 from the live sitemap: 828 URLs.
 
 ## Change log
 
@@ -53,6 +53,12 @@ Updated:
 - All images: hero art at quality 90, everything else at 85 (was 60 and 75)
 - Header: more opaque so scrolling verses no longer show through
 Search Console: sitemap resubmitted (816 URLs); indexing requested for the five question articles, Rudrashtakam, two song pages, Ravan, Jatayu and Lanka
+
+### 9 November 2026
+New:
+- /did-ravan-love-sita: answers a trending question (+5,000% on Google Trends) from Valmiki (Sundara Kanda 20 to 22, Yuddha Kanda 13) and the Ramcharitmanas (Aranya Kand 28, Sunderkand 9 to 11)
+Updated:
+- /why-did-ravan-kidnap-sita: links to the new page
 
 
 ## All URLs by type
