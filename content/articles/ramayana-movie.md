@@ -11,7 +11,7 @@ For those who come from the trailer or the cinema, the scripture is the next pla
 - **Producers:** Namit Malhotra and Yash, through Prime Focus Studios, Monster Mind Creations and DNEG.
 - **Cast:** Ranbir Kapoor as Shri Ram, Sai Pallavi as Mata Sita, Yash as Ravan, Sunny Deol as Hanumanji and Ravi Dubey as Lakshman.
 - **Release:** In cinemas worldwide from 5 November 2026, for Diwali, including IMAX. It premiered in Los Angeles on 27 October 2026.
-- **Part 2:** Filming has begun. It was announced for Diwali 2027, and reports in October 2026 suggest it may move later.
+- **Part 2:** Filming has begun. First announced for Diwali 2027, it now releases at Diwali 2028, as producer Namit Malhotra has confirmed. No exact date has been announced. [Read the update](/news/ramayana-part-2-diwali-2028-report).
 
 Many readers know the story through Ramanand Sagar's *Ramayan* television serial of 1987 or the animated *Ramayana: The Legend of Prince Rama* of 1992, the screen Ramayanas they grew up with.
 
@@ -71,4 +71,4 @@ Sunderkand is a suitable beginning, especially for Hindi readers familiar with i
 
 ### When does the Ramayana movie release?
 
-Part 1, titled *Ramayana: Rise of a Legend*, releases worldwide on 5 November 2026, for Diwali, including IMAX. Nitesh Tiwari directs the film. The story is planned across two parts, with Part 2 announced for Diwali 2027.
+Part 1, titled *Ramayana: Rise of a Legend*, releases worldwide on 5 November 2026, for Diwali, including IMAX. Nitesh Tiwari directs the film. The story is planned across two parts, with Part 2 now set for Diwali 2028.

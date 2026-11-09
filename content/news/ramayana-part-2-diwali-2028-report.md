@@ -1,9 +1,9 @@
 ---
-{"title": "Ramayana Part 2 may move to Diwali 2028, reports say", "description": "Reports say Ramayana Part 2 may move from Diwali 2027 to Diwali 2028. The makers have not confirmed it. Here is what the war story covers.", "date": "2026-10-30T09:00:00+05:30", "sources": [{"name": "Bollywood Hungama", "url": "https://www.bollywoodhungama.com/news/bollywood/scoop-ramayana-2-delayed-to-2028-ranbir-kapoor-yash-starrer-to-release-on-diwali-2028/"}, {"name": "News Karnataka", "url": "https://newskarnataka.com/entertainment/ramayana-2-release-may-shift-to-diwali-2028/24102026/"}]}
+{"title": "Ramayana Part 2 moves to Diwali 2028, producer confirms", "description": "Producer Namit Malhotra confirms Ramayana Part 2 will release at Diwali 2028 instead of Diwali 2027. Here is what the war story covers.", "date": "2026-11-09T12:00:00+05:30", "sources": [{"name": "NewsBytes", "url": "https://www.newsbytesapp.com/news/entertainment/producer-malhotra-confirms-ramayana-part-2-delayed-to-2028/tldr"}, {"name": "The Hollywood Reporter India", "url": "https://www.hollywoodreporterindia.com/features/insight/ramayana-part-two-confirmed-for-diwali-2028-sunny-deols-hanuman-teased-in-mid-credit-scene"}, {"name": "Bollywood Hungama", "url": "https://www.bollywoodhungama.com/news/bollywood/scoop-ramayana-2-delayed-to-2028-ranbir-kapoor-yash-starrer-to-release-on-diwali-2028/"}]}
 ---
-Part 2 of “Ramayana: Rise of a Legend” may move from Diwali 2027 to Diwali 2028, according to Bollywood Hungama. The report cites a need for more shooting time because the war unfolds in this part of the film. The makers have not officially confirmed any change, and the reported delay remains unconfirmed.
+Part 2 of “Ramayana: Rise of a Legend” will release at Diwali 2028 instead of Diwali 2027, producer Namit Malhotra has confirmed. NewsBytes reported on 4 November 2026 that Malhotra wants more time to complete the film and give it a grand finale.
 
-Bollywood Hungama also reports that a release date may be announced in the end credits of Part 1. That possibility is also unconfirmed. For now, Diwali 2028 is a reported possibility, with no official announcement replacing the previously announced Diwali 2027 release.
+The Hollywood Reporter India reports that the Diwali 2028 window appears in Part One's closing credits. No exact release date has been announced. Earlier reports from Bollywood Hungama in October 2026 had said the war portion needed more shooting time.
 
 ## Read the war in the scriptures
 

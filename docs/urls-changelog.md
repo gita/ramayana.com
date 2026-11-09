@@ -55,3 +55,5 @@ New:
 - /did-ravan-love-sita: answers a trending question (+5,000% on Google Trends) from Valmiki (Sundara Kanda 20 to 22, Yuddha Kanda 13) and the Ramcharitmanas (Aranya Kand 28, Sunderkand 9 to 11)
 Updated:
 - /why-did-ravan-kidnap-sita: links to the new page
+- /news/ramayana-part-2-diwali-2028-report: updated, the producer has now confirmed Part 2 for Diwali 2028
+- /ramayana-movie: Part 2 date updated to Diwali 2028
