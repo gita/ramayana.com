@@ -57,3 +57,4 @@ Updated:
 - /why-did-ravan-kidnap-sita: links to the new page
 - /news/ramayana-part-2-diwali-2028-report: updated, the producer has now confirmed Part 2 for Diwali 2028
 - /ramayana-movie: Part 2 date updated to Diwali 2028
+- /news/ramayana-film-hanuman-chalisa-video: new, the film's Shree Hanuman Chalisa video, linked to our Hanuman Chalisa page
