@@ -1,11 +1,11 @@
 ---
-{"title": "Ayodhya's 10th Deepotsav runs from 5 to 7 November", "description": "Ayodhya holds its 10th Deepotsav from 5 to 7 November, with a target of 30 to 33 lakh lamps. Here is the Manas passage behind it.", "date": "2026-10-30T17:00:00+05:30", "sources": [{"name": "UNI", "url": "https://www.uniindia.com/north-india/event-up-yogi-deepotsav-3-mn-lamps/223316"}, {"name": "Business Today", "url": "https://www.businesstoday.in/latest/trends/photo/ayodhya-plans-30-lakh-diyas-for-deepotsav-meet-the-potter-families-shaping-the-lamps-behind-the-celebration-563984-2026-10-28"}, {"name": "Organiser", "url": "https://organiser.org/2026/10/10/384717/bharat/ayodhya-deepotsav-2026-33-lakh-diyas-to-illuminate-ram-ki-paidi-and-saryu-riverfront-from-november-5-to-7/"}]}
+{"title": "Ayodhya lights more than 30 lakh diyas at its 10th Deepotsav", "description": "Lamps lit 56 Saryu ghats for Ayodhya's 10th Deepotsav on 7 November 2026. Read the Manas passage on preparing each household's door.", "date": "2026-11-11T13:00:00+05:30", "sources": [{"name": "PTI via The Week", "url": "https://www.theweek.in/wire-updates/national/2026/11/07/ayodhya-glows-with-over-36-lakh-diyas-in-grand-10th-deepotsav.html"}, {"name": "Free Press Journal", "url": "https://www.freepressjournal.in/lifestyle/ayodhya-deepotsav-2026-30-lakh-diyas-drone-shows-and-grand-fireworks-illuminate-ram-ki-paidi"}, {"name": "OdishaBytes", "url": "https://odishabytes.com/ayodhya-celebrates-10th-deepotsav-over-30-lakh-diyas-light-up-56-ghats-along-saryu-river/amp/"}]}
 ---
-Ayodhya is preparing for Deepotsav from 5 to 7 November, according to UNI's report on 23 October. The agency reported a target of over three million lamps, with over 35,000 volunteers from Dr. Ram Manohar Lohia Avadh University taking part in the festival.
+Ayodhya held its 10th Deepotsav on 7 November 2026, with lamps lit across 56 ghats along the Saryu, including Ram Ki Paidi.
 
-Organiser reported on 10 October that this is the 10th Deepotsav, with 33 lakh earthen lamps planned at Ram Ki Paidi and the Saryu riverfront, supported by 34,000 volunteers.
+More than 30 lakh lamps were lit, and PTI put the figure at over 36 lakh in its report carried by The Week. The Free Press Journal and OdishaBytes reported more than 30 lakh diyas. OdishaBytes also reported an additional one lakh diyas at the Shri Ram Janmabhoomi temple premises.
 
-Business Today reported on 28 October a plan for 30 lakh diyas. It said local potter families reported large orders, with electric wheels helping them meet demand. The reports differ on the planned numbers. The final lamp count is not yet known.
+The celebrations included a drone show, according to PTI. The reports did not confirm a Guinness record for 2026.
 
 ## Each household prepares its own door
 

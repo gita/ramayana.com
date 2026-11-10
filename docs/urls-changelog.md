@@ -60,3 +60,4 @@ Updated:
 - /news/ramayana-film-hanuman-chalisa-video: new, the film's Shree Hanuman Chalisa video, linked to our Hanuman Chalisa page
 - /news/ramayana-film-tax-free-west-bengal: new
 - /news/ramayana-film-hong-kong-release-november-12: new
+- /news/ayodhya-deepotsav-2026-november-5-7: updated with the Deepotsav result
