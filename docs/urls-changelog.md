@@ -59,3 +59,4 @@ Updated:
 - /ramayana-movie: Part 2 date updated to Diwali 2028
 - /news/ramayana-film-hanuman-chalisa-video: new, the film's Shree Hanuman Chalisa video, linked to our Hanuman Chalisa page
 - /news/ramayana-film-tax-free-west-bengal: new
+- /news/ramayana-film-hong-kong-release-november-12: new
