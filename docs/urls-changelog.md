@@ -62,3 +62,10 @@ Updated:
 - /news/ramayana-film-hong-kong-release-november-12: new
 - /news/ayodhya-deepotsav-2026-november-5-7: updated with the Deepotsav result
 - /news/ayodhya-divine-heritage-trail-tour: new
+
+### 11 November 2026
+New:
+- /was-sita-a-warrior: answers a trending question (+2,000% on Google Trends) from Valmiki (Aranya 47, Sundara 22, 26, 37) and the Ramcharitmanas (Sunderkand 9 and 10)
+Updated:
+- /surpanakha: title and opening now lead with her husband's name (574 impressions at position 9 with 0 clicks), new painting of Surpanakha at Panchavati
+- /did-ravan-love-sita: links to the new page

@@ -17,6 +17,7 @@ const url = (p: string) => `${site.url}${p}`;
 const CHANGED: [RegExp, string][] = [
   [/^\/(hi\/)?(chaupai|stuti|songs)(\/|$)/, "2026-11-08"],
   [/^\/did-ravan-love-sita$/, "2026-11-09"],
+  [/^\/(was-sita-a-warrior|surpanakha)$/, "2026-11-11"],
   [/^\/(why-did-ravan-kidnap-sita|was-ravan-at-sita-swayamvar|surpanakha|lakshman-avatar|ravan-boon|ramayana-movie)$/, "2026-11-08"],
   [/^\/(hi\/)?sunderkand$/, "2026-11-08"],
   [/^\/(characters|places)(\/|$)/, "2026-11-08"],

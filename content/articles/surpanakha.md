@@ -1,6 +1,6 @@
-# Who was Surpanakha, and who was her husband?
+# Surpanakha's husband Vidyujjihva and her story
 
-Surpanakha was Ravan’s sister, a rakshasi who could assume different forms. In Maharshi Valmiki’s Ramayana, her husband was Vidyujjihva, chief of the Danavas and son of Kalaka, whom Ravan later killed. The Ramcharitmanas does not name a husband and presents Surpanakha’s claim that she had remained unmarried as part of her deceptive approach to Shri Ram.
+Surpanakha's husband was Vidyujjihva (Valmiki Ramayana, Uttara Kanda), a Danava chief and son of Kalaka, whom Ravan later killed. She was Ravan's sister. The Ramcharitmanas does not name a husband and shows her claiming to be unmarried when she approaches Shri Ram.
 
 ## Surpanakha in the Ramcharitmanas
 

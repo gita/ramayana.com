@@ -1,6 +1,6 @@
 # ramayana.com URLs
 
-Generated 2026-11-09 from the live sitemap: 828 URLs.
+Generated 2026-11-11 from the live sitemap: 1033 URLs.
 
 ## Change log
 
@@ -59,18 +59,33 @@ New:
 - /did-ravan-love-sita: answers a trending question (+5,000% on Google Trends) from Valmiki (Sundara Kanda 20 to 22, Yuddha Kanda 13) and the Ramcharitmanas (Aranya Kand 28, Sunderkand 9 to 11)
 Updated:
 - /why-did-ravan-kidnap-sita: links to the new page
+- /news/ramayana-part-2-diwali-2028-report: updated, the producer has now confirmed Part 2 for Diwali 2028
+- /ramayana-movie: Part 2 date updated to Diwali 2028
+- /news/ramayana-film-hanuman-chalisa-video: new, the film's Shree Hanuman Chalisa video, linked to our Hanuman Chalisa page
+- /news/ramayana-film-tax-free-west-bengal: new
+- /news/ramayana-film-hong-kong-release-november-12: new
+- /news/ayodhya-deepotsav-2026-november-5-7: updated with the Deepotsav result
+- /news/ayodhya-divine-heritage-trail-tour: new
+
+### 11 November 2026
+New:
+- /was-sita-a-warrior: answers a trending question (+2,000% on Google Trends) from Valmiki (Aranya 47, Sundara 22, 26, 37) and the Ramcharitmanas (Sunderkand 9 and 10)
+Updated:
+- /surpanakha: title and opening now lead with her husband's name (574 impressions at position 9 with 0 clicks), new painting of Surpanakha at Panchavati
+- /did-ravan-love-sita: links to the new page
 
 
 ## All URLs by type
 
 
-### Articles and core pages (29)
+### Articles and core pages (30)
 
 - https://ramayana.com/
 - https://ramayana.com/why-did-ravan-kidnap-sita
 - https://ramayana.com/was-ravan-at-sita-swayamvar
 - https://ramayana.com/surpanakha
 - https://ramayana.com/lakshman-avatar
+- https://ramayana.com/did-ravan-love-sita
 - https://ramayana.com/ravan-boon
 - https://ramayana.com/ramayana-movie
 - https://ramayana.com/ramayana-vs-ramcharitmanas
@@ -149,15 +164,19 @@ Updated:
 - https://ramayana.com/feelings/love
 - https://ramayana.com/feelings/surrender
 
-### News (9)
+### News (13)
 
 - https://ramayana.com/news
+- https://ramayana.com/news/ayodhya-divine-heritage-trail-tour
+- https://ramayana.com/news/ayodhya-deepotsav-2026-november-5-7
+- https://ramayana.com/news/ramayana-film-hong-kong-release-november-12
+- https://ramayana.com/news/ramayana-film-tax-free-west-bengal
+- https://ramayana.com/news/ramayana-film-hanuman-chalisa-video
+- https://ramayana.com/news/ramayana-part-2-diwali-2028-report
 - https://ramayana.com/news/ramayana-film-releases-worldwide-november-5
 - https://ramayana.com/news/ramayana-film-jiohotstar-pay-per-view
 - https://ramayana.com/news/valmiki-jayanti-2026-ayodhya
 - https://ramayana.com/news/ram-mandir-winter-darshan-timings-november-1
-- https://ramayana.com/news/ayodhya-deepotsav-2026-november-5-7
-- https://ramayana.com/news/ramayana-part-2-diwali-2028-report
 - https://ramayana.com/news/ramayana-film-u-certificate-runtime
 - https://ramayana.com/news/ramayana-los-angeles-premiere
 
@@ -174,7 +193,7 @@ Updated:
 - https://ramayana.com/places/lanka
 - https://ramayana.com/places/ashok-vatika
 
-### Ramcharitmanas doha pages (261)
+### Ramcharitmanas doha pages (361)
 
 - https://ramayana.com/ramcharitmanas/bal-kand/mangalacharan
 - https://ramayana.com/ramcharitmanas/bal-kand/doha-1
@@ -186,7 +205,7 @@ Updated:
 - https://ramayana.com/ramcharitmanas/bal-kand/doha-7d
 - https://ramayana.com/ramcharitmanas/bal-kand/doha-8
 - https://ramayana.com/ramcharitmanas/bal-kand/doha-9
-- ... and 251 more
+- ... and 351 more
 
 ### Ramcharitmanas hub and kands (8)
 
@@ -281,7 +300,7 @@ Updated:
 - https://ramayana.com/hi/feelings/love
 - https://ramayana.com/hi/feelings/surrender
 
-### Hindi: Ramcharitmanas doha pages (261)
+### Hindi: Ramcharitmanas doha pages (361)
 
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/mangalacharan
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/doha-1
@@ -293,7 +312,7 @@ Updated:
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/doha-7d
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/doha-8
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/doha-9
-- ... and 251 more
+- ... and 351 more
 
 ### Hindi: Ramcharitmanas hub and kands (8)
 

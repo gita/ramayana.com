@@ -42,8 +42,8 @@ export const articles: ArticleDef[] = [
   },
   {
     slug: "surpanakha",
-    image: "/images/kand/aranya-kand.webp",
-    imageAlt: "The forest of Panchavati.",
+    image: "/images/story/surpanakha-panchavati.webp",
+    imageAlt: "Surpanakha, in a charming disguise, approaches Shri Ram at His hut in Panchavati as Lakshmanji stands by.",
     eyebrow: "Characters",
     type: "Article",
     related: [
@@ -65,6 +65,19 @@ export const articles: ArticleDef[] = [
     ],
   },
   {
+    slug: "was-sita-a-warrior",
+    image: "/images/deity/sita.webp",
+    imageAlt: "Mata Sita seated in a royal garden, holding a lotus.",
+    focus: "50% 20%",
+    eyebrow: "Sunderkand",
+    type: "Article",
+    related: [
+      { label: "Did Ravan love Sita?", href: "/did-ravan-love-sita" },
+      { label: "Characters: Sita", href: "/characters/sita" },
+      { label: "Sunderkand", href: "/sunderkand" },
+    ],
+  },
+  {
     slug: "did-ravan-love-sita",
     image: "/images/deity/place-ashok-vatika.webp",
     imageAlt: "Mata Sita under the ashoka tree in Ashok Vatika, remembering Shri Ram.",
@@ -73,7 +86,7 @@ export const articles: ArticleDef[] = [
     type: "Article",
     related: [
       { label: "Why did Ravan kidnap Sita?", href: "/why-did-ravan-kidnap-sita" },
-      { label: "Characters: Ravan", href: "/characters/ravan" },
+      { label: "Was Sita a warrior?", href: "/was-sita-a-warrior" },
       { label: "Places: Ashok Vatika", href: "/places/ashok-vatika" },
     ],
   },
