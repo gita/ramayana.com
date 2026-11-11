@@ -61,3 +61,4 @@ Updated:
 - /news/ramayana-film-tax-free-west-bengal: new
 - /news/ramayana-film-hong-kong-release-november-12: new
 - /news/ayodhya-deepotsav-2026-november-5-7: updated with the Deepotsav result
+- /news/ayodhya-divine-heritage-trail-tour: new
