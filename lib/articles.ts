@@ -123,6 +123,19 @@ export const articles: ArticleDef[] = [
     ],
   },
   {
+    slug: "when-was-ramcharitmanas-written",
+    image: "/images/deity/place-ayodhya.webp",
+    imageAlt: "Ayodhya on the banks of the Saryu, where Goswami Tulsidas began the Ramcharitmanas on Ram Navami.",
+    focus: "50% 45%",
+    eyebrow: "The two texts",
+    type: "Article",
+    related: [
+      { label: "Goswami Tulsidas", href: "/tulsidas" },
+      { label: "Ramayana and Ramcharitmanas compared", href: "/ramayana-vs-ramcharitmanas" },
+      { label: "Bal Kand", href: "/ramcharitmanas/bal-kand" },
+    ],
+  },
+  {
     slug: "ramayana-vs-ramcharitmanas",
     image: "/images/authors/tulsidas.webp",
     imageAlt: "Goswami Tulsidas writing on the ghats of Varanasi.",
@@ -130,7 +143,7 @@ export const articles: ArticleDef[] = [
     type: "Article",
     related: [
       { label: "Goswami Tulsidas", href: "/tulsidas" },
-      { label: "Maharshi Valmiki", href: "/valmiki" },
+      { label: "When was the Ramcharitmanas written?", href: "/when-was-ramcharitmanas-written" },
       { label: "Read the Ramcharitmanas", href: "/ramcharitmanas" },
     ],
   },

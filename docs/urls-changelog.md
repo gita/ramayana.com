@@ -69,3 +69,9 @@ New:
 Updated:
 - /surpanakha: title and opening now lead with her husband's name (574 impressions at position 9 with 0 clicks), new painting of Surpanakha at Panchavati
 - /did-ravan-love-sita: links to the new page
+
+### 12 November 2026
+New:
+- /when-was-ramcharitmanas-written: Tulsidas's own record in Bal Kand, Doha 34 (Samvat 1631, Ram Navami, Tuesday, Ayodhya), a breakout search on Google Trends
+Updated:
+- /ramayana-vs-ramcharitmanas: links to the new page

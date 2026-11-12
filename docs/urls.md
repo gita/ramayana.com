@@ -1,6 +1,6 @@
 # ramayana.com URLs
 
-Generated 2026-11-11 from the live sitemap: 1033 URLs.
+Generated 2026-11-12 from the live sitemap: 1034 URLs.
 
 ## Change log
 
@@ -74,17 +74,24 @@ Updated:
 - /surpanakha: title and opening now lead with her husband's name (574 impressions at position 9 with 0 clicks), new painting of Surpanakha at Panchavati
 - /did-ravan-love-sita: links to the new page
 
+### 12 November 2026
+New:
+- /when-was-ramcharitmanas-written: Tulsidas's own record in Bal Kand, Doha 34 (Samvat 1631, Ram Navami, Tuesday, Ayodhya), a breakout search on Google Trends
+Updated:
+- /ramayana-vs-ramcharitmanas: links to the new page
+
 
 ## All URLs by type
 
 
-### Articles and core pages (30)
+### Articles and core pages (31)
 
 - https://ramayana.com/
 - https://ramayana.com/why-did-ravan-kidnap-sita
 - https://ramayana.com/was-ravan-at-sita-swayamvar
 - https://ramayana.com/surpanakha
 - https://ramayana.com/lakshman-avatar
+- https://ramayana.com/was-sita-a-warrior
 - https://ramayana.com/did-ravan-love-sita
 - https://ramayana.com/ravan-boon
 - https://ramayana.com/ramayana-movie
