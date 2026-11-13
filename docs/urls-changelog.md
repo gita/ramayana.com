@@ -75,3 +75,4 @@ New:
 - /when-was-ramcharitmanas-written: Tulsidas's own record in Bal Kand, Doha 34 (Samvat 1631, Ram Navami, Tuesday, Ayodhya), a breakout search on Google Trends
 Updated:
 - /ramayana-vs-ramcharitmanas: links to the new page
+- /news/ayodhya-parikrama-dates-november-2026: new
