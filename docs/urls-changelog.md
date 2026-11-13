@@ -76,3 +76,10 @@ New:
 Updated:
 - /ramayana-vs-ramcharitmanas: links to the new page
 - /news/ayodhya-parikrama-dates-november-2026: new
+
+### 13 November 2026
+New:
+- /how-does-the-ramayana-end: Sita's return to the earth, Lakshman's departure and Shri Ram's return to His own form, from Valmiki's Uttara Kanda, and what the Ramcharitmanas does and does not narrate (several breakout searches on Google Trends); new painting of the Saryu at twilight
+- /news/ayodhya-parikrama-dates-november-2026
+Updated:
+- /was-sita-a-warrior: links to the new page

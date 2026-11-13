@@ -65,6 +65,18 @@ export const articles: ArticleDef[] = [
     ],
   },
   {
+    slug: "how-does-the-ramayana-end",
+    image: "/images/story/saryu-twilight.webp",
+    imageAlt: "The sacred Saryu at twilight near Ayodhya, with lamps floating on the water.",
+    eyebrow: "Uttar Kand",
+    type: "Article",
+    related: [
+      { label: "Was Sita a warrior?", href: "/was-sita-a-warrior" },
+      { label: "Characters: Lakshman", href: "/characters/lakshman" },
+      { label: "Uttar Kand", href: "/ramcharitmanas/uttar-kand" },
+    ],
+  },
+  {
     slug: "was-sita-a-warrior",
     image: "/images/deity/sita.webp",
     imageAlt: "Mata Sita seated in a royal garden, holding a lotus.",
@@ -73,7 +85,7 @@ export const articles: ArticleDef[] = [
     type: "Article",
     related: [
       { label: "Did Ravan love Sita?", href: "/did-ravan-love-sita" },
-      { label: "Characters: Sita", href: "/characters/sita" },
+      { label: "How does the Ramayana end?", href: "/how-does-the-ramayana-end" },
       { label: "Sunderkand", href: "/sunderkand" },
     ],
   },

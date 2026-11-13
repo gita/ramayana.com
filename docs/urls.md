@@ -1,6 +1,6 @@
 # ramayana.com URLs
 
-Generated 2026-11-12 from the live sitemap: 1034 URLs.
+Generated 2026-11-13 from the live sitemap: 1236 URLs.
 
 ## Change log
 
@@ -79,12 +79,20 @@ New:
 - /when-was-ramcharitmanas-written: Tulsidas's own record in Bal Kand, Doha 34 (Samvat 1631, Ram Navami, Tuesday, Ayodhya), a breakout search on Google Trends
 Updated:
 - /ramayana-vs-ramcharitmanas: links to the new page
+- /news/ayodhya-parikrama-dates-november-2026: new
+
+### 13 November 2026
+New:
+- /how-does-the-ramayana-end: Sita's return to the earth, Lakshman's departure and Shri Ram's return to His own form, from Valmiki's Uttara Kanda, and what the Ramcharitmanas does and does not narrate (several breakout searches on Google Trends); new painting of the Saryu at twilight
+- /news/ayodhya-parikrama-dates-november-2026
+Updated:
+- /was-sita-a-warrior: links to the new page
 
 
 ## All URLs by type
 
 
-### Articles and core pages (31)
+### Articles and core pages (32)
 
 - https://ramayana.com/
 - https://ramayana.com/why-did-ravan-kidnap-sita
@@ -95,6 +103,7 @@ Updated:
 - https://ramayana.com/did-ravan-love-sita
 - https://ramayana.com/ravan-boon
 - https://ramayana.com/ramayana-movie
+- https://ramayana.com/when-was-ramcharitmanas-written
 - https://ramayana.com/ramayana-vs-ramcharitmanas
 - https://ramayana.com/who-wrote-the-ramayana
 - https://ramayana.com/read-ramcharitmanas-online
@@ -171,9 +180,10 @@ Updated:
 - https://ramayana.com/feelings/love
 - https://ramayana.com/feelings/surrender
 
-### News (13)
+### News (14)
 
 - https://ramayana.com/news
+- https://ramayana.com/news/ayodhya-parikrama-dates-november-2026
 - https://ramayana.com/news/ayodhya-divine-heritage-trail-tour
 - https://ramayana.com/news/ayodhya-deepotsav-2026-november-5-7
 - https://ramayana.com/news/ramayana-film-hong-kong-release-november-12
@@ -200,7 +210,7 @@ Updated:
 - https://ramayana.com/places/lanka
 - https://ramayana.com/places/ashok-vatika
 
-### Ramcharitmanas doha pages (361)
+### Ramcharitmanas doha pages (423)
 
 - https://ramayana.com/ramcharitmanas/bal-kand/mangalacharan
 - https://ramayana.com/ramcharitmanas/bal-kand/doha-1
@@ -212,7 +222,7 @@ Updated:
 - https://ramayana.com/ramcharitmanas/bal-kand/doha-7d
 - https://ramayana.com/ramcharitmanas/bal-kand/doha-8
 - https://ramayana.com/ramcharitmanas/bal-kand/doha-9
-- ... and 351 more
+- ... and 413 more
 
 ### Ramcharitmanas hub and kands (8)
 
@@ -246,7 +256,7 @@ Updated:
 - https://ramayana.com/valmiki-ramayana/yuddha-kanda
 - https://ramayana.com/valmiki-ramayana/uttara-kanda
 
-### Valmiki sargas (68)
+### Valmiki sargas (106)
 
 - https://ramayana.com/valmiki-ramayana/sundara-kanda/sarga-1
 - https://ramayana.com/valmiki-ramayana/sundara-kanda/sarga-2
@@ -258,7 +268,7 @@ Updated:
 - https://ramayana.com/valmiki-ramayana/sundara-kanda/sarga-8
 - https://ramayana.com/valmiki-ramayana/sundara-kanda/sarga-9
 - https://ramayana.com/valmiki-ramayana/sundara-kanda/sarga-10
-- ... and 58 more
+- ... and 96 more
 
 ### Hindi: Articles and core pages (11)
 
@@ -307,7 +317,7 @@ Updated:
 - https://ramayana.com/hi/feelings/love
 - https://ramayana.com/hi/feelings/surrender
 
-### Hindi: Ramcharitmanas doha pages (361)
+### Hindi: Ramcharitmanas doha pages (423)
 
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/mangalacharan
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/doha-1
@@ -319,7 +329,7 @@ Updated:
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/doha-7d
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/doha-8
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/doha-9
-- ... and 351 more
+- ... and 413 more
 
 ### Hindi: Ramcharitmanas hub and kands (8)
 
@@ -353,7 +363,7 @@ Updated:
 - https://ramayana.com/hi/valmiki-ramayana/yuddha-kanda
 - https://ramayana.com/hi/valmiki-ramayana/uttara-kanda
 
-### Hindi: Valmiki sargas (68)
+### Hindi: Valmiki sargas (106)
 
 - https://ramayana.com/hi/valmiki-ramayana/sundara-kanda/sarga-1
 - https://ramayana.com/hi/valmiki-ramayana/sundara-kanda/sarga-2
@@ -365,4 +375,4 @@ Updated:
 - https://ramayana.com/hi/valmiki-ramayana/sundara-kanda/sarga-8
 - https://ramayana.com/hi/valmiki-ramayana/sundara-kanda/sarga-9
 - https://ramayana.com/hi/valmiki-ramayana/sundara-kanda/sarga-10
-- ... and 58 more
+- ... and 96 more
