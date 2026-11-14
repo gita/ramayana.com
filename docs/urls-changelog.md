@@ -90,3 +90,4 @@ New:
 Updated:
 - /lakshman-avatar: links to the new page
 - /news/janakpur-ayodhya-weekly-train: new
+- /news/ram-mandir-sugam-darshan-90-days: new
