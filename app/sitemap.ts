@@ -20,6 +20,7 @@ const CHANGED: [RegExp, string][] = [
   [/^\/(was-sita-a-warrior|surpanakha)$/, "2026-11-11"],
   [/^\/(when-was-ramcharitmanas-written|ramayana-vs-ramcharitmanas)$/, "2026-11-12"],
   [/^\/(how-does-the-ramayana-end|was-sita-a-warrior)$/, "2026-11-13"],
+  [/^\/did-lakshman-never-sleep$/, "2026-11-14"],
   [/^\/(why-did-ravan-kidnap-sita|was-ravan-at-sita-swayamvar|surpanakha|lakshman-avatar|ravan-boon|ramayana-movie)$/, "2026-11-08"],
   [/^\/(hi\/)?sunderkand$/, "2026-11-08"],
   [/^\/(characters|places)(\/|$)/, "2026-11-08"],

@@ -1,6 +1,6 @@
 # ramayana.com URLs
 
-Generated 2026-11-13 from the live sitemap: 1236 URLs.
+Generated 2026-11-14 from the live sitemap: 1237 URLs.
 
 ## Change log
 
@@ -88,17 +88,24 @@ New:
 Updated:
 - /was-sita-a-warrior: links to the new page
 
+### 14 November 2026
+New:
+- /did-lakshman-never-sleep: what Valmiki (Ayodhya Kanda 46, 51, 53, 56) and the Ramcharitmanas (Ayodhya Kand 90) actually say, with the Urmila and Nidra story labelled as later tradition (breakout search on Google Trends)
+Updated:
+- /lakshman-avatar: links to the new page
+
 
 ## All URLs by type
 
 
-### Articles and core pages (32)
+### Articles and core pages (33)
 
 - https://ramayana.com/
 - https://ramayana.com/why-did-ravan-kidnap-sita
 - https://ramayana.com/was-ravan-at-sita-swayamvar
 - https://ramayana.com/surpanakha
 - https://ramayana.com/lakshman-avatar
+- https://ramayana.com/how-does-the-ramayana-end
 - https://ramayana.com/was-sita-a-warrior
 - https://ramayana.com/did-ravan-love-sita
 - https://ramayana.com/ravan-boon

@@ -59,9 +59,23 @@ export const articles: ArticleDef[] = [
     eyebrow: "Characters",
     type: "Article",
     related: [
+      { label: "Did Lakshman never sleep?", href: "/did-lakshman-never-sleep" },
       { label: "Lakshman", href: "/characters/lakshman" },
       { label: "Urmila", href: "/characters/urmila" },
       { label: "Shri Ram", href: "/characters/ram" },
+    ],
+  },
+  {
+    slug: "did-lakshman-never-sleep",
+    image: "/images/deity/lakshman-solo.webp",
+    imageAlt: "Lakshmanji standing guard with his bow beside the hut at Panchavati, by the Godavari.",
+    focus: "50% 12%",
+    eyebrow: "Ayodhya Kand",
+    type: "Article",
+    related: [
+      { label: "Whose avatar is Lakshman?", href: "/lakshman-avatar" },
+      { label: "Characters: Lakshman", href: "/characters/lakshman" },
+      { label: "Characters: Urmila", href: "/characters/urmila" },
     ],
   },
   {
