@@ -89,3 +89,4 @@ New:
 - /did-lakshman-never-sleep: what Valmiki (Ayodhya Kanda 46, 51, 53, 56) and the Ramcharitmanas (Ayodhya Kand 90) actually say, with the Urmila and Nidra story labelled as later tradition (breakout search on Google Trends)
 Updated:
 - /lakshman-avatar: links to the new page
+- /news/janakpur-ayodhya-weekly-train: new
