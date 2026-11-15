@@ -1,6 +1,6 @@
 # ramayana.com URLs
 
-Generated 2026-11-14 from the live sitemap: 1237 URLs.
+Generated 2026-11-15 from the live sitemap: 1240 URLs.
 
 ## Change log
 
@@ -93,18 +93,26 @@ New:
 - /did-lakshman-never-sleep: what Valmiki (Ayodhya Kanda 46, 51, 53, 56) and the Ramcharitmanas (Ayodhya Kand 90) actually say, with the Urmila and Nidra story labelled as later tradition (breakout search on Google Trends)
 Updated:
 - /lakshman-avatar: links to the new page
+- /news/janakpur-ayodhya-weekly-train: new
+- /news/ram-mandir-sugam-darshan-90-days: new
+
+### 15 November 2026
+New:
+- /who-killed-kumbhkaran: Shri Ram, in Valmiki (Yuddha Kanda 63, 67) and the Ramcharitmanas (Lanka Kand 63, 64, 70, 71), with where the two accounts differ (breakout search "who killed kumbhakarna")
+- /how-many-dohas-in-sunderkand: 60 dohas, plus doha counts for all seven kands, 1,074 in total (breakout searches "how many doha in sunderkand", "sunderkand me kitne dohe hai", "how many kand in ramcharitmanas")
 
 
 ## All URLs by type
 
 
-### Articles and core pages (33)
+### Articles and core pages (34)
 
 - https://ramayana.com/
 - https://ramayana.com/why-did-ravan-kidnap-sita
 - https://ramayana.com/was-ravan-at-sita-swayamvar
 - https://ramayana.com/surpanakha
 - https://ramayana.com/lakshman-avatar
+- https://ramayana.com/did-lakshman-never-sleep
 - https://ramayana.com/how-does-the-ramayana-end
 - https://ramayana.com/was-sita-a-warrior
 - https://ramayana.com/did-ravan-love-sita
@@ -187,9 +195,11 @@ Updated:
 - https://ramayana.com/feelings/love
 - https://ramayana.com/feelings/surrender
 
-### News (14)
+### News (16)
 
 - https://ramayana.com/news
+- https://ramayana.com/news/ram-mandir-sugam-darshan-90-days
+- https://ramayana.com/news/janakpur-ayodhya-weekly-train
 - https://ramayana.com/news/ayodhya-parikrama-dates-november-2026
 - https://ramayana.com/news/ayodhya-divine-heritage-trail-tour
 - https://ramayana.com/news/ayodhya-deepotsav-2026-november-5-7

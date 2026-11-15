@@ -16,6 +16,31 @@ export type ArticleDef = {
 
 export const articles: ArticleDef[] = [
   {
+    slug: "who-killed-kumbhkaran",
+    image: "/images/deity/kumbhkaran.webp",
+    imageAlt: "Kumbhkaran, the giant brother of Ravan, standing in the royal palace of Lanka.",
+    focus: "50% 0%",
+    eyebrow: "Lanka Kand",
+    type: "Article",
+    related: [
+      { label: "Characters: Kumbhkaran", href: "/characters/kumbhkaran" },
+      { label: "Who gave Ravan his boon?", href: "/ravan-boon" },
+      { label: "Lanka Kand", href: "/ramcharitmanas/lanka-kand" },
+    ],
+  },
+  {
+    slug: "how-many-dohas-in-sunderkand",
+    image: "/images/kand/sunderkand.webp",
+    imageAlt: "Hanumanji leaping across the ocean towards Lanka, the story of Sunderkand.",
+    eyebrow: "Sunderkand",
+    type: "Article",
+    related: [
+      { label: "Read Sunderkand", href: "/sunderkand" },
+      { label: "When was the Ramcharitmanas written?", href: "/when-was-ramcharitmanas-written" },
+      { label: "Ramcharitmanas", href: "/ramcharitmanas" },
+    ],
+  },
+  {
     slug: "why-did-ravan-kidnap-sita",
     image: "/images/kand/aranya-kand.webp",
     imageAlt: "Panchavati in the forest, the setting of Aranya Kand.",

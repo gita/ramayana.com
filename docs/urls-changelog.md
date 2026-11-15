@@ -91,3 +91,8 @@ Updated:
 - /lakshman-avatar: links to the new page
 - /news/janakpur-ayodhya-weekly-train: new
 - /news/ram-mandir-sugam-darshan-90-days: new
+
+### 15 November 2026
+New:
+- /who-killed-kumbhkaran: Shri Ram, in Valmiki (Yuddha Kanda 63, 67) and the Ramcharitmanas (Lanka Kand 63, 64, 70, 71), with where the two accounts differ (breakout search "who killed kumbhakarna")
+- /how-many-dohas-in-sunderkand: 60 dohas, plus doha counts for all seven kands, 1,074 in total (breakout searches "how many doha in sunderkand", "sunderkand me kitne dohe hai", "how many kand in ramcharitmanas")
