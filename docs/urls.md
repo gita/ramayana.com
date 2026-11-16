@@ -1,6 +1,6 @@
 # ramayana.com URLs
 
-Generated 2026-11-15 from the live sitemap: 1240 URLs.
+Generated 2026-11-16 from the live sitemap: 1442 URLs.
 
 ## Change log
 
@@ -101,13 +101,21 @@ New:
 - /who-killed-kumbhkaran: Shri Ram, in Valmiki (Yuddha Kanda 63, 67) and the Ramcharitmanas (Lanka Kand 63, 64, 70, 71), with where the two accounts differ (breakout search "who killed kumbhakarna")
 - /how-many-dohas-in-sunderkand: 60 dohas, plus doha counts for all seven kands, 1,074 in total (breakout searches "how many doha in sunderkand", "sunderkand me kitne dohe hai", "how many kand in ramcharitmanas")
 
+### 16 November 2026
+New:
+- /how-did-lakshman-die: Valmiki Uttara Kanda 103, 105 and 106 (Kaal's condition, Durvasa, Shri Ram's renunciation, Indra taking Lakshman bodily to heaven from the Saryu), noting the Ramcharitmanas does not narrate it (rising search "how did lakshman die", +300%)
+Updated:
+- /how-does-the-ramayana-end: links to the new page
+
 
 ## All URLs by type
 
 
-### Articles and core pages (34)
+### Articles and core pages (36)
 
 - https://ramayana.com/
+- https://ramayana.com/who-killed-kumbhkaran
+- https://ramayana.com/how-many-dohas-in-sunderkand
 - https://ramayana.com/why-did-ravan-kidnap-sita
 - https://ramayana.com/was-ravan-at-sita-swayamvar
 - https://ramayana.com/surpanakha
@@ -227,7 +235,7 @@ New:
 - https://ramayana.com/places/lanka
 - https://ramayana.com/places/ashok-vatika
 
-### Ramcharitmanas doha pages (423)
+### Ramcharitmanas doha pages (433)
 
 - https://ramayana.com/ramcharitmanas/bal-kand/mangalacharan
 - https://ramayana.com/ramcharitmanas/bal-kand/doha-1
@@ -239,7 +247,7 @@ New:
 - https://ramayana.com/ramcharitmanas/bal-kand/doha-7d
 - https://ramayana.com/ramcharitmanas/bal-kand/doha-8
 - https://ramayana.com/ramcharitmanas/bal-kand/doha-9
-- ... and 413 more
+- ... and 423 more
 
 ### Ramcharitmanas hub and kands (8)
 
@@ -273,7 +281,7 @@ New:
 - https://ramayana.com/valmiki-ramayana/yuddha-kanda
 - https://ramayana.com/valmiki-ramayana/uttara-kanda
 
-### Valmiki sargas (106)
+### Valmiki sargas (196)
 
 - https://ramayana.com/valmiki-ramayana/sundara-kanda/sarga-1
 - https://ramayana.com/valmiki-ramayana/sundara-kanda/sarga-2
@@ -285,7 +293,7 @@ New:
 - https://ramayana.com/valmiki-ramayana/sundara-kanda/sarga-8
 - https://ramayana.com/valmiki-ramayana/sundara-kanda/sarga-9
 - https://ramayana.com/valmiki-ramayana/sundara-kanda/sarga-10
-- ... and 96 more
+- ... and 186 more
 
 ### Hindi: Articles and core pages (11)
 
@@ -334,7 +342,7 @@ New:
 - https://ramayana.com/hi/feelings/love
 - https://ramayana.com/hi/feelings/surrender
 
-### Hindi: Ramcharitmanas doha pages (423)
+### Hindi: Ramcharitmanas doha pages (433)
 
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/mangalacharan
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/doha-1
@@ -346,7 +354,7 @@ New:
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/doha-7d
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/doha-8
 - https://ramayana.com/hi/ramcharitmanas/bal-kand/doha-9
-- ... and 413 more
+- ... and 423 more
 
 ### Hindi: Ramcharitmanas hub and kands (8)
 
@@ -380,7 +388,7 @@ New:
 - https://ramayana.com/hi/valmiki-ramayana/yuddha-kanda
 - https://ramayana.com/hi/valmiki-ramayana/uttara-kanda
 
-### Hindi: Valmiki sargas (106)
+### Hindi: Valmiki sargas (196)
 
 - https://ramayana.com/hi/valmiki-ramayana/sundara-kanda/sarga-1
 - https://ramayana.com/hi/valmiki-ramayana/sundara-kanda/sarga-2
@@ -392,4 +400,4 @@ New:
 - https://ramayana.com/hi/valmiki-ramayana/sundara-kanda/sarga-8
 - https://ramayana.com/hi/valmiki-ramayana/sundara-kanda/sarga-9
 - https://ramayana.com/hi/valmiki-ramayana/sundara-kanda/sarga-10
-- ... and 96 more
+- ... and 186 more

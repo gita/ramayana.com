@@ -16,6 +16,18 @@ export type ArticleDef = {
 
 export const articles: ArticleDef[] = [
   {
+    slug: "how-did-lakshman-die",
+    image: "/images/story/saryu-twilight.webp",
+    imageAlt: "The sacred Saryu at twilight near Ayodhya, where Lakshman left the world.",
+    eyebrow: "Uttara Kanda",
+    type: "Article",
+    related: [
+      { label: "How does the Ramayana end?", href: "/how-does-the-ramayana-end" },
+      { label: "Whose avatar is Lakshman?", href: "/lakshman-avatar" },
+      { label: "Characters: Lakshman", href: "/characters/lakshman" },
+    ],
+  },
+  {
     slug: "who-killed-kumbhkaran",
     image: "/images/deity/kumbhkaran.webp",
     imageAlt: "Kumbhkaran, the giant brother of Ravan, standing in the royal palace of Lanka.",
@@ -110,8 +122,8 @@ export const articles: ArticleDef[] = [
     eyebrow: "Uttar Kand",
     type: "Article",
     related: [
+      { label: "How did Lakshman die?", href: "/how-did-lakshman-die" },
       { label: "Was Sita a warrior?", href: "/was-sita-a-warrior" },
-      { label: "Characters: Lakshman", href: "/characters/lakshman" },
       { label: "Uttar Kand", href: "/ramcharitmanas/uttar-kand" },
     ],
   },

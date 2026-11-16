@@ -96,3 +96,9 @@ Updated:
 New:
 - /who-killed-kumbhkaran: Shri Ram, in Valmiki (Yuddha Kanda 63, 67) and the Ramcharitmanas (Lanka Kand 63, 64, 70, 71), with where the two accounts differ (breakout search "who killed kumbhakarna")
 - /how-many-dohas-in-sunderkand: 60 dohas, plus doha counts for all seven kands, 1,074 in total (breakout searches "how many doha in sunderkand", "sunderkand me kitne dohe hai", "how many kand in ramcharitmanas")
+
+### 16 November 2026
+New:
+- /how-did-lakshman-die: Valmiki Uttara Kanda 103, 105 and 106 (Kaal's condition, Durvasa, Shri Ram's renunciation, Indra taking Lakshman bodily to heaven from the Saryu), noting the Ramcharitmanas does not narrate it (rising search "how did lakshman die", +300%)
+Updated:
+- /how-does-the-ramayana-end: links to the new page
